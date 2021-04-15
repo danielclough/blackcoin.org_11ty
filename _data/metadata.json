@@ -1,0 +1,31 @@
+{
+  "title": "Blackcoin.org",
+  "description": "<p class=\"page-section-text text-light\">A <a class=\"text-warning font-weight-bold\" href=\"https://www.blackcoin.org/\">blackcoin</a>",
+  "url": "blackcoin.org",
+  "feed": {
+    "summary": "Wesbite for BlackcoinOrg",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "url": "https://blackcoin.org/feed/feed.xml",
+    "id": "https://blackcoin.org"
+  },
+  "author": {
+    "name": "BlackcoinOrg",
+    "bio": "BlackcoinOrg helps to organize Blackcoin development and support. Blackcoin is a distributed crytpocurrency project.",
+    "social": [
+      {
+        "name": "github",
+        "iconClass": "fab fa-github",
+        "url": "https://github.com/CoinBlack"
+      },
+      {
+        "name": "linkedin",
+        "iconClass": "fab fa-linkedin",
+        "url": "https://linkedin.com/in/blackcoin"
+      },
+      { "name": "twitter", "iconClass": "fab fa-twitter", "url": "https://twitter.com/blackcoinorg" },
+      { "name": "youtube", "iconClass": "fab fa-youtube", "url": "https://www.youtube.com/user/blackcoinorg" },
+      { "name": "instagram", "iconClass": "fab fa-instagram", "url": "https://www.instagram.com/blackcoinorg" }
+    ]
+  }
+}

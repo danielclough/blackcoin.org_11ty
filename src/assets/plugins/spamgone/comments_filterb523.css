@@ -1,0 +1,18 @@
+@charset 'utf-8';
+
+.cfstrong {
+	font-weight: bold;
+}
+
+.cfhelp {
+	display: none;
+}
+
+.cfhelp.visible {
+	display: block;
+	background-color: #EFEFEF;
+	border: medium;
+	position: absolute;
+	width: '10000%';
+	z-index: 10000;
+}

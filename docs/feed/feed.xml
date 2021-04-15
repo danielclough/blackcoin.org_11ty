@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Blackcoin.org</title>
+	<subtitle></subtitle>
+	
+	<link href="/feed/feed.xml" rel="self"/>
+	<link href="blackcoin.org"/>
+	<updated>2021-04-15T12:13:53Z</updated>
+	<id>https://blackcoin.org</id>
+	<author>
+		<name>BlackcoinOrg</name>
+		<email></email>
+	</author>
+</feed>
