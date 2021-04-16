@@ -264,58 +264,6 @@
     left: auto
 }
 
-.col-xs-offset-12 {
-    margin-left: 100%
-}
-
-.col-xs-offset-11 {
-    margin-left: 91.66666667%
-}
-
-.col-xs-offset-10 {
-    margin-left: 83.33333333%
-}
-
-.col-xs-offset-9 {
-    margin-left: 75%
-}
-
-.col-xs-offset-8 {
-    margin-left: 66.66666667%
-}
-
-.col-xs-offset-7 {
-    margin-left: 58.33333333%
-}
-
-.col-xs-offset-6 {
-    margin-left: 50%
-}
-
-.col-xs-offset-5 {
-    margin-left: 41.66666667%
-}
-
-.col-xs-offset-4 {
-    margin-left: 33.33333333%
-}
-
-.col-xs-offset-3 {
-    margin-left: 25%
-}
-
-.col-xs-offset-2 {
-    margin-left: 16.66666667%
-}
-
-.col-xs-offset-1 {
-    margin-left: 8.33333333%
-}
-
-.col-xs-offset-0 {
-    margin-left: 0
-}
-
 @media (min-width:768px) {
 
     .col-sm-1,
@@ -483,58 +431,6 @@
 
     .col-sm-push-0 {
         left: auto
-    }
-
-    .col-sm-offset-12 {
-        margin-left: 100%
-    }
-
-    .col-sm-offset-11 {
-        margin-left: 91.66666667%
-    }
-
-    .col-sm-offset-10 {
-        margin-left: 83.33333333%
-    }
-
-    .col-sm-offset-9 {
-        margin-left: 75%
-    }
-
-    .col-sm-offset-8 {
-        margin-left: 66.66666667%
-    }
-
-    .col-sm-offset-7 {
-        margin-left: 58.33333333%
-    }
-
-    .col-sm-offset-6 {
-        margin-left: 50%
-    }
-
-    .col-sm-offset-5 {
-        margin-left: 41.66666667%
-    }
-
-    .col-sm-offset-4 {
-        margin-left: 33.33333333%
-    }
-
-    .col-sm-offset-3 {
-        margin-left: 25%
-    }
-
-    .col-sm-offset-2 {
-        margin-left: 16.66666667%
-    }
-
-    .col-sm-offset-1 {
-        margin-left: 8.33333333%
-    }
-
-    .col-sm-offset-0 {
-        margin-left: 0
     }
 }
 
@@ -706,58 +602,6 @@
     .col-md-push-0 {
         left: auto
     }
-
-    .col-md-offset-12 {
-        margin-left: 100%
-    }
-
-    .col-md-offset-11 {
-        margin-left: 91.66666667%
-    }
-
-    .col-md-offset-10 {
-        margin-left: 83.33333333%
-    }
-
-    .col-md-offset-9 {
-        margin-left: 75%
-    }
-
-    .col-md-offset-8 {
-        margin-left: 66.66666667%
-    }
-
-    .col-md-offset-7 {
-        margin-left: 58.33333333%
-    }
-
-    .col-md-offset-6 {
-        margin-left: 50%
-    }
-
-    .col-md-offset-5 {
-        margin-left: 41.66666667%
-    }
-
-    .col-md-offset-4 {
-        margin-left: 33.33333333%
-    }
-
-    .col-md-offset-3 {
-        margin-left: 25%
-    }
-
-    .col-md-offset-2 {
-        margin-left: 16.66666667%
-    }
-
-    .col-md-offset-1 {
-        margin-left: 8.33333333%
-    }
-
-    .col-md-offset-0 {
-        margin-left: 0
-    }
 }
 
 @media (min-width:1200px) {
@@ -928,58 +772,6 @@
     .col-lg-push-0 {
         left: auto
     }
-
-    .col-lg-offset-12 {
-        margin-left: 100%
-    }
-
-    .col-lg-offset-11 {
-        margin-left: 91.66666667%
-    }
-
-    .col-lg-offset-10 {
-        margin-left: 83.33333333%
-    }
-
-    .col-lg-offset-9 {
-        margin-left: 75%
-    }
-
-    .col-lg-offset-8 {
-        margin-left: 66.66666667%
-    }
-
-    .col-lg-offset-7 {
-        margin-left: 58.33333333%
-    }
-
-    .col-lg-offset-6 {
-        margin-left: 50%
-    }
-
-    .col-lg-offset-5 {
-        margin-left: 41.66666667%
-    }
-
-    .col-lg-offset-4 {
-        margin-left: 33.33333333%
-    }
-
-    .col-lg-offset-3 {
-        margin-left: 25%
-    }
-
-    .col-lg-offset-2 {
-        margin-left: 16.66666667%
-    }
-
-    .col-lg-offset-1 {
-        margin-left: 8.33333333%
-    }
-
-    .col-lg-offset-0 {
-        margin-left: 0
-    }
 }
 
 
@@ -1028,9 +820,7 @@ tbody.collapse.in {
 .caret {
     display: inline-block;
     width: 0;
-    height: 0;
-    margin-left: 2px;
-    vertical-align: middle;
+    height: 0;    vertical-align: middle;
     border-top: 4px dashed;
     border-top: 4px solid \9;
     border-right: 4px solid transparent;
@@ -1174,9 +964,7 @@ tbody.collapse.in {
 .dropup .dropdown-menu,
 .navbar-fixed-bottom .dropdown .dropdown-menu {
     top: auto;
-    bottom: 100%;
-    margin-bottom: 2px
-}
+    bottom: 100%;}
 
 @media (min-width:1260px) {
     .navbar-right .dropdown-menu {
@@ -1216,14 +1004,7 @@ tbody.collapse.in {
 
 .btn-group .btn+.btn,
 .btn-group .btn+.btn-group,
-.btn-group .btn-group+.btn,
-.btn-group .btn-group+.btn-group {
-    margin-left: -1px
-}
-
-.btn-toolbar {
-    margin-left: -5px
-}
+.btn-group .btn-group+.btn
 
 .btn-toolbar .btn,
 .btn-toolbar .btn-group,
@@ -1232,17 +1013,10 @@ tbody.collapse.in {
 }
 
 .btn-toolbar>.btn,
-.btn-toolbar>.btn-group,
-.btn-toolbar>.input-group {
-    margin-left: 5px
-}
+.btn-toolbar>.btn-group
 
 .btn-group>.btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
     border-radius: 0
-}
-
-.btn-group>.btn:first-child {
-    margin-left: 0
 }
 
 .btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle) {
@@ -1300,10 +1074,6 @@ tbody.collapse.in {
     box-shadow: none
 }
 
-.btn .caret {
-    margin-left: 0
-}
-
 .btn-lg .caret {
     border-width: 5px 5px 0;
     border-bottom-width: 0
@@ -1328,11 +1098,7 @@ tbody.collapse.in {
 
 .btn-group-vertical>.btn+.btn,
 .btn-group-vertical>.btn+.btn-group,
-.btn-group-vertical>.btn-group+.btn,
-.btn-group-vertical>.btn-group+.btn-group {
-    margin-top: -1px;
-    margin-left: 0
-}
+.btn-group-vertical>.btn-group+.btn
 
 .btn-group-vertical>.btn:not(:first-child):not(:last-child) {
     border-radius: 0
@@ -1412,9 +1178,7 @@ tbody.collapse.in {
     position: relative;
     z-index: 2;
     float: left;
-    width: 100%;
-    margin-bottom: 0
-}
+    width: 100%;}
 
 .input-group-lg>.form-control,
 .input-group-lg>.input-group-addon,
@@ -1511,10 +1275,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
     border-radius: 6px
 }
 
-.input-group-addon input[type="radio"],
-.input-group-addon input[type="checkbox"] {
-    margin-top: 0
-}
+.input-group-addon input[type="radio"]
 
 .input-group .form-control:first-child,
 .input-group-addon:first-child,
@@ -1556,29 +1317,19 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
     position: relative
 }
 
-.input-group-btn>.btn+.btn {
-    margin-left: -1px
-}
-
 .input-group-btn>.btn:hover,
 .input-group-btn>.btn:focus,
 .input-group-btn>.btn:active {
     z-index: 2
 }
 
-.input-group-btn:first-child>.btn,
-.input-group-btn:first-child>.btn-group {
-    margin-right: -1px
-}
+.input-group-btn:first-child>.btn
 
 .input-group-btn:last-child>.btn,
 .input-group-btn:last-child>.btn-group {
-    z-index: 2;
-    margin-left: -1px
-}
+    z-index: 2;}
 
 .nav {
-    margin-bottom: 0;
     padding-left: 0;
     list-style: none
 }
@@ -1635,12 +1386,9 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 }
 
 .nav-tabs>li {
-    float: left;
-    margin-bottom: -1px
-}
+    float: left;}
 
 .nav-tabs>li>a {
-    margin-right: 2px;
     line-height: 1.42857143;
     border: 1px solid transparent;
     border-radius: 4px 4px 0 0
@@ -1670,9 +1418,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 }
 
 .nav-tabs.nav-justified>li>a {
-    text-align: center;
-    margin-bottom: 5px
-}
+    text-align: center;}
 
 .nav-tabs.nav-justified>.dropdown .dropdown-menu {
     top: auto;
@@ -1685,13 +1431,9 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
         width: 1%
     }
 
-    .nav-tabs.nav-justified>li>a {
-        margin-bottom: 0
-    }
 }
 
 .nav-tabs.nav-justified>li>a {
-    margin-right: 0;
     border-radius: 4px
 }
 
@@ -1722,10 +1464,6 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
     border-radius: 4px
 }
 
-.nav-pills>li+li {
-    margin-left: 2px
-}
-
 .nav-pills>li.active>a,
 .nav-pills>li.active>a:hover,
 .nav-pills>li.active>a:focus {
@@ -1737,11 +1475,6 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
     float: none
 }
 
-.nav-stacked>li+li {
-    margin-top: 2px;
-    margin-left: 0
-}
-
 .nav-justified {
     width: 100%
 }
@@ -1751,9 +1484,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 }
 
 .nav-justified>li>a {
-    text-align: center;
-    margin-bottom: 5px
-}
+    text-align: center;}
 
 .nav-justified>.dropdown .dropdown-menu {
     top: auto;
@@ -1766,9 +1497,6 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
         width: 1%
     }
 
-    .nav-justified>li>a {
-        margin-bottom: 0
-    }
 }
 
 .nav-tabs-justified {
@@ -1776,7 +1504,6 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 }
 
 .nav-tabs-justified>li>a {
-    margin-right: 0;
     border-radius: 4px
 }
 
@@ -1808,16 +1535,13 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 }
 
 .nav-tabs .dropdown-menu {
-    margin-top: -1px;
     border-top-right-radius: 0;
     border-top-left-radius: 0
 }
 
 .navbar {
     position: relative;
-    min-height: 50px;
-    margin-bottom: 20px;
-    border: 1px solid transparent
+    min-height: 50px;    border: 1px solid transparent
 }
 
 @media (min-width:1260px) {
@@ -1888,21 +1612,13 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 
 .container>.navbar-header,
 .container-fluid>.navbar-header,
-.container>.navbar-collapse,
-.container-fluid>.navbar-collapse {
-    margin-right: -15px;
-    margin-left: -15px
-}
+.container>.navbar-collapse
 
 @media (min-width:1260px) {
 
     .container>.navbar-header,
     .container-fluid>.navbar-header,
     .container>.navbar-collapse,
-    .container-fluid>.navbar-collapse {
-        margin-right: 0;
-        margin-left: 0
-    }
 }
 
 .navbar-static-top {
@@ -1938,9 +1654,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-fixed-bottom {
-    bottom: 0;
-    margin-bottom: 0;
-    border-width: 1px 0 0
+    bottom: 0;    border-width: 1px 0 0
 }
 
 .navbar-brand {
@@ -1963,19 +1677,11 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 @media (min-width:1260px) {
 
     .navbar>.container .navbar-brand,
-    .navbar>.container-fluid .navbar-brand {
-        margin-left: -15px
-    }
 }
 
 .navbar-toggle {
     position: relative;
-    float: right;
-    margin-right: 15px;
-    padding: 9px 10px;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    background-color: transparent;
+    float: right;    padding: 9px 10px;    background-color: transparent;
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px
@@ -1990,10 +1696,6 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
     width: 22px;
     height: 2px;
     border-radius: 1px
-}
-
-.navbar-toggle .icon-bar+.icon-bar {
-    margin-top: 4px
 }
 
 @media (min-width:1260px) {
@@ -2016,9 +1718,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
     .navbar-nav .open .dropdown-menu {
         position: static;
         float: none;
-        width: auto;
-        margin-top: 0;
-        background-color: transparent;
+        width: auto;        background-color: transparent;
         border: 0;
         -webkit-box-shadow: none;
         box-shadow: none
@@ -2056,22 +1756,15 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-form {
-    margin-left: -15px;
-    margin-right: -15px;
     padding: 10px 15px;
     border-top: 1px solid transparent;
     border-bottom: 1px solid transparent;
     -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
-    margin-top: 8px;
-    margin-bottom: 8px
-}
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);}
 
 @media (min-width:768px) {
     .navbar-form .form-group {
-        display: inline-block;
-        margin-bottom: 0;
-        vertical-align: middle
+        display: inline-block;        vertical-align: middle
     }
 
     .navbar-form .form-control {
@@ -2100,16 +1793,12 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
     }
 
     .navbar-form .control-label {
-        margin-bottom: 0;
-        vertical-align: middle
+            vertical-align: middle
     }
 
     .navbar-form .radio,
     .navbar-form .checkbox {
-        display: inline-block;
-        margin-top: 0;
-        margin-bottom: 0;
-        vertical-align: middle
+        display: inline-block;        vertical-align: middle
     }
 
     .navbar-form .radio label,
@@ -2119,9 +1808,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 
     .navbar-form .radio input[type="radio"],
     .navbar-form .checkbox input[type="checkbox"] {
-        position: relative;
-        margin-left: 0
-    }
+        position: relative;    }
 
     .navbar-form .has-feedback .form-control-feedback {
         top: 0
@@ -2129,22 +1816,13 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 }
 
 @media (max-width:1259px) {
-    .navbar-form .form-group {
-        margin-bottom: 5px
-    }
 
-    .navbar-form .form-group:last-child {
-        margin-bottom: 0
-    }
 }
 
 @media (min-width:1260px) {
     .navbar-form {
         width: auto;
-        border: 0;
-        margin-left: 0;
-        margin-right: 0;
-        padding-top: 0;
+        border: 0;        padding-top: 0;
         padding-bottom: 0;
         -webkit-box-shadow: none;
         box-shadow: none
@@ -2152,45 +1830,20 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-nav>li>.dropdown-menu {
-    margin-top: 0;
     border-top-right-radius: 0;
     border-top-left-radius: 0
 }
 
 .navbar-fixed-bottom .navbar-nav>li>.dropdown-menu {
-    margin-bottom: 0;
     border-top-right-radius: 4px;
     border-top-left-radius: 4px;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0
 }
 
-.navbar-btn {
-    margin-top: 8px;
-    margin-bottom: 8px
-}
-
-.navbar-btn.btn-sm {
-    margin-top: 10px;
-    margin-bottom: 10px
-}
-
-.navbar-btn.btn-xs {
-    margin-top: 14px;
-    margin-bottom: 14px
-}
-
-.navbar-text {
-    margin-top: 15px;
-    margin-bottom: 15px
-}
-
 @media (min-width:1260px) {
     .navbar-text {
-        float: left;
-        margin-left: 15px;
-        margin-right: 15px
-    }
+        float: left;    }
 }
 
 @media (min-width:1260px) {
@@ -2199,13 +1852,8 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
     }
 
     .navbar-right {
-        float: right !important;
-        margin-right: -15px
-    }
+        float: right !important;    }
 
-    .navbar-right~.navbar-right {
-        margin-right: 0
-    }
 }
 
 .navbar-default {
@@ -2453,9 +2101,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 }
 
 .breadcrumb {
-    padding: 8px 15px;
-    margin-bottom: 20px;
-    list-style: none;
+    padding: 8px 15px;    list-style: none;
     background-color: #f5f5f5;
     border-radius: 4px
 }
@@ -2494,13 +2140,10 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
     text-decoration: none;
     color: #337ab7;
     background-color: #fff;
-    border: 1px solid #ddd;
-    margin-left: -1px
-}
+    border: 1px solid #ddd;}
 
 .pagination>li:first-child>a,
 .pagination>li:first-child>span {
-    margin-left: 0;
     border-bottom-left-radius: 4px;
     border-top-left-radius: 4px
 }
@@ -2759,19 +2402,9 @@ a.badge:focus {
     float: right
 }
 
-.list-group-item>.badge+.badge {
-    margin-right: 5px
-}
-
-.nav-pills>li>a>.badge {
-    margin-left: 3px
-}
-
 .jumbotron {
     padding-top: 30px;
-    padding-bottom: 30px;
-    margin-bottom: 30px;
-    color: inherit;
+    padding-bottom: 30px;    color: inherit;
     background-color: #eee
 }
 
@@ -2781,7 +2414,6 @@ a.badge:focus {
 }
 
 .jumbotron p {
-    margin-bottom: 15px;
     font-size: 21px;
     font-weight: 200
 }
@@ -2819,9 +2451,7 @@ a.badge:focus {
 
 .thumbnail {
     display: block;
-    padding: 4px;
-    margin-bottom: 20px;
-    line-height: 1.42857143;
+    padding: 4px;    line-height: 1.42857143;
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -2830,11 +2460,7 @@ a.badge:focus {
     transition: border .2s ease-in-out
 }
 
-.thumbnail>img,
-.thumbnail a>img {
-    margin-left: auto;
-    margin-right: auto
-}
+.thumbnail>img
 
 a.thumbnail:hover,
 a.thumbnail:focus,
@@ -2848,14 +2474,11 @@ a.thumbnail.active {
 }
 
 .alert {
-    padding: 15px;
-    margin-bottom: 20px;
-    border: 1px solid transparent;
+    padding: 15px;    border: 1px solid transparent;
     border-radius: 4px
 }
 
 .alert h4 {
-    margin-top: 0;
     color: inherit
 }
 
@@ -2863,14 +2486,7 @@ a.thumbnail.active {
     font-weight: bold
 }
 
-.alert>p,
-.alert>ul {
-    margin-bottom: 0
-}
-
-.alert>p+p {
-    margin-top: 5px
-}
+.alert>p
 
 .alert-dismissable,
 .alert-dismissible {
@@ -2973,9 +2589,7 @@ a.thumbnail.active {
 
 .progress {
     overflow: hidden;
-    height: 20px;
-    margin-bottom: 20px;
-    background-color: #f5f5f5;
+    height: 20px;    background-color: #f5f5f5;
     border-radius: 4px;
     -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1)
@@ -3053,14 +2667,6 @@ a.thumbnail.active {
     background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent)
 }
 
-.media {
-    margin-top: 15px
-}
-
-.media:first-child {
-    margin-top: 0
-}
-
 .media,
 .media-body {
     zoom: 1;
@@ -3104,27 +2710,19 @@ a.thumbnail.active {
     vertical-align: bottom
 }
 
-.media-heading {
-    margin-top: 0;
-    margin-bottom: 5px
-}
-
 .media-list {
     padding-left: 0;
     list-style: none
 }
 
 .list-group {
-    margin-bottom: 20px;
     padding-left: 0
 }
 
 .list-group-item {
     position: relative;
     display: block;
-    padding: 10px 15px;
-    margin-bottom: -1px;
-    background-color: #fff;
+    padding: 10px 15px;    background-color: #fff;
     border: 1px solid #ddd
 }
 
@@ -3134,7 +2732,6 @@ a.thumbnail.active {
 }
 
 .list-group-item:last-child {
-    margin-bottom: 0;
     border-bottom-right-radius: 4px;
     border-bottom-left-radius: 4px
 }
@@ -3346,18 +2943,11 @@ button.list-group-item-danger.active:focus {
     border-color: #a94442
 }
 
-.list-group-item-heading {
-    margin-top: 0;
-    margin-bottom: 5px
-}
-
 .list-group-item-text {
-    margin-bottom: 0;
     line-height: 1.3
 }
 
 .panel {
-    margin-bottom: 20px;
     background-color: #fff;
     border: 1px solid transparent;
     border-radius: 4px;
@@ -3381,8 +2971,6 @@ button.list-group-item-danger.active:focus {
 }
 
 .panel-title {
-    margin-top: 0;
-    margin-bottom: 0;
     font-size: 16px;
     color: inherit
 }
@@ -3403,10 +2991,7 @@ button.list-group-item-danger.active:focus {
     border-bottom-left-radius: 3px
 }
 
-.panel>.list-group,
-.panel>.panel-collapse>.list-group {
-    margin-bottom: 0
-}
+.panel>.list-group
 
 .panel>.list-group .list-group-item,
 .panel>.panel-collapse>.list-group .list-group-item {
@@ -3442,10 +3027,7 @@ button.list-group-item-danger.active:focus {
 }
 
 .panel>.table,
-.panel>.table-responsive>.table,
-.panel>.panel-collapse>.table {
-    margin-bottom: 0
-}
+.panel>.table-responsive>.table
 
 .panel>.table caption,
 .panel>.table-responsive>.table caption,
@@ -3596,21 +3178,10 @@ button.list-group-item-danger.active:focus {
 }
 
 .panel>.table-responsive {
-    border: 0;
-    margin-bottom: 0
-}
-
-.panel-group {
-    margin-bottom: 20px
-}
+    border: 0;}
 
 .panel-group .panel {
-    margin-bottom: 0;
     border-radius: 4px
-}
-
-.panel-group .panel+.panel {
-    margin-top: 5px
 }
 
 .panel-group .panel-heading {
@@ -3800,9 +3371,7 @@ button.list-group-item-danger.active:focus {
 
 .well {
     min-height: 20px;
-    padding: 19px;
-    margin-bottom: 20px;
-    background-color: #f5f5f5;
+    padding: 19px;    background-color: #f5f5f5;
     border: 1px solid #e3e3e3;
     border-radius: 4px;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
@@ -3936,10 +3505,6 @@ button.close {
     min-height: 16.42857143px
 }
 
-.modal-header .close {
-    margin-top: -2px
-}
-
 .modal-title {
     margin: 0;
     line-height: 1.42857143
@@ -3954,19 +3519,6 @@ button.close {
     padding: 15px;
     text-align: right;
     border-top: 1px solid #e5e5e5
-}
-
-.modal-footer .btn+.btn {
-    margin-left: 5px;
-    margin-bottom: 0
-}
-
-.modal-footer .btn-group .btn+.btn {
-    margin-left: -1px
-}
-
-.modal-footer .btn-block+.btn-block {
-    margin-left: 0
 }
 
 .modal-scrollbar-measure {
@@ -4029,22 +3581,18 @@ button.close {
 }
 
 .tooltip.top {
-    margin-top: -3px;
     padding: 5px 0
 }
 
 .tooltip.right {
-    margin-left: 3px;
     padding: 0 5px
 }
 
 .tooltip.bottom {
-    margin-top: 3px;
     padding: 5px 0
 }
 
 .tooltip.left {
-    margin-left: -3px;
     padding: 0 5px
 }
 
@@ -4067,65 +3615,49 @@ button.close {
 
 .tooltip.top .tooltip-arrow {
     bottom: 0;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px 5px 0;
+    left: 50%;    border-width: 5px 5px 0;
     border-top-color: #000
 }
 
 .tooltip.top-left .tooltip-arrow {
     bottom: 0;
-    right: 5px;
-    margin-bottom: -5px;
-    border-width: 5px 5px 0;
+    right: 5px;    border-width: 5px 5px 0;
     border-top-color: #000
 }
 
 .tooltip.top-right .tooltip-arrow {
     bottom: 0;
-    left: 5px;
-    margin-bottom: -5px;
-    border-width: 5px 5px 0;
+    left: 5px;    border-width: 5px 5px 0;
     border-top-color: #000
 }
 
 .tooltip.right .tooltip-arrow {
     top: 50%;
-    left: 0;
-    margin-top: -5px;
-    border-width: 5px 5px 5px 0;
+    left: 0;    border-width: 5px 5px 5px 0;
     border-right-color: #000
 }
 
 .tooltip.left .tooltip-arrow {
     top: 50%;
-    right: 0;
-    margin-top: -5px;
-    border-width: 5px 0 5px 5px;
+    right: 0;    border-width: 5px 0 5px 5px;
     border-left-color: #000
 }
 
 .tooltip.bottom .tooltip-arrow {
     top: 0;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 0 5px 5px;
+    left: 50%;    border-width: 0 5px 5px;
     border-bottom-color: #000
 }
 
 .tooltip.bottom-left .tooltip-arrow {
     top: 0;
-    right: 5px;
-    margin-top: -5px;
-    border-width: 0 5px 5px;
+    right: 5px;    border-width: 0 5px 5px;
     border-bottom-color: #000
 }
 
 .tooltip.bottom-right .tooltip-arrow {
     top: 0;
-    left: 5px;
-    margin-top: -5px;
-    border-width: 0 5px 5px;
+    left: 5px;    border-width: 0 5px 5px;
     border-bottom-color: #000
 }
 
@@ -4163,22 +3695,6 @@ button.close {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2)
 }
 
-.popover.top {
-    margin-top: -10px
-}
-
-.popover.right {
-    margin-left: 10px
-}
-
-.popover.bottom {
-    margin-top: 10px
-}
-
-.popover.left {
-    margin-left: -10px
-}
-
 .popover-title {
     margin: 0;
     padding: 8px 14px;
@@ -4212,9 +3728,7 @@ button.close {
 }
 
 .popover.top>.arrow {
-    left: 50%;
-    margin-left: -11px;
-    border-bottom-width: 0;
+    left: 50%;    border-bottom-width: 0;
     border-top-color: #999;
     border-top-color: rgba(0, 0, 0, 0.25);
     bottom: -11px
@@ -4222,17 +3736,13 @@ button.close {
 
 .popover.top>.arrow:after {
     content: " ";
-    bottom: 1px;
-    margin-left: -10px;
-    border-bottom-width: 0;
+    bottom: 1px;    border-bottom-width: 0;
     border-top-color: #fff
 }
 
 .popover.right>.arrow {
     top: 50%;
-    left: -11px;
-    margin-top: -11px;
-    border-left-width: 0;
+    left: -11px;    border-left-width: 0;
     border-right-color: #999;
     border-right-color: rgba(0, 0, 0, 0.25)
 }
@@ -4246,9 +3756,7 @@ button.close {
 }
 
 .popover.bottom>.arrow {
-    left: 50%;
-    margin-left: -11px;
-    border-top-width: 0;
+    left: 50%;    border-top-width: 0;
     border-bottom-color: #999;
     border-bottom-color: rgba(0, 0, 0, 0.25);
     top: -11px
@@ -4256,17 +3764,13 @@ button.close {
 
 .popover.bottom>.arrow:after {
     content: " ";
-    top: 1px;
-    margin-left: -10px;
-    border-top-width: 0;
+    top: 1px;    border-top-width: 0;
     border-bottom-color: #fff
 }
 
 .popover.left>.arrow {
     top: 50%;
-    right: -11px;
-    margin-top: -11px;
-    border-right-width: 0;
+    right: -11px;    border-right-width: 0;
     border-left-color: #999;
     border-left-color: rgba(0, 0, 0, 0.25)
 }
@@ -4423,23 +3927,17 @@ button.close {
 .carousel-control .glyphicon-chevron-left,
 .carousel-control .glyphicon-chevron-right {
     position: absolute;
-    top: 50%;
-    margin-top: -10px;
-    z-index: 5;
+    top: 50%;    z-index: 5;
     display: inline-block
 }
 
 .carousel-control .icon-prev,
 .carousel-control .glyphicon-chevron-left {
-    left: 50%;
-    margin-left: -10px
-}
+    left: 50%;}
 
 .carousel-control .icon-next,
 .carousel-control .glyphicon-chevron-right {
-    right: 50%;
-    margin-right: -10px
-}
+    right: 50%;}
 
 .carousel-control .icon-prev,
 .carousel-control .icon-next {
@@ -4462,9 +3960,7 @@ button.close {
     bottom: 10px;
     left: 50%;
     z-index: 15;
-    width: 60%;
-    margin-left: -30%;
-    padding-left: 0;
+    width: 60%;    padding-left: 0;
     list-style: none;
     text-align: center
 }
@@ -4513,20 +4009,12 @@ button.close {
     .carousel-control .icon-prev,
     .carousel-control .icon-next {
         width: 30px;
-        height: 30px;
-        margin-top: -15px;
-        font-size: 30px
+        height: 30px;        font-size: 30px
     }
 
     .carousel-control .glyphicon-chevron-left,
-    .carousel-control .icon-prev {
-        margin-left: -15px
-    }
 
     .carousel-control .glyphicon-chevron-right,
-    .carousel-control .icon-next {
-        margin-right: -15px
-    }
 
     .carousel-caption {
         left: 20%;
@@ -4592,10 +4080,7 @@ button.close {
 }
 
 .center-block {
-    display: block;
-    margin-left: auto;
-    margin-right: auto
-}
+    display: block;}
 
 .pull-right {
     float: right !important
