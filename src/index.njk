@@ -58,7 +58,7 @@ eleventyNavigation:
 
       <!-- Center Image -->
       <div class="col-lg-4">
-        <img defer src="assets/images/blkb.png" alt="Blackcoin B" class="img-responsive center-block wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+        {% image "./src/assets/images/blkb.png", "Blackcoin B" %}
       </div>
 
       <!-- Features Left -->
@@ -112,16 +112,16 @@ eleventyNavigation:
         <div class="row">
           <div class="ws-s"></div>
           <ul class="t-clients clients-slider ws-s">
-            <li><a href="https://twitter.com/BlackcoinOrg" target="_blank" rel="noopener"><img defer src="assets/images/twitterORG.png" alt="BlackcoinOrg Twitter">BlackcoinOrg Twitter</a></li>
-            <li><a href="https://twitter.com/BlackcoinNL" target="_blank" rel="noopener"><img defer src="assets/images/twitterNL.png" alt="BlackcoinNL Twitter">BlackcoinNL Twitter</a></li>
-            <li><a href="https://t.me/blackcoin" target="_blank" rel="noopener"><img defer src="assets/images/telegramORG.png" alt="Telegram">Telegram</a></li>
-            <li><a href="https://t.me/blackcoinNL" target="_blank" rel="noopener"><img defer src="assets/images/telegramNL.png" alt="BlackcoinNL Telegram">BlackcoinNL Telegram</a></li>
-            <li><a href="https://keybase.io/team/blackcoin" target="_blank" rel="noopener"><img defer src="assets/images/keybase.png" alt="Keybase">Keybase</a></li>
-            <li><a href="https://discord.gg/hjNUgWD" target="_blank" rel="noopener"><img defer src="assets/images/discord.png" alt="Discord">Discord</a></li>
-            <li><a href="https://bitcointalk.org/index.php?topic=3017838.new#new" target="_blank" rel="noopener"><img defer src="assets/images/bitcointalk.png" alt="Bitcointalk">Bitcointalk</a></li>
-            <li><a href="https://webchat.freenode.net/?channels=%23blackcoin" target="_blank" rel="noopener"><img defer src="assets/images/irc.png" alt="IRC">IRC</a></li>
-            <li><a href="https://gitter.im/BlackCoin_Hub" target="_blank" rel="noopener"><img defer src="assets/images/gitter.png" alt="Gitter">Gitter</a></li>
-            <li><a href="https://facebook.com/BlackcoinOrg" target="_blank" rel="noopener"><img defer src="assets/images/facebook.png" alt="Facebook">Facebook</a></li>
+            <li><a href="https://twitter.com/BlackcoinOrg" target="_blank" rel="noopener">{% image "./src/assets/images/twitterORG.png", "BlackcoinOrg Twitter" %}>BlackcoinOrg Twitter</a></li>
+            <li><a href="https://twitter.com/BlackcoinNL" target="_blank" rel="noopener">{% image "./src/assets/images/twitterNL.png", "BlackcoinNL Twitter" %}>BlackcoinNL Twitter</a></li>
+            <li><a href="https://t.me/blackcoin" target="_blank" rel="noopener">{% image "./src/assets/images/telegramORG.png", "Telegram" %}>Telegram</a></li>
+            <li><a href="https://t.me/blackcoinNL" target="_blank" rel="noopener">{% image "./src/assets/images/telegramNL.png", "BlackcoinNL Telegram" %}>BlackcoinNL Telegram</a></li>
+            <li><a href="https://keybase.io/team/blackcoin" target="_blank" rel="noopener">{% image "./src/assets/images/keybase.png", "Keybase" %}>Keybase</a></li>
+            <li><a href="https://discord.gg/hjNUgWD" target="_blank" rel="noopener">{% image "./src/assets/images/discord.png", "Discord" %}>Discord</a></li>
+            <li><a href="https://bitcointalk.org/index.php?topic=3017838.new#new" target="_blank" rel="noopener">{% image "./src/assets/images/bitcointalk.png", "Bitcointalk" %}>Bitcointalk</a></li>
+            <li><a href="https://webchat.freenode.net/?channels=%23blackcoin" target="_blank" rel="noopener">{% image "./src/assets/images/irc.png", "IRC" %}>IRC</a></li>
+            <li><a href="https://gitter.im/BlackCoin_Hub" target="_blank" rel="noopener">{% image "./src/assets/images/gitter.png", "Gitter" %}>Gitter</a></li>
+            <li><a href="https://facebook.com/BlackcoinOrg" target="_blank" rel="noopener">{% image "./src/assets/images/facebook.png", "Facebook" %}>Facebook</a></li>
 
           </ul><!-- / .t-clients -->
         </div><!-- / .row -->
@@ -144,14 +144,14 @@ eleventyNavigation:
         <div class="row">
           <div class="ws-s"></div>
           <ul class="t-clients clients-slider ws-s">
-            <li><a href="https://bittrex.com/Market/Index?MarketName=BTC-BLK"><img class="exchange" defer src="assets/images/e1.png" alt="Link to Bittrex Exchange">Bittrex Exchange</a></li>
-            <li><a href="https://www.litebit.eu/en/buy/blackcoin"><img class="exchange" defer src="assets/images/litebit.svg" alt="Link to LiteBit Exchange">LiteBit Exchange</a></li>
-            <li><a href="https://www.aex.com/page/trade.html#/?symbol=blk_btc"><img defer src="assets/images/aex.png" alt="Link to AEX Exchange">AEX Exchange</a></li>
-            <li><a href="https://www.bitladon.com/blackcoin"><img class="exchange" defer src="assets/images/bitladon.png" alt="Bitladon Exchange">Bitladon Exchange</a></li>
-            <li><a href="https://vinex.network/trading/advanced/BTC_BLK"><img class="exchange" defer src="assets/images/vinex.png" alt="Link to Vinex Exchange">Vinex Exchange</a></li>
-            <li><a href="https://anycoindirect.eu/en/buy/blackcoins"><img class="exchange" defer src="assets/images/anycoindirect.png" alt="Link to AnyCoinDirect Exchange">AnyCoinDirect Exchange</a></li>
-            <li><a href="https://holytransaction.com/"><img class="exchange" defer src="assets/images/e3.png" alt="Link to HolyTransaction Exchange">HolyTransaction Exchange</a></li>
-            <li><a href="https://shapeshift.io/"><img class="exchange" defer src="assets/images/shapeshift.png" alt="Link to ShapeShift Exchange">ShapeShift Exchange</a></li>
+            <li><a href="https://bittrex.com/Market/Index?MarketName=BTC-BLK">{% image "./src/assets/images/e1.png", "Link to Bittrex Exchange" %}>Bittrex</a></li>
+            <li><a href="https://www.litebit.eu/en/buy/blackcoin">{% image "./src/assets/images/litebit.svg", "Link to LiteBit Exchange" %}>LiteBit</a></li>
+            <li><a href="https://www.aex.com/page/trade.html#/?symbol=blk_btc">{% image "./src/assets/images/aex.png", "Link to AEX Exchange" %}>AEX</a></li>
+            <li><a href="https://www.bitladon.com/blackcoin">{% image "./src/assets/images/bitladon.png", "Bitladon Exchange" %}>Bitladon</a></li>
+            <li><a href="https://vinex.network/trading/advanced/BTC_BLK">{% image "./src/assets/images/vinex.png", "Link to Vinex" %}>Vinex Exchange</a></li>
+            <li><a href="https://anycoindirect.eu/en/buy/blackcoins">{% image "./src/assets/images/anycoindirect.png", "Link to AnyCoinDirect" %}>AnyCoinDirect Exchange</a></li>
+            <li><a href="https://holytransaction.com/">{% image "./src/assets/images/e3.png", "Link to HolyTransaction Exchange" %}>HolyTransaction</a></li>
+            <li><a href="https://shapeshift.io/">{% image "./src/assets/images/shapeshift.png", "Link to ShapeShift Exchange" %}>ShapeShift</a></li>
           </ul><!-- / .t-clients -->
           <center>
             <h4><span><span style="color: #CCC;"><i class="fa fa-info-circle"></i> Check </span><a rel="noopener" target="_blank" href="https://www.coingecko.com/en/coins/blackcoin" alt="">Markets Volume</a></span></h4>
@@ -179,39 +179,39 @@ eleventyNavigation:
           <ul>
             <!-- Item 1 -->
             <li>
-                <img alt="Blackcoin More Logo" style="margin: 0;" defer src="assets/images/more.png">
+                {% image "./src/assets/images/more.png", "Blackcoin More Logo" %}
               <h3>MORE WALLET</h3>
               <div class="hover-content">
                 <br>
                 <span style="color: #FFFFFF;">Blackcoin More v2.13.2.8</span><br>
-                <a  alt="Blackcoin More Website" href="https://blackcoinmore.org" ><img alt="Blackcoin More Logo" defer src="assets/images/logo-more-bw-sm.png">png</a><br>
+                <a  alt="Blackcoin More Website" href="https://blackcoinmore.org" >{% image "./src/assets/images/logo-more-bw-sm.png", "Blackcoin More" %}</a><br>
                 <p class="pd-15px">The community supported wallet.</p>
               </div><!-- / .hover-content -->
             </li>
             <!-- Item 2 -->
             <li>
-                <img alt="Mobile Wallets" style="margin: 0;" defer src="assets/images/mwallets.png">
+                {% image "./src/assets/images/mwallets.png", "Mobile Wallets" %}
               <h3>MOBILE WALLETS</h3>
               <div class="hover-content">
-                <a href="https://coinomi.com/"><span><img alt="Coinomi Logo" defer src="assets/images/coinomi.png"> </span></a><br>
-                <a href="https://abra.com/"><span><img alt="Abra Logo" defer src="assets/images/abra-logo-white.svg"> </span></a><br>
+                <a href="https://coinomi.com/"><span>{% image "./src/assets/images/coinomi.png", "Coinomi Multicoin Wallet" %} </span></a><br>
+                <a href="https://abra.com/"><span>{% image "./src/assets/images/abra-logo-white.svg", "Abra Multicoin Wallet"  %} </span></a><br>
               </div><!-- / .hover-content -->
             </li>
 
             <!-- Item 3 -->
             <li>
-                <img alt="Blackhalo Logo" style="margin: 0;" defer src="assets/images/blackhalo2.png">
+                {% image "./src/assets/images/blackhalo2.png", "Blackhalo Logo" %}
               <h3>BLACKHALO</h3>
               <div class="hover-content">
                 <br>
                 <span style="color: #FFFFFF;">Blackhalo</span><br>
                 <a href="https://blackhalo.info/#section-call-to-actiontwo"><span>All platforms
-                    downloads</span><img alt="Blackhalo Logo" defer src="assets/images/blackhalo2.png">png</a><br>
+                    downloads</span>{% image "./src/assets/images/blackhalo2.png", "Blackhalo Logo" %}</a><br>
               </div><!-- / .hover-content -->
             </li>
             <!-- Item 4 -->
             <li>
-                <img alt="Blackcoin Logo" style="margin: 0;" defer src="assets/images/original.png">
+                {% image "./src/assets/images/original.png", "Blackcoin Logo" %}
               <h3>LEGACY WALLET</h3>
               <div class="hover-content">
                 <br>
