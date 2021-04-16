@@ -983,134 +983,6 @@
 }
 
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
-    font-family: inherit;
-    font-weight: 500;
-    line-height: 1.1;
-    color: inherit
-}
-
-h1 small,
-h2 small,
-h3 small,
-h4 small,
-h5 small,
-h6 small,
-.h1 small,
-.h2 small,
-.h3 small,
-.h4 small,
-.h5 small,
-.h6 small,
-h1 .small,
-h2 .small,
-h3 .small,
-h4 .small,
-h5 .small,
-h6 .small,
-.h1 .small,
-.h2 .small,
-.h3 .small,
-.h4 .small,
-.h5 .small,
-.h6 .small {
-    font-weight: normal;
-    line-height: 1;
-    color: #777
-}
-
-h1,
-.h1,
-h2,
-.h2,
-h3,
-.h3 {
-    margin-top: 20px;
-    margin-bottom: 10px
-}
-
-h1 small,
-.h1 small,
-h2 small,
-.h2 small,
-h3 small,
-.h3 small,
-h1 .small,
-.h1 .small,
-h2 .small,
-.h2 .small,
-h3 .small,
-.h3 .small {
-    font-size: 65%
-}
-
-h4,
-.h4,
-h5,
-.h5,
-h6,
-.h6 {
-    margin-top: 10px;
-    margin-bottom: 10px
-}
-
-h4 small,
-.h4 small,
-h5 small,
-.h5 small,
-h6 small,
-.h6 small,
-h4 .small,
-.h4 .small,
-h5 .small,
-.h5 .small,
-h6 .small,
-.h6 .small {
-    font-size: 75%
-}
-
-h1,
-.h1 {
-    font-size: 36px
-}
-
-h2,
-.h2 {
-    font-size: 30px
-}
-
-h3,
-.h3 {
-    font-size: 24px
-}
-
-h4,
-.h4 {
-    font-size: 18px
-}
-
-h5,
-.h5 {
-    font-size: 14px
-}
-
-h6,
-.h6 {
-    font-size: 12px
-}
-
-
 .fade {
     opacity: 0;
     -webkit-transition: opacity .15s linear;
@@ -5696,7 +5568,7 @@ h2.toggle a:visited {
 }
 
 #donation-link {
-	font-size: 4rem;
+	font-size: 3rem;
 }
 
 .hero-content {
@@ -5704,51 +5576,9 @@ h2.toggle a:visited {
 	position: relative;
 }
 
-@media (max-width: 1260px){
-	.dropdown-menu {
-		position: relative;
-	}
-}
-
-@media (max-height: 600) {
-	.bg-overlay {
-		height: 600px !important;
-	}
-	.agency2-hero {
-		height: 600px !important;
-	}
-	.hero-content {
-		top: 100px;
-	}
-}
-
-@media (max-width: 400px){
-	#join-community {
-		width: 90%;
-		margin: 0 auto;
-	}
-	.hero-lead {
-		font-size: 3rem !important;
-	}
-	.hero-secondary {
-		font-size: 14px;
-	}
-}
-@media (max-width: 300px){
-	#page-top {
-	    width: 100vw !important;
-	    font-size: 12px;
-	}
-	.hero-content {
-		width: 100vw !important;
-	}
-	.hero-lead {
-		font-size: 2.3rem !important;
-	}
-}
-
-.img-responsive {
-	max-width: 100%;
+.bn-h3 {
+	font-size: 12px;
+	margin: 10px 0 10px 0;
 }.pum-container,
 .pum-content,
 .pum-content+.pum-close,

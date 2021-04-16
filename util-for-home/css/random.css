@@ -17,7 +17,7 @@
 }
 
 #donation-link {
-	font-size: 4rem;
+	font-size: 3rem;
 }
 
 .hero-content {
@@ -25,49 +25,7 @@
 	position: relative;
 }
 
-@media (max-width: 1260px){
-	.dropdown-menu {
-		position: relative;
-	}
-}
-
-@media (max-height: 600) {
-	.bg-overlay {
-		height: 600px !important;
-	}
-	.agency2-hero {
-		height: 600px !important;
-	}
-	.hero-content {
-		top: 100px;
-	}
-}
-
-@media (max-width: 400px){
-	#join-community {
-		width: 90%;
-		margin: 0 auto;
-	}
-	.hero-lead {
-		font-size: 3rem !important;
-	}
-	.hero-secondary {
-		font-size: 14px;
-	}
-}
-@media (max-width: 300px){
-	#page-top {
-	    width: 100vw !important;
-	    font-size: 12px;
-	}
-	.hero-content {
-		width: 100vw !important;
-	}
-	.hero-lead {
-		font-size: 2.3rem !important;
-	}
-}
-
-.img-responsive {
-	max-width: 100%;
+.bn-h3 {
+	font-size: 12px;
+	margin: 10px 0 10px 0;
 }

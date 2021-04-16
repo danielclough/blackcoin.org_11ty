@@ -1,20 +1,67 @@
-/* --------------------------------------------------
-	Responsive Styles - Media queries
--------------------------------------------------- */
-/* --------------------------------------------------
-	0.1 Settigns
--------------------------------------------------- */
-/* ---- Colors ---- */
-/* ---- Label Colors ---- */
-/* ---- Text ---- */
-/* ---- White Space ---- */
-/* ---- Buttons ---- */
-/* ---- Forms ---- */
-/* ---- Navigation ---- */
-/* ---- Footer ---- */
-/* ---- Other ---- */
-/* ---- Media Queries Breakpoints ---- */
-/* ---- General ---- */
+.img-responsive {
+  max-width: 100%;
+}
+
+@media (max-width: 1260px){
+  .dropdown-menu {
+    position: relative;
+  }
+}
+
+@media (max-height: 600px) {
+  .bg-overlay {
+    height: 600px;
+  }
+  .agency2-hero {
+    height: 600px;
+  }
+  .hero-content {
+    top: 100px;
+  }
+}
+
+@media (max-width: 400px){
+
+  ul {
+      display: block;
+  }
+  #join-community {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .hero-lead {
+    font-size: 3rem;
+  }
+  .hero-secondary {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 300px){
+  h3 {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1;
+  }
+  ul {
+      display: inline;
+  }
+  #page-top {
+      width: 100vw;
+      font-size: 12px;
+  }
+  .hero-content {
+    width: 100vw;
+  }
+  .hero-lead {
+    font-size: 2.3rem;
+  }
+  ft-item {
+    font-size: 1.1rem;
+  }
+}
+
+
 @media (max-width: 1260px) {
   .mb-sm-30 {
     margin-bottom: 30px;

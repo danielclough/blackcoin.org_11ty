@@ -209,14 +209,8 @@ _____________________________________________________
 }
 
 
-.navbar .navbar-nav {
-  margin-top: 12px;
-}
-
 .navbar .navbar-nav li a {
-  text-transform: uppercase;
-  font-size: 0.8em;
-  font-weight: 400;
+  text-transform: uppercase;  font-weight: 400;
   letter-spacing: 2px;
   color: #999;
   -webkit-transition: color 0.5s;
@@ -233,23 +227,19 @@ _____________________________________________________
 }
 
 .navbar .navbar-nav li a i[class*="linea-"] {
-  font-size: 18px;
   vertical-align: sub;
 }
 
 .navbar .navbar-nav li a>.cart-notif {
   display: inline-block;
   position: relative;
-  padding-left: 1px;
   width: 16px;
   height: 16px;
   top: -8px;
   right: -8px;
   border-radius: 100px;
   background: #EF413F;
-  color: #fff;
-  font-size: 10px;
-  line-height: 16px;
+  color: #fff;  line-height: 16px;
   text-align: center;
 }
 
@@ -276,12 +266,7 @@ _____________________________________________________
   background: none;
 }
 
-.navbar .navbar-nav .dropdown .dropdown-toggle .fa-shopping-cart {
-  margin-left: 16px;
-}
-
 .navbar .navbar-nav .dropdown .dropdown-menu {
-  margin-top: 12px;
   padding: 20px 0 10px 0;
   border: 1px solid #ececec;
   border-radius: 0;
@@ -304,28 +289,18 @@ _____________________________________________________
 }
 
 .navbar .navbar-nav .dropdown .dropdown-menu li a:hover {
-  padding-left: 35px;
-  padding-right: 30px;
   background: rgba(17, 17, 17, 0.05);
   border-left: 3px solid #111;
 }
 
-.navbar .navbar-nav .dropdown .dropdown-menu li a i {
-  padding-right: 5px;
-}
-
 .navbar .navbar-nav .dropdown .dropdown-menu .dropdown-header {
   padding: 0 25px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
-  font-size: 0.8em;
-  letter-spacing: 2px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;  letter-spacing: 2px;
   text-transform: uppercase;
   color: #111;
 }
 
 .navbar .navbar-nav .dropdown .dropdown-menu .divider {
-  margin-left: 25px;
-  margin-right: 25px;
   background-color: #ddd;
 }
 
@@ -342,9 +317,7 @@ _____________________________________________________
 }
 
 .navbar .navbar-nav .dropdown .search-dropdown li form input[type="search"] {
-  border-radius: 0;
-  font-size: .9em;
-  letter-spacing: 1.5px;
+  border-radius: 0;  letter-spacing: 1.5px;
 }
 
 .navbar .navbar-nav .dropdown .search-dropdown li form input[type="search"]:focus {
@@ -358,14 +331,6 @@ _____________________________________________________
   background: #fff;
 }
 
-.navbar .navbar-nav .dropdown .cart-dropdown .cart-sep-top {
-  margin-bottom: 15px;
-}
-
-.navbar .navbar-nav .dropdown .cart-dropdown .cart-sep-bot {
-  margin-top: 0;
-}
-
 .navbar .navbar-nav .dropdown .cart-dropdown .cart-item {
   padding: 0 25px 15px 25px;
 }
@@ -374,9 +339,7 @@ _____________________________________________________
   padding: 0;
   border: none;
   background: none;
-  text-transform: none;
-  font-size: 14px;
-  letter-spacing: .5px;
+  text-transform: none;  letter-spacing: .5px;
   line-height: inherit;
 }
 
@@ -387,17 +350,13 @@ _____________________________________________________
 }
 
 .navbar .navbar-nav .dropdown .cart-dropdown .cart-item .p-thumb {
-  float: left;
-  margin-right: 15px;
-}
+  float: left;}
 
 .navbar .navbar-nav .dropdown .cart-dropdown .cart-item p {
   line-height: 14px;
 }
 
 .navbar .navbar-nav .dropdown .cart-dropdown .cart-item .cp-name {
-  font-size: 14px;
-
   padding: 0;
   letter-spacing: 1px;
 }
@@ -407,16 +366,13 @@ _____________________________________________________
 }
 
 .navbar .navbar-nav .dropdown .cart-dropdown .cart-item .cp-price {
-  font-size: 12px;
   letter-spacing: 1px;
   color: #999;
 }
 
 .navbar .navbar-nav .dropdown .cart-dropdown .cart-item .cart-remove-btn {
   padding: 0;
-  float: right;
-  font-size: 16px;
-  color: #777;
+  float: right;  color: #777;
   border: none;
   background: none;
 }
@@ -429,11 +385,6 @@ _____________________________________________________
 
 .navbar .navbar-nav .dropdown .cart-dropdown .cart-item .cart-remove-btn:focus {
   text-decoration: none;
-}
-
-.navbar .navbar-nav .dropdown .cart-dropdown .item-totals {
-  padding-left: 25px;
-  padding-right: 25px;
 }
 
 .navbar .navbar-nav .dropdown .cart-dropdown .item-totals span {
@@ -460,9 +411,7 @@ _____________________________________________________
   color: #ececec;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
   text-transform: uppercase;
-  letter-spacing: 2.5px;
-  font-size: 0.9em;
-  line-height: 1.8em;
+  letter-spacing: 2.5px;  line-height: 1.8em;
   border-radius: 0;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -606,10 +555,6 @@ _____________________________________________________
   color: #ececec;
 }
 
-.navbar .navbar-nav .dropdown .dropdown-banner {
-  margin-left: -13px;
-}
-
 /* ---- Navbar Inverse (Dark) ---- */
 .navbar-inverse {
   border-bottom: 1px solid #222;
@@ -746,7 +691,6 @@ _____________________________________________________
 }
 
 .navbar-small .navbar-header {
-  margin-top: 0;
   padding: 0;
 }
 
@@ -754,21 +698,8 @@ _____________________________________________________
   padding: 9px 0;
 }
 
-.navbar-small .navbar-nav {
-  margin-top: 0;
-}
-
-.navbar-small .navbar-nav .dropdown .dropdown-menu {
-  margin-top: 0;
-}
-
 .navbar-fw .navbar-header {
-  margin-left: 50px;
   width: 25%;
-}
-
-.navbar-fw .navbar-right {
-  margin-right: 50px;
 }
 
 /* ---- Navbar Utility ---- */
@@ -801,7 +732,6 @@ _____________________________________________________
 }
 
 .ft-cards .ft-item span {
-  font-size: 64px;
   color: #111;
 }
 
@@ -829,11 +759,6 @@ _____________________________________________________
 .ft-cards .ft-item .login-2 .bg-overlay .form-wrapper .form-content .cards-header,
 .login-2 .bg-overlay .form-wrapper .form-content .ft-cards .ft-item .cards-header,
 .ft-cards .ft-item .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead,
-.login-2 .bg-overlay .form-wrapper .social-signup .social-card .ft-cards .ft-item .sc-lead {
-  margin-top: 40px;
-  margin-bottom: 30px;
-}
-
 .ft-cards .ft-item p {
   padding: 0;
   margin: 0;
@@ -855,15 +780,12 @@ _____________________________________________________
 }
 
 .ft-cards .ft-item a span {
-  display: inline-block;
-  font-size: 25px;
-  vertical-align: top;
+  display: inline-block;  vertical-align: top;
   color: inherit;
 }
 
 /* ---- 9.2 Feature - Cards 2 ---- */
 .ft-cards-2 .ft-card-item {
-  margin-bottom: 50px;
   height: 254px;
   background: #fff;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
@@ -911,9 +833,7 @@ _____________________________________________________
 }
 
 .ft-cards-2 .ft-card-item .ft-content .link-btn {
-  display: inline-block;
-  margin-top: 30px;
-  float: right;
+  display: inline-block;  float: right;
   color: #777;
   -webkit-transform: translateX(30px);
   -ms-transform: translateX(30px);
@@ -923,9 +843,7 @@ _____________________________________________________
 }
 
 .ft-cards-2 .ft-card-item .ft-content .link-btn span {
-  display: inline-block;
-  font-size: 23px;
-  vertical-align: top;
+  display: inline-block;  vertical-align: top;
   -webkit-transform: translateX(-30px);
   -ms-transform: translateX(-30px);
   transform: translateX(-30px);
@@ -965,9 +883,7 @@ _____________________________________________________
   left: 0;
   color: rgba(204, 204, 204, 0.4);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
-  font-weight: lighter;
-  font-size: 165px;
-}
+  font-weight: lighter;}
 
 .ft-steps-numbers .ft-item h4,
 .ft-steps-numbers .ft-item .ft-tabs .tabs-list li a .tab-group .tab-heading,
@@ -996,12 +912,10 @@ _____________________________________________________
 .login-2 .bg-overlay .form-wrapper .social-signup .social-card .ft-steps-numbers .ft-item .sc-lead {
   margin: 0;
   padding-bottom: 20px;
-  padding-left: 85px;
 }
 
 .ft-steps-numbers .ft-item p {
   margin: 0;
-  padding-left: 85px;
 }
 
 /* ---- 9.4 Feature - Centered ---- */
@@ -1043,19 +957,12 @@ _____________________________________________________
 .ft-x .ft-item .shop-layout-options span,
 .shop-layout-options .ft-x .ft-item span,
 .ft-y .ft-item .shop-layout-options span,
-.shop-layout-options .ft-y .ft-item span {
-  margin-top: 30px;
-  margin-bottom: 20px;
-}
-
 .ft-centered .ft-item span,
 .ft-x .ft-item span,
 .ft-y .ft-item span {
   padding: 0;
   width: 110px;
-  height: 110px;
-  font-size: 45px;
-  line-height: 109px;
+  height: 110px;  line-height: 109px;
 }
 
 .ft-centered .ft-material:hover span,
@@ -1169,9 +1076,7 @@ _____________________________________________________
 .ft-y .ft-square-frame i {
   width: 100px;
   height: 100px;
-  border-radius: 0;
-  font-size: 45px;
-  text-align: center;
+  border-radius: 0;  text-align: center;
   line-height: 90px;
 }
 
@@ -1244,9 +1149,7 @@ _____________________________________________________
 .ft-y .ft-square-frame-dark i {
   width: 100px;
   height: 100px;
-  border-radius: 0;
-  font-size: 45px;
-  text-align: center;
+  border-radius: 0;  text-align: center;
   line-height: 90px;
 }
 
@@ -1284,14 +1187,10 @@ _____________________________________________________
 .ft-centered .ft-small-card i,
 .ft-x .ft-small-card i,
 .ft-y .ft-small-card i {
-  display: block;
-  margin-top: 30px;
-  padding-bottom: 30px;
+  display: block;  padding-bottom: 30px;
   width: auto;
   height: auto;
-  line-height: 0;
-  font-size: 64px;
-  color: #777;
+  line-height: 0;  color: #777;
   -webkit-transition: color 0.7s;
   transition: color 0.7s;
 }
@@ -1348,7 +1247,6 @@ _____________________________________________________
 .ft-centered .ft-basic i,
 .ft-x .ft-basic i,
 .ft-y .ft-basic i {
-  font-size: 60px;
   line-height: 60px;
 }
 
@@ -1379,11 +1277,6 @@ _____________________________________________________
 .ft-x .ft-item .shop-layout-options span,
 .shop-layout-options .ft-x .ft-item span,
 .ft-y .ft-item .shop-layout-options span,
-.shop-layout-options .ft-y .ft-item span {
-  margin-top: 30px;
-  margin-bottom: 20px;
-}
-
 .ft-x .ft-item span,
 .ft-y .ft-item span,
 .ft-x .ft-item i,
@@ -1394,7 +1287,6 @@ _____________________________________________________
   width: 85px;
   height: 85px;
   float: left;
-  font-size: 28px;
   line-height: 28px;
   text-align: center;
   vertical-align: top;
@@ -1455,9 +1347,7 @@ _____________________________________________________
 .ft-y .ft-basic span,
 .ft-x .ft-basic i,
 .ft-y .ft-basic i {
-  padding: 0;
-  font-size: 64px;
-  line-height: 64px;
+  padding: 0;  line-height: 64px;
 }
 
 .ft-x .right-align .ft-content,
@@ -1470,9 +1360,7 @@ _____________________________________________________
 .ft-x .right-align .ft-icon,
 .ft-y .right-align .ft-icon {
   float: right;
-  display: inline-block;
-  margin-left: 20px;
-  width: 30%;
+  display: inline-block;  width: 30%;
 }
 
 /* ---- 9.6 Feature - Vertical Aligned ---- */
@@ -1497,10 +1385,7 @@ _____________________________________________________
 .ft-boxed-hover ul li {
   display: inline-block;
   position: relative;
-  width: 25%;
   float: left;
-  margin-top: -1px;
-  margin-left: -1px;
   padding: 50px;
   border: 1px solid #ddd;
   background: #fff;
@@ -1518,7 +1403,6 @@ _____________________________________________________
 }
 
 .ft-boxed-hover ul li .ft-icon {
-  font-size: 56px;
   color: #777;
 }
 
@@ -1545,9 +1429,7 @@ _____________________________________________________
   display: block;
   top: 50px;
   left: 0;
-  right: 0;
-  font-size: 120px;
-  color: rgba(217, 217, 217, 0.15);
+  right: 0;  color: rgba(217, 217, 217, 0.15);
   z-index: 1;
 }
 
@@ -1565,9 +1447,7 @@ _____________________________________________________
 
 .ft-boxed-hover ul li .hover-content a {
   display: inline-block;
-  position: relative;
-  margin-top: 20px;
-  color: #999;
+  position: relative;  color: #999;
   z-index: 10 !important;
 }
 
@@ -1592,10 +1472,6 @@ _____________________________________________________
 }
 
 .ft-tabs .tabs-list li:nth-child(2),
-.ft-tabs .tabs-list li:nth-child(3) {
-  margin-top: -1px;
-}
-
 .ft-tabs .tabs-list li a {
   display: block;
   padding: 50px;
@@ -1611,10 +1487,7 @@ _____________________________________________________
 }
 
 .ft-tabs .tabs-list li a .tab-icon {
-  display: inline-block;
-  padding-right: 20px;
-  font-size: 50px;
-  color: #111;
+  display: inline-block  color: #111;
 }
 
 .ft-tabs .tabs-list li a .tab-group {
@@ -1645,7 +1518,6 @@ _____________________________________________________
 
 .ft-tabs .tab-content .tab-content-text {
   padding-top: 110px;
-  padding-left: 80px;
 }
 
 .ft-tabs .tab-content .tab-content-text h4,
@@ -1681,10 +1553,6 @@ _____________________________________________________
   margin: 0;
 }
 
-.ft-tabs .tab-content .tab-content-text button {
-  margin-top: 45px;
-}
-
 .ft-tabs .tab-content .tab-content-image {
   padding-top: 110px;
 }
@@ -1702,10 +1570,6 @@ _____________________________________________________
 .list-square-check li,
 .list-circle-check li,
 .list-square-check-full li,
-.list-circle-check-full li {
-  margin-bottom: 30px;
-}
-
 .list-check li:before,
 .list-square-check li:before,
 .list-circle-check li:before,
@@ -1714,22 +1578,13 @@ _____________________________________________________
   content: "\e01b";
   position: absolute;
   left: 0;
-  font-family: "linea-icon-font";
-  font-size: 40px;
-  color: #111;
+  font-family: "linea-icon-font";  color: #111;
 }
 
 .list-square-check li,
-.list-circle-check li {
-  margin-left: 20px;
-  margin-bottom: 40px;
-}
-
 .list-square-check li:before,
 .list-circle-check li:before {
-  content: "\e081";
-  font-size: 50px;
-}
+  content: "\e081";}
 
 .list-circle-check li:before {
   content: "\e01c";
@@ -1737,7 +1592,6 @@ _____________________________________________________
 
 .list-square-check-full li,
 .list-circle-check-full li {
-  margin-left: 20px;
   padding-top: 1px;
 }
 
@@ -1747,9 +1601,7 @@ _____________________________________________________
   padding-top: 12px;
   width: 50px;
   height: 50px;
-  background: #ececec;
-  font-size: 35px;
-  text-align: center;
+  background: #ececec;  text-align: center;
 }
 
 .list-circle-check-full li:before {
@@ -1758,10 +1610,6 @@ _____________________________________________________
 
 .list-basic {
   list-style: none;
-}
-
-.list-basic li {
-  margin-bottom: 30px;
 }
 
 /* ---- 9.10 Feature Layout 50/50 ---- */
@@ -1936,13 +1784,7 @@ _____________________________________________________
 .checkout-table tbody tr .ft-layout-50 .ft-item .ft-content-wrapper td:first-child,
 .ft-layout-50 .ft-item .ft-content-wrapper .prod-reviews .tp-review .tpr-name,
 .prod-reviews .tp-review .ft-layout-50 .ft-item .ft-content-wrapper .tpr-name {
-  margin-top: 15px;
-  margin-bottom: 50px;
   color: #999;
-}
-
-.ft-layout-50 .ft-item .ft-content-wrapper p {
-  margin-bottom: 45px;
 }
 
 .ft-layout-50 .ft-item .ft-img-wrapper {
@@ -2125,14 +1967,10 @@ _____________________________________________________
 
 .slick-dots {
   list-style: none;
-  padding: 0;
-  margin-top: 25px;
-}
+  padding: 0;}
 
 .slick-dots li {
-  display: inline-block;
-  margin-right: 10px;
-  height: 12px;
+  display: inline-block;  height: 12px;
   width: 12px;
   vertical-align: middle;
   border: 2px solid #ececec;
@@ -2159,9 +1997,7 @@ _____________________________________________________
 
 .slider-nav {
   display: inline-block;
-  position: absolute;
-  margin-top: -50px;
-  top: 50%;
+  position: absolute;  top: 50%;
   width: 50px;
   height: 50px;
   border: none;
@@ -2170,10 +2006,6 @@ _____________________________________________________
   color: #ececec;
   -webkit-transition: background 0.3s;
   transition: background 0.3s;
-}
-
-.slider-nav i {
-  font-size: 15px;
 }
 
 .slider-nav:hover {
@@ -2236,8 +2068,6 @@ _____________________________________________________
 .bg-maintenance .content-wrapper .content-inner .testimonials-parallax .t-wrapper p,
 .testimonials-dark .t-wrapper .bg-maintenance .content-wrapper .content-inner p,
 .bg-maintenance .content-wrapper .content-inner .testimonials-dark .t-wrapper p {
-  margin-bottom: 0;
-  font-size: 1.4em;
   line-height: 1.6em;
   color: #ececec;
 }
@@ -2254,9 +2084,7 @@ _____________________________________________________
 .bg-maintenance .content-wrapper .content-inner .testimonials-dark .t-wrapper p .t-type {
   display: block;
   padding-top: 25px;
-  padding-bottom: 25px;
-  font-size: 34px;
-}
+  padding-bottom: 25px;}
 
 .testimonials-parallax .t-wrapper blockquote footer,
 .testimonials-dark .t-wrapper blockquote footer,
@@ -2539,10 +2367,6 @@ _____________________________________________________
 .testimonials-dark .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer cite .shop-layout-options span:first-child,
 .shop-layout-options .testimonials-dark .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer cite span:first-child,
 .bg-maintenance .content-wrapper .content-inner .testimonials-dark .t-wrapper p footer cite .shop-layout-options span:first-child,
-.shop-layout-options .bg-maintenance .content-wrapper .content-inner .testimonials-dark .t-wrapper p footer cite span:first-child {
-  margin-bottom: 10px;
-}
-
 .testimonials-parallax .t-wrapper .t-slider-nav,
 .testimonials-dark .t-wrapper .t-slider-nav {
   display: inline-block;
@@ -2558,9 +2382,7 @@ _____________________________________________________
 
 .testimonials-parallax .t-wrapper .t-slider-nav span,
 .testimonials-dark .t-wrapper .t-slider-nav span {
-  color: #ececec;
-  font-size: 28px;
-  -webkit-transition: color 0.4s;
+  color: #ececec;  -webkit-transition: color 0.4s;
   transition: color 0.4s;
 }
 
@@ -2581,15 +2403,11 @@ _____________________________________________________
 
 .testimonials-parallax .t-wrapper .slick-prev,
 .testimonials-dark .t-wrapper .slick-prev {
-  left: 0;
-  margin-left: -100px;
-}
+  left: 0;}
 
 .testimonials-parallax .t-wrapper .slick-next,
 .testimonials-dark .t-wrapper .slick-next {
-  right: 0;
-  margin-right: -100px;
-}
+  right: 0;}
 
 .testimonials-parallax .t-clients,
 .testimonials-dark .t-clients {
@@ -2604,10 +2422,7 @@ _____________________________________________________
 
 .testimonials-parallax .t-clients li,
 .testimonials-dark .t-clients li {
-  display: inline-block;
-  padding-left: 35px;
-  padding-right: 35px;
-}
+  display: inline-block;}
 
 .testimonials-bg-2 {
   background: url(../images/testimonials-bg-2.jpg);
@@ -2643,7 +2458,6 @@ _____________________________________________________
 }
 
 .testimonials-3col .t-item img {
-  margin-bottom: 30px;
   border: 8px solid #ececec;
   border-radius: 100px;
 }
@@ -2720,12 +2534,10 @@ _____________________________________________________
 }
 
 .testimonials-3col .t-item .t-icon {
-  font-size: 32px;
   color: #999;
 }
 
 .testimonials-3col .t-clients {
-  padding-left: 0;
 }
 
 .testimonials-3col .t-clients li a img {
@@ -2768,9 +2580,7 @@ _____________________________________________________
   left: 0;
   right: 0;
   width: 120px;
-  margin: 0 auto;
-  font-size: 40px;
-  text-align: center;
+  margin: 0 auto;  text-align: center;
   color: rgba(235, 235, 235, 0.5);
 }
 
@@ -2792,9 +2602,7 @@ _____________________________________________________
 
 .scroller .scroller-text {
   display: block;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
-  font-size: 10px;
-  letter-spacing: 2.5px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;  letter-spacing: 2.5px;
   text-transform: uppercase;
   color: #ececec;
   -webkit-transform: translateY(5px);
@@ -2838,9 +2646,7 @@ _____________________________________________________
   top: 45%;
   width: 60px;
   height: 60px;
-  border: none;
-  font-size: 30px;
-  color: #111;
+  border: none;  color: #111;
   background: #ececec;
   opacity: 0;
   -webkit-transition: all 0.5s;
@@ -2885,7 +2691,6 @@ _____________________________________________________
 .fs-slider .slick-next,
 .fw-slider .slick-next,
 .text-slider .slick-next {
-  margin-top: -62px;
   right: 0;
   top: 50%;
 }
@@ -2937,7 +2742,6 @@ _____________________________________________________
   left: 0;
   width: 100%;
   height: 100vh;
-  padding-left: 10%;
 }
 
 .main-demo-hero .hero-content-wrapper .hero-content,
@@ -2954,18 +2758,6 @@ _____________________________________________________
   vertical-align: middle;
 }
 
-.main-demo-hero .hero-content-wrapper .hero-content .hero-lead,
-.fs-video-hero .hero-content-wrapper .hero-content .hero-lead,
-.fw-video-hero .hero-content-wrapper .hero-content .hero-lead,
-.text-slider-hero .hero-content-wrapper .hero-content .hero-lead,
-.freelancer-hero .hero-content-wrapper .hero-content .hero-lead,
-.agency2-hero .hero-content-wrapper .hero-content .hero-lead,
-.animated-hero .hero-content-wrapper .hero-content .hero-lead,
-.web-app-hero .hero-content-wrapper .hero-content .hero-lead {
-  font-size: 6em;
-  font-weight: 700;
-  letter-spacing: 2px;
-}
 
 .main-demo-hero .hero-content-wrapper .hero-content .hero-subheading,
 .fs-video-hero .hero-content-wrapper .hero-content .hero-subheading,
@@ -2975,8 +2767,6 @@ _____________________________________________________
 .agency2-hero .hero-content-wrapper .hero-content .hero-subheading,
 .animated-hero .hero-content-wrapper .hero-content .hero-subheading,
 .web-app-hero .hero-content-wrapper .hero-content .hero-subheading {
-  margin-top: 100px;
-  margin-bottom: 20px;
   color: #999;
 }
 
@@ -3025,16 +2815,12 @@ _____________________________________________________
 }
 
 .fs-slide-1 .hero-content .hero-lead {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
-  font-size: 6em;
-  font-weight: 800;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;  font-weight: 800;
   letter-spacing: 5px;
   color: #ececec;
 }
 
 .fs-slide-1 .hero-content .hero-subheading {
-  margin-top: 100px;
-  margin-bottom: 20px;
   color: #999;
 }
 
@@ -3048,22 +2834,16 @@ _____________________________________________________
 }
 
 .fs-slide-2 .hero-content {
-  padding-left: 10%;
   text-align: left;
 }
 
 .fs-slide-2 .hero-content .hero-lead {
-  font-size: 6.5em;
   font-weight: 700;
   letter-spacing: 5px;
   color: #ececec;
 }
 
-.fs-slide-2 .hero-content .hero-lead span {}
-
 .fs-slide-2 .hero-content .hero-subheading {
-  margin-top: 50px;
-  margin-bottom: 30px;
   color: #999;
 }
 
@@ -3081,19 +2861,12 @@ _____________________________________________________
 }
 
 .fs-slide-3 .hero-content .hero-lead {
-  margin-bottom: 35px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
-  font-size: 4em;
-  font-weight: 800;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;  font-weight: 800;
   letter-spacing: 15px;
   color: #ececec;
 }
 
-.fs-slide-3 .hero-content .hero-lead span {}
-
 .fs-slide-3 .hero-content .hero-subheading {
-  margin-top: 100px;
-  margin-bottom: 20px;
   color: #999;
 }
 
@@ -3146,8 +2919,6 @@ _____________________________________________________
 
 .fw-slider-hero .fw-slide-1 .hero-content-wrapper .hero-content .hero-lead,
 .fw-slider-hero .fw-slide-3 .hero-content-wrapper .hero-content .hero-lead {
-  margin-bottom: 20px;
-  font-size: 4em;
   font-weight: 700;
   letter-spacing: 20px;
   color: #ececec;
@@ -3155,8 +2926,6 @@ _____________________________________________________
 
 .fw-slider-hero .fw-slide-1 .hero-content-wrapper .hero-content .hero-subheading,
 .fw-slider-hero .fw-slide-3 .hero-content-wrapper .hero-content .hero-subheading {
-  margin-top: 0;
-  margin-bottom: 50px;
   color: #999;
 }
 
@@ -3171,7 +2940,6 @@ _____________________________________________________
 }
 
 .fw-slider-hero .fw-slide-2 .hero-content-wrapper {
-  padding-left: 10%;
 }
 
 .fw-slider-hero .fw-slide-2 .hero-content-wrapper .hero-content {
@@ -3179,16 +2947,12 @@ _____________________________________________________
 }
 
 .fw-slider-hero .fw-slide-2 .hero-content-wrapper .hero-content .hero-lead {
-  margin-bottom: 50px;
-  font-size: 5em;
   font-weight: 700;
   letter-spacing: 5px;
   color: #ececec;
 }
 
 .fw-slider-hero .fw-slide-2 .hero-content-wrapper .hero-content .hero-subheading {
-  margin-top: 0;
-  margin-bottom: 30px;
   color: #999;
 }
 
@@ -3196,11 +2960,6 @@ _____________________________________________________
   background: url(../images/hero/coffe.jpg);
   background-size: cover;
   background-position: 50%;
-}
-
-.fw-slider-hero .fw-slide-3 .hero-content-wrapper .hero-content .hero-lead {
-  margin-top: 40px;
-  margin-bottom: 50px;
 }
 
 .fw-slider-hero .fw-slide-3 .hero-content-wrapper .hero-content .hero-subheading {
@@ -3226,8 +2985,6 @@ _____________________________________________________
 
 .fs-video-hero .hero-content-wrapper .hero-content .hero-subheading,
 .fw-video-hero .hero-content-wrapper .hero-content .hero-subheading {
-  margin-top: 100px;
-  margin-bottom: 20px;
   color: #999;
 }
 
@@ -3250,13 +3007,10 @@ _____________________________________________________
 }
 
 .fw-video-hero .hero-content-wrapper .hero-content .hero-lead {
-  font-size: 5em;
   color: #ececec;
 }
 
 .fw-video-hero .hero-content-wrapper .hero-content .hero-subheading {
-  margin-top: 50px;
-  margin-bottom: 30px;
   color: #999;
 }
 
@@ -3274,7 +3028,6 @@ _____________________________________________________
 .text-slider-hero .hero-content-wrapper {
   left: 0;
   right: 0;
-  padding-left: 0;
 }
 
 .text-slider-hero .hero-content-wrapper .hero-content {
@@ -3282,16 +3035,12 @@ _____________________________________________________
 }
 
 .text-slider-hero .hero-content-wrapper .hero-content .hero-lead {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
-  font-size: 9em;
-  font-weight: 800;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;  font-weight: 800;
   letter-spacing: 20px;
   color: #ececec;
 }
 
 .text-slider-hero .hero-content-wrapper .hero-content .hero-subheading {
-  margin-top: 50px;
-  margin-bottom: 20px;
   color: #999;
 }
 
@@ -3310,7 +3059,6 @@ _____________________________________________________
 .freelancer-hero .hero-content-wrapper {
   left: 0;
   right: 0;
-  padding-left: 0;
 }
 
 .freelancer-hero .hero-content-wrapper .hero-content {
@@ -3318,15 +3066,9 @@ _____________________________________________________
 }
 
 .freelancer-hero .hero-content-wrapper .hero-content .hero-lead {
-  margin-bottom: 50px;
-  font-size: 5em;
   font-weight: 700;
   letter-spacing: 15px;
   color: #ececec;
-}
-
-.freelancer-hero .hero-content-wrapper .hero-content .hero-subheading {
-  margin-bottom: 20px;
 }
 
 /* ---- 20.8 Agency ---- */
@@ -3413,7 +3155,6 @@ _____________________________________________________
 }
 
 .agency2-hero .hero-content-wrapper {
-  padding-left: 0;
 }
 
 .agency2-hero .hero-content-wrapper .hero-content {
@@ -3518,15 +3259,6 @@ _____________________________________________________
   color: #ececec;
 }
 
-.agency2-hero .hero-content-wrapper .hero-content .hero-lead {
-  margin-top: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
-  font-size: 4em;
-  font-weight: 400;
-  letter-spacing: 10px;
-  color: #ececec;
-}
-
 .agency2-hero .hero-content-wrapper .hero-content .hero-secondary {
   letter-spacing: 10px;
 }
@@ -3542,14 +3274,6 @@ _____________________________________________________
 .agency2-hero .hero-content-wrapper .hero-content .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost,
 .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .agency2-hero .hero-content-wrapper .hero-content .btn-ghost,
 .agency2-hero .hero-content-wrapper .hero-content .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-light,
-.navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .agency2-hero .hero-content-wrapper .hero-content .btn-light {
-  margin-top: 50px;
-}
-
-.agency2-hero .hero-content-wrapper .hero-content img {
-  margin-bottom: 50px;
-}
-
 /* ---- 20.9 Animated Heading ---- */
 .animated-hero {
   background: url(../images/hero/back-1.jpg);
@@ -3565,7 +3289,6 @@ _____________________________________________________
 .animated-hero .hero-content-wrapper {
   left: 0;
   right: 0;
-  padding-left: 0;
 }
 
 .animated-hero .hero-content-wrapper .hero-content {
@@ -3573,7 +3296,6 @@ _____________________________________________________
 }
 
 .animated-hero .hero-content-wrapper .hero-content .hero-lead {
-  font-size: 6.5em;
   font-weight: 700;
   letter-spacing: 20px;
   color: #ececec;
@@ -3584,8 +3306,6 @@ _____________________________________________________
 }
 
 .animated-hero .hero-content-wrapper .hero-content .hero-subheading {
-  margin-top: 50px;
-  margin-bottom: 20px;
   color: #999;
 }
 
@@ -3615,10 +3335,7 @@ _____________________________________________________
 
 .kenburn-hero .kenburn-slider .hero-wrapper {
   display: table;
-  position: absolute;
-  padding-left: 10%;
-  padding-right: 10%;
-  top: 0;
+  position: absolute;  top: 0;
   left: 0;
   width: 100%;
   height: 100vh;
@@ -3658,23 +3375,17 @@ _____________________________________________________
 .login-2 .bg-overlay .form-wrapper .form-content .kenburn-hero .kenburn-slider .hero-wrapper .hero-content .cards-header,
 .kenburn-hero .kenburn-slider .hero-wrapper .hero-content .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead,
 .login-2 .bg-overlay .form-wrapper .social-signup .social-card .kenburn-hero .kenburn-slider .hero-wrapper .hero-content .sc-lead {
-  color: #ececec;
-  margin-bottom: 50px;
-}
+  color: #ececec;}
 
 .kenburn-hero .kenburn-slider .hero-wrapper .hero-content .lead-white-bg {
   display: inline-block;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
-
-  font-size: 6em;
   color: #111;
 }
 
 .kenburn-hero .kenburn-slider .hero-wrapper .hero-content .lead-white-bg span {
   display: inline-block;
-  padding: 5px 17px;
-  margin-bottom: 10px;
-  background: #fff;
+  padding: 5px 17px;  background: #fff;
 }
 
 .kenburn-hero .scroller {
@@ -3716,21 +3427,17 @@ _____________________________________________________
 }
 
 .landing-hero .heading-wrapper .lead {
-  font-size: 2.5em;
   letter-spacing: 5px;
   color: #ececec;
 }
 
 .landing-hero .heading-wrapper .subheading {
-  margin-bottom: 50px;
   letter-spacing: 4px;
   color: #999;
 }
 
 .landing-hero .heading-wrapper .cta-btn {
-  display: block;
-  margin-top: 75px;
-  color: #999;
+  display: block;  color: #999;
 }
 
 .landing-hero .heading-wrapper .cta-btn:hover {
@@ -3745,10 +3452,6 @@ _____________________________________________________
 .landing-hero .form-wrapper {
   padding: 75px;
   background: rgba(17, 17, 17, 0.2);
-}
-
-.landing-hero .form-wrapper input {
-  margin-bottom: 30px;
 }
 
 .landing-hero .form-wrapper input:last-child {
@@ -3773,19 +3476,12 @@ _____________________________________________________
 }
 
 .app-hero .hero-text .hero-lead {
-  margin-bottom: 50px;
-  font-size: 3.4em;
   font-weight: 700;
   letter-spacing: 10px;
 }
 
 .app-hero .hero-text p {
-  margin-bottom: 30px;
   color: #999;
-}
-
-.app-hero .hero-text .btn-light {
-  margin-left: 10px;
 }
 
 .app-hero .hero-img-container img {
@@ -3804,7 +3500,6 @@ _____________________________________________________
 }
 
 .web-app-hero .hero-content-wrapper {
-  padding-left: 0;
 }
 
 .web-app-hero .hero-content-wrapper .hero-content {
@@ -3812,14 +3507,7 @@ _____________________________________________________
 }
 
 .web-app-hero .hero-content-wrapper .hero-content .hero-lead {
-  margin-top: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
-  font-size: 70px;
-  letter-spacing: 10px;
-}
-
-.web-app-hero .hero-content-wrapper .hero-content .hero-subheading {
-  margin-top: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;  letter-spacing: 10px;
 }
 
 .web-app-hero .hero-content-wrapper .hero-content .btn,
@@ -3833,10 +3521,6 @@ _____________________________________________________
 .web-app-hero .hero-content-wrapper .hero-content .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost,
 .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .web-app-hero .hero-content-wrapper .hero-content .btn-ghost,
 .web-app-hero .hero-content-wrapper .hero-content .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-light,
-.navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .web-app-hero .hero-content-wrapper .hero-content .btn-light {
-  margin-top: 50px;
-}
-
 /* --------------------------------------------------
 	25.0 Labels
 -------------------------------------------------- */
