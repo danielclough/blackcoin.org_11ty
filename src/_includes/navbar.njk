@@ -273,45 +273,8 @@
                   </center>
                 </div>
               </div>
+{% include "twitter.njk" %}
 
-
-              <div class="col-lg-4 mb-sm-20">
-                <li class="dropdown-header">Twitter</li>
-                <li role="separator" class="divider"></li>
-
-                <div class="textwidget">
-                  <center>
-                    <p style=" background-color: #171717;">
-                      <a class="twitter-timeline" href="https://twitter.com/hashtag/Blackcoin"
-                        data-widget-id="746421924109164548"
-                        data-chrome="noheader noborders nofooter transparent noscrollbar">#Blackcoin Tweets</a><br />
-                      <a class="twitter-timeline" href="https://twitter.com/BlackcoinOrg">@BlackcoinOrg</a><br />
-                      <a class="twitter-timeline" href="https://twitter.com/BlackcoinNL">@BlackcoinNL</a><br />
-
-                    <script>
-                    var x = window.matchMedia("(max-width: 700px)")
-                    twiterFeed(x) // Call listener function at run time
-                    x.addListener(twiterFeed)   
-                      function twiterFeed(x) {
-                        if (x.matches) { // If media query matches
-                          return 
-                        } else {
-                          ! function (d, s, id) {
-                            var js, fjs = d.getElementsByTagName(s)[0],
-                              p = /^http:/.test(d.location) ? 'http' : 'https';
-                            if (!d.getElementById(id)) {
-                              js = d.createElement(s);
-                              js.id = id;
-                              js.src = p + "://platform.twitter.com/widgets.js";
-                              fjs.parentNode.insertBefore(js, fjs);
-                            }
-                          }(document, "script", "twitter-wjs");
-                        }
-                      }
-                    </script>
-                  </center>
-                </div>
-              </div>
             </ul>
           </li><!-- / News -->
         </ul><!-- / .nav .navbar-nav .navbar-right -->
