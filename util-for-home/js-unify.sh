@@ -1,6 +1,6 @@
 #!/bin/bash
 
-rm ../assets/js/home.js
+rm ../src/assets/js/home.js
 for file in ./js/*; do
-	cat ${file[i]} >> ../assets/js/home.js
+	cat ${file[i]} >> ../src/assets/js/home.js
 done

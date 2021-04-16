@@ -5,7 +5,6 @@ const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
-const CleanCSS = require("clean-css");
 
 module.exports = function(eleventyConfig) {
   // Add plugins
@@ -15,9 +14,6 @@ module.exports = function(eleventyConfig) {
 
   // https://www.11ty.dev/docs/data-deep-merge/
   eleventyConfig.setDataDeepMerge(true);
-
-  // Alias `layout: post` to `layout: layouts/post.njk`
-  eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
 
   eleventyConfig.addFilter("readableDate", dateObj => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLL yyyy");
@@ -42,15 +38,8 @@ module.exports = function(eleventyConfig) {
     return Math.min.apply(null, numbers);
   });
 
-  // css includes
-  module.exports = function(eleventyConfig) {
-    eleventyConfig.addFilter("cssmin", function(code) {
-      return new CleanCSS({}).minify(code).styles;
-    });
-  };
   // Copy the `img` and `css` folders to the output
-  eleventyConfig.addPassthroughCopy("img");
-  eleventyConfig.addPassthroughCopy("assets");
+  eleventyConfig.addPassthroughCopy("src/assets");
 
   // Customize Markdown library and settings:
   let markdownLibrary = markdownIt({
@@ -63,24 +52,6 @@ module.exports = function(eleventyConfig) {
     permalinkSymbol: "#"
   });
   eleventyConfig.setLibrary("md", markdownLibrary);
-
-  // Override Browsersync defaults (used only with --serve)
-  eleventyConfig.setBrowserSyncConfig({
-    callbacks: {
-      ready: function(err, browserSync) {
-        const content_404 = fs.readFileSync('docs/404.html');
-
-        browserSync.addMiddleware("*", (req, res) => {
-          // Provides the 404 content without redirect.
-          res.writeHead(404, {"Content-Type": "text/html; charset=UTF-8"});
-          res.write(content_404);
-          res.end();
-        });
-      },
-    },
-    ui: false,
-    ghostMode: false
-  });
 
   return {
     // Control which files Eleventy will process
@@ -103,7 +74,7 @@ module.exports = function(eleventyConfig) {
     // You can also pass this in on the command line using `--pathprefix`
 
     // Optional (default is shown)
-    pathPrefix: "/blackcoin.org_11ty",
+//    pathPrefix: "/blackcoin.org_11ty",
     // -----------------------------------------------------------------
 
     // Pre-process *.md files with: (default: `liquid`)
@@ -118,7 +89,6 @@ module.exports = function(eleventyConfig) {
     // These are all optional (defaults are shown):
     dir: {
       input: "src",
-      includes: "_includes",
       data: "_data",
       output: "docs"
     }

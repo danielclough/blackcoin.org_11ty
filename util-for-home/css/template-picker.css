@@ -16,7 +16,7 @@
 /* ---- Media Queries Breakpoints ---- */
 .template-picker-hero {
   position: relative;
-  background: #ccc url(../images/templates-demo-img/hero-bg.jpg);
+  background: #ccc url(../assets/images/templates-demo-img/hero-bg.jpg);
   background-size: cover;
   background-position: 0;
 }

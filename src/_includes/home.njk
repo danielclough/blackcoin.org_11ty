@@ -4,6 +4,8 @@ templateClass: tmpl-home
 ---
   <head>
 
+  <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
   <link rel="stylesheet" type="text/css" href="assets/css/home.css">
 
   <style type="text/css">
@@ -404,11 +406,14 @@ templateClass: tmpl-home
 
 
   <body class="position-relative" data-spy="scroll" data-target=".site-nav" data-offset="55">
+      <!-- ========== Preloader ========== -->
+    <div class="preloader">
+      <img rel="preload" src="assets/images/loader.svg" alt="Loading...">
+    </div>
 
+    {% include "navbar.njk" %}
 
-    {% include "_includes/navbar.njk" %}
-
-    {% include "_includes/home-animation.njk" %}
+    {% include "home-animation.njk" %}
 
 
     {{ content | safe }}
@@ -416,7 +421,7 @@ templateClass: tmpl-home
 
 
     <footer class="site-footer bg-transparent pb-3 pb-md-5">
-      {% include "_includes/social.njk" %}
+      {% include "social.njk" %}
     </footer>
 
   <!-- Copyright -->
@@ -453,7 +458,10 @@ templateClass: tmpl-home
     </div>
   </div>
 
+  <script src="assets/js/jQuery.js"></script>
+  <script src="assets/js/main.js"></script>
   <script src="assets/js/home.js"></script>
+
 
   <script type="text/javascript">
     qis__rates = [];
