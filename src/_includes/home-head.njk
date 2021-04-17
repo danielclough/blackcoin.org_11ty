@@ -1,4 +1,12 @@
 <head>
+
+<style type="text/css">
+    .blkb img {
+        width: 100%;
+        height: auto;
+    }
+</style>
+
   <style type="text/css">
     .pum-container,
 .pum-content,
@@ -2429,8 +2437,10 @@ Slick Slider
 
   <style type="text/css">
     .pd-15px { padding-top: 15px;  }
-    .slick-track img { width: 100%;  }
+    .slick-track li { margin: 3vw; }
+    .slick-track img { width: 100%; height: auto;}
     /*hide address overflow*/
+    .ft-boxed-hover ul li { width: 100%;  }
     .ft-boxed-hover ul li .hover-content { overflow: hidden;  }
     .no-gap ul {  display: flex; flex-flow: row wrap;  }
     #donation-link { font-size: 3rem;  }
@@ -2446,7 +2456,7 @@ Slick Slider
     .ft-x .ft-circle-overlay i,.ft-x .ft-circle-overlay span{ display:inline-block; color:#111; border-radius:100px; background:#ececec; border:10px solid #f4f4f4; line-height:90px; -webkit-transition:all .3s; transition:all .3s }
     .ft-x .ft-basic i,.ft-x .ft-basic span{ line-height:60px }
     .ft-x .ft-item{ text-align:left }
-    .ft-boxed-hover ul li .hover-content .ft-x .ft-item .ft-heading,.ft-x .ft-item .ft-boxed-hover ul li .hover-content .ft-heading,.ft-x .ft-item h5,.ft-x .ft-item i,.ft-x .ft-item span{ display:inline-block; margin:25px 35px 50px 0; padding:28px 26px; width:85px; height:85px; float:left; line-height:28px; text-align:center; vertical-align:top }
+    .ft-boxed-hover ul li .hover-content .ft-x .ft-item .ft-heading,.ft-x .ft-item .ft-boxed-hover ul li .hover-content .ft-heading,.ft-x .ft-item h5,.ft-x .ft-item i,.ft-x .ft-item span{ display:inline-block; margin:25px 35px 50px 0; padding:28px 26px; float:left; line-height:28px; text-align:center; vertical-align:top }
     .ft-x .ft-material i,.ft-x .ft-material span{ color:#111 }
     .ft-x .ft-circle-overlay i,.ft-x .ft-circle-overlay span{ padding:20px; border:10px solid #f4f4f4 }
     .ft-x .ft-basic i,.ft-x .ft-basic span{ padding:0; line-height:64px }
@@ -2458,7 +2468,7 @@ Slick Slider
     .ft-boxed-hover ul li:hover .hover-content{ opacity:1 }
     .ft-boxed-hover ul li .ft-icon{ color:#777 }
     .ft-boxed-hover ul li .h-alt{ color:#999 }
-    .ft-boxed-hover ul li .hover-content{ display:block; position:absolute; padding:30px; top:0; left:0; width:100%; height:100%; background:#111; opacity:0; -webkit-transition:all .3s; transition:all .3s }
+    .ft-boxed-hover ul li .hover-content{ display:block; position:absolute; top:0; left:0; width:100%; height:100%; background:#111; opacity:0; -webkit-transition:all .3s; transition:all .3s }
     .ft-boxed-hover ul li .hover-content .ft-icon{ position:absolute; display:block; top:50px; left:0; right:0; color:rgba(217,217,217,.15); z-index:1 }
     .ft-boxed-hover ul li .hover-content .ft-heading{ display:block; margin:0; padding-bottom:15px; color:#ececec }
     .ft-boxed-hover ul li .hover-content p{ margin:0; color:#999 }
@@ -2477,8 +2487,7 @@ Slick Slider
     .list-circle-check li:before{ content:"\e01c" }
     .list-basic{ list-style:none }
     .ft-layout-50 .ft-item .ft-content-wrapper{ padding:75px 15% 75px 100px; height:450px; background:#f4f4f4 }
-    .footer-social-links ul .ft-layout-50 .ft-item .ft-content-wrapper li,.ft-boxed-hover ul li .hover-content .ft-layout-50 .ft-item .ft-content-wrapper .ft-heading,.ft-boxed-hover ul li .hover-content .ft-layout-50 .ft-item .ft-content-wrapper a,.ft-layout-50 .ft-item .ft-content-wrapper .footer-social-links ul li,.ft-layout-50 .ft-item .ft-content-wrapper .ft-boxed-hover ul li .hover-content .ft-heading,.ft-layout-50 .ft-item .ft-content-wrapper .ft-boxed-hover ul li .hover-content a,.ft-layout-50 .ft-item .ft-content-wrapper .t-join .t-info .t-role,.ft-layout-50 .ft-item .ft-content-wrapper .team-3col .t-item .t-info .t-role,.ft-layout-50 .ft-item .ft-content-wrapper .team-4col .t-item .t-info .t-role,.ft-layout-50 .ft-item .ft-content-wrapper h4,.ft-layout-50 .ft-item .ft-content-wrapper h5,.ft-layout-50 .ft-item .ft-content-wrapper h6,.t-join .t-info .ft-layout-50 .ft-item .ft-content-wrapper .t-role,.team-3col .t-item .t-info .ft-layout-50 .ft-item .ft-content-wrapper .t-role,.team-4col .t-item .t-info .ft-layout-50 .ft-item .ft-content-wrapper .t-role{ margin:0 }
-    .footer-social-links ul .ft-layout-50 .ft-item .ft-content-wrapper li,.ft-boxed-hover ul li .hover-content .ft-layout-50 .ft-item .ft-content-wrapper a,.ft-layout-50 .ft-item .ft-content-wrapper .footer-social-links ul li,.ft-layout-50 .ft-item .ft-content-wrapper .ft-boxed-hover ul li .hover-content a,.ft-layout-50 .ft-item .ft-content-wrapper h6{ color:#999 }
+    .footer-social-links ul { display: inline-flex; flex-flow: wrap; font-size: .7rem }
     .ft-layout-50 .ft-item .ft-img-wrapper{ position:relative; padding:0; height:450px; overflow:hidden }
     .ft-layout-50 .ft-item .ft-img-wrapper img{ width:100%; max-width:100%; height:auto }
     .ft-hover-item .ft-item{ position:relative; height:440px; -webkit-transition:all .4s; transition:all .4s }

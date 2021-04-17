@@ -70,7 +70,6 @@
       .bg-primary{color:#fff;background-color:#337ab7}a.bg-primary:focus,a.bg-primary:hover{background-color:#286090}
       .bg-info{background-color:#d9edf7}a.bg-info:focus,a.bg-info:hover{background-color:#afd9ee}
       .page-header{padding-bottom:9px;margin:40px 0 20px;border-bottom:1px solid #eee}ol,ul{margin-top:0;margin-bottom:10px}ol ol,ol ul,ul ol,ul ul{margin-bottom:0}code{font-family:Menlo,Monaco,Consolas,"Courier New",monospace}code{padding:2px 4px;font-size:90%;color:#c7254e;background-color:#f9f2f4;border-radius:4px}
-      .row{margin-left:-15px;margin-right:-15px}
       .col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9{position:relative;min-height:1px;padding-left:15px;padding-right:15px}
       @media (min-width:768px){.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9{float:left}
       .col-sm-12{width:100%}
@@ -693,6 +692,14 @@
 
       
     <head>
+
+<style type="text/css">
+    .blkb img {
+        width: 100%;
+        height: auto;
+    }
+</style>
+
   <style type="text/css">
     .pum-container,
 .pum-content,
@@ -3123,8 +3130,10 @@ Slick Slider
 
   <style type="text/css">
     .pd-15px { padding-top: 15px;  }
-    .slick-track img { width: 100%;  }
+    .slick-track li { margin: 3vw; }
+    .slick-track img { width: 100%; height: auto;}
     /*hide address overflow*/
+    .ft-boxed-hover ul li { width: 100%;  }
     .ft-boxed-hover ul li .hover-content { overflow: hidden;  }
     .no-gap ul {  display: flex; flex-flow: row wrap;  }
     #donation-link { font-size: 3rem;  }
@@ -3140,7 +3149,7 @@ Slick Slider
     .ft-x .ft-circle-overlay i,.ft-x .ft-circle-overlay span{ display:inline-block; color:#111; border-radius:100px; background:#ececec; border:10px solid #f4f4f4; line-height:90px; -webkit-transition:all .3s; transition:all .3s }
     .ft-x .ft-basic i,.ft-x .ft-basic span{ line-height:60px }
     .ft-x .ft-item{ text-align:left }
-    .ft-boxed-hover ul li .hover-content .ft-x .ft-item .ft-heading,.ft-x .ft-item .ft-boxed-hover ul li .hover-content .ft-heading,.ft-x .ft-item h5,.ft-x .ft-item i,.ft-x .ft-item span{ display:inline-block; margin:25px 35px 50px 0; padding:28px 26px; width:85px; height:85px; float:left; line-height:28px; text-align:center; vertical-align:top }
+    .ft-boxed-hover ul li .hover-content .ft-x .ft-item .ft-heading,.ft-x .ft-item .ft-boxed-hover ul li .hover-content .ft-heading,.ft-x .ft-item h5,.ft-x .ft-item i,.ft-x .ft-item span{ display:inline-block; margin:25px 35px 50px 0; padding:28px 26px; float:left; line-height:28px; text-align:center; vertical-align:top }
     .ft-x .ft-material i,.ft-x .ft-material span{ color:#111 }
     .ft-x .ft-circle-overlay i,.ft-x .ft-circle-overlay span{ padding:20px; border:10px solid #f4f4f4 }
     .ft-x .ft-basic i,.ft-x .ft-basic span{ padding:0; line-height:64px }
@@ -3152,7 +3161,7 @@ Slick Slider
     .ft-boxed-hover ul li:hover .hover-content{ opacity:1 }
     .ft-boxed-hover ul li .ft-icon{ color:#777 }
     .ft-boxed-hover ul li .h-alt{ color:#999 }
-    .ft-boxed-hover ul li .hover-content{ display:block; position:absolute; padding:30px; top:0; left:0; width:100%; height:100%; background:#111; opacity:0; -webkit-transition:all .3s; transition:all .3s }
+    .ft-boxed-hover ul li .hover-content{ display:block; position:absolute; top:0; left:0; width:100%; height:100%; background:#111; opacity:0; -webkit-transition:all .3s; transition:all .3s }
     .ft-boxed-hover ul li .hover-content .ft-icon{ position:absolute; display:block; top:50px; left:0; right:0; color:rgba(217,217,217,.15); z-index:1 }
     .ft-boxed-hover ul li .hover-content .ft-heading{ display:block; margin:0; padding-bottom:15px; color:#ececec }
     .ft-boxed-hover ul li .hover-content p{ margin:0; color:#999 }
@@ -3171,8 +3180,7 @@ Slick Slider
     .list-circle-check li:before{ content:"\e01c" }
     .list-basic{ list-style:none }
     .ft-layout-50 .ft-item .ft-content-wrapper{ padding:75px 15% 75px 100px; height:450px; background:#f4f4f4 }
-    .footer-social-links ul .ft-layout-50 .ft-item .ft-content-wrapper li,.ft-boxed-hover ul li .hover-content .ft-layout-50 .ft-item .ft-content-wrapper .ft-heading,.ft-boxed-hover ul li .hover-content .ft-layout-50 .ft-item .ft-content-wrapper a,.ft-layout-50 .ft-item .ft-content-wrapper .footer-social-links ul li,.ft-layout-50 .ft-item .ft-content-wrapper .ft-boxed-hover ul li .hover-content .ft-heading,.ft-layout-50 .ft-item .ft-content-wrapper .ft-boxed-hover ul li .hover-content a,.ft-layout-50 .ft-item .ft-content-wrapper .t-join .t-info .t-role,.ft-layout-50 .ft-item .ft-content-wrapper .team-3col .t-item .t-info .t-role,.ft-layout-50 .ft-item .ft-content-wrapper .team-4col .t-item .t-info .t-role,.ft-layout-50 .ft-item .ft-content-wrapper h4,.ft-layout-50 .ft-item .ft-content-wrapper h5,.ft-layout-50 .ft-item .ft-content-wrapper h6,.t-join .t-info .ft-layout-50 .ft-item .ft-content-wrapper .t-role,.team-3col .t-item .t-info .ft-layout-50 .ft-item .ft-content-wrapper .t-role,.team-4col .t-item .t-info .ft-layout-50 .ft-item .ft-content-wrapper .t-role{ margin:0 }
-    .footer-social-links ul .ft-layout-50 .ft-item .ft-content-wrapper li,.ft-boxed-hover ul li .hover-content .ft-layout-50 .ft-item .ft-content-wrapper a,.ft-layout-50 .ft-item .ft-content-wrapper .footer-social-links ul li,.ft-layout-50 .ft-item .ft-content-wrapper .ft-boxed-hover ul li .hover-content a,.ft-layout-50 .ft-item .ft-content-wrapper h6{ color:#999 }
+    .footer-social-links ul { display: inline-flex; flex-flow: wrap; font-size: .7rem }
     .ft-layout-50 .ft-item .ft-img-wrapper{ position:relative; padding:0; height:450px; overflow:hidden }
     .ft-layout-50 .ft-item .ft-img-wrapper img{ width:100%; max-width:100%; height:auto }
     .ft-hover-item .ft-item{ position:relative; height:440px; -webkit-transition:all .4s; transition:all .4s }
@@ -3749,8 +3757,8 @@ Slick Slider
       </div><!-- / .col-lg-4 -->
 
       <!-- Center Image -->
-      <div class="col-lg-4">
-        <img alt="Blackcoin B" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/13ed928e-402.jpeg" width="402" height="526">
+      <div class="col-lg-4 blkb" >
+        <picture><source type="image/png" srcset="/blackcoin.org_11ty/assets/images/13ed928e-402.png 402w"><source type="image/avif" srcset="/blackcoin.org_11ty/assets/images/13ed928e-402.avif 402w"><source type="image/webp" srcset="/blackcoin.org_11ty/assets/images/13ed928e-402.webp 402w"><img alt="Blackcoin B" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/13ed928e-402.jpeg" width="402" height="526"></picture>
       </div>
 
       <!-- Features Left -->
@@ -3768,7 +3776,7 @@ Slick Slider
         <!-- Ft Icon 5 (right) -->
         <div class="col-md-12 no-gap ft-item ft-material right-align">
           <i class="fa fa-flash"></i>
-          <h3>FAST TRANSACTIONS</h3>
+          <h3>FAST</h3>
           <p>It is extremely fast, you can send money to anyone in the world within seconds.</p>
         </div><!-- / .ft-item -->
         <br><br><br>
@@ -3804,16 +3812,16 @@ Slick Slider
         <div class="row">
           <div class="ws-s"></div>
           <ul class="t-clients clients-slider ws-s">
-            <li><a href="https://twitter.com/BlackcoinOrg" target="_blank" rel="noopener"><img alt="BlackcoinOrg Twitter" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/d3e11e6e-125.jpeg" width="125" height="102">>BlackcoinOrg Twitter</a></li>
-            <li><a href="https://twitter.com/BlackcoinNL" target="_blank" rel="noopener"><img alt="BlackcoinNL Twitter" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/8a2d8df6-125.jpeg" width="125" height="102">>BlackcoinNL Twitter</a></li>
-            <li><a href="https://t.me/blackcoin" target="_blank" rel="noopener"><img alt="Telegram" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/1e9e32f2-125.jpeg" width="125" height="102">>Telegram</a></li>
-            <li><a href="https://t.me/blackcoinNL" target="_blank" rel="noopener"><img alt="BlackcoinNL Telegram" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/7f012d6a-125.jpeg" width="125" height="102">>BlackcoinNL Telegram</a></li>
-            <li><a href="https://keybase.io/team/blackcoin" target="_blank" rel="noopener"><img alt="Keybase" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/5ed8ba6b-125.jpeg" width="125" height="102">>Keybase</a></li>
-            <li><a href="https://discord.gg/hjNUgWD" target="_blank" rel="noopener"><img alt="Discord" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/fce63fad-125.jpeg" width="125" height="102">>Discord</a></li>
-            <li><a href="https://bitcointalk.org/index.php?topic=3017838.new#new" target="_blank" rel="noopener"><img alt="Bitcointalk" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/e5c4d80f-125.jpeg" width="125" height="102">>Bitcointalk</a></li>
-            <li><a href="https://webchat.freenode.net/?channels=%23blackcoin" target="_blank" rel="noopener"><img alt="IRC" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/11869fb1-125.jpeg" width="125" height="102">>IRC</a></li>
-            <li><a href="https://gitter.im/BlackCoin_Hub" target="_blank" rel="noopener"><img alt="Gitter" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/cadd53b0-125.jpeg" width="125" height="102">>Gitter</a></li>
-            <li><a href="https://facebook.com/BlackcoinOrg" target="_blank" rel="noopener"><img alt="Facebook" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/38ac3481-125.jpeg" width="125" height="102">>Facebook</a></li>
+            <li><a href="https://twitter.com/BlackcoinOrg" target="_blank" rel="noopener"><picture><source type="image/png" srcset="/blackcoin.org_11ty/assets/images/d3e11e6e-125.png 125w"><source type="image/avif" srcset="/blackcoin.org_11ty/assets/images/d3e11e6e-125.avif 125w"><source type="image/webp" srcset="/blackcoin.org_11ty/assets/images/d3e11e6e-125.webp 125w"><img alt="BlackcoinOrg Twitter" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/d3e11e6e-125.jpeg" width="125" height="102"></picture>>BlackcoinOrg Twitter</a></li>
+            <li><a href="https://twitter.com/BlackcoinNL" target="_blank" rel="noopener"><picture><source type="image/png" srcset="/blackcoin.org_11ty/assets/images/8a2d8df6-125.png 125w"><source type="image/avif" srcset="/blackcoin.org_11ty/assets/images/8a2d8df6-125.avif 125w"><source type="image/webp" srcset="/blackcoin.org_11ty/assets/images/8a2d8df6-125.webp 125w"><img alt="BlackcoinNL Twitter" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/8a2d8df6-125.jpeg" width="125" height="102"></picture>>BlackcoinNL Twitter</a></li>
+            <li><a href="https://t.me/blackcoin" target="_blank" rel="noopener"><picture><source type="image/png" srcset="/blackcoin.org_11ty/assets/images/1e9e32f2-125.png 125w"><source type="image/avif" srcset="/blackcoin.org_11ty/assets/images/1e9e32f2-125.avif 125w"><source type="image/webp" srcset="/blackcoin.org_11ty/assets/images/1e9e32f2-125.webp 125w"><img alt="Telegram" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/1e9e32f2-125.jpeg" width="125" height="102"></picture>>Telegram</a></li>
+            <li><a href="https://t.me/blackcoinNL" target="_blank" rel="noopener"><picture><source type="image/png" srcset="/blackcoin.org_11ty/assets/images/7f012d6a-125.png 125w"><source type="image/avif" srcset="/blackcoin.org_11ty/assets/images/7f012d6a-125.avif 125w"><source type="image/webp" srcset="/blackcoin.org_11ty/assets/images/7f012d6a-125.webp 125w"><img alt="BlackcoinNL Telegram" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/7f012d6a-125.jpeg" width="125" height="102"></picture>>BlackcoinNL Telegram</a></li>
+            <li><a href="https://keybase.io/team/blackcoin" target="_blank" rel="noopener"><picture><source type="image/png" srcset="/blackcoin.org_11ty/assets/images/5ed8ba6b-125.png 125w"><source type="image/avif" srcset="/blackcoin.org_11ty/assets/images/5ed8ba6b-125.avif 125w"><source type="image/webp" srcset="/blackcoin.org_11ty/assets/images/5ed8ba6b-125.webp 125w"><img alt="Keybase" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/5ed8ba6b-125.jpeg" width="125" height="102"></picture>>Keybase</a></li>
+            <li><a href="https://discord.gg/hjNUgWD" target="_blank" rel="noopener"><picture><source type="image/png" srcset="/blackcoin.org_11ty/assets/images/fce63fad-125.png 125w"><source type="image/avif" srcset="/blackcoin.org_11ty/assets/images/fce63fad-125.avif 125w"><source type="image/webp" srcset="/blackcoin.org_11ty/assets/images/fce63fad-125.webp 125w"><img alt="Discord" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/fce63fad-125.jpeg" width="125" height="102"></picture>>Discord</a></li>
+            <li><a href="https://bitcointalk.org/index.php?topic=3017838.new#new" target="_blank" rel="noopener"><picture><source type="image/png" srcset="/blackcoin.org_11ty/assets/images/e5c4d80f-125.png 125w"><source type="image/avif" srcset="/blackcoin.org_11ty/assets/images/e5c4d80f-125.avif 125w"><source type="image/webp" srcset="/blackcoin.org_11ty/assets/images/e5c4d80f-125.webp 125w"><img alt="Bitcointalk" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/e5c4d80f-125.jpeg" width="125" height="102"></picture>>Bitcointalk</a></li>
+            <li><a href="https://webchat.freenode.net/?channels=%23blackcoin" target="_blank" rel="noopener"><picture><source type="image/png" srcset="/blackcoin.org_11ty/assets/images/11869fb1-125.png 125w"><source type="image/avif" srcset="/blackcoin.org_11ty/assets/images/11869fb1-125.avif 125w"><source type="image/webp" srcset="/blackcoin.org_11ty/assets/images/11869fb1-125.webp 125w"><img alt="IRC" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/11869fb1-125.jpeg" width="125" height="102"></picture>>IRC</a></li>
+            <li><a href="https://gitter.im/BlackCoin_Hub" target="_blank" rel="noopener"><picture><source type="image/png" srcset="/blackcoin.org_11ty/assets/images/cadd53b0-125.png 125w"><source type="image/avif" srcset="/blackcoin.org_11ty/assets/images/cadd53b0-125.avif 125w"><source type="image/webp" srcset="/blackcoin.org_11ty/assets/images/cadd53b0-125.webp 125w"><img alt="Gitter" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/cadd53b0-125.jpeg" width="125" height="102"></picture>>Gitter</a></li>
+            <li><a href="https://facebook.com/BlackcoinOrg" target="_blank" rel="noopener"><picture><source type="image/png" srcset="/blackcoin.org_11ty/assets/images/38ac3481-125.png 125w"><source type="image/avif" srcset="/blackcoin.org_11ty/assets/images/38ac3481-125.avif 125w"><source type="image/webp" srcset="/blackcoin.org_11ty/assets/images/38ac3481-125.webp 125w"><img alt="Facebook" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/38ac3481-125.jpeg" width="125" height="102"></picture>>Facebook</a></li>
 
           </ul><!-- / .t-clients -->
         </div><!-- / .row -->
@@ -3836,13 +3844,13 @@ Slick Slider
         <div class="row">
           <div class="ws-s"></div>
           <ul class="t-clients clients-slider ws-s">
-            <li><a href="https://bittrex.com/Market/Index?MarketName=BTC-BLK"><img alt="Link to Bittrex Exchange" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/94ce7cbd-222.jpeg" width="222" height="52">>Bittrex</a></li>
-            <li><a href="https://www.aex.com/page/trade.html#/?symbol=blk_btc"><img alt="Link to AEX Exchange" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/6d431cd5-222.jpeg" width="222" height="43">>AEX</a></li>
-            <li><a href="https://www.bitladon.com/blackcoin"><img alt="Bitladon Exchange" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/7a21a97e-222.jpeg" width="222" height="85">>Bitladon</a></li>
-            <li><a href="https://vinex.network/trading/advanced/BTC_BLK"><img alt="Link to Vinex" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/b7f82e5-222.jpeg" width="222" height="74">>Vinex Exchange</a></li>
-            <li><a href="https://anycoindirect.eu/en/buy/blackcoins"><img alt="Link to AnyCoinDirect" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/7917cd19-222.jpeg" width="222" height="92">>AnyCoinDirect Exchange</a></li>
-            <li><a href="https://holytransaction.com/"><img alt="Link to HolyTransaction Exchange" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/588f6dff-222.jpeg" width="222" height="35">>HolyTransaction</a></li>
-            <li><a href="https://shapeshift.io/"><img alt="Link to ShapeShift Exchange" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/544c0d06-222.jpeg" width="222" height="74">>ShapeShift</a></li>
+            <li><a href="https://bittrex.com/Market/Index?MarketName=BTC-BLK"><picture><source type="image/png" srcset="/blackcoin.org_11ty/assets/images/94ce7cbd-222.png 222w"><source type="image/avif" srcset="/blackcoin.org_11ty/assets/images/94ce7cbd-222.avif 222w"><source type="image/webp" srcset="/blackcoin.org_11ty/assets/images/94ce7cbd-222.webp 222w"><img alt="Link to Bittrex Exchange" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/94ce7cbd-222.jpeg" width="222" height="52"></picture>>Bittrex</a></li>
+            <li><a href="https://www.aex.com/page/trade.html#/?symbol=blk_btc"><picture><source type="image/png" srcset="/blackcoin.org_11ty/assets/images/6d431cd5-222.png 222w"><source type="image/avif" srcset="/blackcoin.org_11ty/assets/images/6d431cd5-222.avif 222w"><source type="image/webp" srcset="/blackcoin.org_11ty/assets/images/6d431cd5-222.webp 222w"><img alt="Link to AEX Exchange" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/6d431cd5-222.jpeg" width="222" height="43"></picture>>AEX</a></li>
+            <li><a href="https://www.bitladon.com/blackcoin"><picture><source type="image/png" srcset="/blackcoin.org_11ty/assets/images/7a21a97e-222.png 222w"><source type="image/avif" srcset="/blackcoin.org_11ty/assets/images/7a21a97e-222.avif 222w"><source type="image/webp" srcset="/blackcoin.org_11ty/assets/images/7a21a97e-222.webp 222w"><img alt="Bitladon Exchange" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/7a21a97e-222.jpeg" width="222" height="85"></picture>>Bitladon</a></li>
+            <li><a href="https://vinex.network/trading/advanced/BTC_BLK"><picture><source type="image/png" srcset="/blackcoin.org_11ty/assets/images/b7f82e5-222.png 222w"><source type="image/avif" srcset="/blackcoin.org_11ty/assets/images/b7f82e5-222.avif 222w"><source type="image/webp" srcset="/blackcoin.org_11ty/assets/images/b7f82e5-222.webp 222w"><img alt="Link to Vinex" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/b7f82e5-222.jpeg" width="222" height="74"></picture>>Vinex Exchange</a></li>
+            <li><a href="https://anycoindirect.eu/en/buy/blackcoins"><picture><source type="image/png" srcset="/blackcoin.org_11ty/assets/images/7917cd19-222.png 222w"><source type="image/avif" srcset="/blackcoin.org_11ty/assets/images/7917cd19-222.avif 222w"><source type="image/webp" srcset="/blackcoin.org_11ty/assets/images/7917cd19-222.webp 222w"><img alt="Link to AnyCoinDirect" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/7917cd19-222.jpeg" width="222" height="92"></picture>>AnyCoinDirect Exchange</a></li>
+            <li><a href="https://holytransaction.com/"><picture><source type="image/png" srcset="/blackcoin.org_11ty/assets/images/588f6dff-222.png 222w"><source type="image/avif" srcset="/blackcoin.org_11ty/assets/images/588f6dff-222.avif 222w"><source type="image/webp" srcset="/blackcoin.org_11ty/assets/images/588f6dff-222.webp 222w"><img alt="Link to HolyTransaction Exchange" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/588f6dff-222.jpeg" width="222" height="35"></picture>>HolyTransaction</a></li>
+            <li><a href="https://shapeshift.io/"><picture><source type="image/png" srcset="/blackcoin.org_11ty/assets/images/544c0d06-222.png 222w"><source type="image/avif" srcset="/blackcoin.org_11ty/assets/images/544c0d06-222.avif 222w"><source type="image/webp" srcset="/blackcoin.org_11ty/assets/images/544c0d06-222.webp 222w"><img alt="Link to ShapeShift Exchange" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/544c0d06-222.jpeg" width="222" height="74"></picture>>ShapeShift</a></li>
           </ul><!-- / .t-clients -->
           <center>
             <h4><span><span style="color: #CCC;"><i class="fa fa-info-circle"></i> Check </span><a rel="noopener" target="_blank" href="https://www.coingecko.com/en/coins/blackcoin" alt="">Markets Volume</a></span></h4>
@@ -3870,39 +3878,39 @@ Slick Slider
           <ul>
             <!-- Item 1 -->
             <li>
-                <img alt="Blackcoin More Logo" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/ae14d91c-75.jpeg" width="75" height="130">
+                <picture><source type="image/png" srcset="/blackcoin.org_11ty/assets/images/ae14d91c-75.png 75w"><source type="image/avif" srcset="/blackcoin.org_11ty/assets/images/ae14d91c-75.avif 75w"><source type="image/webp" srcset="/blackcoin.org_11ty/assets/images/ae14d91c-75.webp 75w"><img alt="Blackcoin More Logo" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/ae14d91c-75.jpeg" width="75" height="130"></picture>
               <h3>MORE WALLET</h3>
               <div class="hover-content">
                 <br>
                 <span style="color: #FFFFFF;">Blackcoin More v2.13.2.8</span><br>
-                <a  alt="Blackcoin More Website" href="https://blackcoinmore.org" ><img alt="Blackcoin More" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/a2ef9ef1-100.jpeg" width="100" height="100"></a><br>
+                <a  alt="Blackcoin More Website" href="https://blackcoinmore.org" ><picture><source type="image/png" srcset="/blackcoin.org_11ty/assets/images/a2ef9ef1-100.png 100w"><source type="image/avif" srcset="/blackcoin.org_11ty/assets/images/a2ef9ef1-100.avif 100w"><source type="image/webp" srcset="/blackcoin.org_11ty/assets/images/a2ef9ef1-100.webp 100w"><img alt="Blackcoin More" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/a2ef9ef1-100.jpeg" width="100" height="100"></picture></a><br>
                 <p class="pd-15px">The community supported wallet.</p>
               </div><!-- / .hover-content -->
             </li>
             <!-- Item 2 -->
             <li>
-                <img alt="Mobile Wallets" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/8b3076f0-75.jpeg" width="75" height="130">
+                <picture><source type="image/png" srcset="/blackcoin.org_11ty/assets/images/8b3076f0-75.png 75w"><source type="image/avif" srcset="/blackcoin.org_11ty/assets/images/8b3076f0-75.avif 75w"><source type="image/webp" srcset="/blackcoin.org_11ty/assets/images/8b3076f0-75.webp 75w"><img alt="Mobile Wallets" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/8b3076f0-75.jpeg" width="75" height="130"></picture>
               <h3>MOBILE WALLETS</h3>
               <div class="hover-content">
-                <a href="https://coinomi.com/"><span><img alt="Coinomi Multicoin Wallet" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/f5bf20e9-150.jpeg" width="150" height="86"> </span></a><br>
-                <a href="https://abra.com/"><span><img alt="Abra Multicoin Wallet" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/e01ea50e-156.jpeg" width="156" height="40"> </span></a><br>
+                <a href="https://coinomi.com/"><span><picture><source type="image/png" srcset="/blackcoin.org_11ty/assets/images/f5bf20e9-150.png 150w"><source type="image/avif" srcset="/blackcoin.org_11ty/assets/images/f5bf20e9-150.avif 150w"><source type="image/webp" srcset="/blackcoin.org_11ty/assets/images/f5bf20e9-150.webp 150w"><img alt="Coinomi Multicoin Wallet" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/f5bf20e9-150.jpeg" width="150" height="86"></picture> </span></a><br>
+                <a href="https://abra.com/"><span><picture><source type="image/svg+xml" srcset="/blackcoin.org_11ty/assets/images/e01ea50e-156.svg 156w"><source type="image/png" srcset="/blackcoin.org_11ty/assets/images/e01ea50e-156.png 156w"><source type="image/avif" srcset="/blackcoin.org_11ty/assets/images/e01ea50e-156.avif 156w"><source type="image/webp" srcset="/blackcoin.org_11ty/assets/images/e01ea50e-156.webp 156w"><img alt="Abra Multicoin Wallet" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/e01ea50e-156.jpeg" width="156" height="40"></picture> </span></a><br>
               </div><!-- / .hover-content -->
             </li>
 
             <!-- Item 3 -->
             <li>
-                <img alt="Blackhalo Logo" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/6a968536-75.jpeg" width="75" height="130">
+                <picture><source type="image/png" srcset="/blackcoin.org_11ty/assets/images/6a968536-75.png 75w"><source type="image/avif" srcset="/blackcoin.org_11ty/assets/images/6a968536-75.avif 75w"><source type="image/webp" srcset="/blackcoin.org_11ty/assets/images/6a968536-75.webp 75w"><img alt="Blackhalo Logo" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/6a968536-75.jpeg" width="75" height="130"></picture>
               <h3>BLACKHALO</h3>
               <div class="hover-content">
                 <br>
                 <span style="color: #FFFFFF;">Blackhalo</span><br>
                 <a href="https://blackhalo.info/#section-call-to-actiontwo"><span>All platforms
-                    downloads</span><img alt="Blackhalo Logo" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/6a968536-75.jpeg" width="75" height="130"></a><br>
+                    downloads</span><picture><source type="image/png" srcset="/blackcoin.org_11ty/assets/images/6a968536-75.png 75w"><source type="image/avif" srcset="/blackcoin.org_11ty/assets/images/6a968536-75.avif 75w"><source type="image/webp" srcset="/blackcoin.org_11ty/assets/images/6a968536-75.webp 75w"><img alt="Blackhalo Logo" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/6a968536-75.jpeg" width="75" height="130"></picture></a><br>
               </div><!-- / .hover-content -->
             </li>
             <!-- Item 4 -->
             <li>
-                <img alt="Blackcoin Logo" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/e63170f0-75.jpeg" width="75" height="130">
+                <picture><source type="image/png" srcset="/blackcoin.org_11ty/assets/images/e63170f0-75.png 75w"><source type="image/avif" srcset="/blackcoin.org_11ty/assets/images/e63170f0-75.avif 75w"><source type="image/webp" srcset="/blackcoin.org_11ty/assets/images/e63170f0-75.webp 75w"><img alt="Blackcoin Logo" loading="lazy" decoding="async" src="/blackcoin.org_11ty/assets/images/e63170f0-75.jpeg" width="75" height="130"></picture>
               <h3>LEGACY WALLET</h3>
               <div class="hover-content">
                 <br>
