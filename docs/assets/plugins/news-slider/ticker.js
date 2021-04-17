@@ -1,7 +1,7 @@
 var speed = 5000;
 canTick = true;
 
-$(document).ready(function () {
+$(document).on("ready", function () {
 	$('.ticker-container ul div').each(function (i) {
 		if ($(window).width() >= 500) {
 			$(this).find('li').width($(window).width() - parseInt($(this).css('left')));
@@ -25,7 +25,7 @@ $(document).ready(function () {
 	animateTickerElementHorz();
 });
 
-$(window).resize(function () {
+$(window).on("resize", function () {
 	$('.ticker-container ul div').each(function (i) {
 		if ($(this).find('li').height() > 30) {
 			$(this).css({

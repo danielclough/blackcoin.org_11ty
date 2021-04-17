@@ -8,7 +8,7 @@
     -------------------------------------------------- */
 
     // Initialize all functions when the document is ready.
-    $(document).ready(function () {
+    $(document).on("ready", function () {
 
         initNavbar();
 
@@ -19,7 +19,7 @@
     });
 
     // Initialize functions after elements are loaded.
-    $(window).load(function () {
+    $(window).on("load", function () {
 
         // Preloader
         $('.preloader img').fadeOut(); // will first fade out the loading animation
@@ -49,7 +49,7 @@
     function initNavbar() {
 
         // Sticky Nav & Transparent Background
-        $(window).scroll(function () {
+        $(window).on("scroll", function () {
 
             if ($(window).scrollTop() > 20) {
                 $('nav').removeClass('navbar-trans', 300);
@@ -70,7 +70,7 @@
 
 
         // Nav on mobile screens
-        $(window).resize(function () {
+        $(window).on("resize", function () {
             if ($(window).width() <= 1259) {
                 $('nav').addClass('mobile-nav');
             } else {
@@ -108,7 +108,7 @@
 
             }
 
-        }).resize();
+        }).on("resize", );
 
         // Bugfix for iOS not scrolling on open menu
         $(".navbar-collapse").css({
@@ -515,7 +515,7 @@
     function initPortfolio() {
 
         // Filters
-        $('.portfolio-filters a').click(function (e) {
+        $('.portfolio-filters a').on("click", function (e) {
             e.preventDefault();
 
             $('li').removeClass('active');
@@ -749,7 +749,7 @@ $(function () {
     });
 
     //  AJAX call
-    $('.form-ajax').submit(function (e) {
+    $('.form-ajax').on("submit", function (e) {
         e.preventDefault();
         var $this = $(this),
             action = $this.attr('action');
@@ -2781,7 +2781,7 @@ function () {
             this.isResizeBound && b.unbind(a, "resize", this), this.isResizeBound = !1
         }, g.prototype.onresize = function () {
             function a() {
-                b.resize(), delete b.resizeTimeout
+                b.on("resize", ), delete b.resizeTimeout
             }
             this.resizeTimeout && clearTimeout(this.resizeTimeout);
             var b = this;
@@ -3330,7 +3330,7 @@ https://www.gnu.org/licenses/gpl.html
 	var $window = $(window);
 	var windowHeight = $window.height();
 
-	$window.resize(function () {
+	$window.on("resize", function () {
 		windowHeight = $window.height();
 	});
 
@@ -3378,7 +3378,7 @@ https://www.gnu.org/licenses/gpl.html
 			});
 		}
 
-		$window.bind('scroll', update).resize(update);
+		$window.bind('scroll', update).on("resize", update);
 		update();
 	};
 })(jQuery);
@@ -4139,7 +4139,7 @@ function (e, t, o) {
 }(jQuery, document),
 function (e, t, o) {
     "use strict";
-    e.fn.popmake.version = 1.4, e.fn.popmake.last_open_popup = null, e(t).ready(function () {
+    e.fn.popmake.version = 1.4, e.fn.popmake.last_open_popup = null, e(t).on("ready", function () {
         e(".popmake").popmake()
     })
 }(jQuery);/*
@@ -4550,7 +4550,7 @@ function (e, t, o) {
     a.preventDefault()
   }, b.prototype.progressiveLazyLoad = function () {
     var c, d, b = this;
-    c = a("img[data-lazy]", b.$slider).length, c > 0 && (d = a("img[data-lazy]", b.$slider).first(), d.attr("src", d.attr("data-lazy")).removeClass("slick-loading").load(function () {
+    c = a("img[data-lazy]", b.$slider).length, c > 0 && (d = a("img[data-lazy]", b.$slider).first(), d.attr("src", d.attr("data-lazy")).removeClass("slick-loading").on("load", function () {
       d.removeAttr("data-lazy"), b.progressiveLazyLoad(), b.options.adaptiveHeight === !0 && b.setPosition()
     }).error(function () {
       d.removeAttr("data-lazy"), b.progressiveLazyLoad()

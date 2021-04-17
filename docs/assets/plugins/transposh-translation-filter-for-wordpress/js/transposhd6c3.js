@@ -209,7 +209,7 @@
                 t_jp.lang, t_jp.binglang === "zh") t_jp.binglang = "zh-chs";
             else if (t_jp.binglang === "zh-tw") t_jp.binglang = "zh-cht";
         else if (t_jp.binglang === "mw") t_jp.binglang = "mww";
-        c("." + e + "setdeflang").click(function () {
+        c("." + e + "setdeflang").on("click", function () {
             c.ajax({
                 url: t_jp.ajaxurl,
                 data: {

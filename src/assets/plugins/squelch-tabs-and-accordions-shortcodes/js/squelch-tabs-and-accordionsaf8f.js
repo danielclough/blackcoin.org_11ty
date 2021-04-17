@@ -519,7 +519,7 @@
         });
 
         // click
-        $headers.click(function (ev) {
+        $headers.on("click", function (ev) {
             if (settings.theme == 'blank') {
                 $(this).find('span.ui-icon').toggleClass('ui-icon-triangle-1-e ui-icon-triangle-1-s');
             } else if (settings.theme == 'jqueryui') {
@@ -543,7 +543,7 @@
                 var active = parseInt(value);
 
                 if (!isNaN(active)) {
-                    $headers.eq(value).click();
+                    $headers.eq(value).on("click", );
                 }
             });
         }
@@ -556,7 +556,7 @@
 
 ;
 (function ($) {
-    $(document).ready(function () {
+    $(document).on("ready", function () {
 
         // Create accordions
         $(".squelch-taas-accordion").each(function () {

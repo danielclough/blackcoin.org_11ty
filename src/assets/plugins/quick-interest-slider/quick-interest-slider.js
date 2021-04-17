@@ -1,4 +1,4 @@
-jQuery(document).ready(function ($) {
+jQuery(document).on("ready", function ($) {
     (function (factory) {
         'use strict';
 
@@ -433,7 +433,7 @@ function qisCalculate(e) {
     form.find('.repayment').text((rates.cb + Math.floor(repayment).toString().qis_separator(rates.separator) + rates.ca));
 }
 var qis__bubble = '<output class="rangeslider__value-bubble"></output>';
-jQuery(document).ready(function ($) {
+jQuery(document).on("ready", function ($) {
     /*
     	Select all relevant loan slider forms
     */
@@ -481,14 +481,14 @@ function updateValueBubble(pos, value, context) {
     }
 }
 
-jQuery(document).ready(function () {
+jQuery(document).on("ready", function () {
     jQuery(".apply").hide();
     jQuery(".toggle").toggle(function () {
         jQuery(this).addClass("toggle-active");
     }, function () {
         jQuery(this).removeClass("toggle-active");
     });
-    jQuery(".toggle").click(function () {
+    jQuery(".toggle").on("click", function () {
         jQuery(this).next(".apply").slideToggle();
     });
 });
