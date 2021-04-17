@@ -1,49 +1,38 @@
-.navbar{margin:0;min-height:75px;border-bottom:1px solid #ececec;border-radius:0;background:#000;width:100vw}
-.navbar .navbar-nav li a{text-transform:uppercase;font-weight:400;letter-spacing:2px;color:#999;-webkit-transition:color .5s;transition:color .5s}
-.navbar .navbar-nav li a:focus{color:inherit}
-.navbar .navbar-nav li a:hover{background:0 0;color:#111}
-.navbar .navbar-nav li a i[class*=linea-]{vertical-align:sub}
-.navbar .navbar-nav .active a{background:0 0;color:#111;-webkit-transition:color .5s;transition:color .5s}
-.navbar .navbar-nav .active a:focus,.navbar .navbar-nav .active a:hover,.navbar .navbar-nav .active a:visited{background:0 0}
-.navbar .navbar-nav .dropdown .dropdown-toggle{background:0 0}
-.navbar .navbar-nav .dropdown .dropdown-toggle:focus,.navbar .navbar-nav .dropdown .dropdown-toggle:hover,.navbar .navbar-nav .dropdown .dropdown-toggle:visited{background:0 0}
-.navbar .navbar-nav .dropdown .dropdown-menu{padding:20px 0 10px 0;border:1px solid #ececec;border-radius:0;box-shadow:none;background:rgba(255,255,255,.93)}
-.navbar .navbar-nav .dropdown .dropdown-menu li{min-width:150px}
-.navbar .navbar-nav .dropdown .dropdown-menu li a{display:block;padding:11px 40px 11px 25px;letter-spacing:.5px;line-height:.8em;border-left:3px solid rgba(17,17,17,0);-webkit-transition:all .3s;transition:all .3s}
-.navbar .navbar-nav .dropdown .dropdown-menu li a:hover{background:rgba(17,17,17,.05);border-left:3px solid #111}
-.navbar .navbar-nav .dropdown .dropdown-menu .dropdown-header{padding:0 25px;font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;letter-spacing:2px;text-transform:uppercase;color:#111}
-.navbar .navbar-nav .dropdown .dropdown-menu .divider{background-color:#ddd}
-.navbar .navbar-nav .dropdown .bg-solid{background:#fff}
-.navbar-inverse{border-bottom:1px solid #222;background:#111}
-.navbar-inverse .navbar-nav li a{color:#777}
-.navbar-inverse .navbar-nav li a:hover{color:#ececec}
-.navbar-inverse .navbar-nav .active a{color:#ececec}
-.navbar-inverse .navbar-nav .dropdown .dropdown-menu{background:rgba(17,17,17,.95);border-color:#222}
-.navbar-inverse .navbar-nav .dropdown .dropdown-menu li a:hover{background:rgba(255,255,255,.1);border-left:3px solid #ececec}
-.navbar-inverse .navbar-nav .dropdown .dropdown-menu .dropdown-header{color:#ececec}
-.navbar-inverse .navbar-nav .dropdown .dropdown-menu .divider{background-color:#444}
-.navbar-inverse .navbar-nav .dropdown .dropdown-menu .bg-solid{background:#111}
-.mega .collapse,.mega .dropdown,.mega .nav{position:static}
-.mega .container{position:relative}
-.mega .dropdown-menu{left:auto}
-.mega .mega-content{padding:20px 30px}
-.mega .dropdown.mega-fw .dropdown-menu{left:0;right:0}
-.navbar-trans{border-bottom:none;background:0 0;-webkit-transition:background .3s;transition:background .3s}
-.navbar-trans .navbar-logo{content:url(https://danielclough.github.io/blackcoin.org_11ty/assets/images/logo-light.png)}
-.navbar-trans .navbar-logo-dark{content:url(https://danielclough.github.io/blackcoin.org_11ty/assets/images/logo.png)}
-.navbar-trans:not(.navbar-inverse) .navbar-nav li a:focus,.navbar-trans:not(.navbar-inverse) .navbar-nav li a:hover{color:#ececec}
-.navbar-trans:not(.navbar-inverse) .navbar-nav .active a{color:#ececec}
-.navbar-trans:not(.navbar-inverse) .navbar-nav .active a:hover{color:#ececec}
-.navbar-trans:not(.navbar-inverse) .navbar-nav .dropdown .dropdown-menu li a:hover{color:#111}
-.navbar-trans:not(.navbar-inverse) .navbar-nav .open .dropdown-toggle{color:#ececec}
-.navbar-trans-dark .navbar-nav>li>a:focus,.navbar-trans-dark .navbar-nav>li>a:hover{color:#111!important}
-.navbar-trans-dark .navbar-nav .active>a{color:#111!important}
-.navbar-trans-dark .navbar-nav .active>a:hover{color:#111!important}
-.navbar-trans-dark .navbar-nav .open .dropdown-toggle{color:#111!important}
-.navbar-small{min-height:50px}
-.navbar-small .navbar-header{padding:0}
-.navbar-small .navbar-header .navbar-brand{padding:9px 0}
-.navbar-fw .navbar-header{width:25%}
+.pd-15px {
+    padding-top: 15px;
+}
+
+.slick-track img {
+	width: 100%;
+}
+
+/*hide address overflow*/
+.ft-boxed-hover ul li .hover-content {
+	overflow: hidden;
+}
+
+.no-gap ul {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#donation-link {
+	font-size: 3rem;
+}
+
+.hero-content {
+	top: 25vh;
+	position: relative;
+}
+
+.bn-h3 {
+	font-size: 11.5px;
+	margin: 7px 0 10px 0;
+	font-weight: 500;
+}
+
+
+
 .bg-solid-white{background:#fff!important}
 .bg-solid-dark{background:#111}
 .ft-x .ft-item{text-align:center}
