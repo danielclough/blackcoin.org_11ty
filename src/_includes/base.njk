@@ -9,14 +9,22 @@
     <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
     <link rel="icon" type="image/png" sizes="100x100" href="favicon.ico">
   </head>
+  
+    <!-- ========== Preloader ========== -->
+  <div class="preloader">
+    <img rel="preload" src="assets/images/loader.svg" alt="Loading...">
+  </div>
+  
   <body style="margin: 0;">
+
+    {% include "base-navbar.njk" %}
 
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
 
       {{ content | safe }}
     </main>
 
-    <footer></footer>
+    {% include "base-footer.njk" %}
 
     <!-- Current page: {{ page.url | url }} -->
   </body>
