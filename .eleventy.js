@@ -14,7 +14,7 @@ async function imageShortcode(src, alt, sizes) {
   let metadata = await Image(src, {
     widths: [null],
     formats: ["jpeg", "svg", "png", "avif", "webp"],
-    urlPath: "/blackcoin.org_11ty/assets/images/",
+    urlPath: "/assets/images/",
     /*
     formats: ["jpeg", "svg", "png"],
     urlPath: "/assets/images/",
