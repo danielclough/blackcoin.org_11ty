@@ -69,7 +69,7 @@ module.exports = function(eleventyConfig) {
 
   // Copy the `img` and `css` folders to the output
   eleventyConfig.addPassthroughCopy("src/assets");
-  eleventyConfig.addPassthroughCopy("src/favicon.png");
+  eleventyConfig.addPassthroughCopy("favicon.png");
 
   // Customize Markdown library and settings:
   let markdownLibrary = markdownIt({
