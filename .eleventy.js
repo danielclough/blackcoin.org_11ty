@@ -13,12 +13,12 @@ async function imageShortcode(src, alt, sizes) {
     }
   let metadata = await Image(src, {
     widths: [null],
-    formats: ["jpeg", "svg", "png", "avif", "webp"],
-    urlPath: "/assets/images/",
-    /*
+    // formats: ["jpeg", "svg", "png", "avif", "webp"],
     formats: ["jpeg", "svg", "png"],
+    // urlPath: "/assets/images/",
     urlPath: "/assets/images/",
-    */
+    
+    
     outputDir: "./docs/assets/images/",
   });
 
