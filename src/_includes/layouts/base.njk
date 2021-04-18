@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blackcoin.org</title>
     <meta name="description" content="Website for Blackcoin.org">
-    <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
-    <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
     <link rel="icon" type="image/png" sizes="100x100" href="favicon.png">
 
     <!-- Gitter -->
@@ -21,26 +19,23 @@
 
     {% include "layouts/base-navbar.njk" %}
 
-    <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
+    <main {% if templateClass %} class="{{ templateClass }}"{% endif %}>
 
-      {{ content | safe }}
+              {{ content | safe }}
+    
     </main>
-
     <footer class="site-footer bg-transparent pb-3 pb-md-5">
       {% include "components/social.njk" %}
       <!-- Copyright -->
       <div class="copyright">
           <div class="container">
             <div class="row">
-
               <div class="col-md-6">
-                <small>&copy; 2014-2021 BlackCoin. All Rights Reserved.</small>
+                <small>&copy; 2014-<span id="copyright"></span> BlackCoin. <br /> All Rights Reserved.</small>
               </div>
-
               <div class="col-md-6">
-                <small><a href="#page-top" class="pull-right to-the-top">To the top<i class="fa fa-angle-up"></i></a></small>
+                <small><a href="#page-top" class="pull-right to-the-top">To the top ^ </a></small>
               </div>
-
             </div><!-- / .row -->
           </div><!-- / .container -->
       </div><!-- / .copyright -->
@@ -56,5 +51,6 @@
         room: 'BlackCoin_Hub/General'
       };
     </script>
+    <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
   </body>
 </html>

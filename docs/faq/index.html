@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blackcoin.org</title>
     <meta name="description" content="Website for Blackcoin.org">
-    <link rel="alternate" href="." type="application/atom+xml" title="">
-    <link rel="alternate" href="." type="application/json" title="">
     <link rel="icon" type="image/png" sizes="100x100" href="favicon.png">
 
     <!-- Gitter -->
@@ -694,9 +692,9 @@
 </nav><!-- / .navbar -->
 
 
-    <main class="tmpl-faq">
+    <main  class="tmpl-faq">
 
-      
+              
 <head>
   <title>BlackCoin - F.A.Q</title>
 	  <style type="text/css">
@@ -2101,8 +2099,8 @@ Copyright (c) 2015 Daniel Eden
 </script>
 </body>
 
+    
     </main>
-
     <footer class="site-footer bg-transparent pb-3 pb-md-5">
       <div class="layout-social container d-flex justify-content-center">
 
@@ -2121,15 +2119,12 @@ Copyright (c) 2015 Daniel Eden
       <div class="copyright">
           <div class="container">
             <div class="row">
-
               <div class="col-md-6">
-                <small>&copy; 2014-2021 BlackCoin. All Rights Reserved.</small>
+                <small>&copy; 2014-<span id="copyright"></span> BlackCoin. <br /> All Rights Reserved.</small>
               </div>
-
               <div class="col-md-6">
-                <small><a href="#page-top" class="pull-right to-the-top">To the top<i class="fa fa-angle-up"></i></a></small>
+                <small><a href="#page-top" class="pull-right to-the-top">To the top ^ </a></small>
               </div>
-
             </div><!-- / .row -->
           </div><!-- / .container -->
       </div><!-- / .copyright -->
@@ -2153,5 +2148,6 @@ Copyright (c) 2015 Daniel Eden
         room: 'BlackCoin_Hub/General'
       };
     </script>
+    <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
   </body>
 </html>
