@@ -1,3 +1,7 @@
 [build]
   publish = "docs"
   command = "DEBUG=* eleventy"
+[[headers]]
+  for = "/*"
+  [headers.values]
+  	Content-Security-Policy: default-src 'self' *.cryptocompare.com *.gitter.im *.twitter.com *.twimg.com
