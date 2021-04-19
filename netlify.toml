@@ -4,4 +4,7 @@
 [[headers]]
   for = "/*"
   [headers.values]
-  	Content-Security-Policy: default-src 'self' *.cryptocompare.com *.gitter.im *.twitter.com *.twimg.com
+  	Content-Security-Policy = "default-src 'self' *.cryptocompare.com *.gitter.im *.twitter.com *.twimg.com"
+  	X-Frame-Options = "SAMEORIGIN"
+  	X-Content-Type-Options = "nosniff"
+  	X-XSS-Protection = "1; mode=block"
