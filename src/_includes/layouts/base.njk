@@ -13,11 +13,14 @@
         background-color: #262626;
       }
     </style> 
+    {% include "layouts/styles/main.njk" %}
+    {% include "layouts/styles/base-navbar.njk" %}
   </head>
 
   <body style="margin: 0;">
 
     {% include "layouts/base-navbar.njk" %}
+
 
     <main {% if templateClass %} class="{{ templateClass }}"{% endif %}>
 
@@ -41,8 +44,7 @@
       </div><!-- / .copyright -->
     </footer>
 
-
-        {% include "layouts/scripts/bootstrap.njk" %}
+    {% include "layouts/scripts/base-navbar.njk" %}
 
     <!-- Gitter -->
     <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>

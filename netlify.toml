@@ -1,10 +1,18 @@
 [build]
   publish = "docs"
   command = "DEBUG=* eleventy"
+
 [[headers]]
   for = "/*"
   [headers.values]
-  	Content-Security-Policy = "default-src 'self' *.cryptocompare.com *.gitter.im *.twitter.com *.twimg.com"
+  	Content-Security-Policy = "default-src 'unsafe-inline' 'self' sidecar.gitter.im gitter.im *.cryptocompare.com *.twitter.com *.twimg.com *.jquery.org data:"
   	X-Frame-Options = "SAMEORIGIN"
   	X-Content-Type-Options = "nosniff"
   	X-XSS-Protection = "1; mode=block"
+
+[[plugins]]
+package = "netlify-plugin-csp-generator"
+  [plugins.inputs]
+  buildDir = "docs"
+  [plugins.inputs.policies]
+    defaultSrc = "'self'"

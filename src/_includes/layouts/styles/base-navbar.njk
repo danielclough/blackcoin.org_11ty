@@ -1,0 +1,141 @@
+<style>
+/*Move to main.njk*/
+html {background-color: #eee;}
+.row {flex-flow: row;}
+.column {flex-flow: column;}
+.centered {align-self: center; justify-self:center;}
+
+#navbar { 
+  width: 100%;
+  position: fixed; 
+  z-index: 100; 
+  height: auto;
+  background-color: #111; 
+  margin-top: 0; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row;
+}
+
+#nav-logo img {
+  width: 50vw;
+  height: auto;
+}
+
+
+#navbar ul.nav-main {
+  display: none;
+  width: 100%;
+  background-color: rgba(17,17,17,.9);
+  flex-flow: wrap;
+  position: absolute;
+  left: 0;
+  padding: 1rem;
+  margin: 0;
+  justify-content: space-between;
+}
+#navbar ul li ul {
+  display: none;
+  flex-flow: wrap;
+  position: relative;
+  padding: 1rem;
+}
+
+#navbar ul.nav-menu {
+    display: block;
+}
+#navbar li {
+    position: relative;
+    width: 150px;
+    list-style: none;
+}
+#menu {
+    position: absolute;
+    display: none;
+    left: 0;
+}
+#menu-right {
+    display: none;
+    right: 100% !important;
+    width: max-content;
+    padding: 0 !important;
+    flex-flow: column !important;
+}
+
+#navbar ul.nav-menu > li > ul > li ul
+{
+   left: 0%;
+   top: 0px;
+}
+
+#nav-markets {
+  position: fixed !important;
+  left: 0;
+  background-color: rgba(17,17,17,.9);
+  padding: 5vw;
+  width: 100%;
+  align-content: center;
+  display: flex;
+  justify-content: space-around;
+  height: auto;
+  overflow-y: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+#nav-markets::-webkit-scrollbar {
+  display: none;
+}
+#menu-twitter {
+  display: none;
+  left: 0 !important;
+  width: 100vw;
+  position: fixed !important;
+  justify-content: space-around;
+  background-color: rgba(17,17,17,.9);
+}
+
+#nav-twitter {
+  position: fixed;
+  background-color: rgba(17,17,17,.9);
+  left: 0;
+  width: 100vw;
+  align-content: center;
+  display: flex;
+  justify-content: space-around;
+  height: auto;
+  overflow-y: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+#nav-twitter::-webkit-scrollbar {
+  display: none;
+  flex-flow: row;
+}
+
+.ccc-widget {
+  width: 33vw;
+}
+
+@media (min-width: 1080px) {
+  #navbar {
+    justify-content: space-around;
+  }
+  #navbar ul.nav-main {
+    justify-content: space-around;
+    font-size: 2rem;
+    margin: .9rem 0 0 0;
+  }
+  #nav-logo img {
+    width: 15vw;
+    height: auto;
+  }
+  #nav-twitter {
+    height: 99vh;
+  }
+}
+
+
+</style>

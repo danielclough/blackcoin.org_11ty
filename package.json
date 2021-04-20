@@ -1,7 +1,7 @@
 {
-  "name": "eleventy-base-blog",
-  "version": "5.0.2",
-  "description": "A starter repository for a blog web site using the Eleventy static site generator.",
+  "name": "blackcoin.org",
+  "version": "3.0.0",
+  "description": "Website for Blackcoin Education.",
   "scripts": {
     "build": "eleventy",
     "watch": "eleventy --watch",
@@ -32,9 +32,8 @@
     "clean-css": "^5.1.2",
     "luxon": "^1.26.0",
     "markdown-it": "^12.0.4",
-    "markdown-it-anchor": "^7.1.0"
-  },
-  "dependencies": {
-    "netlify-cli": "^3.18.3"
+    "markdown-it-anchor": "^7.1.0",
+    "netlify-cli": "^3.18.3",
+    "netlify-plugin-csp-generator": "^1.3.1"
   }
 }

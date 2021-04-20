@@ -1,0 +1,10 @@
+<script>
+function dropDown(a) {
+    var li = a.parentElement,
+        submenu = li.getElementsByTagName('ul')[0];
+    
+    submenu.style.display = submenu.style.display == "flex" ? "none" : "flex";
+    
+    return false;
+}
+</script>

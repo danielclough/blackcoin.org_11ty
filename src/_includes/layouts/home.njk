@@ -41,7 +41,6 @@ templateClass: tmpl-home
   {% include "layouts/styles/pop-up-maker.njk" %}
   {% include "layouts/styles/template-picker.njk" %}
   {% include "layouts/styles/breaking-news.njk" %}
-  {% include "layouts/styles/main.njk" %}
   {% include "layouts/styles/home-fa.njk" %}
   {% include "layouts/styles/slick-slider.njk" %}
   {% include "layouts/styles/quick-interest-slider.njk" %}
@@ -51,14 +50,9 @@ templateClass: tmpl-home
   
         <!-- ========== Preloader ========== -->
   <div class="preloader">
-      <img rel="preload" src="assets/images/loader.svg" alt="Loading...">
+      {% image "./src/assets/images/loader.svg", "Loading..." %}
   </div>
-
               {{ content | safe }}
-
 
   {% include "layouts/scripts/jQuery.njk" %}
   {% include "layouts/scripts/home-scripts.njk" %}
-
-
-

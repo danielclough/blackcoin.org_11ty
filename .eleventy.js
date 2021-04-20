@@ -15,10 +15,7 @@ async function imageShortcode(src, alt, sizes) {
     widths: [null],
     // formats: ["jpeg", "svg", "png", "avif", "webp"],
     formats: ["jpeg", "svg", "png"],
-    // urlPath: "/assets/images/",
     urlPath: "/assets/images/",
-    
-    
     outputDir: "./docs/assets/images/",
   });
 

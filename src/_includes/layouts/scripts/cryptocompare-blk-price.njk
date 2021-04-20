@@ -1,0 +1,76 @@
+<script>
+  var x = window.matchMedia("(max-width: 700px)")
+  cryptocompare2(x) // Call listener function at run time
+  x.addListener(cryptocompare2) 
+    function cryptocompare2(x) {
+      if (x.matches) { // If media query matches
+        return
+      } else {
+      baseUrl = "https://widgets.cryptocompare.com/";
+      var scripts = document.getElementsByTagName("script");
+      var embedder = scripts[scripts.length - 1];
+      var cccTheme = {
+        "General": {
+          "background": "#171717",
+          "borderColor": "#171717"
+        },
+        "Header": {
+          "background": "#171717",
+          "color": "#FFF"
+        },
+        "Header": {
+          "background": "#171717",
+          "color": "#FFF",
+          "displayFollowers": false
+        },
+        "Followers": {
+          "background": "#171717",
+          "color": "#171717",
+          "borderColor": "#171717",
+          "counterBorderColor": "#171717",
+          "counterColor": "#171717"
+        },
+        "Data": {
+          "priceColor": "#FFF",
+          "infoLabelColor": "#CCC",
+          "infoValueColor": "#CCC"
+        },
+        "Chart": {
+          "animation": true,
+          "fillColor": "#c8b267",
+          "borderColor": "#3e3e3e"
+        },
+        "EvenRow": {
+          "background": "#171717",
+          "color": "#FFF",
+          "borderColor": "#444"
+        },
+        "OddRow": {
+          "background": "#171717",
+          "color": "#FFF",
+          "borderColor": "#444"
+        },
+        "Trend": {
+          "colorUnchanged": "#FFF"
+        },
+        "Conversion": {
+          "background": "#171717",
+          "color": "#171717"
+        }
+      };
+      (function () {
+        var appName = encodeURIComponent(window.location.hostname);
+        if (appName == "") {
+          appName = "local";
+        }
+        var s = document.createElement("script");
+        s.type = "text/javascript";
+        s.async = true;
+        var theUrl = baseUrl + 'serve/v1/coin/list?fsym=BLK&tsyms=USD,EUR';
+        s.src = theUrl + (theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+        embedder.parentNode.appendChild(s);
+      })();
+
+      }
+    }
+</script>
