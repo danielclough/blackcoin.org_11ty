@@ -98,15 +98,15 @@ module.exports = {
     'hr': 'Blackcoin' /*Croatian*/
   },
   since2014: {
-    'zh': '', /*Chinese*/
-    'es': '', /*Spanish*/
+    'zh': '自2014年以来的纯权益证明', /*Chinese*/
+    'es': 'Prueba pura de participación desde 2014', /*Spanish*/
     'en': 'Pure Proof of Stake since 2014', /*English*/
     'hi': '', /*Hindi*/ 
     'ar': '', /*Arabic - Right-to-left*/
     'pt': '', /*Portuguese*/
     'bn': '', /*Bengal*/
     'ru': '', /*Russian*/
-    'ja': '', /*Japanese*/
+    'ja': '2014年以降の純粋なプルーフオブステーク', /*Japanese*/
     'jv': '', /*Javanese*/
     'de': '', /*German*/
     'ko': '', /*Korean*/
@@ -117,20 +117,20 @@ module.exports = {
     'ta': '', /*Tamil*/ 
     'vi': '', /*Vietnamese*/
     'ur': '', /*Urdu - Right-to-left*/
-    'nl': '', /*Dutch*/
+    'nl': 'Pure Proof of Stake sinds 2014', /*Dutch*/
     'it': '',  /*Italian*/
-    'hr': '' /*Croatian*/
+    'hr': 'Čisti dokaz uloga od 2014. godine' /*Croatian*/
     },
   latest_news: {
-    'zh': '', /*Chinese*/
-    'es': '', /*Spanish*/
+    'zh': '最新消息', /*Chinese*/
+    'es': 'Últimas noticias', /*Spanish*/
     'en': 'Latest News', /*English*/
     'hi': '', /*Hindi*/ 
     'ar': '', /*Arabic - Right-to-left*/
     'pt': '', /*Portuguese*/
     'bn': '', /*Bengal*/
     'ru': '', /*Russian*/
-    'ja': '', /*Japanese*/
+    'ja': '最新ニュース', /*Japanese*/
     'jv': '', /*Javanese*/
     'de': '', /*German*/
     'ko': '', /*Korean*/
@@ -141,20 +141,20 @@ module.exports = {
     'ta': '', /*Tamil*/ 
     'vi': '', /*Vietnamese*/
     'ur': '', /*Urdu - Right-to-left*/
-    'nl': '', /*Dutch*/
+    'nl': 'Laatste nieuws', /*Dutch*/
     'it': '',  /*Italian*/
-    'hr': '' /*Croatian*/
+    'hr': ' Najnovije vijesti' /*Croatian*/
     },
   about_blackcoin: {
-    'zh': '', /*Chinese*/
-    'es': '', /*Spanish*/
+    'zh': '关于黑币', /*Chinese*/
+    'es': 'Sobre BlackCoin', /*Spanish*/
     'en': 'About BlackCoin', /*English*/
     'hi': '', /*Hindi*/ 
     'ar': '', /*Arabic - Right-to-left*/
     'pt': '', /*Portuguese*/
     'bn': '', /*Bengal*/
     'ru': '', /*Russian*/
-    'ja': '', /*Japanese*/
+    'ja': 'BlackCoinについて', /*Japanese*/
     'jv': '', /*Javanese*/
     'de': '', /*German*/
     'ko': '', /*Korean*/
@@ -165,20 +165,20 @@ module.exports = {
     'ta': '', /*Tamil*/ 
     'vi': '', /*Vietnamese*/
     'ur': '', /*Urdu - Right-to-left*/
-    'nl': '', /*Dutch*/
+    'nl': 'naar beneden scrollen', /*Dutch*/
     'it': '',  /*Italian*/
-    'hr': '' /*Croatian*/
+    'hr': 'O BlackCoinu' /*Croatian*/
     },
   proof_of_stake_v3: {
-    'zh': '', /*Chinese*/
-    'es': '', /*Spanish*/
+    'zh': '权益证明3.0', /*Chinese*/
+    'es': 'PRUEBA DE ESTACA 3.0', /*Spanish*/
     'en': 'PROOF OF STAKE 3.0', /*English*/
     'hi': '', /*Hindi*/ 
     'ar': '', /*Arabic - Right-to-left*/
     'pt': '', /*Portuguese*/
     'bn': '', /*Bengal*/
     'ru': '', /*Russian*/
-    'ja': '', /*Japanese*/
+    'ja': 'プルーフオブステーク3.0', /*Japanese*/
     'jv': '', /*Javanese*/
     'de': '', /*German*/
     'ko': '', /*Korean*/
@@ -189,20 +189,20 @@ module.exports = {
     'ta': '', /*Tamil*/ 
     'vi': '', /*Vietnamese*/
     'ur': '', /*Urdu - Right-to-left*/
-    'nl': '', /*Dutch*/
+    'nl': 'Over BlackCoin', /*Dutch*/
     'it': '',  /*Italian*/
-    'hr': '' /*Croatian*/
+    'hr': 'DOKAZ ULAZA 3.0' /*Croatian*/
     },
   users_who_stake: {
-    'zh': '', /*Chinese*/
-    'es': '', /*Spanish*/
+    'zh': '通过放样打开钱包以保护网络安全的用户每年将获得1％到8％的奖励（根据网络权重的不同而不同）。', /*Chinese*/
+    'es': 'Los usuarios que mantengan su billetera abierta para asegurar la red a través del staking obtendrán recompensas del 1% al 8% por año (varía según el peso de la red).', /*Spanish*/
     'en': 'Users who keep their wallet open to secure the network via staking will get from 1% to 8% rewards per year (varies according to network weight).', /*English*/
     'hi': '', /*Hindi*/ 
     'ar': '', /*Arabic - Right-to-left*/
     'pt': '', /*Portuguese*/
     'bn': '', /*Bengal*/
     'ru': '', /*Russian*/
-    'ja': '', /*Japanese*/
+    'ja': 'ステーキングを介してネットワークを保護するためにウォレットを開いたままにしておくユーザーは、年間1％から8％の報酬を受け取ります（ネットワークの重みによって異なります）。', /*Japanese*/
     'jv': '', /*Javanese*/
     'de': '', /*German*/
     'ko': '', /*Korean*/
@@ -213,20 +213,20 @@ module.exports = {
     'ta': '', /*Tamil*/ 
     'vi': '', /*Vietnamese*/
     'ur': '', /*Urdu - Right-to-left*/
-    'nl': '', /*Dutch*/
+    'nl': 'BEWIJS VAN BELANG 3.0', /*Dutch*/
     'it': '',  /*Italian*/
-    'hr': '' /*Croatian*/
+    'hr': 'Korisnici koji svoj novčanik drže otvorenim da osiguraju mrežu ulaganjem dobit će godišnje nagrade od 1% do 8% (varira ovisno o težini mreže).' /*Croatian*/
     },
   read_more: {
-    'zh': '', /*Chinese*/
-    'es': '', /*Spanish*/
+    'zh': '阅读更多...', /*Chinese*/
+    'es': 'Lee mas...', /*Spanish*/
     'en': 'Read More...', /*English*/
     'hi': '', /*Hindi*/ 
     'ar': '', /*Arabic - Right-to-left*/
     'pt': '', /*Portuguese*/
     'bn': '', /*Bengal*/
     'ru': '', /*Russian*/
-    'ja': '', /*Japanese*/
+    'ja': '続きを読む...', /*Japanese*/
     'jv': '', /*Javanese*/
     'de': '', /*German*/
     'ko': '', /*Korean*/
@@ -237,20 +237,20 @@ module.exports = {
     'ta': '', /*Tamil*/ 
     'vi': '', /*Vietnamese*/
     'ur': '', /*Urdu - Right-to-left*/
-    'nl': '', /*Dutch*/
+    'nl': 'Gebruikers die hun portemonnee open houden om het netwerk te beveiligen via uitzetten, krijgen van 1% tot 8% beloningen per jaar (afhankelijk van het gewicht van het netwerk). Lees verder...', /*Dutch*/
     'it': '',  /*Italian*/
-    'hr': '' /*Croatian*/
+    'hr': 'Čitaj više...' /*Croatian*/
     },
   eco_friendly: {
-    'zh': '', /*Chinese*/
-    'es': '', /*Spanish*/
+    'zh': '环保的', /*Chinese*/
+    'es': 'RESPETUOSO DEL MEDIO AMBIENTE', /*Spanish*/
     'en': 'ECO-FRIENDLY', /*English*/
     'hi': '', /*Hindi*/ 
     'ar': '', /*Arabic - Right-to-left*/
     'pt': '', /*Portuguese*/
     'bn': '', /*Bengal*/
     'ru': '', /*Russian*/
-    'ja': '', /*Japanese*/
+    'ja': '環境にやさしい', /*Japanese*/
     'jv': '', /*Javanese*/
     'de': '', /*German*/
     'ko': '', /*Korean*/
@@ -261,20 +261,20 @@ module.exports = {
     'ta': '', /*Tamil*/ 
     'vi': '', /*Vietnamese*/
     'ur': '', /*Urdu - Right-to-left*/
-    'nl': '', /*Dutch*/
+    'nl': 'MILIEUVRIENDELIJK', /*Dutch*/
     'it': '',  /*Italian*/
-    'hr': '' /*Croatian*/
+    'hr': 'EKO-PRIJATELJSKI' /*Croatian*/
     },
   no_mining: {
-    'zh': '', /*Chinese*/
-    'es': '', /*Spanish*/
+    'zh': '基于权益证明。不再需要耗电的采矿硬件。', /*Chinese*/
+    'es': 'Basado en prueba de participación. No más hardware de minería que consume mucha energía.', /*Spanish*/
     'en': 'Based on Proof-of-Stake. No more power hungry mining hardware.', /*English*/
     'hi': '', /*Hindi*/ 
     'ar': '', /*Arabic - Right-to-left*/
     'pt': '', /*Portuguese*/
     'bn': '', /*Bengal*/
     'ru': '', /*Russian*/
-    'ja': '', /*Japanese*/
+    'ja': 'プルーフオブステークに基づいています。電力を大量に消費するマイニングハードウェアはもう必要ありません。', /*Japanese*/
     'jv': '', /*Javanese*/
     'de': '', /*German*/
     'ko': '', /*Korean*/
@@ -285,20 +285,20 @@ module.exports = {
     'ta': '', /*Tamil*/ 
     'vi': '', /*Vietnamese*/
     'ur': '', /*Urdu - Right-to-left*/
-    'nl': '', /*Dutch*/
+    'nl': 'Gebaseerd op proof-of-stake. Geen energie-hongerige mijnbouwhardware meer.', /*Dutch*/
     'it': '',  /*Italian*/
-    'hr': '' /*Croatian*/
+    'hr': 'Na temelju Proof-of-Stake. Nema više gladnog rudarskog hardvera.' /*Croatian*/
     },
   transparent_ledger: {
-    'zh': '', /*Chinese*/
-    'es': '', /*Spanish*/
+    'zh': '透明LEDGER', /*Chinese*/
+    'es': 'LEDGER TRANSPARENTE', /*Spanish*/
     'en': 'TRANSPARENT LEDGER', /*English*/
     'hi': '', /*Hindi*/ 
     'ar': '', /*Arabic - Right-to-left*/
     'pt': '', /*Portuguese*/
     'bn': '', /*Bengal*/
     'ru': '', /*Russian*/
-    'ja': '', /*Japanese*/
+    'ja': '透明な元帳', /*Japanese*/
     'jv': '', /*Javanese*/
     'de': '', /*German*/
     'ko': '', /*Korean*/
@@ -309,20 +309,20 @@ module.exports = {
     'ta': '', /*Tamil*/ 
     'vi': '', /*Vietnamese*/
     'ur': '', /*Urdu - Right-to-left*/
-    'nl': '', /*Dutch*/
+    'nl': 'TRANSPARANTE LEDGER', /*Dutch*/
     'it': '',  /*Italian*/
-    'hr': '' /*Croatian*/
+    'hr': 'PROZIRNI LEDGER' /*Croatian*/
     },
   entirely_transparent: {
-    'zh': '', /*Chinese*/
-    'es': '', /*Spanish*/
+    'zh': '每个人都共享分类帐历史，因此它是完全透明的。', /*Chinese*/
+    'es': 'Todos comparten el historial del libro mayor, por lo que es completamente transparente.', /*Spanish*/
     'en': 'Everyone shares the ledger history, so it\'s entirely transparent.', /*English*/
     'hi': '', /*Hindi*/ 
     'ar': '', /*Arabic - Right-to-left*/
     'pt': '', /*Portuguese*/
     'bn': '', /*Bengal*/
     'ru': '', /*Russian*/
-    'ja': '', /*Japanese*/
+    'ja': '誰もが元帳の履歴を共有するため、完全に透過的です。', /*Japanese*/
     'jv': '', /*Javanese*/
     'de': '', /*German*/
     'ko': '', /*Korean*/
@@ -333,20 +333,20 @@ module.exports = {
     'ta': '', /*Tamil*/ 
     'vi': '', /*Vietnamese*/
     'ur': '', /*Urdu - Right-to-left*/
-    'nl': '', /*Dutch*/
+    'nl': 'Iedereen deelt de geschiedenis van het grootboek, dus het is volledig transparant.', /*Dutch*/
     'it': '',  /*Italian*/
-    'hr': '' /*Croatian*/
+    'hr': 'Svi dijele povijest povijesti, tako da je potpuno transparentna.' /*Croatian*/
     },
   open_source: {
-    'zh': '', /*Chinese*/
-    'es': '', /*Spanish*/
+    'zh': '开源软件', /*Chinese*/
+    'es': 'SOFTWARE DE CÓDIGO ABIERTO', /*Spanish*/
     'en': 'OPEN SOURCE', /*English*/
     'hi': '', /*Hindi*/ 
     'ar': '', /*Arabic - Right-to-left*/
     'pt': '', /*Portuguese*/
     'bn': '', /*Bengal*/
     'ru': '', /*Russian*/
-    'ja': '', /*Japanese*/
+    'ja': 'オープンソースソフトウェア', /*Japanese*/
     'jv': '', /*Javanese*/
     'de': '', /*German*/
     'ko': '', /*Korean*/
@@ -357,20 +357,20 @@ module.exports = {
     'ta': '', /*Tamil*/ 
     'vi': '', /*Vietnamese*/
     'ur': '', /*Urdu - Right-to-left*/
-    'nl': '', /*Dutch*/
+    'nl': 'OPEN SOURCE SOFTWARE', /*Dutch*/
     'it': '',  /*Italian*/
-    'hr': '' /*Croatian*/
+    'hr': 'SOFTVER OTVORENOG IZVORA' /*Croatian*/
     },
   can_be_audited: {
-    'zh': '', /*Chinese*/
-    'es': '', /*Spanish*/
+    'zh': '该软件（钱包）是开源的，因此可以对其安全性进行审核。', /*Chinese*/
+    'es': 'El software (billetera) es de código abierto, por lo que se puede auditar su seguridad.', /*Spanish*/
     'en': 'The software (wallet) is open source, so its safety can be audited.', /*English*/
     'hi': '', /*Hindi*/ 
     'ar': '', /*Arabic - Right-to-left*/
     'pt': '', /*Portuguese*/
     'bn': '', /*Bengal*/
     'ru': '', /*Russian*/
-    'ja': '', /*Japanese*/
+    'ja': 'ソフトウェア（ウォレット）はオープンソースであるため、その安全性を監査できます。', /*Japanese*/
     'jv': '', /*Javanese*/
     'de': '', /*German*/
     'ko': '', /*Korean*/
@@ -381,20 +381,20 @@ module.exports = {
     'ta': '', /*Tamil*/ 
     'vi': '', /*Vietnamese*/
     'ur': '', /*Urdu - Right-to-left*/
-    'nl': '', /*Dutch*/
+    'nl': 'De software (wallet) is open source, dus de veiligheid kan worden gecontroleerd.', /*Dutch*/
     'it': '',  /*Italian*/
-    'hr': '' /*Croatian*/
+    'hr': 'Softver (novčanik) je otvorenog koda, tako da se može provjeriti njegova sigurnost.' /*Croatian*/
     },
   fast: {
-    'zh': '', /*Chinese*/
-    'es': '', /*Spanish*/
+    'zh': '快速交易', /*Chinese*/
+    'es': 'TRANSACCIONES RÁPIDAS', /*Spanish*/
     'en': 'FAST', /*English*/
     'hi': '', /*Hindi*/ 
     'ar': '', /*Arabic - Right-to-left*/
     'pt': '', /*Portuguese*/
     'bn': '', /*Bengal*/
     'ru': '', /*Russian*/
-    'ja': '', /*Japanese*/
+    'ja': '高速トランザクション', /*Japanese*/
     'jv': '', /*Javanese*/
     'de': '', /*German*/
     'ko': '', /*Korean*/
@@ -405,20 +405,20 @@ module.exports = {
     'ta': '', /*Tamil*/ 
     'vi': '', /*Vietnamese*/
     'ur': '', /*Urdu - Right-to-left*/
-    'nl': '', /*Dutch*/
+    'nl': 'SNELLE TRANSACTIES', /*Dutch*/
     'it': '',  /*Italian*/
-    'hr': '' /*Croatian*/
+    'hr': 'BRZE TRANSAKCIJE' /*Croatian*/
     },
   to_anyone_in_seconds: {
-    'zh': '', /*Chinese*/
-    'es': '', /*Spanish*/
+    'zh': '速度非常快，您可以在几秒钟内将钱汇给世界上任何人。', /*Chinese*/
+    'es': 'Es extremadamente rápido, puede enviar dinero a cualquier persona en el mundo en segundos.', /*Spanish*/
     'en': 'It is extremely fast, you can send money to anyone in the world within seconds.', /*English*/
     'hi': '', /*Hindi*/ 
     'ar': '', /*Arabic - Right-to-left*/
     'pt': '', /*Portuguese*/
     'bn': '', /*Bengal*/
     'ru': '', /*Russian*/
-    'ja': '', /*Japanese*/
+    'ja': 'それは非常に高速で、数秒以内に世界中の誰にでも送金できます。', /*Japanese*/
     'jv': '', /*Javanese*/
     'de': '', /*German*/
     'ko': '', /*Korean*/
@@ -429,20 +429,20 @@ module.exports = {
     'ta': '', /*Tamil*/ 
     'vi': '', /*Vietnamese*/
     'ur': '', /*Urdu - Right-to-left*/
-    'nl': '', /*Dutch*/
+    'nl': 'Het is extreem snel, je kunt binnen enkele seconden geld naar iedereen ter wereld sturen.', /*Dutch*/
     'it': '',  /*Italian*/
-    'hr': '' /*Croatian*/
+    'hr': 'Izuzetno je brz, novac možete poslati bilo kome na svijetu u roku od nekoliko sekundi.' /*Croatian*/
     },
   anonymous: {
-    'zh': '', /*Chinese*/
-    'es': '', /*Spanish*/
+    'zh': '匿名的', /*Chinese*/
+    'es': 'ANÓNIMO', /*Spanish*/
     'en': 'ANONYMOUS', /*English*/
     'hi': '', /*Hindi*/ 
     'ar': '', /*Arabic - Right-to-left*/
     'pt': '', /*Portuguese*/
     'bn': '', /*Bengal*/
     'ru': '', /*Russian*/
-    'ja': '', /*Japanese*/
+    'ja': 'アノニマス', /*Japanese*/
     'jv': '', /*Javanese*/
     'de': '', /*German*/
     'ko': '', /*Korean*/
@@ -453,20 +453,20 @@ module.exports = {
     'ta': '', /*Tamil*/ 
     'vi': '', /*Vietnamese*/
     'ur': '', /*Urdu - Right-to-left*/
-    'nl': '', /*Dutch*/
+    'nl': 'ANONIEM', /*Dutch*/
     'it': '',  /*Italian*/
-    'hr': '' /*Croatian*/
+    'hr': 'ANONIMNO' /*Croatian*/
     },
   no_identifying_information: {
-    'zh': '', /*Chinese*/
-    'es': '', /*Spanish*/
+    'zh': '任何人都可以运行钱包并以与比特币相同的匿名性进行交易。不需要个人识别信息。', /*Chinese*/
+    'es': 'Cualquiera puede ejecutar la billetera y realizar transacciones con el mismo anonimato que Bitcoin. No se requiere información de identificación personal.', /*Spanish*/
     'en': 'Anyone can run the wallet and transact with the same anonymity as Bitcoin. No personal identifying information is required.', /*English*/
     'hi': '', /*Hindi*/ 
     'ar': '', /*Arabic - Right-to-left*/
     'pt': '', /*Portuguese*/
     'bn': '', /*Bengal*/
     'ru': '', /*Russian*/
-    'ja': '', /*Japanese*/
+    'ja': '誰でもウォレットを実行し、ビットコインと同じ匿名性で取引することができます。個人識別情報は必要ありません。', /*Japanese*/
     'jv': '', /*Javanese*/
     'de': '', /*German*/
     'ko': '', /*Korean*/
@@ -477,20 +477,20 @@ module.exports = {
     'ta': '', /*Tamil*/ 
     'vi': '', /*Vietnamese*/
     'ur': '', /*Urdu - Right-to-left*/
-    'nl': '', /*Dutch*/
+    'nl': 'Iedereen kan de portemonnee beheren en transacties uitvoeren met dezelfde anonimiteit als Bitcoin. Er is geen persoonlijk identificeerbare informatie vereist.', /*Dutch*/
     'it': '',  /*Italian*/
-    'hr': '' /*Croatian*/
+    'hr': 'Svatko može pokretati novčanik i obavljati transakcije s istom anonimnošću kao i Bitcoin. Nisu potrebne osobne identifikacijske informacije.' /*Croatian*/
     },
   join_community: {
-    'zh': '', /*Chinese*/
-    'es': '', /*Spanish*/
+    'zh': '加入BlackCoin社区', /*Chinese*/
+    'es': 'Únase a la comunidad BlackCoin', /*Spanish*/
     'en': 'Join The BlackCoin Community', /*English*/
     'hi': '', /*Hindi*/ 
     'ar': '', /*Arabic - Right-to-left*/
     'pt': '', /*Portuguese*/
     'bn': '', /*Bengal*/
     'ru': '', /*Russian*/
-    'ja': '', /*Japanese*/
+    'ja': 'BlackCoinコミュニティに参加する', /*Japanese*/
     'jv': '', /*Javanese*/
     'de': '', /*German*/
     'ko': '', /*Korean*/
@@ -501,20 +501,20 @@ module.exports = {
     'ta': '', /*Tamil*/ 
     'vi': '', /*Vietnamese*/
     'ur': '', /*Urdu - Right-to-left*/
-    'nl': '', /*Dutch*/
+    'nl': 'Word lid van de BlackCoin-community', /*Dutch*/
     'it': '',  /*Italian*/
-    'hr': '' /*Croatian*/
+    'hr': 'Pridružite se zajednici BlackCoin' /*Croatian*/
     },
   where_to_buy: {
-    'zh': '', /*Chinese*/
-    'es': '', /*Spanish*/
+    'zh': '去哪买', /*Chinese*/
+    'es': 'DONDE COMPRAR', /*Spanish*/
     'en': 'WHERE TO BUY', /*English*/
     'hi': '', /*Hindi*/ 
     'ar': '', /*Arabic - Right-to-left*/
     'pt': '', /*Portuguese*/
     'bn': '', /*Bengal*/
     'ru': '', /*Russian*/
-    'ja': '', /*Japanese*/
+    'ja': 'どこで買う', /*Japanese*/
     'jv': '', /*Javanese*/
     'de': '', /*German*/
     'ko': '', /*Korean*/
@@ -525,20 +525,20 @@ module.exports = {
     'ta': '', /*Tamil*/ 
     'vi': '', /*Vietnamese*/
     'ur': '', /*Urdu - Right-to-left*/
-    'nl': '', /*Dutch*/
+    'nl': 'WAAR TE KOPEN', /*Dutch*/
     'it': '',  /*Italian*/
-    'hr': '' /*Croatian*/
+    'hr': 'GDJE KUPITI' /*Croatian*/
     },
   check: {
-    'zh': '', /*Chinese*/
-    'es': '', /*Spanish*/
+    'zh': '检查', /*Chinese*/
+    'es': 'Verificar el', /*Spanish*/
     'en': 'Check', /*English*/
     'hi': '', /*Hindi*/ 
     'ar': '', /*Arabic - Right-to-left*/
     'pt': '', /*Portuguese*/
     'bn': '', /*Bengal*/
     'ru': '', /*Russian*/
-    'ja': '', /*Japanese*/
+    'ja': '市場ボリュームを', /*Japanese*/
     'jv': '', /*Javanese*/
     'de': '', /*German*/
     'ko': '', /*Korean*/
@@ -549,20 +549,20 @@ module.exports = {
     'ta': '', /*Tamil*/ 
     'vi': '', /*Vietnamese*/
     'ur': '', /*Urdu - Right-to-left*/
-    'nl': '', /*Dutch*/
+    'nl': 'Controleer', /*Dutch*/
     'it': '',  /*Italian*/
-    'hr': '' /*Croatian*/
+    'hr': 'Provjerite' /*Croatian*/
     },
   markets_volume: {
-    'zh': '', /*Chinese*/
-    'es': '', /*Spanish*/
+    'zh': '市场量', /*Chinese*/
+    'es': 'volumen de los mercados', /*Spanish*/
     'en': 'Markets Volume', /*English*/
     'hi': '', /*Hindi*/ 
     'ar': '', /*Arabic - Right-to-left*/
     'pt': '', /*Portuguese*/
     'bn': '', /*Bengal*/
     'ru': '', /*Russian*/
-    'ja': '', /*Japanese*/
+    'ja': '確認する', /*Japanese*/
     'jv': '', /*Javanese*/
     'de': '', /*German*/
     'ko': '', /*Korean*/
@@ -573,20 +573,20 @@ module.exports = {
     'ta': '', /*Tamil*/ 
     'vi': '', /*Vietnamese*/
     'ur': '', /*Urdu - Right-to-left*/
-    'nl': '', /*Dutch*/
+    'nl': 'Markten Volume', /*Dutch*/
     'it': '',  /*Italian*/
-    'hr': '' /*Croatian*/
+    'hr': 'količinu tržišta' /*Croatian*/
     },
   downloads: {
-    'zh': '', /*Chinese*/
-    'es': '', /*Spanish*/
+    'zh': '资料下载', /*Chinese*/
+    'es': 'Descargas', /*Spanish*/
     'en': 'Downloads', /*English*/
     'hi': '', /*Hindi*/ 
     'ar': '', /*Arabic - Right-to-left*/
     'pt': '', /*Portuguese*/
     'bn': '', /*Bengal*/
     'ru': '', /*Russian*/
-    'ja': '', /*Japanese*/
+    'ja': 'ダウンロード', /*Japanese*/
     'jv': '', /*Javanese*/
     'de': '', /*German*/
     'ko': '', /*Korean*/
@@ -597,20 +597,20 @@ module.exports = {
     'ta': '', /*Tamil*/ 
     'vi': '', /*Vietnamese*/
     'ur': '', /*Urdu - Right-to-left*/
-    'nl': '', /*Dutch*/
+    'nl': 'Downloads', /*Dutch*/
     'it': '',  /*Italian*/
-    'hr': '' /*Croatian*/
+    'hr': 'Preuzimanja' /*Croatian*/
     },
   official_files: {
-    'zh': '', /*Chinese*/
-    'es': '', /*Spanish*/
+    'zh': 'BlackCoin官方文件', /*Chinese*/
+    'es': 'Archivos oficiales de BlackCoin', /*Spanish*/
     'en': 'Blackcoin Official Files', /*English*/
     'hi': '', /*Hindi*/ 
     'ar': '', /*Arabic - Right-to-left*/
     'pt': '', /*Portuguese*/
     'bn': '', /*Bengal*/
     'ru': '', /*Russian*/
-    'ja': '', /*Japanese*/
+    'ja': 'BlackCoin公式ファイル', /*Japanese*/
     'jv': '', /*Javanese*/
     'de': '', /*German*/
     'ko': '', /*Korean*/
@@ -621,20 +621,20 @@ module.exports = {
     'ta': '', /*Tamil*/ 
     'vi': '', /*Vietnamese*/
     'ur': '', /*Urdu - Right-to-left*/
-    'nl': '', /*Dutch*/
+    'nl': 'Officiële BlackCoin-bestanden', /*Dutch*/
     'it': '',  /*Italian*/
-    'hr': '' /*Croatian*/
+    'hr': 'Službene datoteke BlackCoin' /*Croatian*/
     },
   more_wallet: {
-    'zh': '', /*Chinese*/
-    'es': '', /*Spanish*/
+    'zh': 'More钱包', /*Chinese*/
+    'es': 'MÁS CARTERA', /*Spanish*/
     'en': 'MORE WALLET', /*English*/
     'hi': '', /*Hindi*/ 
     'ar': '', /*Arabic - Right-to-left*/
     'pt': '', /*Portuguese*/
     'bn': '', /*Bengal*/
     'ru': '', /*Russian*/
-    'ja': '', /*Japanese*/
+    'ja': 'もっと財布', /*Japanese*/
     'jv': '', /*Javanese*/
     'de': '', /*German*/
     'ko': '', /*Korean*/
@@ -645,20 +645,20 @@ module.exports = {
     'ta': '', /*Tamil*/ 
     'vi': '', /*Vietnamese*/
     'ur': '', /*Urdu - Right-to-left*/
-    'nl': '', /*Dutch*/
+    'nl': 'MEER PORTEMONNEE', /*Dutch*/
     'it': '',  /*Italian*/
-    'hr': '' /*Croatian*/
+    'hr': 'VIŠE NOVČANIKA' /*Croatian*/
     },
   blackcoin_more: {
-    'zh': '', /*Chinese*/
-    'es': '', /*Spanish*/
+    'zh': '黒币 More', /*Chinese*/
+    'es': 'Blackcoin Más', /*Spanish*/
     'en': 'Blackcoin More', /*English*/
     'hi': '', /*Hindi*/ 
     'ar': '', /*Arabic - Right-to-left*/
     'pt': '', /*Portuguese*/
     'bn': '', /*Bengal*/
     'ru': '', /*Russian*/
-    'ja': '', /*Japanese*/
+    'ja': 'ブラックコインモアv2.13.2.8', /*Japanese*/
     'jv': '', /*Javanese*/
     'de': '', /*German*/
     'ko': '', /*Korean*/
@@ -669,20 +669,20 @@ module.exports = {
     'ta': '', /*Tamil*/ 
     'vi': '', /*Vietnamese*/
     'ur': '', /*Urdu - Right-to-left*/
-    'nl': '', /*Dutch*/
+    'nl': 'Blackcoin Meer', /*Dutch*/
     'it': '',  /*Italian*/
-    'hr': '' /*Croatian*/
+    'hr': 'Blackcoin More' /*Croatian*/
     },
   community_supported: {
-    'zh': '', /*Chinese*/
-    'es': '', /*Spanish*/
+    'zh': '社区支持的钱包。', /*Chinese*/
+    'es': 'La billetera apoyada por la comunidad.', /*Spanish*/
     'en': 'The community supported wallet.', /*English*/
     'hi': '', /*Hindi*/ 
     'ar': '', /*Arabic - Right-to-left*/
     'pt': '', /*Portuguese*/
     'bn': '', /*Bengal*/
     'ru': '', /*Russian*/
-    'ja': '', /*Japanese*/
+    'ja': 'コミュニティはウォレットをサポートしました。', /*Japanese*/
     'jv': '', /*Javanese*/
     'de': '', /*German*/
     'ko': '', /*Korean*/
@@ -693,20 +693,20 @@ module.exports = {
     'ta': '', /*Tamil*/ 
     'vi': '', /*Vietnamese*/
     'ur': '', /*Urdu - Right-to-left*/
-    'nl': '', /*Dutch*/
+    'nl': 'De door de gemeenschap ondersteunde portemonnee.', /*Dutch*/
     'it': '',  /*Italian*/
-    'hr': '' /*Croatian*/
+    'hr': 'Novčanik podržao zajednicu.' /*Croatian*/
     },
   mobile_wallets: {
-    'zh': '', /*Chinese*/
-    'es': '', /*Spanish*/
+    'zh': '手机钱包', /*Chinese*/
+    'es': 'CARTERAS MÓVILES', /*Spanish*/
     'en': 'MOBILE WALLETS', /*English*/
     'hi': '', /*Hindi*/ 
     'ar': '', /*Arabic - Right-to-left*/
     'pt': '', /*Portuguese*/
     'bn': '', /*Bengal*/
     'ru': '', /*Russian*/
-    'ja': '', /*Japanese*/
+    'ja': 'モバイルウォレット', /*Japanese*/
     'jv': '', /*Javanese*/
     'de': '', /*German*/
     'ko': '', /*Korean*/
@@ -717,20 +717,20 @@ module.exports = {
     'ta': '', /*Tamil*/ 
     'vi': '', /*Vietnamese*/
     'ur': '', /*Urdu - Right-to-left*/
-    'nl': '', /*Dutch*/
+    'nl': 'MOBIELE PORTEMONNEES', /*Dutch*/
     'it': '',  /*Italian*/
-    'hr': '' /*Croatian*/
+    'hr': 'POKRETNI NOVČANICI' /*Croatian*/
     },
   blackhalo: {
-    'zh': '', /*Chinese*/
-    'es': '', /*Spanish*/
+    'zh': '黑鹰', /*Chinese*/
+    'es': 'BlackHalo', /*Spanish*/
     'en': 'BlackHalo', /*English*/
     'hi': '', /*Hindi*/ 
     'ar': '', /*Arabic - Right-to-left*/
     'pt': '', /*Portuguese*/
     'bn': '', /*Bengal*/
     'ru': '', /*Russian*/
-    'ja': '', /*Japanese*/
+    'ja': 'BLACKHALO', /*Japanese*/
     'jv': '', /*Javanese*/
     'de': '', /*German*/
     'ko': '', /*Korean*/
@@ -741,20 +741,20 @@ module.exports = {
     'ta': '', /*Tamil*/ 
     'vi': '', /*Vietnamese*/
     'ur': '', /*Urdu - Right-to-left*/
-    'nl': '', /*Dutch*/
+    'nl': 'BlackHalo', /*Dutch*/
     'it': '',  /*Italian*/
-    'hr': '' /*Croatian*/
+    'hr': 'BlackHalo' /*Croatian*/
     },
   all_platforms: {
-    'zh': '', /*Chinese*/
-    'es': '', /*Spanish*/
+    'zh': '所有平台下载', /*Chinese*/
+    'es': 'Descargas de todas las plataformas', /*Spanish*/
     'en': 'All Platforms', /*English*/
     'hi': '', /*Hindi*/ 
     'ar': '', /*Arabic - Right-to-left*/
     'pt': '', /*Portuguese*/
     'bn': '', /*Bengal*/
     'ru': '', /*Russian*/
-    'ja': '', /*Japanese*/
+    'ja': 'すべてのプラットフォームのダウンロード', /*Japanese*/
     'jv': '', /*Javanese*/
     'de': '', /*German*/
     'ko': '', /*Korean*/
@@ -765,20 +765,20 @@ module.exports = {
     'ta': '', /*Tamil*/ 
     'vi': '', /*Vietnamese*/
     'ur': '', /*Urdu - Right-to-left*/
-    'nl': '', /*Dutch*/
+    'nl': 'Alle platforms worden gedownload', /*Dutch*/
     'it': '',  /*Italian*/
-    'hr': '' /*Croatian*/
+    'hr': 'Preuzimanja svih platformi' /*Croatian*/
     },
   legacy_wallet: {
-    'zh': '', /*Chinese*/
-    'es': '', /*Spanish*/
+    'zh': '旧版钱包', /*Chinese*/
+    'es': 'CARTERA LEGACY', /*Spanish*/
     'en': 'LEGACY WALLET', /*English*/
     'hi': '', /*Hindi*/ 
     'ar': '', /*Arabic - Right-to-left*/
     'pt': '', /*Portuguese*/
     'bn': '', /*Bengal*/
     'ru': '', /*Russian*/
-    'ja': '', /*Japanese*/
+    'ja': 'レガシーウォレット', /*Japanese*/
     'jv': '', /*Javanese*/
     'de': '', /*German*/
     'ko': '', /*Korean*/
@@ -789,20 +789,20 @@ module.exports = {
     'ta': '', /*Tamil*/ 
     'vi': '', /*Vietnamese*/
     'ur': '', /*Urdu - Right-to-left*/
-    'nl': '', /*Dutch*/
+    'nl': 'LEGACY PORTEMONNEE', /*Dutch*/
     'it': '',  /*Italian*/
-    'hr': '' /*Croatian*/
+    'hr': 'LEGATNI NOVČANIK' /*Croatian*/
     },
   legacy_gitlab: {
-    'zh': '', /*Chinese*/
-    'es': '', /*Spanish*/
+    'zh': 'Gitlab源代码', /*Chinese*/
+    'es': 'Código fuente de Gitlab', /*Spanish*/
     'en': 'Gitlab Source Code', /*English*/
     'hi': '', /*Hindi*/ 
     'ar': '', /*Arabic - Right-to-left*/
     'pt': '', /*Portuguese*/
     'bn': '', /*Bengal*/
     'ru': '', /*Russian*/
-    'ja': '', /*Japanese*/
+    'ja': 'Gitlabソースコード', /*Japanese*/
     'jv': '', /*Javanese*/
     'de': '', /*German*/
     'ko': '', /*Korean*/
@@ -813,20 +813,20 @@ module.exports = {
     'ta': '', /*Tamil*/ 
     'vi': '', /*Vietnamese*/
     'ur': '', /*Urdu - Right-to-left*/
-    'nl': '', /*Dutch*/
+    'nl': 'Gitlab-broncode', /*Dutch*/
     'it': '',  /*Italian*/
-    'hr': '' /*Croatian*/
+    'hr': 'Izvorni kod Gitlaba' /*Croatian*/
     },
   support_blackcoin: {
-    'zh': '', /*Chinese*/
-    'es': '', /*Spanish*/
+    'zh': '支持BlackCoin', /*Chinese*/
+    'es': 'Soporte BlackCoin', /*Spanish*/
     'en': 'Support BlackCoin', /*English*/
     'hi': '', /*Hindi*/ 
     'ar': '', /*Arabic - Right-to-left*/
     'pt': '', /*Portuguese*/
     'bn': '', /*Bengal*/
     'ru': '', /*Russian*/
-    'ja': '', /*Japanese*/
+    'ja': 'BlackCoinをサポートする', /*Japanese*/
     'jv': '', /*Javanese*/
     'de': '', /*German*/
     'ko': '', /*Korean*/
@@ -837,20 +837,20 @@ module.exports = {
     'ta': '', /*Tamil*/ 
     'vi': '', /*Vietnamese*/
     'ur': '', /*Urdu - Right-to-left*/
-    'nl': '', /*Dutch*/
+    'nl': 'Steun BlackCoin', /*Dutch*/
     'it': '',  /*Italian*/
-    'hr': '' /*Croatian*/
+    'hr': 'Podrška za BlackCoin' /*Croatian*/
     },
   donations: {
-    'zh': '', /*Chinese*/
-    'es': '', /*Spanish*/
+    'zh': '捐献', /*Chinese*/
+    'es': 'Donaciones', /*Spanish*/
     'en': 'Donations', /*English*/
     'hi': '', /*Hindi*/ 
     'ar': '', /*Arabic - Right-to-left*/
     'pt': '', /*Portuguese*/
     'bn': '', /*Bengal*/
     'ru': '', /*Russian*/
-    'ja': '', /*Japanese*/
+    'ja': '寄付', /*Japanese*/
     'jv': '', /*Javanese*/
     'de': '', /*German*/
     'ko': '', /*Korean*/
@@ -861,20 +861,20 @@ module.exports = {
     'ta': '', /*Tamil*/ 
     'vi': '', /*Vietnamese*/
     'ur': '', /*Urdu - Right-to-left*/
-    'nl': '', /*Dutch*/
+    'nl': 'Donaties', /*Dutch*/
     'it': '',  /*Italian*/
-    'hr': '' /*Croatian*/
+    'hr': 'Donacije' /*Croatian*/
     },
   all_rights_reserved: {
-    'zh': '', /*Chinese*/
-    'es': '', /*Spanish*/
+    'zh': '版权所有', /*Chinese*/
+    'es': 'Reservados todos los derechos.', /*Spanish*/
     'en': 'All Rights Reserved.', /*English*/
     'hi': '', /*Hindi*/ 
     'ar': '', /*Arabic - Right-to-left*/
     'pt': '', /*Portuguese*/
     'bn': '', /*Bengal*/
     'ru': '', /*Russian*/
-    'ja': '', /*Japanese*/
+    'ja': '全著作権所有。', /*Japanese*/
     'jv': '', /*Javanese*/
     'de': '', /*German*/
     'ko': '', /*Korean*/
@@ -885,20 +885,20 @@ module.exports = {
     'ta': '', /*Tamil*/ 
     'vi': '', /*Vietnamese*/
     'ur': '', /*Urdu - Right-to-left*/
-    'nl': '', /*Dutch*/
+    'nl': 'Alle rechten voorbehouden.', /*Dutch*/
     'it': '',  /*Italian*/
-    'hr': '' /*Croatian*/
+    'hr': 'Sva prava pridržana.' /*Croatian*/
     },
   to_the_top: {
     'zh': '', /*Chinese*/
-    'es': '', /*Spanish*/
+    'es': 'A la cima', /*Spanish*/
     'en': 'To the top', /*English*/
     'hi': '', /*Hindi*/ 
     'ar': '', /*Arabic - Right-to-left*/
     'pt': '', /*Portuguese*/
     'bn': '', /*Bengal*/
     'ru': '', /*Russian*/
-    'ja': '', /*Japanese*/
+    'ja': '頂点に', /*Japanese*/
     'jv': '', /*Javanese*/
     'de': '', /*German*/
     'ko': '', /*Korean*/
@@ -909,31 +909,7 @@ module.exports = {
     'ta': '', /*Tamil*/ 
     'vi': '', /*Vietnamese*/
     'ur': '', /*Urdu - Right-to-left*/
-    'nl': '', /*Dutch*/
-    'it': '',  /*Italian*/
-    'hr': '' /*Croatian*/
-    },
-  since2014: {
-    'zh': '', /*Chinese*/
-    'es': '', /*Spanish*/
-    'en': '', /*English*/
-    'hi': '', /*Hindi*/ 
-    'ar': '', /*Arabic - Right-to-left*/
-    'pt': '', /*Portuguese*/
-    'bn': '', /*Bengal*/
-    'ru': '', /*Russian*/
-    'ja': '', /*Japanese*/
-    'jv': '', /*Javanese*/
-    'de': '', /*German*/
-    'ko': '', /*Korean*/
-    'fr': '', /*French*/
-    'te': '', /*Telugu*/
-    'mr': '', /*Marathi*/ 
-    'tr': '', /*Turkish*/ 
-    'ta': '', /*Tamil*/ 
-    'vi': '', /*Vietnamese*/
-    'ur': '', /*Urdu - Right-to-left*/
-    'nl': '', /*Dutch*/
+    'nl': 'Naar de top', /*Dutch*/
     'it': '',  /*Italian*/
     'hr': '' /*Croatian*/
     }
