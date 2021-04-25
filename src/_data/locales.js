@@ -4,7 +4,7 @@ module.exports = [
     code: 'zh'
   },
   {
-    label: 'Españolx', /*Spanish*/
+    label: 'Español', /*Spanish*/
     code: 'es'
   },
   {
