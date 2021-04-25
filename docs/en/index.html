@@ -221,9 +221,9 @@
 .testimonials-3col .t-item .t-icon{ color:#999 }
 .testimonials-3col .t-clients li a img{ margin:auto }
 
-.preloader{ position:fixed; top:0; left:0; right:0; bottom:0; background-color:#111; z-index:9999 }
+.preloader{ position:fixed; top:0; left:0; right:0; bottom:0; background-color:#111; color: #fff; z-index:9999; text-align: center; }
 .preloader img{ display:block; position:absolute; left:0; right:0; top:0; bottom:0; width:50px; height:50px; margin:auto }
-
+.preloader h1{ display:block; position:absolute; left:0; right:0; top:0; bottom:0; width:200px; height:200px; margin:auto }
 .scroller{ display:inline-block; position:absolute; bottom:15px; left:0; right:0; width:120px; margin:0 auto; text-align:center; color:rgba(235,235,235,.5) }
 .scroller:focus{ color:inherit; text-decoration:none }
 .scroller:hover{ color:#ebebeb }
@@ -866,7 +866,17 @@ html {background-color: #eee;}
 .row {flex-flow: row;}
 .column {flex-flow: column;}
 .centered {align-self: center; justify-self:center;}
-@font-face {font-display: swap;}
+.icon {
+    display: inline-block;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+#hamburger-toggle {
+  fill: #ddd;
+}
 
 #navbar { 
   width: 100%;
@@ -917,7 +927,11 @@ html {background-color: #eee;}
     display: none;
     left: 0;
 }
-#menu-right {
+
+#lang-select {
+  margin-left: 3rem;
+}
+#menu-locale {
     display: none;
     right: 100% !important;
     width: max-content;
@@ -1008,34 +1022,35 @@ html {background-color: #eee;}
     <nav id="navbar" role="navigation">
     <!-- Logo -->
     <a id="nav-logo" href="/"> 
-        <picture><source type="image/png" srcset="/assets/images/16552e31-150.png 150w"><img alt="Blackcoin - Logo" loading="lazy" decoding="async" src="/assets/images/16552e31-150.jpeg" width="150" height="30"></picture>
+        <picture><source type="image/png" srcset="/assets/images/16552e31-150.png 150w"><source type="image/avif" srcset="/assets/images/16552e31-150.avif 150w"><source type="image/webp" srcset="/assets/images/16552e31-150.webp 150w"><img alt="Blackcoin - Logo" loading="lazy" decoding="async" src="/assets/images/16552e31-150.jpeg" width="150" height="30"></picture>
     </a>
     <row>
-    <a id="hamburger-toggle" href="#" onclick="return dropDown(this)">Hamburger</a>
-    <ul class="nav-main"> 
-        <li>
-            <a href="#" onclick="return dropDown(this)">Explore</a>
-            <ul id="menu">
-                <li><a href="#about">About</a></li>
-                <li><a href="#community">Community</a></li>
-                <li><a href="/donations">Donations</a></li>
-                <!--<li><a href="bounties/">Bounties</a></li>-->
-                <li><a href="/faq"><span style="color: #ddb77a;">FAQ</span></a></li>
-            </ul>
+        <a id="hamburger-toggle" href="#" onclick="return dropDown(this)"><picture><source type="image/svg+xml" srcset="/assets/images/d3da4e8e-32.svg 32w"><source type="image/png" srcset="/assets/images/d3da4e8e-32.png 32w"><source type="image/avif" srcset="/assets/images/d3da4e8e-32.avif 32w"><source type="image/webp" srcset="/assets/images/d3da4e8e-32.webp 32w"><img alt="Hamburger" loading="lazy" decoding="async" src="/assets/images/d3da4e8e-32.jpeg" width="32" height="32"></picture></a>
+        <ul class="nav-main"> 
+            <li>
+                <a href="#" onclick="return dropDown(this)">Explore</a>
+                <ul id="menu">
+                    <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="/en/">Homepage</a></li>
+                    <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="#about">About</a></li>
+                    <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="#community">Community</a></li>
+                    <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="/donations">Donations</a></li>
+                    <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="/faq"><span style="color: #ddb77a;">FAQ</span></a></li>
+                    <!--<li><a href="bounties/">Bounties</a></li>-->
+                </ul>
 
-            <li><a href="#buy">Buy </a></li>
-            
-            <li><a href="#downloads">Download</a></li>
-            
-            <li><a href="#" onclick="return dropDown(this)">Markets</a>
-                <ul>
-                    <div  id="nav-markets">
-                        <div>
-                            <a class="centered" href="https://www.coingecko.com/en/coins/blackcoin" rel="noopener" target="_blank">
-                                More charts on <br /> 
-                                CoinGecko
-                            </a>
-                            <script>
+<!--                 <li><a onclick="parentElement.parentElement.style.display = 'none'" href="#buy">Buy </a></li>
+ -->                
+                <li><a onclick="parentElement.parentElement.style.display = 'none'" href="#downloads">Download</a></li>
+                
+                <li><a href="#" onclick="return dropDown(this)">Markets</a>
+                    <ul>
+                        <div  id="nav-markets">
+                            <div>
+                                <a class="centered" href="https://www.coingecko.com/en/coins/blackcoin" rel="noopener" target="_blank">
+                                    More charts on <br /> 
+                                    CoinGecko
+                                </a>
+                                <script>
   var x = window.matchMedia("(max-width: 700px)")
   cryptocompare2(x) // Call listener function at run time
   x.addListener(cryptocompare2) 
@@ -1111,7 +1126,7 @@ html {background-color: #eee;}
       }
     }
 </script>
-                            <script>
+                                <script>
   var x = window.matchMedia("(max-width: 700px)")
   cryptocompare3(x) // Call listener function at run time
   x.addListener(cryptocompare3) 
@@ -1138,8 +1153,8 @@ html {background-color: #eee;}
       }
     }
 </script>
-                        </div>
-                        <script>
+                            </div>
+                            <script>
     var x = window.matchMedia("(max-width: 700px)")
     cryptocompare1(x) // Call listener function at run time
     x.addListener(cryptocompare1) // Attach listener function on state changes
@@ -1199,13 +1214,25 @@ html {background-color: #eee;}
       }
     }
 </script>
-                    </div>
-                </ul>
-            </li>
-            
-            <li><a href="#" onclick="return dropDown(this)">Twitter</a>
-                <ul id="menu-twitter">
-                    <div id="nav-twitter">
+                        </div>
+                    </ul>
+                </li>
+                <li><a href="#" onclick="return dropDown(this)">Links</a>
+                    <ul id="menu-right">
+                        <li><a rel="noopener" target="_blank" href="https://chainz.cryptoid.info/blk/">CryptoID Explorer</a></li>
+                        <li><a rel="noopener" target="_blank" href="https://www.coingecko.com/en/coins/blackcoin">Coingecko</a></li>
+                        <li><a rel="noopener" target="_blank" href="https://coinmarketcap.com/currencies/blackcoin/#charts">Coinmarketcap</a></li>
+                        <li><a rel="noopener" target="_blank" href="https://blackcoin.nl">BlackcoinNL</a></li>
+                        <li><a rel="noopener" target="_blank" href="https://node.blackcoin.io/insight/">Blacksight Explorer</a></li>
+                        <li><a rel="noopener" target="_blank" href="https://bitinfocharts.com/blackcoin/">Bitinfocharts Explorer</a></li>
+                        <li><a rel="noopener" target="_blank" href="https://gihub.com/coinblack/">Github</a></li>
+                        <li><a rel="noopener" target="_blank" href="https://gitlab.com/blackcoin/">Gitlab</a></li>
+                        <!--<li><a href="https://en.wikipedia.org/wiki/BlackCoin">Wikipedia</a></li>-->
+                    </ul>
+                </li>
+                <li><a href="#" onclick="return dropDown(this)">Twitter</a>
+                    <ul id="menu-twitter">
+                        <div id="nav-twitter">
   <a  href="https://twitter.com/hashtag/Blackcoin" alt="Hashtag Blackcoin"
       data-widget-id="746421924109164548"
       data-chrome="noheader noborders nofooter transparent noscrollbar"><li>#Blackcoin</li></a>
@@ -1234,24 +1261,38 @@ html {background-color: #eee;}
       }
   </script>
 </div>
-                </ul>
+                    </ul>
+                </li>
             </li>
-            <li><a href="#" onclick="return dropDown(this)">Links</a>
-                <ul id="menu-right">
-                    <li><a rel="noopener" target="_blank" href="https://chainz.cryptoid.info/blk/">CryptoID Explorer</a></li>
-                    <li><a rel="noopener" target="_blank" href="https://www.coingecko.com/en/coins/blackcoin">Coingecko</a></li>
-                    <li><a rel="noopener" target="_blank" href="https://coinmarketcap.com/currencies/blackcoin/#charts">Coinmarketcap</a></li>
-                    <li><a rel="noopener" target="_blank" href="https://blackcoin.nl">BlackcoinNL</a></li>
-                    <li><a rel="noopener" target="_blank" href="https://node.blackcoin.io/insight/">Blacksight Explorer</a></li>
-                    <li><a rel="noopener" target="_blank" href="https://bitinfocharts.com/blackcoin/">Bitinfocharts Explorer</a></li>
-                    <li><a rel="noopener" target="_blank" href="https://gihub.com/coinblack/">Github</a></li>
-                    <li><a rel="noopener" target="_blank" href="https://gitlab.com/blackcoin/">Gitlab</a></li>
-                    <!--<li><a href="https://en.wikipedia.org/wiki/BlackCoin">Wikipedia</a></li>-->
-                </ul>
-            </li>
-        </li>
-    </ul>
+        </ul>
     <row>
+    
+
+<a id="lang-select" href="#" onclick="return dropDown(this)">Select language</a>
+<ul id="menu-locale"  class="nav-main">
+<a href="/zh/" rel="/zh " hreflang="zh"><li>中文</li></a>
+<a href="/es/" rel="/es " hreflang="es"><li>Españolx</li></a>
+<a href="/en/" rel="/en " hreflang="en"><li>English</li></a>
+<a href="/hi/" rel="/hi " hreflang="hi"><li>हिंदी</li></a>
+<a href="/ar/" rel="/ar " hreflang="ar"><li>عربى</li></a>
+<a href="/pt/" rel="/pt " hreflang="pt"><li>português</li></a>
+<a href="/bn/" rel="/bn " hreflang="bn"><li>বাংলা</li></a>
+<a href="/ru/" rel="/ru " hreflang="ru"><li>русский</li></a>
+<a href="/ja/" rel="/ja " hreflang="ja"><li>日本語</li></a>
+<a href="/jv/" rel="/jv " hreflang="jv"><li>Wong jawa</li></a>
+<a href="/de/" rel="/de " hreflang="de"><li>Deutsche</li></a>
+<a href="/ko/" rel="/ko " hreflang="ko"><li>한국어</li></a>
+<a href="/fr/" rel="/fr " hreflang="fr"><li>Français</li></a>
+<a href="/te/" rel="/te " hreflang="te"><li>తెలుగు</li></a>
+<a href="/mr/" rel="/mr " hreflang="mr"><li>मराठी</li></a>
+<a href="/tr/" rel="/tr " hreflang="tr"><li>Türk</li></a>
+<a href="/ta/" rel="/ta " hreflang="ta"><li>தமிழ்</li></a>
+<a href="/vi/" rel="/vi " hreflang="vi"><li>Tiếng Việt</li></a>
+<a href="/ur/" rel="/ur " hreflang="ur"><li>اردو</li></a>
+<a href="/nl/" rel="/nl " hreflang="nl"><li>Dutch</li></a>
+<a href="/it/" rel="/it " hreflang="it"><li>Italianx</li></a>
+<a href="/hr/" rel="/hr " hreflang="hr"><li>Hrvatski</li></a>
+</ul>
 </nav><!-- / .navbar -->
 
 
@@ -2079,52 +2120,6 @@ body div#ui-datepicker-div[style] {
         -webkit-transition: .25s linear;
     }
 </style>
-  <style type="text/css">
-    /*!
- *  Font Awesome 4.4.0 by @davegandy - https://fontawesome.io - @fontawesome
- *  License - https://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
- */
-@font-face {
-    font-family: 'FontAwesome';
-    src: url('assets/fonts/home/fontawesome-webfont93e3.eot?v=4.4.0');
-    src: url('assets/fonts/home/fontawesome-webfontd41d.eot?#iefix&v=4.4.0') format('embedded-opentype'), url('assets/fonts/home/fontawesome-webfont93e3.woff2?v=4.4.0') format('woff2'), url('assets/fonts/home/fontawesome-webfont93e3.woff?v=4.4.0') format('woff'), url('assets/fonts/home/fontawesome-webfont93e3.ttf?v=4.4.0') format('truetype'), url('assets/fonts/home/fontawesome-webfont93e3.svg?v=4.4.0#fontawesomeregular') format('svg');
-    font-weight: normal;
-    font-style: normal
-}
-
-.fa {
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
-}
-
-.fa-star-o:before {
-    content: "\f006"
-}
-
-.fa-info-circle:before {
-    content: "\f05a"
-}
-.fa-tree:before {
-    content: "\f1bb"
-}
-.fa-user:before {
-    content: "\f007"
-}
-.fa-code:before {
-    content: "\f121"
-}
-.fa-flash:before,
-.fa-bolt:before {
-    content: "\f0e7"
-}
-.fa-eye:before {
-    content: "\f06e"
-}    
-</style>
   <style id="slick-slider" type="text/css">
 .slick-slider{position:relative;display:block;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-touch-callout:none;-khtml-user-select:none;-ms-touch-action:pan-y;touch-action:pan-y;-webkit-tap-highlight-color:transparent}.slick-list{position:relative;display:block;overflow:hidden;margin:0;padding:0}.slick-list:focus{outline:0}.slick-slider .slick-list{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);-o-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}.slick-slide{display:none;float:left;height:100%;min-height:1px}[dir=rtl] .slick-slide{float:right}.slick-slide img{display:block}.slick-slide.slick-loading img{display:none}.slick-loading .slick-slide{visibility:hidden}
 </style>
@@ -2374,7 +2369,8 @@ body div#ui-datepicker-div[style] {
   
         <!-- ========== Preloader ========== -->
   <div class="preloader">
-      <picture><source type="image/svg+xml" srcset="/assets/images/c212743-44.svg 44w"><source type="image/png" srcset="/assets/images/c212743-44.png 44w"><img alt="Loading..." loading="lazy" decoding="async" src="/assets/images/c212743-44.jpeg" width="44" height="44"></picture>
+      <h1>Loading</h1>
+      <picture><source type="image/svg+xml" srcset="/assets/images/d73674ae-44.svg 44w"><source type="image/png" srcset="/assets/images/d73674ae-44.png 44w"><source type="image/avif" srcset="/assets/images/d73674ae-44.avif 44w"><source type="image/webp" srcset="/assets/images/d73674ae-44.webp 44w"><img alt="Loading..." loading="lazy" decoding="async" src="/assets/images/d73674ae-44.jpeg" width="44" height="44"></picture>
   </div>
               
 <header id="page-hero" class="site-header position-relative mt-5 pt-5 site-header" style="width: 100vw; min-height: 50vh;">
@@ -2389,12 +2385,12 @@ body div#ui-datepicker-div[style] {
             <!-- Hero Content -->
             <div id="page-hero" class="hero-content-wrapper">
               <div class="hero-content">
-                <picture><source type="image/png" srcset="/assets/images/2057efe4-111.png 111w"><img alt="Blackcoin Logo" loading="lazy" decoding="async" src="/assets/images/2057efe4-111.jpeg" width="111" height="128"></picture>
+                <picture><source type="image/png" srcset="/assets/images/2057efe4-111.png 111w"><source type="image/avif" srcset="/assets/images/2057efe4-111.avif 111w"><source type="image/webp" srcset="/assets/images/2057efe4-111.webp 111w"><img alt="Blackcoin Logo" loading="lazy" decoding="async" src="/assets/images/2057efe4-111.jpeg" width="111" height="128"></picture>
                 <h1 class="hero-lead">Blackcoin</h1>
                 <h2 class="h-alt hero-secondary">Pure Proof of Stake since 2014</h2>
                 <center>
                   <a href="#community" class="join-community">
-                     <picture><source type="image/png" srcset="/assets/images/8fa1dfd8-350.png 350w"><img alt="Join the Blackcoin Community!" loading="lazy" decoding="async" src="/assets/images/8fa1dfd8-350.jpeg" width="350" height="46"></picture>
+                     <picture><source type="image/png" srcset="/assets/images/8fa1dfd8-350.png 350w"><source type="image/avif" srcset="/assets/images/8fa1dfd8-350.avif 350w"><source type="image/webp" srcset="/assets/images/8fa1dfd8-350.webp 350w"><img alt="Join the Blackcoin Community!" loading="lazy" decoding="async" src="/assets/images/8fa1dfd8-350.jpeg" width="350" height="46"></picture>
                   </a>
                 </center>
                 <div style="width:100%; max-width:960px; margin:0 auto; padding:0 20px 50px 20px; box-sizing:border-box;">
@@ -2473,73 +2469,73 @@ body div#ui-datepicker-div[style] {
         <h2 class="golden" id="about">About BlackCoin</h2>
     </header>
     <!-- Feature 1 -->
-    <div class="col-lg-4 mb-sm-100 wow fadeInLeft" data-wow-duration=".8s">
+    <div class="wow fadeInLeft" data-wow-duration=".8s">
       <!-- Ft Icon 1 (left) -->
-      <div class="col-md-12 no-gap ft-item ft-material right-align">
+      <div class="no-gap ft-item ft-material right-align">
         <div class="ft-content">
           <h3>PROOF OF STAKE 3.0</h3>
           <p> Users who keep their wallet open to secure the network via staking will get from 1% to 8% rewards per
             year (varies according to network weight). <a href="https://blackcoin.org/faq/">Read More...</a></p>
         </div>
         <div class="ft-icon">
-          <i class="fa">🔥</i>
+          <i class="icon">🔥</i>
         </div>
       </div><!-- / .ft-item -->
       <br>
 
       <!-- Ft Icon 2 (left) -->
-      <div class="col-md-12 no-gap ft-item ft-material right-align">
+      <div class="no-gap ft-item ft-material right-align">
         <div class="ft-content">
           <h3>ECO-FRIENDLY</h3>
           <p>Based on Proof-of-Stake. No more power hungry mining hardware.</p>
         </div>
         <div class="ft-icon">
-          <i class="fa">🌲</i>
+          <i class="icon">🌲</i>
         </div>
       </div><!-- / .ft-item -->
       <br><br>
 
       <!-- Ft Icon 3 (left) -->
-      <div class="col-md-12 no-gap ft-item ft-material right-align">
+      <div class="no-gap ft-item ft-material right-align">
         <div class="ft-content">
           <h3>TRANSPARENT LEDGER</h3>
           <p>Everyone shares the ledger history, so it's entirely transparent.</p>
         </div>
         <div class="ft-icon">
-          <i>🧾</i>
+          <i class="icon">📄</i>
         </div>
       </div><!-- / .ft-item -->
-    </div><!-- / .col-lg-4 -->
+    </div><!-- / .-->
     <!-- Center Image -->
-    <div class="col-lg-4 blkb" >
-      <picture><source type="image/png" srcset="/assets/images/13ed928e-402.png 402w"><img alt="Blackcoin B" loading="lazy" decoding="async" src="/assets/images/13ed928e-402.jpeg" width="402" height="526"></picture>
+    <div class="blkb" >
+      <picture><source type="image/png" srcset="/assets/images/13ed928e-402.png 402w"><source type="image/avif" srcset="/assets/images/13ed928e-402.avif 402w"><source type="image/webp" srcset="/assets/images/13ed928e-402.webp 402w"><img alt="Blackcoin B" loading="lazy" decoding="async" src="/assets/images/13ed928e-402.jpeg" width="402" height="526"></picture>
     </div>
     <!-- Features Left -->
-    <div class="col-lg-4 wow fadeInRight" data-wow-duration=".8s">
+    <div class="wow fadeInRight" data-wow-duration=".8s">
       <!-- Ft Icon 4 (right) -->
-      <div class="col-md-12 no-gap ft-item ft-material right-align">
-        <i class="fa">🆓</i>
+      <div class="no-gap ft-item ft-material right-align">
+        <i class="icon">🆓</i>
         <h3>OPEN SOURCE</h3>
         <p>The software (wallet) is open source, so its safety can be audited.</p>
       </div><!-- / .ft-item -->
       <br><br><br>
 
       <!-- Ft Icon 5 (right) -->
-      <div class="col-md-12 no-gap ft-item ft-material right-align">
-        <i class="fa">⚡</i>
+      <div class="no-gap ft-item ft-material right-align">
+        <i class="icon">⚡</i>
         <h3>FAST</h3>
         <p>It is extremely fast, you can send money to anyone in the world within seconds.</p>
       </div><!-- / .ft-item -->
       <br><br><br>
 
       <!-- Ft Icon 6 (right) -->
-      <div class="col-md-12 no-gap ft-item ft-material right-align">
-        <i class="fa">👁️</i>
+      <div class="no-gap ft-item ft-material right-align">
+        <i class="icon">👁️</i>
         <h3>ANONYMOUS</h3>
         <p>Anyone can run the wallet and transact with the same anonymity as Bitcoin. No personal identifying
           information is required.</p>
       </div><!-- / .ft-item -->
-    </div><!-- / .col-lg-4 -->
+    </div><!-- / .-->
   </div><!-- / .row -->
 </section><!-- / .container -->
 <div class="testimonials-parallax">
@@ -2558,52 +2554,52 @@ body div#ui-datepicker-div[style] {
         <ul class="t-clients clients-slider ws-s">
           <li>
             <a href="https://twitter.com/BlackcoinOrg" target="_blank" rel="noopener">
-              <picture><source type="image/png" srcset="/assets/images/d3e11e6e-125.png 125w"><img alt="BlackcoinOrg Twitter" loading="lazy" decoding="async" src="/assets/images/d3e11e6e-125.jpeg" width="125" height="102"></picture>>BlackcoinOrg Twitter
+              <picture><source type="image/png" srcset="/assets/images/d3e11e6e-125.png 125w"><source type="image/avif" srcset="/assets/images/d3e11e6e-125.avif 125w"><source type="image/webp" srcset="/assets/images/d3e11e6e-125.webp 125w"><img alt="BlackcoinOrg Twitter" loading="lazy" decoding="async" src="/assets/images/d3e11e6e-125.jpeg" width="125" height="102"></picture>>BlackcoinOrg Twitter
             </a>
           </li>
           <li>
             <a href="https://twitter.com/BlackcoinNL" target="_blank" rel="noopener">
-              <picture><source type="image/png" srcset="/assets/images/8a2d8df6-125.png 125w"><img alt="BlackcoinNL Twitter" loading="lazy" decoding="async" src="/assets/images/8a2d8df6-125.jpeg" width="125" height="102"></picture>>BlackcoinNL Twitter
+              <picture><source type="image/png" srcset="/assets/images/8a2d8df6-125.png 125w"><source type="image/avif" srcset="/assets/images/8a2d8df6-125.avif 125w"><source type="image/webp" srcset="/assets/images/8a2d8df6-125.webp 125w"><img alt="BlackcoinNL Twitter" loading="lazy" decoding="async" src="/assets/images/8a2d8df6-125.jpeg" width="125" height="102"></picture>>BlackcoinNL Twitter
             </a>
           </li>
           <li>
             <a href="https://t.me/blackcoin" target="_blank" rel="noopener">
-              <picture><source type="image/png" srcset="/assets/images/1e9e32f2-125.png 125w"><img alt="Telegram" loading="lazy" decoding="async" src="/assets/images/1e9e32f2-125.jpeg" width="125" height="102"></picture>>Telegram
+              <picture><source type="image/png" srcset="/assets/images/1e9e32f2-125.png 125w"><source type="image/avif" srcset="/assets/images/1e9e32f2-125.avif 125w"><source type="image/webp" srcset="/assets/images/1e9e32f2-125.webp 125w"><img alt="Telegram" loading="lazy" decoding="async" src="/assets/images/1e9e32f2-125.jpeg" width="125" height="102"></picture>>Telegram
             </a>
           </li>
           <li>
             <a href="https://t.me/blackcoinNL" target="_blank" rel="noopener">
-              <picture><source type="image/png" srcset="/assets/images/7f012d6a-125.png 125w"><img alt="BlackcoinNL Telegram" loading="lazy" decoding="async" src="/assets/images/7f012d6a-125.jpeg" width="125" height="102"></picture>>BlackcoinNL Telegram
+              <picture><source type="image/png" srcset="/assets/images/7f012d6a-125.png 125w"><source type="image/avif" srcset="/assets/images/7f012d6a-125.avif 125w"><source type="image/webp" srcset="/assets/images/7f012d6a-125.webp 125w"><img alt="BlackcoinNL Telegram" loading="lazy" decoding="async" src="/assets/images/7f012d6a-125.jpeg" width="125" height="102"></picture>>BlackcoinNL Telegram
             </a>
           </li>
           <li>
             <a href="https://keybase.io/team/blackcoin" target="_blank" rel="noopener">
-              <picture><source type="image/png" srcset="/assets/images/5ed8ba6b-125.png 125w"><img alt="Keybase" loading="lazy" decoding="async" src="/assets/images/5ed8ba6b-125.jpeg" width="125" height="102"></picture>>Keybase
+              <picture><source type="image/png" srcset="/assets/images/5ed8ba6b-125.png 125w"><source type="image/avif" srcset="/assets/images/5ed8ba6b-125.avif 125w"><source type="image/webp" srcset="/assets/images/5ed8ba6b-125.webp 125w"><img alt="Keybase" loading="lazy" decoding="async" src="/assets/images/5ed8ba6b-125.jpeg" width="125" height="102"></picture>>Keybase
             </a>
           </li>
           <li>
             <a href="https://discord.gg/hjNUgWD" target="_blank" rel="noopener">
-              <picture><source type="image/png" srcset="/assets/images/fce63fad-125.png 125w"><img alt="Discord" loading="lazy" decoding="async" src="/assets/images/fce63fad-125.jpeg" width="125" height="102"></picture>>Discord
+              <picture><source type="image/png" srcset="/assets/images/fce63fad-125.png 125w"><source type="image/avif" srcset="/assets/images/fce63fad-125.avif 125w"><source type="image/webp" srcset="/assets/images/fce63fad-125.webp 125w"><img alt="Discord" loading="lazy" decoding="async" src="/assets/images/fce63fad-125.jpeg" width="125" height="102"></picture>>Discord
             </a>
           </li>
           <li>
             <a href="https://bitcointalk.org/index.php?topic=3017838.new#new" target="_blank" rel="noopener">
-              <picture><source type="image/png" srcset="/assets/images/e5c4d80f-125.png 125w"><img alt="Bitcointalk" loading="lazy" decoding="async" src="/assets/images/e5c4d80f-125.jpeg" width="125" height="102"></picture>>Bitcointalk
+              <picture><source type="image/png" srcset="/assets/images/e5c4d80f-125.png 125w"><source type="image/avif" srcset="/assets/images/e5c4d80f-125.avif 125w"><source type="image/webp" srcset="/assets/images/e5c4d80f-125.webp 125w"><img alt="Bitcointalk" loading="lazy" decoding="async" src="/assets/images/e5c4d80f-125.jpeg" width="125" height="102"></picture>>Bitcointalk
             </a>
           </li>
           <li>
             <a href="https://webchat.freenode.net/?channels=%23blackcoin" target="_blank" rel="noopener">
-              <picture><source type="image/png" srcset="/assets/images/11869fb1-125.png 125w"><img alt="IRC" loading="lazy" decoding="async" src="/assets/images/11869fb1-125.jpeg" width="125" height="102"></picture>>IRC
+              <picture><source type="image/png" srcset="/assets/images/11869fb1-125.png 125w"><source type="image/avif" srcset="/assets/images/11869fb1-125.avif 125w"><source type="image/webp" srcset="/assets/images/11869fb1-125.webp 125w"><img alt="IRC" loading="lazy" decoding="async" src="/assets/images/11869fb1-125.jpeg" width="125" height="102"></picture>>IRC
             </a>
           </li>
           <li>
             <a href="https://gitter.im/BlackCoin_Hub" target="_blank" rel="noopener">
-              <picture><source type="image/png" srcset="/assets/images/cadd53b0-125.png 125w"><img alt="Gitter" loading="lazy" decoding="async" src="/assets/images/cadd53b0-125.jpeg" width="125" height="102"></picture>>Gitter
+              <picture><source type="image/png" srcset="/assets/images/cadd53b0-125.png 125w"><source type="image/avif" srcset="/assets/images/cadd53b0-125.avif 125w"><source type="image/webp" srcset="/assets/images/cadd53b0-125.webp 125w"><img alt="Gitter" loading="lazy" decoding="async" src="/assets/images/cadd53b0-125.jpeg" width="125" height="102"></picture>>Gitter
             </a>
           </li>
           <li>
             <a href="https://facebook.com/BlackcoinOrg" target="_blank" rel="noopener">
-              <picture><source type="image/png" srcset="/assets/images/38ac3481-125.png 125w"><img alt="Facebook" loading="lazy" decoding="async" src="/assets/images/38ac3481-125.jpeg" width="125" height="102"></picture>>Facebook
+              <picture><source type="image/png" srcset="/assets/images/38ac3481-125.png 125w"><source type="image/avif" srcset="/assets/images/38ac3481-125.avif 125w"><source type="image/webp" srcset="/assets/images/38ac3481-125.webp 125w"><img alt="Facebook" loading="lazy" decoding="async" src="/assets/images/38ac3481-125.jpeg" width="125" height="102"></picture>>Facebook
             </a>
           </li>
         </ul><!-- / .t-clients -->
@@ -2626,32 +2622,32 @@ body div#ui-datepicker-div[style] {
         <ul class="t-clients clients-slider ws-s">
           <li>
             <a href="https://bittrex.com/Market/Index?MarketName=BTC-BLK">
-              <picture><source type="image/png" srcset="/assets/images/94ce7cbd-222.png 222w"><img alt="Link to Bittrex Exchange" loading="lazy" decoding="async" src="/assets/images/94ce7cbd-222.jpeg" width="222" height="52"></picture>>Bittrex
+              <picture><source type="image/png" srcset="/assets/images/94ce7cbd-222.png 222w"><source type="image/avif" srcset="/assets/images/94ce7cbd-222.avif 222w"><source type="image/webp" srcset="/assets/images/94ce7cbd-222.webp 222w"><img alt="Link to Bittrex Exchange" loading="lazy" decoding="async" src="/assets/images/94ce7cbd-222.jpeg" width="222" height="52"></picture>>Bittrex
             </a>
           </li>
           <li>
             <a href="https://www.aex.com/page/trade.html#/?symbol=blk_btc">
-              <picture><source type="image/png" srcset="/assets/images/6d431cd5-222.png 222w"><img alt="Link to AEX Exchange" loading="lazy" decoding="async" src="/assets/images/6d431cd5-222.jpeg" width="222" height="43"></picture>>AEX
+              <picture><source type="image/png" srcset="/assets/images/6d431cd5-222.png 222w"><source type="image/avif" srcset="/assets/images/6d431cd5-222.avif 222w"><source type="image/webp" srcset="/assets/images/6d431cd5-222.webp 222w"><img alt="Link to AEX Exchange" loading="lazy" decoding="async" src="/assets/images/6d431cd5-222.jpeg" width="222" height="43"></picture>>AEX
             </a>
           </li>
           <li>
             <a href="https://www.bitladon.com/blackcoin">
-              <picture><source type="image/png" srcset="/assets/images/7a21a97e-222.png 222w"><img alt="Bitladon Exchange" loading="lazy" decoding="async" src="/assets/images/7a21a97e-222.jpeg" width="222" height="85"></picture>>Bitladon
+              <picture><source type="image/png" srcset="/assets/images/7a21a97e-222.png 222w"><source type="image/avif" srcset="/assets/images/7a21a97e-222.avif 222w"><source type="image/webp" srcset="/assets/images/7a21a97e-222.webp 222w"><img alt="Bitladon Exchange" loading="lazy" decoding="async" src="/assets/images/7a21a97e-222.jpeg" width="222" height="85"></picture>>Bitladon
             </a>
           </li>
           <li>
             <a href="https://vinex.network/trading/advanced/BTC_BLK">
-              <picture><source type="image/png" srcset="/assets/images/b7f82e5-222.png 222w"><img alt="Link to Vinex" loading="lazy" decoding="async" src="/assets/images/b7f82e5-222.jpeg" width="222" height="74"></picture>>Vinex Exchange
+              <picture><source type="image/png" srcset="/assets/images/b7f82e5-222.png 222w"><source type="image/avif" srcset="/assets/images/b7f82e5-222.avif 222w"><source type="image/webp" srcset="/assets/images/b7f82e5-222.webp 222w"><img alt="Link to Vinex" loading="lazy" decoding="async" src="/assets/images/b7f82e5-222.jpeg" width="222" height="74"></picture>>Vinex Exchange
             </a>
           </li>
           <li>
             <a href="https://holytransaction.com/">
-              <picture><source type="image/png" srcset="/assets/images/588f6dff-222.png 222w"><img alt="Link to HolyTransaction Exchange" loading="lazy" decoding="async" src="/assets/images/588f6dff-222.jpeg" width="222" height="35"></picture>>HolyTransaction
+              <picture><source type="image/png" srcset="/assets/images/588f6dff-222.png 222w"><source type="image/avif" srcset="/assets/images/588f6dff-222.avif 222w"><source type="image/webp" srcset="/assets/images/588f6dff-222.webp 222w"><img alt="Link to HolyTransaction Exchange" loading="lazy" decoding="async" src="/assets/images/588f6dff-222.jpeg" width="222" height="35"></picture>>HolyTransaction
             </a>
           </li>
           <li>
             <a href="https://shapeshift.io/">
-              <picture><source type="image/png" srcset="/assets/images/544c0d06-222.png 222w"><img alt="Link to ShapeShift Exchange" loading="lazy" decoding="async" src="/assets/images/544c0d06-222.jpeg" width="222" height="74"></picture>>ShapeShift
+              <picture><source type="image/png" srcset="/assets/images/544c0d06-222.png 222w"><source type="image/avif" srcset="/assets/images/544c0d06-222.avif 222w"><source type="image/webp" srcset="/assets/images/544c0d06-222.webp 222w"><img alt="Link to ShapeShift Exchange" loading="lazy" decoding="async" src="/assets/images/544c0d06-222.jpeg" width="222" height="74"></picture>>ShapeShift
             </a>
           </li>
         </ul><!-- / .t-clients -->
@@ -2683,37 +2679,37 @@ body div#ui-datepicker-div[style] {
         <ul class="center">
           <!-- Item 1 -->
           <li>
-              <picture><source type="image/png" srcset="/assets/images/ae14d91c-75.png 75w"><img alt="Blackcoin More Logo" loading="lazy" decoding="async" src="/assets/images/ae14d91c-75.jpeg" width="75" height="130"></picture>
+              <picture><source type="image/png" srcset="/assets/images/ae14d91c-75.png 75w"><source type="image/avif" srcset="/assets/images/ae14d91c-75.avif 75w"><source type="image/webp" srcset="/assets/images/ae14d91c-75.webp 75w"><img alt="Blackcoin More Logo" loading="lazy" decoding="async" src="/assets/images/ae14d91c-75.jpeg" width="75" height="130"></picture>
             <h3>MORE WALLET</h3>
             <div class="hover-content">
               <span style="color: #FFFFFF;">Blackcoin More v2.13.2.8</span>
-              <a  alt="Blackcoin More Website" href="https://blackcoinmore.org" ><picture><source type="image/png" srcset="/assets/images/a2ef9ef1-100.png 100w"><img alt="Blackcoin More" loading="lazy" decoding="async" src="/assets/images/a2ef9ef1-100.jpeg" width="100" height="100"></picture></a>
+              <a  alt="Blackcoin More Website" href="https://blackcoinmore.org" ><picture><source type="image/png" srcset="/assets/images/a2ef9ef1-100.png 100w"><source type="image/avif" srcset="/assets/images/a2ef9ef1-100.avif 100w"><source type="image/webp" srcset="/assets/images/a2ef9ef1-100.webp 100w"><img alt="Blackcoin More" loading="lazy" decoding="async" src="/assets/images/a2ef9ef1-100.jpeg" width="100" height="100"></picture></a>
               <p class="pd-15px">The community supported wallet.</p>
             </div><!-- / .hover-content -->
           </li>
           <!-- Item 2 -->
           <li>
-              <picture><source type="image/png" srcset="/assets/images/8b3076f0-75.png 75w"><img alt="Mobile Wallets" loading="lazy" decoding="async" src="/assets/images/8b3076f0-75.jpeg" width="75" height="130"></picture>
+              <picture><source type="image/png" srcset="/assets/images/8b3076f0-75.png 75w"><source type="image/avif" srcset="/assets/images/8b3076f0-75.avif 75w"><source type="image/webp" srcset="/assets/images/8b3076f0-75.webp 75w"><img alt="Mobile Wallets" loading="lazy" decoding="async" src="/assets/images/8b3076f0-75.jpeg" width="75" height="130"></picture>
             <h3>MOBILE WALLETS</h3>
             <div class="hover-content">
-              <a href="https://coinomi.com/"><span><picture><source type="image/png" srcset="/assets/images/f5bf20e9-150.png 150w"><img alt="Coinomi Multicoin Wallet" loading="lazy" decoding="async" src="/assets/images/f5bf20e9-150.jpeg" width="150" height="86"></picture> </span></a>
-              <a href="https://abra.com/"><span><picture><source type="image/svg+xml" srcset="/assets/images/e01ea50e-156.svg 156w"><source type="image/png" srcset="/assets/images/e01ea50e-156.png 156w"><img alt="Abra Multicoin Wallet" loading="lazy" decoding="async" src="/assets/images/e01ea50e-156.jpeg" width="156" height="40"></picture> </span></a>
+              <a href="https://coinomi.com/"><span><picture><source type="image/png" srcset="/assets/images/f5bf20e9-150.png 150w"><source type="image/avif" srcset="/assets/images/f5bf20e9-150.avif 150w"><source type="image/webp" srcset="/assets/images/f5bf20e9-150.webp 150w"><img alt="Coinomi Multicoin Wallet" loading="lazy" decoding="async" src="/assets/images/f5bf20e9-150.jpeg" width="150" height="86"></picture> </span></a>
+              <a href="https://abra.com/"><span><picture><source type="image/svg+xml" srcset="/assets/images/9a4291a3-156.svg 156w"><source type="image/png" srcset="/assets/images/9a4291a3-156.png 156w"><source type="image/avif" srcset="/assets/images/9a4291a3-156.avif 156w"><source type="image/webp" srcset="/assets/images/9a4291a3-156.webp 156w"><img alt="Abra Multicoin Wallet" loading="lazy" decoding="async" src="/assets/images/9a4291a3-156.jpeg" width="156" height="40"></picture> </span></a>
             </div><!-- / .hover-content -->
           </li>
 
           <!-- Item 3 -->
           <li>
-              <picture><source type="image/png" srcset="/assets/images/6a968536-75.png 75w"><img alt="Blackhalo Logo" loading="lazy" decoding="async" src="/assets/images/6a968536-75.jpeg" width="75" height="130"></picture>
+              <picture><source type="image/png" srcset="/assets/images/6a968536-75.png 75w"><source type="image/avif" srcset="/assets/images/6a968536-75.avif 75w"><source type="image/webp" srcset="/assets/images/6a968536-75.webp 75w"><img alt="Blackhalo Logo" loading="lazy" decoding="async" src="/assets/images/6a968536-75.jpeg" width="75" height="130"></picture>
             <h3>BLACKHALO</h3>
             <div class="hover-content">
               <span style="color: #FFFFFF;">Blackhalo</span>
               <a href="https://blackhalo.info/#section-call-to-actiontwo"><span>All platforms
-                  downloads</span><picture><source type="image/png" srcset="/assets/images/6a968536-75.png 75w"><img alt="Blackhalo Logo" loading="lazy" decoding="async" src="/assets/images/6a968536-75.jpeg" width="75" height="130"></picture></a>
+                  downloads</span><picture><source type="image/png" srcset="/assets/images/6a968536-75.png 75w"><source type="image/avif" srcset="/assets/images/6a968536-75.avif 75w"><source type="image/webp" srcset="/assets/images/6a968536-75.webp 75w"><img alt="Blackhalo Logo" loading="lazy" decoding="async" src="/assets/images/6a968536-75.jpeg" width="75" height="130"></picture></a>
             </div><!-- / .hover-content -->
           </li>
           <!-- Item 4 -->
           <li>
-              <picture><source type="image/png" srcset="/assets/images/e63170f0-75.png 75w"><img alt="Blackcoin Logo" loading="lazy" decoding="async" src="/assets/images/e63170f0-75.jpeg" width="75" height="130"></picture>
+              <picture><source type="image/png" srcset="/assets/images/e63170f0-75.png 75w"><source type="image/avif" srcset="/assets/images/e63170f0-75.avif 75w"><source type="image/webp" srcset="/assets/images/e63170f0-75.webp 75w"><img alt="Blackcoin Logo" loading="lazy" decoding="async" src="/assets/images/e63170f0-75.jpeg" width="75" height="130"></picture>
             <h3>LEGACY WALLET</h3>
             <div class="hover-content">
               <span style="color: #FFFFFF;">Legacy v1.2.x</span>
@@ -4556,6 +4552,10 @@ function dropDown(a) {
     submenu.style.display = submenu.style.display == "flex" ? "none" : "flex";
     
     return false;
+}
+
+function close() {
+    return parentElement.parentElement.parentElement.parentElement.style.display = 'none';
 }
 </script>
 

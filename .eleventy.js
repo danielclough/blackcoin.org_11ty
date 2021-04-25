@@ -6,6 +6,8 @@ const pluginNavigation = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const Image = require("@11ty/eleventy-img");
+const i18n = require('eleventy-plugin-i18n');
+const translations = require('./src/_data/i18n');
 
 async function imageShortcode(src, alt, sizes) {
     if (!alt) {
@@ -13,8 +15,8 @@ async function imageShortcode(src, alt, sizes) {
     }
   let metadata = await Image(src, {
     widths: [null],
-    // formats: ["jpeg", "svg", "png", "avif", "webp"],
-    formats: ["jpeg", "svg", "png"],
+    formats: ["jpeg", "svg", "png", "avif", "webp"],
+    // formats: ["jpeg", "svg", "png"],
     urlPath: "/assets/images/",
     outputDir: "./docs/assets/images/",
   });
@@ -31,6 +33,37 @@ async function imageShortcode(src, alt, sizes) {
 }
 
 module.exports = function(eleventyConfig) {
+  // i18n
+  eleventyConfig.addPlugin(i18n, {
+    translations,
+    fallbackLocales: {
+      '*': 'en'
+    }
+  });
+
+  // TEMP demo of what could be an i18n-aware plural package?
+  eleventyConfig.addFilter('pluralize', function (term, count = 1) {
+    // Poorman's pluralize for now...
+    return count === 1 ? term : `${term}s`;
+  });
+
+  // Browsersync
+  // Redirect from root to default language root during --serve
+  eleventyConfig.setBrowserSyncConfig({
+    callbacks: {
+      ready: function (err, bs) {
+        bs.addMiddleware('*', (req, res) => {
+          if (req.url === '/') {
+            res.writeHead(302, {
+              location: '/en/'
+            });
+            res.end();
+          }
+        });
+      }
+    }
+  });
+
   //imageShortcode
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
   eleventyConfig.addLiquidShortcode("image", imageShortcode);

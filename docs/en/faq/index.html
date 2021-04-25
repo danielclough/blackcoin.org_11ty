@@ -221,9 +221,9 @@
 .testimonials-3col .t-item .t-icon{ color:#999 }
 .testimonials-3col .t-clients li a img{ margin:auto }
 
-.preloader{ position:fixed; top:0; left:0; right:0; bottom:0; background-color:#111; z-index:9999 }
+.preloader{ position:fixed; top:0; left:0; right:0; bottom:0; background-color:#111; color: #fff; z-index:9999; text-align: center; }
 .preloader img{ display:block; position:absolute; left:0; right:0; top:0; bottom:0; width:50px; height:50px; margin:auto }
-
+.preloader h1{ display:block; position:absolute; left:0; right:0; top:0; bottom:0; width:200px; height:200px; margin:auto }
 .scroller{ display:inline-block; position:absolute; bottom:15px; left:0; right:0; width:120px; margin:0 auto; text-align:center; color:rgba(235,235,235,.5) }
 .scroller:focus{ color:inherit; text-decoration:none }
 .scroller:hover{ color:#ebebeb }
@@ -866,7 +866,17 @@ html {background-color: #eee;}
 .row {flex-flow: row;}
 .column {flex-flow: column;}
 .centered {align-self: center; justify-self:center;}
-@font-face {font-display: swap;}
+.icon {
+    display: inline-block;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+#hamburger-toggle {
+  fill: #ddd;
+}
 
 #navbar { 
   width: 100%;
@@ -917,7 +927,11 @@ html {background-color: #eee;}
     display: none;
     left: 0;
 }
-#menu-right {
+
+#lang-select {
+  margin-left: 3rem;
+}
+#menu-locale {
     display: none;
     right: 100% !important;
     width: max-content;
@@ -1008,34 +1022,35 @@ html {background-color: #eee;}
     <nav id="navbar" role="navigation">
     <!-- Logo -->
     <a id="nav-logo" href="/"> 
-        <picture><source type="image/png" srcset="/assets/images/16552e31-150.png 150w"><img alt="Blackcoin - Logo" loading="lazy" decoding="async" src="/assets/images/16552e31-150.jpeg" width="150" height="30"></picture>
+        <picture><source type="image/png" srcset="/assets/images/16552e31-150.png 150w"><source type="image/avif" srcset="/assets/images/16552e31-150.avif 150w"><source type="image/webp" srcset="/assets/images/16552e31-150.webp 150w"><img alt="Blackcoin - Logo" loading="lazy" decoding="async" src="/assets/images/16552e31-150.jpeg" width="150" height="30"></picture>
     </a>
     <row>
-    <a id="hamburger-toggle" href="#" onclick="return dropDown(this)">Hamburger</a>
-    <ul class="nav-main"> 
-        <li>
-            <a href="#" onclick="return dropDown(this)">Explore</a>
-            <ul id="menu">
-                <li><a href="#about">About</a></li>
-                <li><a href="#community">Community</a></li>
-                <li><a href="/donations">Donations</a></li>
-                <!--<li><a href="bounties/">Bounties</a></li>-->
-                <li><a href="/faq"><span style="color: #ddb77a;">FAQ</span></a></li>
-            </ul>
+        <a id="hamburger-toggle" href="#" onclick="return dropDown(this)"><picture><source type="image/svg+xml" srcset="/assets/images/d3da4e8e-32.svg 32w"><source type="image/png" srcset="/assets/images/d3da4e8e-32.png 32w"><source type="image/avif" srcset="/assets/images/d3da4e8e-32.avif 32w"><source type="image/webp" srcset="/assets/images/d3da4e8e-32.webp 32w"><img alt="Hamburger" loading="lazy" decoding="async" src="/assets/images/d3da4e8e-32.jpeg" width="32" height="32"></picture></a>
+        <ul class="nav-main"> 
+            <li>
+                <a href="#" onclick="return dropDown(this)">Explore</a>
+                <ul id="menu">
+                    <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="/en/">Homepage</a></li>
+                    <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="#about">About</a></li>
+                    <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="#community">Community</a></li>
+                    <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="/donations">Donations</a></li>
+                    <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="/faq"><span style="color: #ddb77a;">FAQ</span></a></li>
+                    <!--<li><a href="bounties/">Bounties</a></li>-->
+                </ul>
 
-            <li><a href="#buy">Buy </a></li>
-            
-            <li><a href="#downloads">Download</a></li>
-            
-            <li><a href="#" onclick="return dropDown(this)">Markets</a>
-                <ul>
-                    <div  id="nav-markets">
-                        <div>
-                            <a class="centered" href="https://www.coingecko.com/en/coins/blackcoin" rel="noopener" target="_blank">
-                                More charts on <br /> 
-                                CoinGecko
-                            </a>
-                            <script>
+<!--                 <li><a onclick="parentElement.parentElement.style.display = 'none'" href="#buy">Buy </a></li>
+ -->                
+                <li><a onclick="parentElement.parentElement.style.display = 'none'" href="#downloads">Download</a></li>
+                
+                <li><a href="#" onclick="return dropDown(this)">Markets</a>
+                    <ul>
+                        <div  id="nav-markets">
+                            <div>
+                                <a class="centered" href="https://www.coingecko.com/en/coins/blackcoin" rel="noopener" target="_blank">
+                                    More charts on <br /> 
+                                    CoinGecko
+                                </a>
+                                <script>
   var x = window.matchMedia("(max-width: 700px)")
   cryptocompare2(x) // Call listener function at run time
   x.addListener(cryptocompare2) 
@@ -1111,7 +1126,7 @@ html {background-color: #eee;}
       }
     }
 </script>
-                            <script>
+                                <script>
   var x = window.matchMedia("(max-width: 700px)")
   cryptocompare3(x) // Call listener function at run time
   x.addListener(cryptocompare3) 
@@ -1138,8 +1153,8 @@ html {background-color: #eee;}
       }
     }
 </script>
-                        </div>
-                        <script>
+                            </div>
+                            <script>
     var x = window.matchMedia("(max-width: 700px)")
     cryptocompare1(x) // Call listener function at run time
     x.addListener(cryptocompare1) // Attach listener function on state changes
@@ -1199,13 +1214,25 @@ html {background-color: #eee;}
       }
     }
 </script>
-                    </div>
-                </ul>
-            </li>
-            
-            <li><a href="#" onclick="return dropDown(this)">Twitter</a>
-                <ul id="menu-twitter">
-                    <div id="nav-twitter">
+                        </div>
+                    </ul>
+                </li>
+                <li><a href="#" onclick="return dropDown(this)">Links</a>
+                    <ul id="menu-right">
+                        <li><a rel="noopener" target="_blank" href="https://chainz.cryptoid.info/blk/">CryptoID Explorer</a></li>
+                        <li><a rel="noopener" target="_blank" href="https://www.coingecko.com/en/coins/blackcoin">Coingecko</a></li>
+                        <li><a rel="noopener" target="_blank" href="https://coinmarketcap.com/currencies/blackcoin/#charts">Coinmarketcap</a></li>
+                        <li><a rel="noopener" target="_blank" href="https://blackcoin.nl">BlackcoinNL</a></li>
+                        <li><a rel="noopener" target="_blank" href="https://node.blackcoin.io/insight/">Blacksight Explorer</a></li>
+                        <li><a rel="noopener" target="_blank" href="https://bitinfocharts.com/blackcoin/">Bitinfocharts Explorer</a></li>
+                        <li><a rel="noopener" target="_blank" href="https://gihub.com/coinblack/">Github</a></li>
+                        <li><a rel="noopener" target="_blank" href="https://gitlab.com/blackcoin/">Gitlab</a></li>
+                        <!--<li><a href="https://en.wikipedia.org/wiki/BlackCoin">Wikipedia</a></li>-->
+                    </ul>
+                </li>
+                <li><a href="#" onclick="return dropDown(this)">Twitter</a>
+                    <ul id="menu-twitter">
+                        <div id="nav-twitter">
   <a  href="https://twitter.com/hashtag/Blackcoin" alt="Hashtag Blackcoin"
       data-widget-id="746421924109164548"
       data-chrome="noheader noborders nofooter transparent noscrollbar"><li>#Blackcoin</li></a>
@@ -1234,24 +1261,38 @@ html {background-color: #eee;}
       }
   </script>
 </div>
-                </ul>
+                    </ul>
+                </li>
             </li>
-            <li><a href="#" onclick="return dropDown(this)">Links</a>
-                <ul id="menu-right">
-                    <li><a rel="noopener" target="_blank" href="https://chainz.cryptoid.info/blk/">CryptoID Explorer</a></li>
-                    <li><a rel="noopener" target="_blank" href="https://www.coingecko.com/en/coins/blackcoin">Coingecko</a></li>
-                    <li><a rel="noopener" target="_blank" href="https://coinmarketcap.com/currencies/blackcoin/#charts">Coinmarketcap</a></li>
-                    <li><a rel="noopener" target="_blank" href="https://blackcoin.nl">BlackcoinNL</a></li>
-                    <li><a rel="noopener" target="_blank" href="https://node.blackcoin.io/insight/">Blacksight Explorer</a></li>
-                    <li><a rel="noopener" target="_blank" href="https://bitinfocharts.com/blackcoin/">Bitinfocharts Explorer</a></li>
-                    <li><a rel="noopener" target="_blank" href="https://gihub.com/coinblack/">Github</a></li>
-                    <li><a rel="noopener" target="_blank" href="https://gitlab.com/blackcoin/">Gitlab</a></li>
-                    <!--<li><a href="https://en.wikipedia.org/wiki/BlackCoin">Wikipedia</a></li>-->
-                </ul>
-            </li>
-        </li>
-    </ul>
+        </ul>
     <row>
+    
+
+<a id="lang-select" href="#" onclick="return dropDown(this)">Select language</a>
+<ul id="menu-locale"  class="nav-main">
+<a href="/zh/faq/" rel="/zh faq/" hreflang="zh"><li>中文</li></a>
+<a href="/es/faq/" rel="/es faq/" hreflang="es"><li>Españolx</li></a>
+<a href="/en/faq/" rel="/en faq/" hreflang="en"><li>English</li></a>
+<a href="/hi/faq/" rel="/hi faq/" hreflang="hi"><li>हिंदी</li></a>
+<a href="/ar/faq/" rel="/ar faq/" hreflang="ar"><li>عربى</li></a>
+<a href="/pt/faq/" rel="/pt faq/" hreflang="pt"><li>português</li></a>
+<a href="/bn/faq/" rel="/bn faq/" hreflang="bn"><li>বাংলা</li></a>
+<a href="/ru/faq/" rel="/ru faq/" hreflang="ru"><li>русский</li></a>
+<a href="/ja/faq/" rel="/ja faq/" hreflang="ja"><li>日本語</li></a>
+<a href="/jv/faq/" rel="/jv faq/" hreflang="jv"><li>Wong jawa</li></a>
+<a href="/de/faq/" rel="/de faq/" hreflang="de"><li>Deutsche</li></a>
+<a href="/ko/faq/" rel="/ko faq/" hreflang="ko"><li>한국어</li></a>
+<a href="/fr/faq/" rel="/fr faq/" hreflang="fr"><li>Français</li></a>
+<a href="/te/faq/" rel="/te faq/" hreflang="te"><li>తెలుగు</li></a>
+<a href="/mr/faq/" rel="/mr faq/" hreflang="mr"><li>मराठी</li></a>
+<a href="/tr/faq/" rel="/tr faq/" hreflang="tr"><li>Türk</li></a>
+<a href="/ta/faq/" rel="/ta faq/" hreflang="ta"><li>தமிழ்</li></a>
+<a href="/vi/faq/" rel="/vi faq/" hreflang="vi"><li>Tiếng Việt</li></a>
+<a href="/ur/faq/" rel="/ur faq/" hreflang="ur"><li>اردو</li></a>
+<a href="/nl/faq/" rel="/nl faq/" hreflang="nl"><li>Dutch</li></a>
+<a href="/it/faq/" rel="/it faq/" hreflang="it"><li>Italianx</li></a>
+<a href="/hr/faq/" rel="/hr faq/" hreflang="hr"><li>Hrvatski</li></a>
+</ul>
 </nav><!-- / .navbar -->
 
 
@@ -2702,6 +2743,10 @@ function dropDown(a) {
     submenu.style.display = submenu.style.display == "flex" ? "none" : "flex";
     
     return false;
+}
+
+function close() {
+    return parentElement.parentElement.parentElement.parentElement.style.display = 'none';
 }
 </script>
 

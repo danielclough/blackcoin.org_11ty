@@ -16,3 +16,8 @@ package = "netlify-plugin-csp-generator"
   buildDir = "docs"
   [plugins.inputs.policies]
     defaultSrc = "'self'"
+
+[[redirects]]
+  from = "/"
+  to = "/en"
+  status = 301

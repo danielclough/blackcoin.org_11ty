@@ -4,57 +4,58 @@
         {% image "./src/assets/images/logo-light.png", "Blackcoin - Logo" %}
     </a>
     <row>
-    <a id="hamburger-toggle" href="#" onclick="return dropDown(this)">Hamburger</a>
-    <ul class="nav-main"> 
-        <li>
-            <a href="#" onclick="return dropDown(this)">Explore</a>
-            <ul id="menu">
-                <li><a href="#about">About</a></li>
-                <li><a href="#community">Community</a></li>
-                <li><a href="/donations">Donations</a></li>
-                <!--<li><a href="bounties/">Bounties</a></li>-->
-                <li><a href="/faq"><span style="color: #ddb77a;">FAQ</span></a></li>
-            </ul>
+        <a id="hamburger-toggle" href="#" onclick="return dropDown(this)">{% image "./src/assets/images/svg/hamburger.svg", "Hamburger" %}</a>
+        <ul class="nav-main"> 
+            <li>
+                <a href="#" onclick="return dropDown(this)">Explore</a>
+                <ul id="menu">
+                    <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="/{{ locale }}/">{{ 'homepage' | i18n }}</a></li>
+                    <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="#about">About</a></li>
+                    <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="#community">Community</a></li>
+                    <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="/donations">Donations</a></li>
+                    <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="/faq"><span style="color: #ddb77a;">FAQ</span></a></li>
+                    <!--<li><a href="bounties/">Bounties</a></li>-->
+                </ul>
 
-            <li><a href="#buy">Buy </a></li>
-            
-            <li><a href="#downloads">Download</a></li>
-            
-            <li><a href="#" onclick="return dropDown(this)">Markets</a>
-                <ul>
-                    <div  id="nav-markets">
-                        <div>
-                            <a class="centered" href="https://www.coingecko.com/en/coins/blackcoin" rel="noopener" target="_blank">
-                                More charts on <br /> 
-                                CoinGecko
-                            </a>
-                            {% include "layouts/scripts/cryptocompare-blk-price.njk" %}
-                            {% include "layouts/scripts/cryptocompare-btc-price.njk" %}
+<!--                 <li><a onclick="parentElement.parentElement.style.display = 'none'" href="#buy">Buy </a></li>
+ -->                
+                <li><a onclick="parentElement.parentElement.style.display = 'none'" href="#downloads">Download</a></li>
+                
+                <li><a href="#" onclick="return dropDown(this)">Markets</a>
+                    <ul>
+                        <div  id="nav-markets">
+                            <div>
+                                <a class="centered" href="https://www.coingecko.com/en/coins/blackcoin" rel="noopener" target="_blank">
+                                    More charts on <br /> 
+                                    CoinGecko
+                                </a>
+                                {% include "layouts/scripts/cryptocompare-blk-price.njk" %}
+                                {% include "layouts/scripts/cryptocompare-btc-price.njk" %}
+                            </div>
+                            {% include "layouts/scripts/cryptocompare-blk-chart.njk" %}
                         </div>
-                        {% include "layouts/scripts/cryptocompare-blk-chart.njk" %}
-                    </div>
-                </ul>
+                    </ul>
+                </li>
+                <li><a href="#" onclick="return dropDown(this)">Links</a>
+                    <ul id="menu-right">
+                        <li><a rel="noopener" target="_blank" href="https://chainz.cryptoid.info/blk/">CryptoID Explorer</a></li>
+                        <li><a rel="noopener" target="_blank" href="https://www.coingecko.com/en/coins/blackcoin">Coingecko</a></li>
+                        <li><a rel="noopener" target="_blank" href="https://coinmarketcap.com/currencies/blackcoin/#charts">Coinmarketcap</a></li>
+                        <li><a rel="noopener" target="_blank" href="https://blackcoin.nl">BlackcoinNL</a></li>
+                        <li><a rel="noopener" target="_blank" href="https://node.blackcoin.io/insight/">Blacksight Explorer</a></li>
+                        <li><a rel="noopener" target="_blank" href="https://bitinfocharts.com/blackcoin/">Bitinfocharts Explorer</a></li>
+                        <li><a rel="noopener" target="_blank" href="https://gihub.com/coinblack/">Github</a></li>
+                        <li><a rel="noopener" target="_blank" href="https://gitlab.com/blackcoin/">Gitlab</a></li>
+                        <!--<li><a href="https://en.wikipedia.org/wiki/BlackCoin">Wikipedia</a></li>-->
+                    </ul>
+                </li>
+                <li><a href="#" onclick="return dropDown(this)">Twitter</a>
+                    <ul id="menu-twitter">
+                        {% include "components/twitter.njk" %}
+                    </ul>
+                </li>
             </li>
-            
-            <li><a href="#" onclick="return dropDown(this)">Twitter</a>
-                <ul id="menu-twitter">
-                    {% include "components/twitter.njk" %}
-                </ul>
-            </li>
-            <li><a href="#" onclick="return dropDown(this)">Links</a>
-                <ul id="menu-right">
-                    <li><a rel="noopener" target="_blank" href="https://chainz.cryptoid.info/blk/">CryptoID Explorer</a></li>
-                    <li><a rel="noopener" target="_blank" href="https://www.coingecko.com/en/coins/blackcoin">Coingecko</a></li>
-                    <li><a rel="noopener" target="_blank" href="https://coinmarketcap.com/currencies/blackcoin/#charts">Coinmarketcap</a></li>
-                    <li><a rel="noopener" target="_blank" href="https://blackcoin.nl">BlackcoinNL</a></li>
-                    <li><a rel="noopener" target="_blank" href="https://node.blackcoin.io/insight/">Blacksight Explorer</a></li>
-                    <li><a rel="noopener" target="_blank" href="https://bitinfocharts.com/blackcoin/">Bitinfocharts Explorer</a></li>
-                    <li><a rel="noopener" target="_blank" href="https://gihub.com/coinblack/">Github</a></li>
-                    <li><a rel="noopener" target="_blank" href="https://gitlab.com/blackcoin/">Gitlab</a></li>
-                    <!--<li><a href="https://en.wikipedia.org/wiki/BlackCoin">Wikipedia</a></li>-->
-                </ul>
-            </li>
-        </li>
-    </ul>
+        </ul>
     <row>
+    {% include 'components/language-selector.njk' %}
 </nav><!-- / .navbar -->
