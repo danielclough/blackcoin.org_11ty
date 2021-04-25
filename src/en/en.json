@@ -1,5 +1,14 @@
 {
-  "dir": "ltr",
   "lang": "en",
-  "locale": "en"
+  "locale": "en",
+  "explore": "Explore",
+  "about": "About",
+  "community": "Community",
+  "donations": "Donations",
+  "faq": "FAQ",
+  "download": "Download",
+  "markets": "Markets",
+  "more_charts_on": "More charts on",
+  "links": "Links",
+  "explorer": "Explorer"
 }
