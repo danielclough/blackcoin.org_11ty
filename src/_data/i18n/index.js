@@ -104,13 +104,13 @@ module.exports = {
     'hi': '2014 से स्टेक का शुद्ध प्रमाण', /*Hindi*/ 
     'ar': 'دليل خالص على الحصة منذ عام 2014', /*Arabic - Right-to-left*/
     'pt': 'Pura prova de interesse desde 2014', /*Portuguese*/
-    'bn': '', /*Bengal*/
+    'bn': '২০১৪ সাল থেকে খাঁটি প্রুফ', /*Bengal*/
     'ru': 'Чистое доказательство ставки с 2014 года', /*Russian*/
     'ja': '2014年以降の純粋なプルーフオブステーク', /*Japanese*/
-    'jv': '', /*Javanese*/
-    'de': '', /*German*/
-    'ko': '', /*Korean*/
-    'fr': '', /*French*/
+    'jv': 'Bukti Tulisan Murni wiwit 2014', /*Javanese*/
+    'de': 'Reiner Nachweis des Einsatzes seit 2014', /*German*/
+    'ko': '2014 년 이후 순수 지분 증명', /*Korean*/
+    'fr': 'Pure preuve d\'enjeu depuis 2014', /*French*/
     'te': '', /*Telugu*/
     'mr': '', /*Marathi*/ 
     'tr': '', /*Turkish*/ 
@@ -128,13 +128,13 @@ module.exports = {
     'hi': 'ताजा खबर', /*Hindi*/ 
     'ar': 'أحدث الأخبار', /*Arabic - Right-to-left*/
     'pt': 'Últimas notícias', /*Portuguese*/
-    'bn': '', /*Bengal*/
+    'bn': 'সর্বশেষ সংবাদ', /*Bengal*/
     'ru': 'Последние новости', /*Russian*/
     'ja': '最新ニュース', /*Japanese*/
-    'jv': '', /*Javanese*/
-    'de': '', /*German*/
-    'ko': '', /*Korean*/
-    'fr': '', /*French*/
+    'jv': 'Warta Paling Anyar', /*Javanese*/
+    'de': 'Neuesten Nachrichten', /*German*/
+    'ko': '최근 소식', /*Korean*/
+    'fr': 'Dernières nouvelles', /*French*/
     'te': '', /*Telugu*/
     'mr': '', /*Marathi*/ 
     'tr': '', /*Turkish*/ 
@@ -152,13 +152,13 @@ module.exports = {
     'hi': 'BlackCoin के बारे में', /*Hindi*/ 
     'ar': 'حول BlackCoin', /*Arabic - Right-to-left*/
     'pt': 'Sobre BlackCoin', /*Portuguese*/
-    'bn': '', /*Bengal*/
+    'bn': 'ব্ল্যাককয়েন সম্পর্কে', /*Bengal*/
     'ru': 'О BlackCoin', /*Russian*/
     'ja': 'BlackCoinについて', /*Japanese*/
-    'jv': '', /*Javanese*/
-    'de': '', /*German*/
-    'ko': '', /*Korean*/
-    'fr': '', /*French*/
+    'jv': 'Babagan BlackCoin', /*Javanese*/
+    'de': 'Über BlackCoin', /*German*/
+    'ko': 'BlackCoin 정보', /*Korean*/
+    'fr': 'À propos de BlackCoin', /*French*/
     'te': '', /*Telugu*/
     'mr': '', /*Marathi*/ 
     'tr': '', /*Turkish*/ 
@@ -176,13 +176,13 @@ module.exports = {
     'hi': 'केक का प्रमाण 3.0', /*Hindi*/ 
     'ar': 'إثبات الرهان 3.0', /*Arabic - Right-to-left*/
     'pt': 'PROVA DE PARTICIPAÇÃO 3.0', /*Portuguese*/
-    'bn': '', /*Bengal*/
+    'bn': 'স্টকের প্রমাণ ৩.০', /*Bengal*/
     'ru': 'ДОКАЗАТЕЛЬСТВО СТАВКИ 3.0', /*Russian*/
     'ja': 'プルーフオブステーク3.0', /*Japanese*/
-    'jv': '', /*Javanese*/
-    'de': '', /*German*/
-    'ko': '', /*Korean*/
-    'fr': '', /*French*/
+    'jv': 'BUKTI STAKE 3.0', /*Javanese*/
+    'de': 'STAKE-NACHWEIS 3.0', /*German*/
+    'ko': '스테이크 3.0 증명', /*Korean*/
+    'fr': 'PREUVE D\'ENJEU 3.0', /*French*/
     'te': '', /*Telugu*/
     'mr': '', /*Marathi*/ 
     'tr': '', /*Turkish*/ 
@@ -200,13 +200,13 @@ module.exports = {
     'hi': 'वे उपयोगकर्ता जो स्टेकिंग के माध्यम से नेटवर्क को सुरक्षित करने के लिए अपने बटुए को खुले रखते हैं, उन्हें प्रति वर्ष 1% से 8% पुरस्कार (नेटवर्क वजन के अनुसार भिन्न होता है) मिलेगा। ', /*Hindi*/ 
     'ar': 'سيحصل المستخدمون الذين يبقون محفظتهم مفتوحة لتأمين الشبكة عبر Staking على مكافآت تتراوح من 1٪ إلى 8٪ سنويًا (تختلف وفقًا لوزن الشبكة). ', /*Arabic - Right-to-left*/
     'pt': 'Os usuários que mantiverem sua carteira aberta para proteger a rede por meio de piquetagem receberão recompensas de 1% a 8% ao ano (varia de acordo com o peso da rede). ', /*Portuguese*/
-    'bn': '', /*Bengal*/
+    'bn': 'ব্যবহারকারীরা স্টেকিংয়ের মাধ্যমে নেটওয়ার্কটি সুরক্ষিত রাখতে তাদের ওয়ালেটটি উন্মুক্ত রাখেন তারা প্রতি বছর 1% থেকে 8% পুরষ্কার পাবেন (নেটওয়ার্কের ওজন অনুসারে পরিবর্তিত হবে)। ', /*Bengal*/
     'ru': 'Пользователи, которые держат свой кошелек открытым для защиты сети с помощью ставок, будут получать от 1% до 8% вознаграждения в год (зависит от веса сети). ', /*Russian*/
     'ja': 'ステーキングを介してネットワークを保護するためにウォレットを開いたままにしておくユーザーは、年間1％から8％の報酬を受け取ります（ネットワークの重みによって異なります）。 ', /*Japanese*/
-    'jv': '', /*Javanese*/
-    'de': '', /*German*/
-    'ko': '', /*Korean*/
-    'fr': '', /*French*/
+    'jv': 'Pangguna sing njaga dompet supaya aman kanggo ngamanake jaringan liwat staking bakal entuk hadiah saka 1% nganti 8% saben taun (beda-beda miturut bobot jaringan). ', /*Javanese*/
+    'de': 'Benutzer, die ihre Brieftasche offen halten, um das Netzwerk durch Absteckung zu sichern, erhalten zwischen 1% und 8% Prämien pro Jahr (variiert je nach Netzwerkgewicht). ', /*German*/
+    'ko': '스테이 킹을 통해 네트워크를 보호하기 위해 지갑을 열어 두는 사용자는 연간 1 ~ 8 %의 보상을 받게됩니다 (네트워크 가중치에 따라 다름). ', /*Korean*/
+    'fr': 'Les utilisateurs qui gardent leur portefeuille ouvert pour sécuriser le réseau via le jalonnement recevront de 1% à 8% de récompenses par an (cela varie en fonction du poids du réseau). ', /*French*/
     'te': '', /*Telugu*/
     'mr': '', /*Marathi*/ 
     'tr': '', /*Turkish*/ 
@@ -224,13 +224,13 @@ module.exports = {
     'hi': 'अधिक पढ़ें...', /*Hindi*/ 
     'ar': 'اقرأ أكثر...', /*Arabic - Right-to-left*/
     'pt': 'Consulte Mais informação...', /*Portuguese*/
-    'bn': '', /*Bengal*/
+    'bn': 'আরও পড়ুন ...', /*Bengal*/
     'ru': 'Читать далее...', /*Russian*/
     'ja': '続きを読む...', /*Japanese*/
-    'jv': '', /*Javanese*/
-    'de': '', /*German*/
-    'ko': '', /*Korean*/
-    'fr': '', /*French*/
+    'jv': 'Waca liyane ...', /*Javanese*/
+    'de': 'Weiterlesen...', /*German*/
+    'ko': '더 읽어보기 ...', /*Korean*/
+    'fr': 'Lire la suite...', /*French*/
     'te': '', /*Telugu*/
     'mr': '', /*Marathi*/ 
     'tr': '', /*Turkish*/ 
@@ -248,13 +248,13 @@ module.exports = {
     'hi': 'पर्यावरण के अनुकूल', /*Hindi*/ 
     'ar': 'صديقة للبيئة', /*Arabic - Right-to-left*/
     'pt': 'ECO-AMIGÁVEL', /*Portuguese*/
-    'bn': '', /*Bengal*/
+    'bn': 'ইকো-বন্ধুত্বপূর্ণ', /*Bengal*/
     'ru': 'ЭКОЛОГИЧЕСКИЙ', /*Russian*/
     'ja': '環境にやさしい', /*Japanese*/
-    'jv': '', /*Javanese*/
-    'de': '', /*German*/
-    'ko': '', /*Korean*/
-    'fr': '', /*French*/
+    'jv': 'ECO-FRIENDLY', /*Javanese*/
+    'de': 'Umweltfreundlich', /*German*/
+    'ko': '친환경', /*Korean*/
+    'fr': 'RESPECTUEUX DE LA NATURE', /*French*/
     'te': '', /*Telugu*/
     'mr': '', /*Marathi*/ 
     'tr': '', /*Turkish*/ 
@@ -272,13 +272,13 @@ module.exports = {
     'hi': 'प्रूफ ऑफ स्टेक के आधार पर। कोई और अधिक बिजली भूखा खनन हार्डवेयर।', /*Hindi*/ 
     'ar': 'بناء على إثبات الحصة. لا مزيد من أجهزة التعدين المتعطشة للطاقة.', /*Arabic - Right-to-left*/
     'pt': 'Com base na Prova de Participação. Não há mais hardware de mineração com fome de energia.', /*Portuguese*/
-    'bn': '', /*Bengal*/
+    'bn': 'প্রুফ অফ-স্টেকের ভিত্তিতে। ক্ষুধার্ত খনির হার্ডওয়্যার আর নেই।', /*Bengal*/
     'ru': 'На основе Proof-of-Stake. Больше нет энергоемкого оборудования для майнинга.', /*Russian*/
     'ja': 'プルーフオブステークに基づいています。電力を大量に消費するマイニングハードウェアはもう必要ありません。', /*Japanese*/
-    'jv': '', /*Javanese*/
-    'de': '', /*German*/
-    'ko': '', /*Korean*/
-    'fr': '', /*French*/
+    'jv': 'Adhedhasar Bukti-of-Stake. Ora ana maneh hardware tambang sing keluwen.', /*Javanese*/
+    'de': 'Basierend auf Proof-of-Stake. Keine stromhungrige Mining-Hardware mehr.', /*German*/
+    'ko': '지분 증명을 기반으로합니다. 더 이상 전력에 굶주린 채굴 하드웨어가 없습니다.', /*Korean*/
+    'fr': 'Basé sur la preuve d\'enjeu. Fini le matériel minier gourmand en énergie.', /*French*/
     'te': '', /*Telugu*/
     'mr': '', /*Marathi*/ 
     'tr': '', /*Turkish*/ 
@@ -296,13 +296,13 @@ module.exports = {
     'hi': 'पारदर्शी LEDGER', /*Hindi*/ 
     'ar': 'ليدجر شفاف', /*Arabic - Right-to-left*/
     'pt': 'LEDGER TRANSPARENTE', /*Portuguese*/
-    'bn': '', /*Bengal*/
+    'bn': 'ট্রান্সপারেন্ট এলইডিগার', /*Bengal*/
     'ru': 'ПРОЗРАЧНЫЙ ЛЕДГЕР', /*Russian*/
     'ja': '透明な元帳', /*Japanese*/
-    'jv': '', /*Javanese*/
-    'de': '', /*German*/
-    'ko': '', /*Korean*/
-    'fr': '', /*French*/
+    'jv': 'LEDGER TRANSPAREN', /*Javanese*/
+    'de': 'TRANSPARENT LEDGER', /*German*/
+    'ko': '투명 원장', /*Korean*/
+    'fr': 'LEDGER TRANSPARENT', /*French*/
     'te': '', /*Telugu*/
     'mr': '', /*Marathi*/ 
     'tr': '', /*Turkish*/ 
@@ -320,13 +320,13 @@ module.exports = {
     'hi': 'हर कोई खाता बही का इतिहास साझा करता है, इसलिए यह पूरी तरह से पारदर्शी है।', /*Hindi*/ 
     'ar': 'يشارك الجميع تاريخ دفتر الأستاذ ، لذا فهو شفاف تمامًا.', /*Arabic - Right-to-left*/
     'pt': 'Todos compartilham o histórico do livro-razão, por isso é totalmente transparente.', /*Portuguese*/
-    'bn': '', /*Bengal*/
+    'bn': 'প্রত্যাহার ইতিহাস প্রত্যেকে ভাগ করে নেয়, তাই এটি সম্পূর্ণ স্বচ্ছ।', /*Bengal*/
     'ru': 'Все делятся историей бухгалтерской книги, поэтому она полностью прозрачна.', /*Russian*/
     'ja': '誰もが元帳の履歴を共有するため、完全に透過的です。', /*Japanese*/
-    'jv': '', /*Javanese*/
-    'de': '', /*German*/
-    'ko': '', /*Korean*/
-    'fr': '', /*French*/
+    'jv': 'Kabeh wong nuduhake sejarah buku besar, dadi kabeh transparan.', /*Javanese*/
+    'de': 'Jeder teilt die Hauptbuchhistorie, so dass sie völlig transparent ist.', /*German*/
+    'ko': '모든 사람이 원장 기록을 공유하므로 완전히 투명합니다.', /*Korean*/
+    'fr': 'Tout le monde partage l\'historique du grand livre, il est donc entièrement transparent.', /*French*/
     'te': '', /*Telugu*/
     'mr': '', /*Marathi*/ 
     'tr': '', /*Turkish*/ 
@@ -344,13 +344,13 @@ module.exports = {
     'hi': 'खुला स्रोत सॉफ्टवेयर', /*Hindi*/ 
     'ar': 'برنامج مفتوح المصدر', /*Arabic - Right-to-left*/
     'pt': 'SOFTWARE LIVRE', /*Portuguese*/
-    'bn': '', /*Bengal*/
+    'bn': 'ওপেন সোর্স সফ্টওয়্যার', /*Bengal*/
     'ru': 'ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ С ОТКРЫТЫМ ИСХОДНЫМ КОДОМ', /*Russian*/
     'ja': 'オープンソースソフトウェア', /*Japanese*/
-    'jv': '', /*Javanese*/
-    'de': '', /*German*/
-    'ko': '', /*Korean*/
-    'fr': '', /*French*/
+    'jv': 'OPEN SOURCE', /*Javanese*/
+    'de': 'QUELLOFFENE SOFTWARE', /*German*/
+    'ko': '오픈 소스 소프트웨어', /*Korean*/
+    'fr': 'LOGICIELS OPEN SOURCE', /*French*/
     'te': '', /*Telugu*/
     'mr': '', /*Marathi*/ 
     'tr': '', /*Turkish*/ 
@@ -368,13 +368,13 @@ module.exports = {
     'hi': 'सॉफ्टवेयर (वॉलेट) खुला स्रोत है, इसलिए इसकी सुरक्षा का ऑडिट किया जा सकता है।', /*Hindi*/ 
     'ar': 'البرنامج (المحفظة) مفتوح المصدر ، لذا يمكن تدقيق سلامته.', /*Arabic - Right-to-left*/
     'pt': 'O software (carteira) é open source, portanto sua segurança pode ser auditada.', /*Portuguese*/
-    'bn': '', /*Bengal*/
+    'bn': 'সফ্টওয়্যার (ওয়ালেট) ওপেন সোর্স, তাই এর সুরক্ষা নিরীক্ষণ করা যেতে পারে।', /*Bengal*/
     'ru': 'Программное обеспечение (кошелек) имеет открытый исходный код, поэтому его безопасность можно проверить.', /*Russian*/
     'ja': 'ソフトウェア（ウォレット）はオープンソースであるため、その安全性を監査できます。', /*Japanese*/
-    'jv': '', /*Javanese*/
-    'de': '', /*German*/
-    'ko': '', /*Korean*/
-    'fr': '', /*French*/
+    'jv': 'Piranti lunak (dompet) minangka sumber terbuka, mula keamanane bisa diaudit.', /*Javanese*/
+    'de': 'Die Software (Brieftasche) ist Open Source, sodass ihre Sicherheit überprüft werden kann.', /*German*/
+    'ko': '소프트웨어 (지갑)는 오픈 소스이므로 안전성을 감사 할 수 있습니다.', /*Korean*/
+    'fr': 'Le logiciel (portefeuille) est open source, sa sécurité peut donc être vérifiée.', /*French*/
     'te': '', /*Telugu*/
     'mr': '', /*Marathi*/ 
     'tr': '', /*Turkish*/ 
@@ -392,13 +392,13 @@ module.exports = {
     'hi': 'तेजी से बदलाव', /*Hindi*/ 
     'ar': 'معاملات سريعة', /*Arabic - Right-to-left*/
     'pt': 'TRANSAÇÕES RÁPIDAS', /*Portuguese*/
-    'bn': '', /*Bengal*/
+    'bn': 'দ্রুত লেনদেন', /*Bengal*/
     'ru': 'БЫСТРЫЕ СДЕЛКИ', /*Russian*/
     'ja': '高速トランザクション', /*Japanese*/
-    'jv': '', /*Javanese*/
-    'de': '', /*German*/
-    'ko': '', /*Korean*/
-    'fr': '', /*French*/
+    'jv': 'TRANSAKSI CEPAT', /*Javanese*/
+    'de': 'SCHNELLE TRANSAKTIONEN', /*German*/
+    'ko': '빠른 거래', /*Korean*/
+    'fr': 'TRANSACTIONS RAPIDES', /*French*/
     'te': '', /*Telugu*/
     'mr': '', /*Marathi*/ 
     'tr': '', /*Turkish*/ 
@@ -416,13 +416,13 @@ module.exports = {
     'hi': 'यह बहुत तेज है, आप सेकंड के भीतर दुनिया में किसी को भी पैसा भेज सकते हैं।', /*Hindi*/ 
     'ar': 'إنه سريع للغاية ، يمكنك إرسال الأموال إلى أي شخص في العالم في غضون ثوانٍ.', /*Arabic - Right-to-left*/
     'pt': 'É extremamente rápido, você pode enviar dinheiro para qualquer pessoa no mundo em segundos.', /*Portuguese*/
-    'bn': '', /*Bengal*/
+    'bn': 'এটি অত্যন্ত দ্রুত, আপনি সেকেন্ডের মধ্যে বিশ্বের যে কাউকে অর্থ পাঠাতে পারেন।', /*Bengal*/
     'ru': 'Это очень быстро, вы можете отправить деньги кому угодно в мире за считанные секунды.', /*Russian*/
     'ja': 'それは非常に高速で、数秒以内に世界中の誰にでも送金できます。', /*Japanese*/
-    'jv': '', /*Javanese*/
-    'de': '', /*German*/
-    'ko': '', /*Korean*/
-    'fr': '', /*French*/
+    'jv': 'Cepet banget, sampeyan bisa ngirim dhuwit menyang sapa wae ing saindenging jagad sawetara detik.', /*Javanese*/
+    'de': 'Es ist extrem schnell, Sie können innerhalb von Sekunden Geld an jeden auf der Welt senden.', /*German*/
+    'ko': '매우 빠르며 몇 초 안에 전 세계 누구에게나 송금 할 수 있습니다.', /*Korean*/
+    'fr': 'C\'est extrêmement rapide, vous pouvez envoyer de l\'argent à n\'importe qui dans le monde en quelques secondes.', /*French*/
     'te': '', /*Telugu*/
     'mr': '', /*Marathi*/ 
     'tr': '', /*Turkish*/ 
@@ -440,13 +440,13 @@ module.exports = {
     'hi': 'बेनामी', /*Hindi*/ 
     'ar': 'مجهول', /*Arabic - Right-to-left*/
     'pt': 'ANÔNIMO', /*Portuguese*/
-    'bn': '', /*Bengal*/
+    'bn': 'অনিয়ম', /*Bengal*/
     'ru': 'АНОНИМНЫЙ', /*Russian*/
     'ja': 'アノニマス', /*Japanese*/
-    'jv': '', /*Javanese*/
-    'de': '', /*German*/
-    'ko': '', /*Korean*/
-    'fr': '', /*French*/
+    'jv': 'ANONYMOUS', /*Javanese*/
+    'de': 'ANONYM', /*German*/
+    'ko': '익명', /*Korean*/
+    'fr': 'ANONYME', /*French*/
     'te': '', /*Telugu*/
     'mr': '', /*Marathi*/ 
     'tr': '', /*Turkish*/ 
@@ -464,13 +464,13 @@ module.exports = {
     'hi': 'बिटकॉइन जैसी ही गुमनामी के साथ कोई भी वॉलेट चला सकता है और लेन-देन कर सकता है। किसी भी व्यक्तिगत पहचान की जानकारी की आवश्यकता नहीं है।', /*Hindi*/ 
     'ar': 'يمكن لأي شخص تشغيل المحفظة والتعامل بنفس إخفاء الهوية مثل Bitcoin. لا توجد معلومات تعريف شخصية مطلوبة.', /*Arabic - Right-to-left*/
     'pt': 'Qualquer pessoa pode executar a carteira e fazer transações com o mesmo anonimato do Bitcoin. Nenhuma informação de identificação pessoal é necessária.', /*Portuguese*/
-    'bn': '', /*Bengal*/
+    'bn': 'যে কোনও মানিব্যাগ চালাতে এবং বিটকয়েনের মতো একই বেনামে লেনদেন করতে পারে। কোনও ব্যক্তিগত সনাক্তকারী তথ্য প্রয়োজন হয় না।', /*Bengal*/
     'ru': 'Любой может запустить кошелек и совершать транзакции с той же анонимностью, что и биткойн. Никакой личной информации, позволяющей установить личность, не требуется.', /*Russian*/
     'ja': '誰でもウォレットを実行し、ビットコインと同じ匿名性で取引することができます。個人識別情報は必要ありません。', /*Japanese*/
-    'jv': '', /*Javanese*/
-    'de': '', /*German*/
-    'ko': '', /*Korean*/
-    'fr': '', /*French*/
+    'jv': 'Sapa wae sing bisa mbukak dompet lan transaksi kanthi anonim sing padha karo Bitcoin. Ora dibutuhake informasi identifikasi pribadi.', /*Javanese*/
+    'de': 'Jeder kann die Brieftasche ausführen und mit der gleichen Anonymität wie Bitcoin Transaktionen durchführen. Es sind keine persönlichen Identifikationsdaten erforderlich.', /*German*/
+    'ko': '누구나 지갑을 운영하고 비트 코인과 동일한 익명으로 거래 할 수 있습니다. 개인 식별 정보는 필요하지 않습니다.', /*Korean*/
+    'fr': 'Tout le monde peut exécuter le portefeuille et effectuer des transactions avec le même anonymat que Bitcoin. Aucune information d\'identification personnelle n\'est requise.', /*French*/
     'te': '', /*Telugu*/
     'mr': '', /*Marathi*/ 
     'tr': '', /*Turkish*/ 
@@ -488,13 +488,13 @@ module.exports = {
     'hi': 'BlackCoin समुदाय में शामिल हों', /*Hindi*/ 
     'ar': 'انضم إلى مجتمع BlackCoin', /*Arabic - Right-to-left*/
     'pt': 'Junte-se à comunidade BlackCoin', /*Portuguese*/
-    'bn': '', /*Bengal*/
+    'bn': 'ব্ল্যাককয়েন সম্প্রদায়টিতে যোগদান করুন', /*Bengal*/
     'ru': 'Присоединяйтесь к сообществу BlackCoin', /*Russian*/
     'ja': 'BlackCoinコミュニティに参加する', /*Japanese*/
-    'jv': '', /*Javanese*/
-    'de': '', /*German*/
-    'ko': '', /*Korean*/
-    'fr': '', /*French*/
+    'jv': 'Gabung karo Komunitas BlackCoin', /*Javanese*/
+    'de': 'Treten Sie der BlackCoin Community bei', /*German*/
+    'ko': 'BlackCoin 커뮤니티에 가입하세요', /*Korean*/
+    'fr': 'Rejoignez la communauté BlackCoin', /*French*/
     'te': '', /*Telugu*/
     'mr': '', /*Marathi*/ 
     'tr': '', /*Turkish*/ 
@@ -512,13 +512,13 @@ module.exports = {
     'hi': 'कहॉ से खरीदु', /*Hindi*/ 
     'ar': 'من أين أشتري', /*Arabic - Right-to-left*/
     'pt': 'ONDE COMPRAR', /*Portuguese*/
-    'bn': '', /*Bengal*/
+    'bn': 'যেখানে কিনতে হবে', /*Bengal*/
     'ru': 'ГДЕ КУПИТЬ', /*Russian*/
     'ja': 'どこで買う', /*Japanese*/
-    'jv': '', /*Javanese*/
-    'de': '', /*German*/
-    'ko': '', /*Korean*/
-    'fr': '', /*French*/
+    'jv': 'ING TUKANG Pundi', /*Javanese*/
+    'de': 'WO ZU KAUFEN', /*German*/
+    'ko': '구입처', /*Korean*/
+    'fr': 'OÙ ACHETER', /*French*/
     'te': '', /*Telugu*/
     'mr': '', /*Marathi*/ 
     'tr': '', /*Turkish*/ 
@@ -536,13 +536,13 @@ module.exports = {
     'hi': 'मार्केट वॉल्यूम की ', /*Hindi*/ 
     'ar': ' حجم الأسواق', /*Arabic - Right-to-left*/
     'pt': 'Verifique o ', /*Portuguese*/
-    'bn': '', /*Bengal*/
+    'bn': 'মার্কেটসের ভলিউম', /*Bengal*/
     'ru': 'Проверить ', /*Russian*/
     'ja': '市場ボリュームを', /*Japanese*/
-    'jv': '', /*Javanese*/
-    'de': '', /*German*/
-    'ko': '', /*Korean*/
-    'fr': '', /*French*/
+    'jv': 'Priksa ', /*Javanese*/
+    'de': 'Überprüfen Sie das ', /*German*/
+    'ko': '시장 거래량 ', /*Korean*/
+    'fr': 'Vérifier le ', /*French*/
     'te': '', /*Telugu*/
     'mr': '', /*Marathi*/ 
     'tr': '', /*Turkish*/ 
@@ -560,13 +560,13 @@ module.exports = {
     'hi': 'जाँच करें', /*Hindi*/ 
     'ar': 'تحقق من', /*Arabic - Right-to-left*/
     'pt': 'volume dos mercados', /*Portuguese*/
-    'bn': '', /*Bengal*/
+    'bn': 'পরীক্ষা করুন', /*Bengal*/
     'ru': 'объем рынка', /*Russian*/
     'ja': '確認する', /*Japanese*/
-    'jv': '', /*Javanese*/
-    'de': '', /*German*/
-    'ko': '', /*Korean*/
-    'fr': '', /*French*/
+    'jv': 'Volume Pasar', /*Javanese*/
+    'de': 'Marktvolumen', /*German*/
+    'ko': '확인', /*Korean*/
+    'fr': 'volume des marchés', /*French*/
     'te': '', /*Telugu*/
     'mr': '', /*Marathi*/ 
     'tr': '', /*Turkish*/ 
@@ -584,13 +584,13 @@ module.exports = {
     'hi': 'डाउनलोड', /*Hindi*/ 
     'ar': 'التحميلات', /*Arabic - Right-to-left*/
     'pt': 'Transferências', /*Portuguese*/
-    'bn': '', /*Bengal*/
+    'bn': 'ডাউনলোড', /*Bengal*/
     'ru': 'Загрузки', /*Russian*/
     'ja': 'ダウンロード', /*Japanese*/
-    'jv': '', /*Javanese*/
-    'de': '', /*German*/
-    'ko': '', /*Korean*/
-    'fr': '', /*French*/
+    'jv': 'Unduhan', /*Javanese*/
+    'de': 'Downloads', /*German*/
+    'ko': '다운로드', /*Korean*/
+    'fr': 'Téléchargements', /*French*/
     'te': '', /*Telugu*/
     'mr': '', /*Marathi*/ 
     'tr': '', /*Turkish*/ 
@@ -608,13 +608,13 @@ module.exports = {
     'hi': 'BlackCoin आधिकारिक फाइलें', /*Hindi*/ 
     'ar': 'ملفات BlackCoin الرسمية', /*Arabic - Right-to-left*/
     'pt': 'Arquivos oficiais BlackCoin', /*Portuguese*/
-    'bn': '', /*Bengal*/
+    'bn': 'ব্ল্যাককয়েন অফিসিয়াল ফাইল', /*Bengal*/
     'ru': 'Официальные файлы BlackCoin', /*Russian*/
     'ja': 'BlackCoin公式ファイル', /*Japanese*/
-    'jv': '', /*Javanese*/
-    'de': '', /*German*/
-    'ko': '', /*Korean*/
-    'fr': '', /*French*/
+    'jv': 'File resmi BlackCoin', /*Javanese*/
+    'de': 'Offizielle BlackCoin-Dateien', /*German*/
+    'ko': 'BlackCoin 공식 파일', /*Korean*/
+    'fr': 'Fichiers officiels BlackCoin', /*French*/
     'te': '', /*Telugu*/
     'mr': '', /*Marathi*/ 
     'tr': '', /*Turkish*/ 
@@ -632,13 +632,13 @@ module.exports = {
     'hi': 'अधिक जानकारी', /*Hindi*/ 
     'ar': 'المزيد من المحفظة', /*Arabic - Right-to-left*/
     'pt': 'MAIS CARTEIRA', /*Portuguese*/
-    'bn': '', /*Bengal*/
+    'bn': 'আরও ভাল', /*Bengal*/
     'ru': 'БОЛЬШЕ КОШЕЛЬКА', /*Russian*/
     'ja': 'もっと財布', /*Japanese*/
-    'jv': '', /*Javanese*/
-    'de': '', /*German*/
-    'ko': '', /*Korean*/
-    'fr': '', /*French*/
+    'jv': 'LEBIH WALLET', /*Javanese*/
+    'de': 'MEHR BRIEFTASCHE', /*German*/
+    'ko': '더 많은 지갑', /*Korean*/
+    'fr': 'MORE DE PORTEFEUILLE', /*French*/
     'te': '', /*Telugu*/
     'mr': '', /*Marathi*/ 
     'tr': '', /*Turkish*/ 
@@ -656,13 +656,13 @@ module.exports = {
     'hi': 'Blackcoin More', /*Hindi*/ 
     'ar': 'بلاك كوين مور', /*Arabic - Right-to-left*/
     'pt': 'Blackcoin More', /*Portuguese*/
-    'bn': '', /*Bengal*/
+    'bn': 'ব্ল্যাককয়েন আরও', /*Bengal*/
     'ru': 'Blackcoin More', /*Russian*/
     'ja': 'ブラックコインモア', /*Japanese*/
-    'jv': '', /*Javanese*/
-    'de': '', /*German*/
-    'ko': '', /*Korean*/
-    'fr': '', /*French*/
+    'jv': 'Blackcoin Luwih', /*Javanese*/
+    'de': 'Blackcoin More', /*German*/
+    'ko': 'Blackcoin 더보기', /*Korean*/
+    'fr': 'Blackcoin More', /*French*/
     'te': '', /*Telugu*/
     'mr': '', /*Marathi*/ 
     'tr': '', /*Turkish*/ 
@@ -680,13 +680,13 @@ module.exports = {
     'hi': 'समुदाय ने बटुए का समर्थन किया।', /*Hindi*/ 
     'ar': 'دعم المجتمع المحفظة.', /*Arabic - Right-to-left*/
     'pt': 'A carteira apoiada pela comunidade.', /*Portuguese*/
-    'bn': '', /*Bengal*/
+    'bn': 'সম্প্রদায়টি ওয়ালেটকে সমর্থন করেছিল।', /*Bengal*/
     'ru': 'Сообщество поддержало кошелек.', /*Russian*/
     'ja': 'コミュニティはウォレットをサポートしました。', /*Japanese*/
-    'jv': '', /*Javanese*/
-    'de': '', /*German*/
-    'ko': '', /*Korean*/
-    'fr': '', /*French*/
+    'jv': 'Komunitas ndhukung dhompet.', /*Javanese*/
+    'de': 'Die Community unterstützte die Brieftasche.', /*German*/
+    'ko': '커뮤니티 지원 지갑.', /*Korean*/
+    'fr': 'Le portefeuille pris en charge par la communauté.', /*French*/
     'te': '', /*Telugu*/
     'mr': '', /*Marathi*/ 
     'tr': '', /*Turkish*/ 
@@ -704,13 +704,13 @@ module.exports = {
     'hi': 'मोबाइल वॉलेट', /*Hindi*/ 
     'ar': 'محافظ محمولة', /*Arabic - Right-to-left*/
     'pt': 'CARTEIRAS PARA CELULAR', /*Portuguese*/
-    'bn': '', /*Bengal*/
+    'bn': 'মোবাইল ওয়ালেটস', /*Bengal*/
     'ru': 'МОБИЛЬНЫЕ КОШЕЛЬКИ', /*Russian*/
     'ja': 'モバイルウォレット', /*Japanese*/
-    'jv': '', /*Javanese*/
-    'de': '', /*German*/
-    'ko': '', /*Korean*/
-    'fr': '', /*French*/
+    'jv': 'WALLET MOBILE', /*Javanese*/
+    'de': 'MOBILE BRIEFTASCHEN', /*German*/
+    'ko': '모바일 지갑', /*Korean*/
+    'fr': 'PORTEFEUILLES MOBILES', /*French*/
     'te': '', /*Telugu*/
     'mr': '', /*Marathi*/ 
     'tr': '', /*Turkish*/ 
@@ -728,13 +728,13 @@ module.exports = {
     'hi': 'ब्लैकहालो', /*Hindi*/ 
     'ar': 'بلاك هالو', /*Arabic - Right-to-left*/
     'pt': 'BlackHalo', /*Portuguese*/
-    'bn': '', /*Bengal*/
+    'bn': 'ব্ল্যাকহলো', /*Bengal*/
     'ru': 'BlackHalo', /*Russian*/
     'ja': 'BLACKHALO', /*Japanese*/
-    'jv': '', /*Javanese*/
-    'de': '', /*German*/
-    'ko': '', /*Korean*/
-    'fr': '', /*French*/
+    'jv': 'BlackHalo', /*Javanese*/
+    'de': 'BlackHalo', /*German*/
+    'ko': 'BlackHalo', /*Korean*/
+    'fr': 'BLACKHALO', /*French*/
     'te': '', /*Telugu*/
     'mr': '', /*Marathi*/ 
     'tr': '', /*Turkish*/ 
@@ -752,13 +752,13 @@ module.exports = {
     'hi': 'सभी प्लेटफार्म डाउनलोड', /*Hindi*/ 
     'ar': 'تنزيل جميع المنصات', /*Arabic - Right-to-left*/
     'pt': 'Downloads de todas as plataformas', /*Portuguese*/
-    'bn': '', /*Bengal*/
+    'bn': 'সমস্ত প্ল্যাটফর্ম ডাউনলোড', /*Bengal*/
     'ru': 'Загрузки для всех платформ', /*Russian*/
     'ja': 'すべてのプラットフォームのダウンロード', /*Japanese*/
-    'jv': '', /*Javanese*/
-    'de': '', /*German*/
-    'ko': '', /*Korean*/
-    'fr': '', /*French*/
+    'jv': 'Kabeh download platform', /*Javanese*/
+    'de': 'Alle Plattformen herunterladen', /*German*/
+    'ko': '모든 플랫폼 다운로드', /*Korean*/
+    'fr': 'Téléchargements de toutes les plateformes', /*French*/
     'te': '', /*Telugu*/
     'mr': '', /*Marathi*/ 
     'tr': '', /*Turkish*/ 
@@ -776,13 +776,13 @@ module.exports = {
     'hi': 'कानूनी चुनौती', /*Hindi*/ 
     'ar': 'محفظة LEGACY', /*Arabic - Right-to-left*/
     'pt': 'LEGACY WALLET', /*Portuguese*/
-    'bn': '', /*Bengal*/
+    'bn': 'লেগেসি ওয়ালট', /*Bengal*/
     'ru': 'КОШЕЛЕК НАСЛЕДИЯ', /*Russian*/
     'ja': 'レガシーウォレット', /*Japanese*/
-    'jv': '', /*Javanese*/
-    'de': '', /*German*/
-    'ko': '', /*Korean*/
-    'fr': '', /*French*/
+    'jv': 'WALLET LEGASI', /*Javanese*/
+    'de': 'LEGACY WALLET', /*German*/
+    'ko': '레거시 지갑', /*Korean*/
+    'fr': 'PORTEFEUILLE HÉRITAGE', /*French*/
     'te': '', /*Telugu*/
     'mr': '', /*Marathi*/ 
     'tr': '', /*Turkish*/ 
@@ -800,13 +800,13 @@ module.exports = {
     'hi': 'Gitlab स्रोत कोड', /*Hindi*/ 
     'ar': 'كود مصدر Gitlab', /*Arabic - Right-to-left*/
     'pt': 'Código-fonte Gitlab', /*Portuguese*/
-    'bn': '', /*Bengal*/
+    'bn': 'গিটল্যাব উত্স কোড', /*Bengal*/
     'ru': 'Исходный код Gitlab', /*Russian*/
     'ja': 'Gitlabソースコード', /*Japanese*/
-    'jv': '', /*Javanese*/
-    'de': '', /*German*/
-    'ko': '', /*Korean*/
-    'fr': '', /*French*/
+    'jv': 'Kode Sumber Gitlab', /*Javanese*/
+    'de': 'Gitlab-Quellcode', /*German*/
+    'ko': 'Gitlab 소스 코드', /*Korean*/
+    'fr': 'Code source Gitlab', /*French*/
     'te': '', /*Telugu*/
     'mr': '', /*Marathi*/ 
     'tr': '', /*Turkish*/ 
@@ -824,13 +824,13 @@ module.exports = {
     'hi': 'BlackCoin का समर्थन करें', /*Hindi*/ 
     'ar': 'دعم BlackCoin', /*Arabic - Right-to-left*/
     'pt': 'Apoie BlackCoin', /*Portuguese*/
-    'bn': '', /*Bengal*/
+    'bn': 'ব্ল্যাককয়েন সমর্থন করুন', /*Bengal*/
     'ru': 'Поддержка BlackCoin', /*Russian*/
     'ja': 'BlackCoinをサポートする', /*Japanese*/
-    'jv': '', /*Javanese*/
-    'de': '', /*German*/
-    'ko': '', /*Korean*/
-    'fr': '', /*French*/
+    'jv': 'Dhukungan BlackCoin', /*Javanese*/
+    'de': 'Unterstützen Sie BlackCoin', /*German*/
+    'ko': 'BlackCoin 지원', /*Korean*/
+    'fr': 'Soutenir BlackCoin', /*French*/
     'te': '', /*Telugu*/
     'mr': '', /*Marathi*/ 
     'tr': '', /*Turkish*/ 
@@ -848,13 +848,13 @@ module.exports = {
     'hi': 'दान', /*Hindi*/ 
     'ar': 'التبرعات', /*Arabic - Right-to-left*/
     'pt': 'Doações', /*Portuguese*/
-    'bn': '', /*Bengal*/
+    'bn': 'অনুদান', /*Bengal*/
     'ru': 'Пожертвования', /*Russian*/
     'ja': '寄付', /*Japanese*/
-    'jv': '', /*Javanese*/
-    'de': '', /*German*/
-    'ko': '', /*Korean*/
-    'fr': '', /*French*/
+    'jv': 'Sumbangan', /*Javanese*/
+    'de': 'Spenden', /*German*/
+    'ko': '기부', /*Korean*/
+    'fr': 'Des dons', /*French*/
     'te': '', /*Telugu*/
     'mr': '', /*Marathi*/ 
     'tr': '', /*Turkish*/ 
@@ -872,13 +872,13 @@ module.exports = {
     'hi': 'ब्लैककॉइन। सर्वाधिकार सुरक्षित।', /*Hindi*/ 
     'ar': 'كل الحقوق محفوظة.', /*Arabic - Right-to-left*/
     'pt': 'Todos os direitos reservados.', /*Portuguese*/
-    'bn': '', /*Bengal*/
+    'bn': 'সমস্ত অধিকার সংরক্ষিত.', /*Bengal*/
     'ru': 'Все права защищены.', /*Russian*/
     'ja': '全著作権所有。', /*Japanese*/
-    'jv': '', /*Javanese*/
-    'de': '', /*German*/
-    'ko': '', /*Korean*/
-    'fr': '', /*French*/
+    'jv': 'Kabeh Hak Dilindhungi.', /*Javanese*/
+    'de': 'Alle Rechte vorbehalten.', /*German*/
+    'ko': '판권 소유.', /*Korean*/
+    'fr': 'Tous les droits sont réservés.', /*French*/
     'te': '', /*Telugu*/
     'mr': '', /*Marathi*/ 
     'tr': '', /*Turkish*/ 
@@ -896,13 +896,13 @@ module.exports = {
     'hi': 'सबसे ऊपर', /*Hindi*/ 
     'ar': 'إلى الأعلى', /*Arabic - Right-to-left*/
     'pt': 'Para o topo', /*Portuguese*/
-    'bn': '', /*Bengal*/
+    'bn': 'শীর্ষে', /*Bengal*/
     'ru': 'Наверх', /*Russian*/
     'ja': '頂点に', /*Japanese*/
-    'jv': '', /*Javanese*/
-    'de': '', /*German*/
-    'ko': '', /*Korean*/
-    'fr': '', /*French*/
+    'jv': 'Menyang ndhuwur', /*Javanese*/
+    'de': 'Nach oben', /*German*/
+    'ko': '맨 위로', /*Korean*/
+    'fr': 'Jusqu\'au sommet', /*French*/
     'te': '', /*Telugu*/
     'mr': '', /*Marathi*/ 
     'tr': '', /*Turkish*/ 
