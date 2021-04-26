@@ -67,6 +67,9 @@ p {
   }
 }
 
+/*
+NavBar
+*/
 #hamburger-toggle {
   fill: #ddd;
 }
@@ -197,13 +200,13 @@ p {
   }
 
   h4 {
-    font-size: 1.2vw;
+    font-size: 1.3vw;
   }
   p {
-    font-size: 1vw;
+    font-size: 1.3vw;
   }
   .body {
-    font-size: 1vw;
+    font-size: 1.3vw;
   }
   #navbar {
     justify-content: space-around;
@@ -225,6 +228,73 @@ p {
   }
 }
 
+
+</style>
+    <style id="ft-boxed" type="text/css">
+
+.ft-boxed-hover ul {
+  display: grid;
+  align-items: center;
+}
+.ft-boxed-hover ul li .hover-content .ft-x .ft-item .ft-heading,.ft-x .ft-item .ft-boxed-hover ul li .hover-content .ft-heading,.ft-x .ft-item h5,.ft-x .ft-item i,.ft-x .ft-item span{ 
+  display:inline-block; margin:25px 35px 50px 0; padding:28px 26px; float:left; text-align:center; vertical-align:top 
+}
+
+.ft-x .ft-item{ text-align:center }
+
+.ft-x .ft-material:hover i,.ft-x .ft-material:hover span{ -webkit-transform:translateY(-10px); -ms-transform:translateY(-10px); transform:translateY(-10px); box-shadow:0 22px 43px rgba(0,0,0,.15) }
+.ft-x .ft-material i,.ft-x .ft-material span{ display:inline-block; border:1px solid #f8f8f8; border-radius:100px; background:#fff; color:#777; box-shadow:0 1px 1px rgba(0,0,0,.2); -webkit-transition:all .3s; transition:all .3s }
+.ft-x .ft-circle-overlay:hover i,.ft-x .ft-circle-overlay:hover span{ background:#f4f4f4 }
+.ft-x .ft-circle-overlay i,.ft-x .ft-circle-overlay span{ display:inline-block; color:#111; border-radius:100px; background:#ececec; border:10px solid #f4f4f4; -webkit-transition:all .3s; transition:all .3s }
+.ft-x .ft-item{ text-align:left }
+
+.ft-x .ft-material i,.ft-x .ft-material span{ color:#111 }
+.ft-x .ft-circle-overlay i,.ft-x .ft-circle-overlay span{ padding:20px; border:10px solid #f4f4f4 }
+.ft-x .ft-basic i,.ft-x .ft-basic span{ padding:0;}
+.ft-x .right-align .ft-content{ display:inline-block; width:62%; text-align:right }
+.ft-x .right-align .ft-icon{ float:right; display:inline-block; width:30% }
+.ft-boxed-hover ul{ margin:0; padding:0; list-style:none }
+.ft-boxed-hover ul li{ 
+  display:inline-block; position:relative; float:left; padding:50px; border:1px solid #ddd; background:#fff; text-align:center; -webkit-transition:border-color .3s; transition:border-color .3s 
+}
+.ft-boxed-hover ul li:hover{ border-color:#111 }
+.ft-boxed-hover ul li:hover .hover-content{ opacity:1 }
+.ft-boxed-hover ul li .ft-icon{ color:#777 }
+.ft-boxed-hover ul li .h-alt{ color:#999 }
+.ft-boxed-hover ul li .hover-content{ 
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  position:absolute; top:0; left:0; 
+  overflow: hidden; width: 100%; height: 100%; 
+  background:#111; opacity:0; -webkit-transition:all .3s; transition:all .3s;
+}
+.ft-boxed-hover ul li .hover-content .ft-icon{ position:absolute; display:block; top:50px; left:0; right:0; color:rgba(217,217,217,.15); z-index:1 }
+.ft-boxed-hover ul li .hover-content .ft-heading{ display:block; margin:0; padding-bottom:15px; color:#ececec; }
+.ft-boxed-hover ul li .hover-content p{ margin:0; color:#999 }
+.ft-boxed-hover ul li .hover-content a{ display:inline-block; position:relative; color:#999; z-index:10!important }
+.ft-boxed-hover ul li .hover-content a:hover{ color:#ececec }
+.ft-boxed-hover ul li .hover-content a:focus{ outline:0 }
+.ft-tabs .tabs-list{ list-style:none; padding:0; margin:0 }
+.ft-tabs .tabs-list li{ border-top:1px solid #ececec; border-bottom:1px solid #ececec }
+.ft-tabs .tabs-list li a,.ft-tabs .tabs-list li:nth-child(2){ display:block; padding:50px; border-left:10px solid rgba(17,17,17,0) }
+.ft-tabs .tabs-list li a:hover{ background:#f8f8f8 }
+.ft-tabs .tabs-list li a:focus{ text-decoration:none }
+.ft-tabs .tabs-list .active a{ border-left:10px solid #111; background:#f4f4f4 }
+.ft-layout-50 .ft-item .ft-content-wrapper{ padding:75px 15% 75px 100px; height:450px; background:#f4f4f4 }
+.footer-social-links ul { display: inline-flex; flex-flow: wrap; font-size: .7rem }
+.ft-layout-50 .ft-item .ft-img-wrapper{ position:relative; padding:0; height:450px; overflow:hidden }
+.ft-hover-item .ft-item{ position:relative; height:440px; -webkit-transition:all .4s; transition:all .4s }
+.ft-hover-item .ft-item .content-wrapper{ position:absolute; left:100px; right:100px; bottom:0; -webkit-transition:all .4s; transition:all .4s }
+.ft-hover-item .ft-item .content-wrapper p{ margin:0; padding-bottom:45px; color:#ececec }
+.ft-hover-item .ft-item .content-wrapper .ft-button{ opacity:0 }
+.ft-hover-item .ft-item:hover{ background-size:103% }
+.ft-hover-item .ft-item:hover .bg-overlay{ background:rgba(17,17,17,.8) }
+.ft-hover-item .ft-item:hover .content-wrapper{ bottom:100px }
+.ft-hover-item .ft-item:hover .content-wrapper .ft-button{ opacity:1 }
+.ft-hover-item .ft-1 .bg-overlay,.ft-hover-item .ft-2 .bg-overlay{ content:''; position:absolute; top:0; left:0; width:100%; height:100%; background:rgba(17,17,17,.55); -webkit-transition:background .4s; transition:background .4s }
+.ft-hover-item .ft-2 .bg-overlay{ background:rgba(17,17,17,.4) }
+.box{ width:60px; height:60px; background:#ececec; text-align:center }
 
 </style>
   </head>
@@ -1542,28 +1612,7 @@ body div#ui-datepicker-div[style] {
       ;
     }
 </style>
-  <style id="main" type="text/css">
-
-a {
-  color: #862;
-  text-decoration: none !important;
-}
-
-a:hover {
-  color: #ccc !important;
-}
-
-a:focus {
-  color: #ccc !important;
-}
-
-h3 {
-  font-size: 5vw;
-}
-
-p {
-  font-size: 5vw;
-}
+  <style id="home" type="text/css">
 
 .testimonials-parallax .t-clients,
 .testimonials-dark .t-clients {
@@ -1683,10 +1732,6 @@ p {
 .slick-track li { margin: 3vw; }
 .slick-track img { width: 100%; height: auto;}
 
-.ft-boxed-hover ul {
-  display: grid;
-  align-items: center;
-}
 
 #donation-link { font-size: 3rem;  }
 .hero-content { top: 25vh; position: relative;  }
@@ -1701,70 +1746,7 @@ p {
   -moz-osx-font-smoothing: grayscale
 }
 
-.ft-boxed-hover ul li .hover-content .ft-x .ft-item .ft-heading,.ft-x .ft-item .ft-boxed-hover ul li .hover-content .ft-heading,.ft-x .ft-item h5,.ft-x .ft-item i,.ft-x .ft-item span{ 
-  display:inline-block; margin:25px 35px 50px 0; padding:28px 26px; float:left; text-align:center; vertical-align:top 
-}
 
-.ft-x .ft-item{ text-align:center }
-
-.ft-x .ft-material:hover i,.ft-x .ft-material:hover span{ -webkit-transform:translateY(-10px); -ms-transform:translateY(-10px); transform:translateY(-10px); box-shadow:0 22px 43px rgba(0,0,0,.15) }
-.ft-x .ft-material i,.ft-x .ft-material span{ display:inline-block; border:1px solid #f8f8f8; border-radius:100px; background:#fff; color:#777; box-shadow:0 1px 1px rgba(0,0,0,.2); -webkit-transition:all .3s; transition:all .3s }
-.ft-x .ft-circle-overlay:hover i,.ft-x .ft-circle-overlay:hover span{ background:#f4f4f4 }
-.ft-x .ft-circle-overlay i,.ft-x .ft-circle-overlay span{ display:inline-block; color:#111; border-radius:100px; background:#ececec; border:10px solid #f4f4f4; -webkit-transition:all .3s; transition:all .3s }
-.ft-x .ft-item{ text-align:left }
-
-.ft-x .ft-material i,.ft-x .ft-material span{ color:#111 }
-.ft-x .ft-circle-overlay i,.ft-x .ft-circle-overlay span{ padding:20px; border:10px solid #f4f4f4 }
-.ft-x .ft-basic i,.ft-x .ft-basic span{ padding:0;}
-.ft-x .right-align .ft-content{ display:inline-block; width:62%; text-align:right }
-.ft-x .right-align .ft-icon{ float:right; display:inline-block; width:30% }
-.ft-boxed-hover ul{ margin:0; padding:0; list-style:none }
-.ft-boxed-hover ul li{ 
-  display:inline-block; position:relative; float:left; padding:50px; border:1px solid #ddd; background:#fff; text-align:center; -webkit-transition:border-color .3s; transition:border-color .3s 
-}
-.ft-boxed-hover ul li:hover{ border-color:#111 }
-.ft-boxed-hover ul li:hover .hover-content{ opacity:1 }
-.ft-boxed-hover ul li .ft-icon{ color:#777 }
-.ft-boxed-hover ul li .h-alt{ color:#999 }
-.ft-boxed-hover ul li .hover-content{ 
-  display: flex;
-  justify-content: center;
-  flex-flow: column;
-  position:absolute; top:0; left:0; 
-  overflow: hidden; width: 100%; height: 100%; 
-  background:#111; opacity:0; -webkit-transition:all .3s; transition:all .3s;
-}
-.ft-boxed-hover ul li .hover-content .ft-icon{ position:absolute; display:block; top:50px; left:0; right:0; color:rgba(217,217,217,.15); z-index:1 }
-.ft-boxed-hover ul li .hover-content .ft-heading{ display:block; margin:0; padding-bottom:15px; color:#ececec; }
-.ft-boxed-hover ul li .hover-content p{ margin:0; color:#999 }
-.ft-boxed-hover ul li .hover-content a{ display:inline-block; position:relative; color:#999; z-index:10!important }
-.ft-boxed-hover ul li .hover-content a:hover{ color:#ececec }
-.ft-boxed-hover ul li .hover-content a:focus{ outline:0 }
-.ft-tabs .tabs-list{ list-style:none; padding:0; margin:0 }
-.ft-tabs .tabs-list li{ border-top:1px solid #ececec; border-bottom:1px solid #ececec }
-.ft-tabs .tabs-list li a,.ft-tabs .tabs-list li:nth-child(2){ display:block; padding:50px; border-left:10px solid rgba(17,17,17,0) }
-.ft-tabs .tabs-list li a:hover{ background:#f8f8f8 }
-.ft-tabs .tabs-list li a:focus{ text-decoration:none }
-.ft-tabs .tabs-list .active a{ border-left:10px solid #111; background:#f4f4f4 }
-.list-check,.list-circle-check{ list-style:none }
-.list-check li,.list-check li:before,.list-circle-check li,.list-circle-check li:before{ content:"\e01b"; position:absolute; left:0; font-family:linea-icon-font; color:#111 }
-.list-circle-check li:before{ content:"\e081" }
-.list-circle-check li:before{ content:"\e01c" }
-.list-basic{ list-style:none }
-.ft-layout-50 .ft-item .ft-content-wrapper{ padding:75px 15% 75px 100px; height:450px; background:#f4f4f4 }
-.footer-social-links ul { display: inline-flex; flex-flow: wrap; font-size: .7rem }
-.ft-layout-50 .ft-item .ft-img-wrapper{ position:relative; padding:0; height:450px; overflow:hidden }
-.ft-hover-item .ft-item{ position:relative; height:440px; -webkit-transition:all .4s; transition:all .4s }
-.ft-hover-item .ft-item .content-wrapper{ position:absolute; left:100px; right:100px; bottom:0; -webkit-transition:all .4s; transition:all .4s }
-.ft-hover-item .ft-item .content-wrapper p{ margin:0; padding-bottom:45px; color:#ececec }
-.ft-hover-item .ft-item .content-wrapper .ft-button{ opacity:0 }
-.ft-hover-item .ft-item:hover{ background-size:103% }
-.ft-hover-item .ft-item:hover .bg-overlay{ background:rgba(17,17,17,.8) }
-.ft-hover-item .ft-item:hover .content-wrapper{ bottom:100px }
-.ft-hover-item .ft-item:hover .content-wrapper .ft-button{ opacity:1 }
-.ft-hover-item .ft-1 .bg-overlay,.ft-hover-item .ft-2 .bg-overlay{ content:''; position:absolute; top:0; left:0; width:100%; height:100%; background:rgba(17,17,17,.55); -webkit-transition:background .4s; transition:background .4s }
-.ft-hover-item .ft-2 .bg-overlay{ background:rgba(17,17,17,.4) }
-.box{ width:60px; height:60px; background:#ececec; text-align:center }
 .slider-nav{ display:inline-block; position:absolute; top:50%; width:50px; height:50px; border:none; background:#111; color:#ececec; -webkit-transition:background .3s; transition:background .3s }
 .slider-nav:hover{ background:#373737 }
 .slider-nav:focus{ outline:0 }
@@ -1855,6 +1837,11 @@ p {
 .label-lg{ padding:.55em .9em }
 .label-sm{ padding:.1em .5em }
 
+.list-check,.list-circle-check{ list-style:none }
+.list-check li,.list-check li:before,.list-circle-check li,.list-circle-check li:before{ content:"\e01b"; position:absolute; left:0; font-family:linea-icon-font; color:#111 }
+.list-circle-check li:before{ content:"\e081" }
+.list-circle-check li:before{ content:"\e01c" }
+.list-basic{ list-style:none }
 
 @media (max-width: 300px){
   h3 {
@@ -2021,162 +2008,7 @@ p {
   }
 }
 
-/* ---- Features ---- */
-@media (max-width: 1260px) {
-  .ft-cards-2 .ft-card-item {
-    width: 350px;
-    height: auto;
-    padding-bottom: 50px;
-    margin: 0 auto 50px auto;
-  }
 
-  .ft-cards-2 .ft-card-item img {
-    display: block;
-    float: none;
-    max-width: none;
-  }
-
-  .ft-cards-2 .ft-card-item .ft-content {
-    display: block;
-    float: none;
-    width: auto;
-  }
-
-  .ft-boxed-hover ul li .hover-content {
-    padding: 15px 30px;
-  }
-
-  .ft-boxed-hover ul li .hover-content a {
-    margin-top: 10px;
-  }
-
-  .ft-tabs .tabs-list li a .tab-icon {
-    float: left;
-    padding-right: 100px;
-  }
-
-  .ft-tabs .tabs-list li a .tab-group {
-    float: none;
-  }
-
-  .ft-hover-item .ft-item:hover {
-    background-size: 155%;
-  }
-
-  .ft-hover-item .ft-1,
-  .ft-hover-item .ft-2 {
-    background-size: 150%;
-  }
-}
-
-@media (max-width: 992px) {
-  .ft-boxed-hover ul li .hover-content {
-    padding: 30px;
-  }
-
-  .ft-tabs .tab-content {
-    height: auto;
-  }
-
-  .ft-tabs .tab-content .tab-content-image {
-    padding-bottom: 50px;
-  }
-
-  .ft-hover-item .ft-item .content-wrapper {
-    left: 50px;
-    right: 50px;
-  }
-
-  .app-welcome .download-btns .dl-btn {
-    text-align: center;
-    margin-bottom: 10px;
-  }
-
-  .ft-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .ft-big-img-right {
-    padding-left: 25px;
-    padding-right: 25px;
-  }
-
-  .ft-big-img-right .ft-img-container {
-    margin-top: 100px;
-    padding: 0;
-  }
-
-  .ft-big-img-right .ft-img-container .ft-img {
-    display: block;
-    padding-left: 25px;
-    padding-right: 25px;
-    max-width: 100%;
-    height: auto;
-    right: 0;
-    padding-bottom: 100px;
-  }
-
-  .ft-big-img-right .ft-content {
-    height: 500px;
-    text-align: center;
-  }
-
-  .ft-big-img-left {
-    padding-left: 25px;
-    padding-right: 25px;
-  }
-
-  .ft-big-img-left .ft-img-container .ft-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    padding-top: 100px;
-    top: 0;
-    left: 0;
-  }
-
-  .ft-big-img-left .ft-content {
-    height: 550px;
-    text-align: center;
-  }
-}
-
-@media (max-width: 770px) {
-  .ft-boxed-hover ul li .hover-content {
-    padding: 20px;
-  }
-
-  .ft-boxed-hover ul li .hover-content a {
-    margin-top: 10px;
-  }
-
-  .ft-tabs .tabs-list li a {
-    padding-left: 25px;
-    padding-right: 25px;
-  }
-
-  .ft-tabs .tabs-list li a .tab-icon {
-    float: left;
-    padding-right: 25px;
-  }
-
-  .ft-tabs .tabs-list li a .tab-group {
-    float: none;
-  }
-}
-
-@media (max-width: 600px) {
-  .ft-hover-item .ft-item:hover {
-    background-size: 210%;
-  }
-
-  .ft-hover-item .ft-1,
-  .ft-hover-item .ft-2 {
-    background-size: 200%;
-  }
-}
 
 /* ---- CTA - Call to Action ---- */
 @media (max-width: 992px) {
@@ -2450,6 +2282,172 @@ p {
   .hero-secondary {
       font-size: 2.5vw;
   }
+  .icon {
+    padding: 1.25vw;
+  }
+  .slick-track img {
+    width: 9vw;
+  }
+}
+
+/* ---- Features ---- */
+@media (max-width: 1260px) {
+  .ft-cards-2 .ft-card-item {
+    width: 350px;
+    height: auto;
+    padding-bottom: 50px;
+    margin: 0 auto 50px auto;
+  }
+
+  .ft-cards-2 .ft-card-item img {
+    display: block;
+    float: none;
+    max-width: none;
+  }
+
+  .ft-cards-2 .ft-card-item .ft-content {
+    display: block;
+    float: none;
+    width: auto;
+  }
+
+  .ft-boxed-hover ul li .hover-content {
+    padding: 15px 30px;
+  }
+
+  .ft-boxed-hover ul li .hover-content a {
+    margin-top: 10px;
+  }
+
+  .ft-tabs .tabs-list li a .tab-icon {
+    float: left;
+    padding-right: 100px;
+  }
+
+  .ft-tabs .tabs-list li a .tab-group {
+    float: none;
+  }
+
+  .ft-hover-item .ft-item:hover {
+    background-size: 155%;
+  }
+
+  .ft-hover-item .ft-1,
+  .ft-hover-item .ft-2 {
+    background-size: 150%;
+  }
+}
+
+@media (max-width: 992px) {
+  .ft-boxed-hover ul li .hover-content {
+    padding: 30px;
+  }
+
+  .ft-tabs .tab-content {
+    height: auto;
+  }
+
+  .ft-tabs .tab-content .tab-content-image {
+    padding-bottom: 50px;
+  }
+
+  .ft-hover-item .ft-item .content-wrapper {
+    left: 50px;
+    right: 50px;
+  }
+
+  .app-welcome .download-btns .dl-btn {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .ft-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .ft-big-img-right {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .ft-big-img-right .ft-img-container {
+    margin-top: 100px;
+    padding: 0;
+  }
+
+  .ft-big-img-right .ft-img-container .ft-img {
+    display: block;
+    padding-left: 25px;
+    padding-right: 25px;
+    max-width: 100%;
+    height: auto;
+    right: 0;
+    padding-bottom: 100px;
+  }
+
+  .ft-big-img-right .ft-content {
+    height: 500px;
+    text-align: center;
+  }
+
+  .ft-big-img-left {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .ft-big-img-left .ft-img-container .ft-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    padding-top: 100px;
+    top: 0;
+    left: 0;
+  }
+
+  .ft-big-img-left .ft-content {
+    height: 550px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 770px) {
+  .ft-boxed-hover ul li .hover-content {
+    padding: 20px;
+  }
+
+  .ft-boxed-hover ul li .hover-content a {
+    margin-top: 10px;
+  }
+
+  .ft-tabs .tabs-list li a {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .ft-tabs .tabs-list li a .tab-icon {
+    float: left;
+    padding-right: 25px;
+  }
+
+  .ft-tabs .tabs-list li a .tab-group {
+    float: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .ft-hover-item .ft-item:hover {
+    background-size: 210%;
+  }
+
+  .ft-hover-item .ft-1,
+  .ft-hover-item .ft-2 {
+    background-size: 200%;
+  }
+}
+
+@media (min-width: 1080px) {
   .col-row {  display: flex; flex-flow: row wrap;  }
   .ft-boxed-hover ul {
     grid-auto-columns: 1fr;
@@ -2459,15 +2457,11 @@ p {
     width: 65%; height: 100%; 
     font-size: .9vw;
   }
-  .icon {
-    padding: 1.25vw;
-  }
-  .slick-track img {
-    width: 9vw;
-  }
 }
 
 </style>
+
+
 
 
 </head>
@@ -2766,11 +2760,11 @@ p {
 <!-- ========== Downloads ========== -->
 
 <div class="gray-bg">
+  <header class="sec-heading">
+      <h2 class="golden" id="downloads">డౌన్‌లోడ్‌లు</h2>
+    <span class="subheading">బ్లాక్ కోయిన్ అధికారిక ఫైళ్ళు</span>
+  </header>
   <section id="services" class="container section ft-boxed-hover">
-      <header class="sec-heading">
-          <h2 class="golden" id="downloads">డౌన్‌లోడ్‌లు</h2>
-        <span class="subheading">బ్లాక్ కోయిన్ అధికారిక ఫైళ్ళు</span>
-      </header>
         <ul class="center col-row">
           <!-- Item 1 -->
           <li>

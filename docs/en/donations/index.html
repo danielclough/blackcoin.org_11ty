@@ -1,909 +1,906 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackcoin.org</title>
+    <meta name="description" content="Website for Blackcoin.org">
+    <link rel="icon" type="image/png" sizes="100x100" href="favicon.png">
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>BlackCoin - F.A.Q</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Gitter -->
+    <style type="text/css">
+     .gitter-open-chat-button {
+        background-color: #262626;
+      }
+    </style> 
+    <style>
+
+html {background-color: #eee;}
+
+h1 {
+  font-size: 10vw;
+}
+h2 {
+  font-size: 8vw;
+}
+h3 {
+  font-size: 7vw;
+}
+
+h4 {
+  font-size: 6vw;
+}
+p {
+  font-size: 5vw;
+}
+.body {
+  font-size: 5vw;
+}
+
+.row {  display: flex; flex-flow: row wrap;}
+.column {flex-flow: column;}
+.centered {align-self: center; justify-self:center;}
+
+.container {
+  padding: .5rem;
+}
+
+.golden {
+  color: #ca6;
+  text-shadow: 1px 0px #862;
+  padding: 1vw;
+}
+
+.section{
+  padding-top:101px;
+  padding-bottom:100px;
+}
+
+@media (min-width:1080px){
+  .container{
+    width:70vw; 
+    margin: 0 auto;
+  }
+  .faq-group {
+    width: 50%;
+    padding: 3rem;
+  }
+}
+
+/*
+NavBar
+*/
+#hamburger-toggle {
+  fill: #ddd;
+}
+
+#navbar { 
+  width: 100%;
+  position: fixed; 
+  z-index: 100; 
+  height: auto;
+  background-color: #111; 
+  margin-top: 0; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row;
+}
+
+#nav-logo img {
+  width: 10vw;
+  height: auto;
+}
+
+#navbar ul.nav-main {
+  display: none;
+  width: 100%;
+  background-color: rgb(17,17,17);
+  flex-flow: wrap;
+  position: absolute;
+  left: 0;
+  padding: 1rem;
+  margin: 0;
+  justify-content: space-between;
+}
+#navbar ul li ul {
+  display: none;
+  flex-flow: wrap;
+  position: relative;
+  padding: 1rem;
+}
+
+#navbar ul.nav-menu {
+    display: block;
+}
+#navbar li {
+    position: relative;
+    width: 150px;
+    list-style: none;
+}
+#menu {
+    position: absolute;
+    display: none;
+    left: 0;
+}
+
+#lang-select {
+  margin-left: 3rem;
+}
+
+#menu-locale {
+  display: none;
+}
+
+#navbar ul.nav-menu > li > ul > li ul
+{
+   left: 0%;
+   top: 0px;
+}
+
+#nav-markets {
+  position: fixed !important;
+  left: 0;
+  background-color: rgb(17,17,17);
+  padding: 5vw;
+  width: 100%;
+  align-content: center;
+  display: flex;
+  justify-content: space-around;
+  height: auto;
+  overflow-y: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+#nav-markets::-webkit-scrollbar {
+  display: none;
+}
+#menu-twitter {
+  display: none;
+  left: 0 !important;
+  width: 100vw;
+  position: fixed !important;
+  justify-content: space-around;
+  background-color: rgba(17,17,17,.9);
+}
+
+#nav-twitter {
+  position: fixed;
+  background-color: rgba(17,17,17,.9);
+  left: 0;
+  width: 100vw;
+  align-content: center;
+  display: flex;
+  justify-content: space-around;
+  height: auto;
+  overflow-y: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+#nav-twitter::-webkit-scrollbar {
+  display: none;
+  flex-flow: row;
+}
+
+.ccc-widget {
+  width: 33vw;
+}
+
+@media (min-width: 1080px) {
+  h1 {
+    font-size: 4.5vw;
+  }
+  h2 {
+    font-size: 3vw;
+  }
+  h3 {
+    font-size: 2vw;
+  }
+
+  h4 {
+    font-size: 1.3vw;
+  }
+  p {
+    font-size: 1.3vw;
+  }
+  .body {
+    font-size: 1.3vw;
+  }
+  #navbar {
+    justify-content: space-around;
+  }
+  #navbar ul.nav-main {
+    justify-content: space-around;
+    font-size: 2rem;
+    margin: .9rem 0 0 0;
+  }
+  #nav-logo img {
+    width: 5vh;
+    height: auto;
+  }
+  #nav-twitter {
+    height: 99vh;
+  }
+  #menu-locale li {
+    padding: 3rem;
+  }
+}
 
 
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="../favicon.ico">
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="../assets/styles/bootstrap.min.css">
-  <!-- Fonts -->
-  <link rel="stylesheet" href="../assets/fonts/et-lineicons/css/style.css">
-  <link rel="stylesheet" href="../assets/fonts/linea-font/css/linea-font.css">
-  <link rel="stylesheet" href="../assets/fonts/fontawesome/css/font-awesome.min.css">
-  <!-- Slider -->
-  <link rel="stylesheet" href="../assets/styles/slick.css">
-  <!-- Animate.css -->
-  <link rel="stylesheet" href="../assets/styles/animate.css">
+</style>
+    <style id="ft-boxed" type="text/css">
 
+.ft-boxed-hover ul {
+  display: grid;
+  align-items: center;
+}
+.ft-boxed-hover ul li .hover-content .ft-x .ft-item .ft-heading,.ft-x .ft-item .ft-boxed-hover ul li .hover-content .ft-heading,.ft-x .ft-item h5,.ft-x .ft-item i,.ft-x .ft-item span{ 
+  display:inline-block; margin:25px 35px 50px 0; padding:28px 26px; float:left; text-align:center; vertical-align:top 
+}
 
-  <link rel="stylesheet" href="../plugins/popup-maker/assets/css/site.min.css">
+.ft-x .ft-item{ text-align:center }
 
+.ft-x .ft-material:hover i,.ft-x .ft-material:hover span{ -webkit-transform:translateY(-10px); -ms-transform:translateY(-10px); transform:translateY(-10px); box-shadow:0 22px 43px rgba(0,0,0,.15) }
+.ft-x .ft-material i,.ft-x .ft-material span{ display:inline-block; border:1px solid #f8f8f8; border-radius:100px; background:#fff; color:#777; box-shadow:0 1px 1px rgba(0,0,0,.2); -webkit-transition:all .3s; transition:all .3s }
+.ft-x .ft-circle-overlay:hover i,.ft-x .ft-circle-overlay:hover span{ background:#f4f4f4 }
+.ft-x .ft-circle-overlay i,.ft-x .ft-circle-overlay span{ display:inline-block; color:#111; border-radius:100px; background:#ececec; border:10px solid #f4f4f4; -webkit-transition:all .3s; transition:all .3s }
+.ft-x .ft-item{ text-align:left }
 
-  <!-- Definity CSS -->
-  <link rel="stylesheet" href="../assets/styles/main.css">
-  <link rel="stylesheet" href="../assets/styles/responsive.css">
+.ft-x .ft-material i,.ft-x .ft-material span{ color:#111 }
+.ft-x .ft-circle-overlay i,.ft-x .ft-circle-overlay span{ padding:20px; border:10px solid #f4f4f4 }
+.ft-x .ft-basic i,.ft-x .ft-basic span{ padding:0;}
+.ft-x .right-align .ft-content{ display:inline-block; width:62%; text-align:right }
+.ft-x .right-align .ft-icon{ float:right; display:inline-block; width:30% }
+.ft-boxed-hover ul{ margin:0; padding:0; list-style:none }
+.ft-boxed-hover ul li{ 
+  display:inline-block; position:relative; float:left; padding:50px; border:1px solid #ddd; background:#fff; text-align:center; -webkit-transition:border-color .3s; transition:border-color .3s 
+}
+.ft-boxed-hover ul li:hover{ border-color:#111 }
+.ft-boxed-hover ul li:hover .hover-content{ opacity:1 }
+.ft-boxed-hover ul li .ft-icon{ color:#777 }
+.ft-boxed-hover ul li .h-alt{ color:#999 }
+.ft-boxed-hover ul li .hover-content{ 
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  position:absolute; top:0; left:0; 
+  overflow: hidden; width: 100%; height: 100%; 
+  background:#111; opacity:0; -webkit-transition:all .3s; transition:all .3s;
+}
+.ft-boxed-hover ul li .hover-content .ft-icon{ position:absolute; display:block; top:50px; left:0; right:0; color:rgba(217,217,217,.15); z-index:1 }
+.ft-boxed-hover ul li .hover-content .ft-heading{ display:block; margin:0; padding-bottom:15px; color:#ececec; }
+.ft-boxed-hover ul li .hover-content p{ margin:0; color:#999 }
+.ft-boxed-hover ul li .hover-content a{ display:inline-block; position:relative; color:#999; z-index:10!important }
+.ft-boxed-hover ul li .hover-content a:hover{ color:#ececec }
+.ft-boxed-hover ul li .hover-content a:focus{ outline:0 }
+.ft-tabs .tabs-list{ list-style:none; padding:0; margin:0 }
+.ft-tabs .tabs-list li{ border-top:1px solid #ececec; border-bottom:1px solid #ececec }
+.ft-tabs .tabs-list li a,.ft-tabs .tabs-list li:nth-child(2){ display:block; padding:50px; border-left:10px solid rgba(17,17,17,0) }
+.ft-tabs .tabs-list li a:hover{ background:#f8f8f8 }
+.ft-tabs .tabs-list li a:focus{ text-decoration:none }
+.ft-tabs .tabs-list .active a{ border-left:10px solid #111; background:#f4f4f4 }
+.ft-layout-50 .ft-item .ft-content-wrapper{ padding:75px 15% 75px 100px; height:450px; background:#f4f4f4 }
+.footer-social-links ul { display: inline-flex; flex-flow: wrap; font-size: .7rem }
+.ft-layout-50 .ft-item .ft-img-wrapper{ position:relative; padding:0; height:450px; overflow:hidden }
+.ft-hover-item .ft-item{ position:relative; height:440px; -webkit-transition:all .4s; transition:all .4s }
+.ft-hover-item .ft-item .content-wrapper{ position:absolute; left:100px; right:100px; bottom:0; -webkit-transition:all .4s; transition:all .4s }
+.ft-hover-item .ft-item .content-wrapper p{ margin:0; padding-bottom:45px; color:#ececec }
+.ft-hover-item .ft-item .content-wrapper .ft-button{ opacity:0 }
+.ft-hover-item .ft-item:hover{ background-size:103% }
+.ft-hover-item .ft-item:hover .bg-overlay{ background:rgba(17,17,17,.8) }
+.ft-hover-item .ft-item:hover .content-wrapper{ bottom:100px }
+.ft-hover-item .ft-item:hover .content-wrapper .ft-button{ opacity:1 }
+.ft-hover-item .ft-1 .bg-overlay,.ft-hover-item .ft-2 .bg-overlay{ content:''; position:absolute; top:0; left:0; width:100%; height:100%; background:rgba(17,17,17,.55); -webkit-transition:background .4s; transition:background .4s }
+.ft-hover-item .ft-2 .bg-overlay{ background:rgba(17,17,17,.4) }
+.box{ width:60px; height:60px; background:#ececec; text-align:center }
+
+</style>
+  </head>
+
+  <body style="margin: 0;">
+
+    <nav id="navbar" role="navigation">
+    <!-- Logo -->
+    <a id="nav-logo" href="/"> 
+        <picture><source type="image/png" srcset="/assets/images/13ed928e-402.png 402w"><img alt="Blackcoin - Logo" loading="lazy" decoding="async" src="/assets/images/13ed928e-402.jpeg" width="402" height="526"></picture>
+    </a>
+    <row>
+        <a id="hamburger-toggle" href="#" onclick="return dropDown(this)"><picture><source type="image/svg+xml" srcset="/assets/images/d3da4e8e-32.svg 32w"><source type="image/png" srcset="/assets/images/d3da4e8e-32.png 32w"><img alt="Hamburger Icon" loading="lazy" decoding="async" src="/assets/images/d3da4e8e-32.jpeg" width="32" height="32"></picture></a>
+        <ul class="nav-main"> 
+            <li>
+                <a href="#" onclick="return dropDown(this)">Explore</a>
+                <ul id="menu">
+                    <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="/en/">Homepage</a></li>
+                    <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="#about">About</a></li>
+                    <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="#community">Community</a></li>
+                    <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="/en/donations">Donations</a></li>
+                    <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="/en/faq"><span style="color: #ddb77a;">FAQ</span></a></li>
+                    <!--<li><a href="bounties/">Bounties</a></li>-->
+                </ul>
+
+<!--                 <li><a onclick="parentElement.parentElement.style.display = 'none'" href="#buy">Buy </a></li>
+ -->                
+                <li><a onclick="parentElement.parentElement.style.display = 'none'" href="#downloads">Download</a></li>
+                
+                <li><a href="#" onclick="return dropDown(this)">Markets</a>
+                    <ul>
+                        <div  id="nav-markets">
+                            <div>
+                                <a class="centered" href="https://www.coingecko.com/en/coins/blackcoin" rel="noopener" target="_blank">
+                                    More charts on <br /> 
+                                    CoinGecko
+                                </a>
+                                <script>
+  var x = window.matchMedia("(max-width: 700px)")
+  cryptocompare2(x) // Call listener function at run time
+  x.addListener(cryptocompare2) 
+    function cryptocompare2(x) {
+      if (x.matches) { // If media query matches
+        return
+      } else {
+      baseUrl = "https://widgets.cryptocompare.com/";
+      var scripts = document.getElementsByTagName("script");
+      var embedder = scripts[scripts.length - 1];
+      var cccTheme = {
+        "General": {
+          "background": "#171717",
+          "borderColor": "#171717"
+        },
+        "Header": {
+          "background": "#171717",
+          "color": "#FFF"
+        },
+        "Header": {
+          "background": "#171717",
+          "color": "#FFF",
+          "displayFollowers": false
+        },
+        "Followers": {
+          "background": "#171717",
+          "color": "#171717",
+          "borderColor": "#171717",
+          "counterBorderColor": "#171717",
+          "counterColor": "#171717"
+        },
+        "Data": {
+          "priceColor": "#FFF",
+          "infoLabelColor": "#CCC",
+          "infoValueColor": "#CCC"
+        },
+        "Chart": {
+          "animation": true,
+          "fillColor": "#c8b267",
+          "borderColor": "#3e3e3e"
+        },
+        "EvenRow": {
+          "background": "#171717",
+          "color": "#FFF",
+          "borderColor": "#444"
+        },
+        "OddRow": {
+          "background": "#171717",
+          "color": "#FFF",
+          "borderColor": "#444"
+        },
+        "Trend": {
+          "colorUnchanged": "#FFF"
+        },
+        "Conversion": {
+          "background": "#171717",
+          "color": "#171717"
+        }
+      };
+      (function () {
+        var appName = encodeURIComponent(window.location.hostname);
+        if (appName == "") {
+          appName = "local";
+        }
+        var s = document.createElement("script");
+        s.type = "text/javascript";
+        s.async = true;
+        var theUrl = baseUrl + 'serve/v1/coin/list?fsym=BLK&tsyms=USD,EUR';
+        s.src = theUrl + (theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+        embedder.parentNode.appendChild(s);
+      })();
+
+      }
+    }
+</script>
+                                <script>
+  var x = window.matchMedia("(max-width: 700px)")
+  cryptocompare3(x) // Call listener function at run time
+  x.addListener(cryptocompare3) 
+    function cryptocompare3(x) {
+      if (x.matches) { // If media query matches
+        return
+      } else {
+
+    baseUrl = "https://widgets.cryptocompare.com/";
+    var scripts = document.getElementsByTagName("script");
+    var embedder = scripts[scripts.length - 1];
+    (function () {
+      var appName = encodeURIComponent(window.location.hostname);
+      if (appName == "") {
+        appName = "local";
+      }
+      var s = document.createElement("script");
+      s.type = "text/javascript";
+      s.async = true;
+      var theUrl = baseUrl + 'serve/v1/coin/list?fsym=BTC&tsyms=BTC,USD';
+      s.src = theUrl + (theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+      embedder.parentNode.appendChild(s);
+    })();
+      }
+    }
+</script>
+                            </div>
+                            <script>
+    var x = window.matchMedia("(max-width: 700px)")
+    cryptocompare1(x) // Call listener function at run time
+    x.addListener(cryptocompare1) // Attach listener function on state changes
+      function cryptocompare1(x) {
+        if (x.matches) { // If media query matches
+          return
+        } else {
+      baseUrl = "https://widgets.cryptocompare.com/";
+      var scripts = document.getElementsByTagName("script");
+      var embedder = scripts[scripts.length - 1];
+      var cccTheme = {
+        "General": {
+          "background": "#000000",
+          "borderWidth": "0px",
+          "borderColor": "#000",
+          "borderRadius": "4px 4px 0 0"
+        },
+        "Header": {
+          "background": "#000000",
+          "color": "#FFF",
+          "displayFollowers": false
+        },
+        "Followers": {
+          "background": "",
+          "color": "#CCC",
+          "borderColor": "#000",
+          "counterBorderColor": "",
+          "counterColor": ""
+        },
+        "Data": {
+          "priceColor": "#FFF",
+          "infoLabelColor": "#CCC",
+          "infoValueColor": "#CCC"
+        },
+        "Chart": {
+          "animation": true,
+          "fillColor": "rgba(253, 201, 4, 1)",
+          "borderColor": "#bf9700"
+        },
+        "Conversion": {
+          "background": "#000",
+          "color": "#999"
+        }
+      };
+      (function () {
+        var appName = encodeURIComponent(window.location.hostname);
+        if (appName == "") {
+          appName = "local";
+        }
+        var s = document.createElement("script");
+        s.type = "text/javascript";
+        s.async = true;
+        var theUrl = baseUrl + 'serve/v2/coin/chart?fsym=BLK&tsym=BTC';
+        s.src = theUrl + (theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+        embedder.parentNode.appendChild(s);
+      })();
+      }
+    }
+</script>
+                        </div>
+                    </ul>
+                </li>
+                <li><a href="#" onclick="return dropDown(this)">Links</a>
+                    <ul id="menu-right">
+                        <li><a rel="noopener" target="_blank" href="https://chainz.cryptoid.info/blk/">CryptoID Explorer</a></li>
+                        <li><a rel="noopener" target="_blank" href="https://www.coingecko.com/en/coins/blackcoin">Coingecko</a></li>
+                        <li><a rel="noopener" target="_blank" href="https://coinmarketcap.com/currencies/blackcoin/#charts">CoinMarketCap</a></li>
+                        <li><a rel="noopener" target="_blank" href="https://blackcoin.nl">BlackcoinNL</a></li>
+                        <li><a rel="noopener" target="_blank" href="https://node.blackcoin.io/insight/">Blacksight Explorer</a></li>
+                        <li><a rel="noopener" target="_blank" href="https://bitinfocharts.com/blackcoin/">Bitinfocharts Explorer</a></li>
+                        <li><a rel="noopener" target="_blank" href="https://gihub.com/coinblack/">Github</a></li>
+                        <li><a rel="noopener" target="_blank" href="https://gitlab.com/blackcoin/">Gitlab</a></li>
+                        <!--<li><a href="https://en.wikipedia.org/wiki/BlackCoin">Wikipedia</a></li>-->
+                    </ul>
+                </li>
+                <li><a href="#" onclick="return dropDown(this)">Twitter</a>
+                    <ul id="menu-twitter">
+                        <div id="nav-twitter">
+  <a  href="https://twitter.com/hashtag/Blackcoin" alt="Hashtag Blackcoin"
+      data-widget-id="746421924109164548"
+      data-chrome="noheader noborders nofooter transparent noscrollbar"><li>#Blackcoin</li></a>
+  <a class="twitter-timeline"  href="https://twitter.com/BlackcoinOrg" alt="BlackcoinOrg Twitter"><li>@BlackcoinOrg</li></a>
+  <a class="twitter-timeline"  href="https://twitter.com/BlackcoinNL" alt="BlackcoinNL Twitter"><li>@BlackcoinNL<li></a>
   
-<!-- Specific to this site - Last to run -->
-  <link rel="stylesheet" href="../assets/styles/blackcoin.css">
-
-  <style id="custom styles" type="text/css">
-    .gitter-open-chat-button,
-    .gitter-chat-embed {
-      z-index: 9999;
-    }
-
-    .gitter-open-chat-button {
-      background-color: #262626;
-      color: #ffffff;
-    }
-
-    .gitter-open-chat-button:hover {
-      box-sizing: border-box;
-      background-color: #1a1a1a;
-      color: #fff
-    }
-
-    a {
-      color: #ddb77a;
-      text-decoration: none !important;
-    }
-
-    a:hover {
-      color: #ccc !important;
-    }
-
-    a:focus {
-      color: #ccc !important;
-    }
-  </style>
-
-  <style id="pum-styles" type="text/css">
-
-    /* Popup Theme 2865: Framed Border */
-    .pum-theme-2865,
-    .pum-theme-framed-border {
-      background-color: rgba(2, 2, 2, 0.4)
-    }
-
-    .pum-theme-2865 .pum-container,
-    .pum-theme-framed-border .pum-container {
-      padding: 20px;
-      border-radius: 21px;
-      border: 20px outset #ddb77a;
-      box-shadow: 1px 1px 3px 0px rgba(2, 2, 2, 0.97) inset;
-      background-color: rgba(35, 34, 33, 1)
-    }
-
-    .pum-theme-2865 .pum-title,
-    .pum-theme-framed-border .pum-title {
-      color: #000000;
-      text-align: left;
-      text-shadow: 0px 0px 0px rgba(2, 2, 2, 0.23);
-      font-family: inherit;
-      font-size: 32px;
-      line-height: 36px
-    }
-
-    .pum-theme-2865 .pum-content,
-    .pum-theme-framed-border .pum-content {
-      color: #2d2d2d;
-      font-family: inherit
-    }
-
-    .pum-theme-2865 .pum-content+.pum-close,
-    .pum-theme-framed-border .pum-content+.pum-close {
-      height: 20px;
-      width: 20px;
-      left: auto;
-      right: -20px;
-      bottom: auto;
-      top: -20px;
-      padding: 0px;
-      color: #ffffff;
-      font-family: Acme;
-      font-size: 20px;
-      line-height: 20px;
-      border: 1px none #ffffff;
-      border-radius: 0px;
-      box-shadow: 0px 0px 0px 0px rgba(2, 2, 2, 0.23);
-      text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.23);
-      background-color: rgba(0, 0, 0, 0.55)
-    }
-  </style>
-
-
-</head>
-
-<body id="page-top">
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NT3KCBH" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-
-  <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-
-
-  <!-- ========== Preloader ========== -->
-
-  <div class="preloader">
-    <img src="../assets/svg/images/loader.svg" alt="Loading...">
-  </div>
-
-
-
-  <!-- ========== Navigation ========== -->
-
-  <nav class="navbar navbar-default navbar-fixed-top mega navbar-inverse navbar-trans" role="navigation">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-          aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-
-        <!-- Logo -->
-        <a class="navbar-brand" href="../"><img src="../assets/images/logo-light.png" alt="Blackcoin - Logo"></a>
-      </div><!-- / .navbar-header -->
-
-      <!-- Navbar Links -->
-      <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav">
-
-          <!-- Home -->
-          <li class="dropdown mega-fw">
-            <a href="../">Home</a>
-          </li><!-- / Home -->
-
-
-          <!-- Discover -->
-          <li class="dropdown">
-            <a href="/#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350"
-              role="button" aria-haspopup="true" aria-expanded="false"><span style="color: #ddb77a;">Discover
-              </span><span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <div class="row">
-                <!-- Basic -->
-                <div class="col-lg-6 mb-sm-30">
-                  <li><a href="../#about">About</a></li>
-                  <!--<li><a href="bounties/">Bounties</a></li>-->
-                  <li><a href="../#community">Community</a></li>
-                  <li><a href="../donations/">Donations</a></li>
-                  <!--<li><a href="#features">Features</a></li>-->
-                  <li><a href="../faq/"><span style="color: #ddb77a;">FAQ</span></a></li>
-                </div>
-              </div><!-- / .row -->
-            </ul><!-- / .dropdown-menu -->
-          </li><!-- / Discover -->
-
-
-          <!-- Buy -->
-          <li class="dropdown mega-fw">
-            <a href="../#buy">Buy </a>
-          </li><!-- / Buy -->
-
-
-          <!-- Downloads -->
-          <li class="dropdown mega-fw">
-            <a href="../#downloads">Downloads </a>
-          </li><!-- / Downloads -->
-
-
-        </ul><!-- / .nav .navbar-nav -->
-
-
-        <!-- Navbar Links Right -->
-        <ul class="nav navbar-nav navbar-right">
-
-
-          <!-- Links -->
-          <li class="dropdown">
-            <a href="../#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350"
-              role="button" aria-haspopup="true" aria-expanded="false"><span style="color: #ddb77a;">Links </span><span
-                class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="https://chainz.cryptoid.info/blk/">CryptoID Explorer</a></li>
-              <li><a href="https://www.coingecko.com/en/coins/blackcoin">Coingecko</a></li>
-              <li><a href="https://coinmarketcap.com/currencies/blackcoin/#charts">Coinmarketcap</a></li>
-              <li><a href="https://blackcoin.nl">BlackcoinNL</a></li>
-              <li><a href="https://node.blackcoin.io/insight/">Blacksight Explorer</a></li>
-              <li><a href="https://bitinfocharts.com/blackcoin/">Bitinfocharts Explorer</a></li>
-              <li><span class="popmake-2900">&emsp; &ensp; Github/Gitlab</span></li>
-              <!--<li><a href="https://en.wikipedia.org/wiki/BlackCoin">Wikipedia</a></li>-->
-            </ul>
-          </li><!-- / Links -->
-
-          <!-- News -->
-
-          <li class="dropdown mega-fw">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350"
-              role="button" aria-haspopup="true" aria-expanded="false"><span class="label label-red">News </span><span
-                class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <div class="col-lg-4 mb-sm-20">
-                <li class="dropdown-header">Markets</li>
-                <li role="separator" class="divider"></li>
-                <center>
-                  <p>
-                    <script>
-                      var x = window.matchMedia("(max-width: 700px)")
-                      cryptocompare1(x) // Call listener function at run time
-                      x.addListener(cryptocompare1) // Attach listener function on state changes
-                        function cryptocompare1(x) {
-                          if (x.matches) { // If media query matches
-                            return
-                          } else {
-                        baseUrl = "https://widgets.cryptocompare.com/";
-                        var scripts = document.getElementsByTagName("script");
-                        var embedder = scripts[scripts.length - 1];
-                        var cccTheme = {
-                          "General": {
-                            "background": "#000000",
-                            "borderWidth": "0px",
-                            "borderColor": "#000",
-                            "borderRadius": "4px 4px 0 0"
-                          },
-                          "Header": {
-                            "background": "#000000",
-                            "color": "#FFF",
-                            "displayFollowers": false
-                          },
-                          "Followers": {
-                            "background": "",
-                            "color": "#CCC",
-                            "borderColor": "#000",
-                            "counterBorderColor": "",
-                            "counterColor": ""
-                          },
-                          "Data": {
-                            "priceColor": "#FFF",
-                            "infoLabelColor": "#CCC",
-                            "infoValueColor": "#CCC"
-                          },
-                          "Chart": {
-                            "animation": true,
-                            "fillColor": "rgba(253, 201, 4, 1)",
-                            "borderColor": "#bf9700"
-                          },
-                          "Conversion": {
-                            "background": "#000",
-                            "color": "#999"
-                          }
-                        };
-                        (function () {
-                          var appName = encodeURIComponent(window.location.hostname);
-                          if (appName == "") {
-                            appName = "local";
-                          }
-                          var s = document.createElement("script");
-                          s.type = "text/javascript";
-                          s.async = true;
-                          var theUrl = baseUrl + 'serve/v2/coin/chart?fsym=BLK&tsym=BTC';
-                          s.src = theUrl + (theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
-                          embedder.parentNode.appendChild(s);
-                        })();
-                        }
-                      }
-                    </script>
-                  </p>
-                </center>
-
-                <div class="textwidget">
-                  <center>
-                    <p>More charts: <a href="https://www.coingecko.com/en/coins/blackcoin" target="_blank"><span
-                          style="color: #d7bc91;"> CoinGecko </span></a>;
-
-                    <script>
-
-                    var x = window.matchMedia("(max-width: 700px)")
-                    cryptocompare2(x) // Call listener function at run time
-                    x.addListener(cryptocompare2) 
-                      function cryptocompare2(x) {
-                        if (x.matches) { // If media query matches
-                          return
-                        } else {
-                        baseUrl = "https://widgets.cryptocompare.com/";
-                        var scripts = document.getElementsByTagName("script");
-                        var embedder = scripts[scripts.length - 1];
-                        var cccTheme = {
-                          "General": {
-                            "background": "#171717",
-                            "borderColor": "#171717"
-                          },
-                          "Header": {
-                            "background": "#171717",
-                            "color": "#FFF"
-                          },
-                          "Header": {
-                            "background": "#171717",
-                            "color": "#FFF",
-                            "displayFollowers": false
-                          },
-                          "Followers": {
-                            "background": "#171717",
-                            "color": "#171717",
-                            "borderColor": "#171717",
-                            "counterBorderColor": "#171717",
-                            "counterColor": "#171717"
-                          },
-                          "Data": {
-                            "priceColor": "#FFF",
-                            "infoLabelColor": "#CCC",
-                            "infoValueColor": "#CCC"
-                          },
-                          "Chart": {
-                            "animation": true,
-                            "fillColor": "#c8b267",
-                            "borderColor": "#3e3e3e"
-                          },
-                          "EvenRow": {
-                            "background": "#171717",
-                            "color": "#FFF",
-                            "borderColor": "#444"
-                          },
-                          "OddRow": {
-                            "background": "#171717",
-                            "color": "#FFF",
-                            "borderColor": "#444"
-                          },
-                          "Trend": {
-                            "colorUnchanged": "#FFF"
-                          },
-                          "Conversion": {
-                            "background": "#171717",
-                            "color": "#171717"
-                          }
-                        };
-                        (function () {
-                          var appName = encodeURIComponent(window.location.hostname);
-                          if (appName == "") {
-                            appName = "local";
-                          }
-                          var s = document.createElement("script");
-                          s.type = "text/javascript";
-                          s.async = true;
-                          var theUrl = baseUrl + 'serve/v1/coin/list?fsym=BLK&tsyms=USD,EUR';
-                          s.src = theUrl + (theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
-                          embedder.parentNode.appendChild(s);
-                        })();
-
-                        }
-                      }
-                    </script>
-                  </center>
-                </div>
-
-                <div class="textwidget">
-                  <center>
-                    <script>
-                    var x = window.matchMedia("(max-width: 700px)")
-                    cryptocompare3(x) // Call listener function at run time
-                    x.addListener(cryptocompare3) 
-                      function cryptocompare3(x) {
-                        if (x.matches) { // If media query matches
-                          return
-                        } else {
-
-                      baseUrl = "https://widgets.cryptocompare.com/";
-                      var scripts = document.getElementsByTagName("script");
-                      var embedder = scripts[scripts.length - 1];
-                      (function () {
-                        var appName = encodeURIComponent(window.location.hostname);
-                        if (appName == "") {
-                          appName = "local";
-                        }
-                        var s = document.createElement("script");
-                        s.type = "text/javascript";
-                        s.async = true;
-                        var theUrl = baseUrl + 'serve/v1/coin/list?fsym=BTC&tsyms=BTC,USD';
-                        s.src = theUrl + (theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
-                        embedder.parentNode.appendChild(s);
-                      })();
-                        }
-                      }
-                    </script>
-                  </center>
-                </div>
-              </div>
-
-              <div class="col-lg-4 mb-sm-20">
-                <li class="dropdown-header">Twitter</li>
-                <li role="separator" class="divider"></li>
-
-                <div class="textwidget">
-                  <center>
-                    <p style=" background-color: #171717;">
-                      <a class="twitter-timeline" href="https://twitter.com/hashtag/Blackcoin"
-                        data-widget-id="746421924109164548"
-                        data-chrome="noheader noborders nofooter transparent noscrollbar">#Blackcoin Tweets</a><br />
-                      <a class="twitter-timeline" href="https://twitter.com/BlackcoinOrg">@BlackcoinOrg</a><br />
-                      <a class="twitter-timeline" href="https://twitter.com/BlackcoinNL">@BlackcoinNL</a><br />
-
-                    <script>
-                    var x = window.matchMedia("(max-width: 700px)")
-                    twiterFeed(x) // Call listener function at run time
-                    x.addListener(twiterFeed)   
-                      function twiterFeed(x) {
-                        if (x.matches) { // If media query matches
-                          return 
-                        } else {
-                          ! function (d, s, id) {
-                            var js, fjs = d.getElementsByTagName(s)[0],
-                              p = /^http:/.test(d.location) ? 'http' : 'https';
-                            if (!d.getElementById(id)) {
-                              js = d.createElement(s);
-                              js.id = id;
-                              js.src = p + "://platform.twitter.com/widgets.js";
-                              fjs.parentNode.insertBefore(js, fjs);
-                            }
-                          }(document, "script", "twitter-wjs");
-                        }
-                      }
-                    </script>
-                  </center>
-                </div>
-              </div>
-            </ul>
-          </li><!-- / News -->
-        </ul><!-- / .nav .navbar-nav .navbar-right -->
-      </div>
-      <!--/.navbar-collapse -->
-    </div><!-- / .container -->
-  </nav><!-- / .navbar -->
-
-  <!-- ========== END HEAD ========== -->
-  <!-- ========== END HEAD ========== -->
-  <!-- ========== END HEAD ========== -->
-  <!-- ========== END HEAD ========== -->
-  <!-- ========== END HEAD ========== -->
-
-
-
-
-
-
-
-  <!-- ========== Team - 4 columns ========== -->
-
-  <div class="gray-bg">
-    <section class="container section team-4col">
-      <div class="row">
-
-
-
-        <header class="sec-heading">
-          <h2>Donations</h2>
-          <span class="subheading">Support BlackCoin and donate to the developers and the ongoing projects</span>
-        </header>
-
-
-        <!-- ========== Developers ========== -->
-
-
-        <section id="services" class="container section ft-boxed-hover">
-
-
-          <div class="row no-gap">
-
-
-            <center>
-              <h4>ONGOING PROJECTS</h4>
-            </center>
-            <ul >
-
-              <!-- Item 1 -->
-              <li>
-
-                <h5>Facebook</h5>
-                <h6 class="h-alt">Facebook News</h6>
-
-                <div class="hover-content">
-                  <br>
-                  <span class="ft-heading">More Info</span>
-                  <p>
-                    B6sKk2SpDX8s7jrmfeMCTEjM26AnKe7Ukg
-                  </p>
-                  <a href="../https://www.facebook.com/BlackcoinOrg/" class="link-btn">Facebook</a>
-                </div><!-- / .hover-content -->
-              </li>
-
-              <!-- Item 2 -->
-              <li>
-
-                <h5>NL Twitter</h5>
-                <h6 class="h-alt">BlackcoinNL Twitter</h6>
-
-                <div class="hover-content">
-                  <br>
-                  <span class="ft-heading">More Info</span>
-                  <p>
-                    BTUfUZRRRBwMqJfLaivNcCPCZDZFWgSLqU
-                  </p>
-                  <a href="../https://twitter.com/BlackcoinNL" class="link-btn">Twitter</a>
-                </div><!-- / .hover-content -->
-              </li>
-
-
-              <!-- Item 3 -->
-              <li>
-
-                <h5>Org Twitter</h5>
-                <h6 class="h-alt">BlackcoinOrg Twitter</h6>
-
-                <div class="hover-content">
-                  <br>
-                  <span class="ft-heading">More Info</span>
-                  <p>
-                    BH3mZaDVqLiZFPTMozcGuu5CfKKoHxSN1b
-                  </p>
-                  <a href="../https://twitter.com/BlackcoinOrg" class="link-btn">Twitter</a>
-                </div><!-- / .hover-content -->
-              </li>
-
-              <!-- Item 4 -->
-              <li>
-
-                <h5>Org Website</h5>
-                <h6 class="h-alt">BlackCoin.org Website Development</h6>
-
-                <div class="hover-content">
-                  <br>
-                  <span class="ft-heading">More Info</span>
-                  <p>
-                    BBSXy2Aj8EwsxdUcCymdghD4KaPQUS7ugA
-                  </p>
-                  <a href="../https://blackcoin.org" class="link-btn">BlackCoin.org Website</a>
-                </div><!-- / .hover-content -->
-              </li>
-
-              <!-- Item 5 -->
-              <li>
-
-                <h5>NL Website</h5>
-                <h6 class="h-alt">BlackCoin.nl Website Development</h6>
-
-                <div class="hover-content">
-                  <br>
-                  <span class="ft-heading">More Info</span>
-                  <p>
-                    B9to13TPTZZbyS3eewAz8nGbXx7zTjz3BM
-                  </p>
-                  <a href="../https://blackcoin.nl" class="link-btn">BlackCoin.nl Website</a>
-                </div><!-- / .hover-content -->
-              </li>
-
-              <!-- Item 6 -->
-              <li>
-
-                <h5>Hosting</h5>
-                <h6 class="h-alt">Server Hosting (VPS)</h6>
-
-                <div class="hover-content">
-                  <br>
-                  <span class="ft-heading">More Info</span>
-                  <p>
-                    BMWvMeEa88iqBCevi9dVX8GAhnPCh3JBHx
-                  </p>
-                  <a href="../https://contabo.com/?show=vps" class="link-btn">Provider Website</a>
-                </div><!-- / .hover-content -->
-              </li>
-
-              <!-- Item 7 -->
-              <li>
-
-                <h5>Webwallet</h5>
-                <h6 class="h-alt">PayBLK</h6>
-
-                <div class="hover-content">
-                  <br>
-                  <span class="ft-heading">More Info</span>
-                  <p>
-                    B8HhsoPzuyppCZseYd2i4zdGE4g9o7kvZ9
-                  </p>
-                  <a href="../https://payblk.blackcoin.io" class="link-btn">payBLK Webwallet</a>
-                </div><!-- / .hover-content -->
-              </li>
-
-              <!-- Item 8 -->
-              <li>
-
-                <h5>Listing</h5>
-                <h6 class="h-alt">Exchange Listings</h6>
-
-                <div class="hover-content">
-                  <br>
-                  <span class="ft-heading">More Info</span>
-                  <p>
-                    BBXBrYnrhbDyo44eRxeUPVjqPpNk9bBg8b
-                  </p>
-                  <a href="../https://blackcoin.org/#buy" class="link-btn">Current Listings</a>
-                </div><!-- / .hover-content -->
-              </li>
-            </ul>
-          </div>
-
-          <h4>&nbsp;</h4>
-          <h4>&nbsp;</h4>
-          <div class="col-md-12 no-gap">
-
-            <center>
-              <h4>DEVELOPMENT TEAM</h4>
-            </center>
-            <Br>
-
-            <ul>
-              <!-- Item 1 -->
-              <li>
-
-                <h5>Lateminer</h5>
-                <h6 class="h-alt">Development Lead<br><br><br></h6>
-
-                <div class="hover-content">
-                  <br>
-                  <span class="ft-heading">More Info</span>
-                  <p>
-                    BDFgwjx8q9xrpeNzyY1Hz8x36Dmg39C4BU
-                  </p>
-                  <a href="../https://blackcoinmore.org/" class="link-btn">Blackcoin More</a>
-                </div><!-- / .hover-content -->
-              </li>
-
-              <!-- Item 2 -->
-              <li>
-                <h5>Michel van Kessel</h5>
-                <h6 class="h-alt">Technical Lead<br><br></h6>
-
-                <div class="hover-content">
-                  <br>
-                  <span class="ft-heading">More Info</span>
-                  <p>
-                    BB21eF5fEH3cvr1ApmWbzYA14L529DFjtJ
-                  </p>
-                  <a href="../https://blackcoinmore.org/" class="link-btn">Blackcoin More</a> ;
-                  <a href="../https://blackcoin.nl" class="link-btn">BlackcoinNL</a>
-                </div><!-- / .hover-content -->
-              </li>
-
-              <!-- Item 3 -->
-              <li>
-
-                <h5>Daniel Clough</h5>
-                <h6 class="h-alt">Community Lead<br><br></h6>
-
-                <div class="hover-content">
-                  <br>
-                  <span class="ft-heading">More Info</span>
-                  <p>
-                    B6sKk2SpDX8s7jrmfeMCTEjM26AnKe7Ukg
-                  </p>
-                  <a href="../https://blackcoin.org" class="link-btn">BlackcoinOrg Website</a> ;
-                  <a href="../https://blackcoin.nl" class="link-btn">BlackcoinNL</a>;
-                  <a href="../https://blackcoin.nl" class="link-btn">Discord and Bots</a>
-                </div><!-- / .hover-content -->
-              </li>
-
-              <!-- Item 4 -->
-              <li>
-                <h5>David Zimbeck</h5>
-                <h6 class="h-alt">BlackHalo Developer</h6>
-
-                <div class="hover-content">
-                  <br>
-                  <span class="ft-heading">More Info</span>
-                  <p>
-                    bMDqFjNxhLNgE63F7F5ixDSRyMP7xwWL8K
-                  </p>
-                  <a href="../https://blackhalo.info/">BlackHalo</a>
-                </div><!-- / .hover-content -->
-              </li>
-
-
-
-
-
-
-            </ul>
-          </div>
-
-          <h4>&nbsp;</h4>
-          <h4>&nbsp;</h4>
-          <div class="col-md-12 no-gap">
-
-            <center>
-              <h4>MAIN COMMUNITY MEMBERS</h4>
-            </center>
-            <Br>
-
-            <ul>
-
-
-              <li>
-
-                <h5>markBLK</h5>
-                <h6 class="h-alt"></h6>
-
-                <div class="hover-content">
-                  <br>
-                  <span class="ft-heading">More Info</span>
-                  <p>
-                    B4aW1WigXC7pHxpTmQrZsjX4PCLHuHQ8wN
-                  </p>
-
-                </div><!-- / .hover-content -->
-              </li>
-
-              <!-- Item 2 -->
-              <li>
-
-                <h5>Joshua J. Bouw / Gritt</h5>
-                <h6 class="h-alt"></h6>
-
-                <div class="hover-content">
-                  <br>
-                  <span class="ft-heading">More Info</span>
-                  <p>
-                    BMXmwCoB5hrkydTSjKbp2Fcwqejuzc5r16
-                  </p>
-                </div><!-- / .hover-content -->
-              </li>
-
-
-              <!-- Item 1 -->
-              <li>
-                <h5>Mindphuq</h5>
-                <h6 class="h-alt"></h6>
-
-                <div class="hover-content">
-                  <br>
-                  <span class="ft-heading">More Info</span>
-                  <p>
-                    B4nn2Y3SFC6whNGNvcQ2MvV1aQbZp3cZVF
-                  </p>
-
-                </div><!-- / .hover-content -->
-              </li>
-
-
-
-              <!-- Item 4 -->
-              <li>
-
-                <h5>Suptuppel</h5>
-                <h6 class="h-alt"></h6>
-
-                <div class="hover-content">
-                  <br>
-                  <span class="ft-heading">More Info</span>
-                  <p>
-                    B64bwzvcD15Wdiy73rZsGqK8H83HVDvaB4
-                  </p>
-
-                </div><!-- / .hover-content -->
-              </li>
-
-
-            </ul>
-
-
-
-
-          </div>
-
-
-        </section><!-- / .cotnainer -->
-
-
-      </div><!-- / .row -->
-    </section><!-- / .contianer -->
-  </div><!-- / .gray-bg -->
-
-
-
-
-
-
-
-
-
-
-
-  <!-- ========== Footer Widgets ========== -->
-
-  <footer class="footer-widgets">
-
-
-
-    <!-- Copyright -->
-    <div class="copyright">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-sm-6">
-            <small>© 2014-2019 BlackCoin. All Rights Reserved.</small>
-          </div>
-
-          <div class="col-sm-6">
-            <small><a href="../#page-top" class="pull-right to-the-top">To the top<i
-                  class="fa fa-angle-up"></i></a></small>
-          </div>
-
-        </div><!-- / .row -->
-      </div><!-- / .container -->
-    </div><!-- / .copyright -->
-
-  </footer><!-- / .footer-widgets -->
-
-  <div id="pum-2890" class="pum pum-overlay pum-theme-2865 popmake-overlay"
-    data-popmake="{&quot;id&quot;:2890,&quot;slug&quot;:&quot;slack&quot;,&quot;theme_id&quot;:2865,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;&quot;,&quot;do_default&quot;:null,&quot;cookie&quot;:{&quot;name&quot;:null}}}],&quot;meta&quot;:{&quot;display&quot;:{&quot;size&quot;:&quot;auto&quot;,&quot;responsive_min_width&quot;:&quot;&quot;,&quot;responsive_max_width&quot;:&quot;&quot;,&quot;custom_width&quot;:&quot;640&quot;,&quot;custom_height_auto&quot;:&quot;1&quot;,&quot;custom_height&quot;:&quot;380&quot;,&quot;animation_type&quot;:&quot;grow&quot;,&quot;animation_speed&quot;:&quot;50&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;position_fixed&quot;:&quot;1&quot;,&quot;location&quot;:&quot;center &quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_top&quot;:&quot;100&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;overlay_zindex&quot;:&quot;1999999998&quot;,&quot;zindex&quot;:&quot;1999999999&quot;,&quot;responsive_min_width_unit&quot;:&quot;px&quot;,&quot;responsive_max_width_unit&quot;:&quot;px&quot;,&quot;custom_width_unit&quot;:&quot;px&quot;,&quot;custom_height_unit&quot;:&quot;px&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;&quot;,&quot;button_delay&quot;:&quot;0&quot;,&quot;overlay_click&quot;:&quot;true&quot;,&quot;esc_press&quot;:&quot;true&quot;,&quot;f4_press&quot;:&quot;true&quot;},&quot;click_open&quot;:{&quot;extra_selectors&quot;:&quot;&quot;}}}"
-    role="dialog" aria-hidden="true">
-    <div id="popmake-2890" class="pum-container popmake theme-2865 pum-position-fixed">
-      <div class="pum-content popmake-content">
-        <center><span style="color: #ffffff;">Slack</span></center><br />
-        <center><a href="../https://slack-blackcoin.herokuapp.com/">Join</a> / <a
-            href="../https://blackcoin-team.slack.com/">Log in</a></center>
-      </div>
-      <button type="button" class="pum-close popmake-close" aria-label="Close">
-        × </button>
-    </div>
-  </div>
-
-  <div id="pum-2900" class="pum pum-overlay pum-theme-2865 popmake-overlay"
-    data-popmake="{&quot;id&quot;:2900,&quot;slug&quot;:&quot;slack&quot;,&quot;theme_id&quot;:2865,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;&quot;,&quot;do_default&quot;:null,&quot;cookie&quot;:{&quot;name&quot;:null}}}],&quot;meta&quot;:{&quot;display&quot;:{&quot;size&quot;:&quot;auto&quot;,&quot;responsive_min_width&quot;:&quot;&quot;,&quot;responsive_max_width&quot;:&quot;&quot;,&quot;custom_width&quot;:&quot;640&quot;,&quot;custom_height_auto&quot;:&quot;1&quot;,&quot;custom_height&quot;:&quot;380&quot;,&quot;animation_type&quot;:&quot;grow&quot;,&quot;animation_speed&quot;:&quot;50&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;position_fixed&quot;:&quot;1&quot;,&quot;location&quot;:&quot;center &quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_top&quot;:&quot;100&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;overlay_zindex&quot;:&quot;1999999998&quot;,&quot;zindex&quot;:&quot;1999999999&quot;,&quot;responsive_min_width_unit&quot;:&quot;px&quot;,&quot;responsive_max_width_unit&quot;:&quot;px&quot;,&quot;custom_width_unit&quot;:&quot;px&quot;,&quot;custom_height_unit&quot;:&quot;px&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;&quot;,&quot;button_delay&quot;:&quot;0&quot;,&quot;overlay_click&quot;:&quot;true&quot;,&quot;esc_press&quot;:&quot;true&quot;,&quot;f4_press&quot;:&quot;true&quot;},&quot;click_open&quot;:{&quot;extra_selectors&quot;:&quot;&quot;}}}"
-    role="dialog" aria-hidden="true">
-    <div id="popmake-2900" class="pum-container popmake theme-2865 pum-position-fixed">
-      <div class="pum-content popmake-content">
-        <center><span style="color: #ffffff;">GitHub</span></center><br />
-        <center><a href="../https://github.com/CoinBlack">BlackCoin</a><span style="color: #d9d9d9;"> / </span><a
-            href="../https://github.com/janko33bd/bitcoin/tree/Blackcoin-Lore">BlackCoin Lore</a><span
-            style="color: #d9d9d9;"> / </span><a href="../https://github.com/joshuajbouw/joshuajbouw.github.io">Website</a>
-        </center><br />
-      </div>
-      <button type="button" class="pum-close popmake-close" aria-label="Close">
-        × </button>
-    </div>
-  </div>
-
-
-  <!-- ========== Scripts ========== -->
-  <!-- Google Tag Manager -->
   <script>
-    (function (w, d, s, l, i) {
-      w[l] = w[l] || [];
-      w[l].push({
-        "gtm.start": new Date().getTime(),
-        event: "gtm.js"
-      });
-      var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s),
-        dl = l != "dataLayer" ? "&l=" + l : ";
-      j.async = true;
-      j.src =
-        "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-      f.parentNode.insertBefore(j, f);
-    })(window, document, "script", "dataLayer", "GTM-NT3KCBH");
+    var x = window.matchMedia("(max-width: 700px)")
+    twiterFeed(x) // Call listener function at run time
+    x.addListener(twiterFeed)   
+      function twiterFeed(x) {
+        if (x.matches) { // If media query matches
+          return 
+        } else {
+          ! function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0],
+              p = /^http:/.test(d.location) ? 'http' : 'https';
+            if (!d.getElementById(id)) {
+              js = d.createElement(s);
+              js.id = id;
+              js.src = p + "://platform.twitter.com/widgets.js";
+              fjs.parentNode.insertBefore(js, fjs);
+            }
+          }(document, "script", "twitter-wjs");
+        }
+      }
   </script>
-  <!-- JS -->
-  <script src="../assets/js/modernizr-2.8.3.min.js"></script>
-  <script type="text/javascript" src="../plugins/jquery-updater/js/jquery-2.1.4.min.js"></script>
+</div>
+                    </ul>
+                </li>
+            </li>
+        </ul>
+    <row>
+    
+
+<a id="lang-select" href="#" onclick="return dropDown(this)">Select language</a>
+<ul id="menu-locale"  class="nav-main">
+<a href="/zh/donations/" rel="/zh donations/" hreflang="zh"><li>中文</li></a>
+<a href="/es/donations/" rel="/es donations/" hreflang="es"><li>Español</li></a>
+<a href="/en/donations/" rel="/en donations/" hreflang="en"><li>English</li></a>
+<a href="/hi/donations/" rel="/hi donations/" hreflang="hi"><li>हिंदी</li></a>
+<a href="/ar/donations/" rel="/ar donations/" hreflang="ar"><li>عربى</li></a>
+<a href="/pt/donations/" rel="/pt donations/" hreflang="pt"><li>português</li></a>
+<a href="/bn/donations/" rel="/bn donations/" hreflang="bn"><li>বাংলা</li></a>
+<a href="/ru/donations/" rel="/ru donations/" hreflang="ru"><li>русский</li></a>
+<a href="/ja/donations/" rel="/ja donations/" hreflang="ja"><li>日本語</li></a>
+<a href="/jv/donations/" rel="/jv donations/" hreflang="jv"><li>Wong jawa</li></a>
+<a href="/de/donations/" rel="/de donations/" hreflang="de"><li>Deutsch</li></a>
+<a href="/ko/donations/" rel="/ko donations/" hreflang="ko"><li>한국어</li></a>
+<a href="/fr/donations/" rel="/fr donations/" hreflang="fr"><li>Français</li></a>
+<a href="/te/donations/" rel="/te donations/" hreflang="te"><li>తెలుగు</li></a>
+<a href="/mr/donations/" rel="/mr donations/" hreflang="mr"><li>मराठी</li></a>
+<a href="/tr/donations/" rel="/tr donations/" hreflang="tr"><li>Türk</li></a>
+<a href="/ta/donations/" rel="/ta donations/" hreflang="ta"><li>தமிழ்</li></a>
+<a href="/vi/donations/" rel="/vi donations/" hreflang="vi"><li>Tiếng Việt</li></a>
+<a href="/ur/donations/" rel="/ur donations/" hreflang="ur"><li>اردو</li></a>
+<a href="/nl/donations/" rel="/nl donations/" hreflang="nl"><li>Dutch</li></a>
+<a href="/it/donations/" rel="/it donations/" hreflang="it"><li>Italian</li></a>
+<a href="/hr/donations/" rel="/hr donations/" hreflang="hr"><li>Hrvatski</li></a>
+</ul>
+</nav><!-- / .navbar -->
+
+
+
+    <main  class="tmpl-donations">
+
+              <head>
+	<style id="dark-background-base" type="text/css">
+
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{-webkit-tap-highlight-color:transparent}
+button,select{font-family:inherit;line-height:inherit}a{color:#337ab7;text-decoration:none}a:focus,a:hover{color:#23527c;text-decoration:underline}a:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}img{vertical-align:middle}
+
+body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;color:#fff;background-color:#222}
+
+a {
+  color: #862;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #ccc !important;
+}
+
+a:focus {
+  color: #ccc !important;
+}
+</style>
+	<style id="donations" type="text/css">
+h5 {
+	color: #eee;
+}
+
+.ft-boxed-hover ul li {
+	background-color: #111;
+}
+
+</style>
+</head>
+<div class="gray-bg">
+  <section class="container section team-4col">
+    <div class="row">
+      <header class="sec-heading">
+        <h2>Donations</h2>
+        <span class="subheading">Support BlackCoin and donate to the developers and the ongoing projects</span>
+      </header>
+
+    	<!-- ========== Developers ========== -->
+<section id="services" class="container section ft-boxed-hover">
+  <center>
+    <h4>ONGOING PROJECTS</h4>
+  </center>
+  <div>
+    <ul>
+      <!-- Item 1 -->
+      <li>
+        <h5>Facebook</h5>
+        <h6 class="h-alt">Facebook News</h6>
+        <div class="hover-content">          
+          <span class="ft-heading">More Info</span>
+          <p>
+            B6sKk2SpDX8s7jrmfeMCTEjM26AnKe7Ukg
+          </p>
+          <a href="../https://www.facebook.com/BlackcoinOrg/" class="link-btn">Facebook</a>
+        </div><!-- / .hover-content -->
+      </li>
+      <!-- Item 2 -->
+      <li>
+        <h5>NL Twitter</h5>
+        <h6 class="h-alt">BlackcoinNL Twitter</h6>
+        <div class="hover-content">          
+          <span class="ft-heading">More Info</span>
+          <p>
+            BTUfUZRRRBwMqJfLaivNcCPCZDZFWgSLqU
+          </p>
+          <a href="../https://twitter.com/BlackcoinNL" class="link-btn">Twitter</a>
+        </div><!-- / .hover-content -->
+      </li>
+      <!-- Item 3 -->
+      <li>
+        <h5>Org Twitter</h5>
+        <h6 class="h-alt">BlackcoinOrg Twitter</h6>
+        <div class="hover-content">          
+          <span class="ft-heading">More Info</span>
+          <p>
+            BH3mZaDVqLiZFPTMozcGuu5CfKKoHxSN1b
+          </p>
+          <a href="../https://twitter.com/BlackcoinOrg" class="link-btn">Twitter</a>
+        </div><!-- / .hover-content -->
+      </li>
+      <!-- Item 4 -->
+      <li>
+        <h5>Org Website</h5>
+        <h6 class="h-alt">BlackCoin.org Website Development</h6>
+        <div class="hover-content">          
+          <span class="ft-heading">More Info</span>
+          <p>
+            BBSXy2Aj8EwsxdUcCymdghD4KaPQUS7ugA
+          </p>
+          <a href="../https://blackcoin.org" class="link-btn">BlackCoin.org Website</a>
+        </div><!-- / .hover-content -->
+      </li>
+      <!-- Item 5 -->
+      <li>
+        <h5>NL Website</h5>
+        <h6 class="h-alt">BlackCoin.nl Website Development</h6>
+        <div class="hover-content">          
+          <span class="ft-heading">More Info</span>
+          <p>
+            B9to13TPTZZbyS3eewAz8nGbXx7zTjz3BM
+          </p>
+          <a href="../https://blackcoin.nl" class="link-btn">BlackCoin.nl Website</a>
+        </div><!-- / .hover-content -->
+      </li>
+      <!-- Item 6 -->
+      <li>
+        <h5>Hosting</h5>
+        <h6 class="h-alt">Server Hosting (VPS)</h6>
+        <div class="hover-content">          
+          <span class="ft-heading">More Info</span>
+          <p>
+            BMWvMeEa88iqBCevi9dVX8GAhnPCh3JBHx
+          </p>
+          <a href="../https://contabo.com/?show=vps" class="link-btn">Provider Website</a>
+        </div><!-- / .hover-content -->
+      </li>
+      <!-- Item 7 -->
+      <li>
+        <h5>Webwallet</h5>
+        <h6 class="h-alt">PayBLK</h6>
+        <div class="hover-content">          
+          <span class="ft-heading">More Info</span>
+          <p>
+            B8HhsoPzuyppCZseYd2i4zdGE4g9o7kvZ9
+          </p>
+          <a href="../https://payblk.blackcoin.io" class="link-btn">payBLK Webwallet</a>
+        </div><!-- / .hover-content -->
+      </li>
+      <!-- Item 8 -->
+      <li>
+        <h5>Listing</h5>
+        <h6 class="h-alt">Exchange Listings</h6>
+        <div class="hover-content">          
+          <span class="ft-heading">More Info</span>
+          <p>
+            BBXBrYnrhbDyo44eRxeUPVjqPpNk9bBg8b
+          </p>
+          <a href="../https://blackcoin.org/#buy" class="link-btn">Current Listings</a>
+        </div><!-- / .hover-content -->
+      </li>
+    </ul>
+  </div>
+  <h4>&nbsp;</h4>
+  <h4>&nbsp;</h4>
+
+
+
+
+  <center>
+    <h4>DEVELOPMENT TEAM</h4>
+  </center>
+  <div class="no-gap">
+    
+    <ul>
+      <!-- Item 1 -->
+      <li>
+        <h5>Lateminer</h5>
+        <h6 class="h-alt">Development Lead</h6>
+        <div class="hover-content">          
+          <span class="ft-heading">More Info</span>
+          <p>
+            BDFgwjx8q9xrpeNzyY1Hz8x36Dmg39C4BU
+          </p>
+          <a href="../https://blackcoinmore.org/" class="link-btn">Blackcoin More</a>
+        </div><!-- / .hover-content -->
+      </li>
+      <!-- Item 2 -->
+      <li>
+        <h5>Michel van Kessel</h5>
+        <h6 class="h-alt">Technical Lead</h6>
+        <div class="hover-content">          
+          <span class="ft-heading">More Info</span>
+          <p>
+            BB21eF5fEH3cvr1ApmWbzYA14L529DFjtJ
+          </p>
+          <a href="../https://blackcoinmore.org/" class="link-btn">Blackcoin More</a> ;
+          <a href="../https://blackcoin.nl" class="link-btn">BlackcoinNL</a>
+        </div><!-- / .hover-content -->
+      </li>
+      <!-- Item 3 -->
+      <li>
+        <h5>Daniel Clough</h5>
+        <h6 class="h-alt">Community Lead</h6>
+        <div class="hover-content">          
+          <span class="ft-heading">More Info</span>
+          <p>
+            B6sKk2SpDX8s7jrmfeMCTEjM26AnKe7Ukg
+          </p>
+          <a href="../https://blackcoin.org" class="link-btn">BlackcoinOrg Website</a> ;
+          <a href="../https://blackcoin.nl" class="link-btn">BlackcoinNL</a>;
+          <a href="../https://blackcoin.nl" class="link-btn">Discord and Bots</a>
+        </div><!-- / .hover-content -->
+      </li>
+      <!-- Item 4 -->
+      <li>
+        <h5>David Zimbeck</h5>
+        <h6 class="h-alt">BlackHalo Developer</h6>
+        <div class="hover-content">          
+          <span class="ft-heading">More Info</span>
+          <p>
+            bMDqFjNxhLNgE63F7F5ixDSRyMP7xwWL8K
+          </p>
+          <a href="../https://blackhalo.info/">BlackHalo</a>
+        </div><!-- / .hover-content -->
+      </li>
+    </ul>
+  </div>
+  <h4>&nbsp;</h4>
+  <h4>&nbsp;</h4>
+  
+  <center>
+    <h4>MAIN COMMUNITY MEMBERS</h4>
+  </center>
+  <div class="no-gap">
+    
+    <ul>
+      <li>
+        <h5>markBLK</h5>
+        <h6 class="h-alt"></h6>
+        <div class="hover-content">          
+          <span class="ft-heading">More Info</span>
+          <p>
+            B4aW1WigXC7pHxpTmQrZsjX4PCLHuHQ8wN
+          </p>
+        </div><!-- / .hover-content -->
+      </li>
+      <!-- Item 2 -->
+      <li>
+        <h5>Joshua J. Bouw / Gritt</h5>
+        <h6 class="h-alt"></h6>
+        <div class="hover-content">          
+          <span class="ft-heading">More Info</span>
+          <p>
+            BMXmwCoB5hrkydTSjKbp2Fcwqejuzc5r16
+          </p>
+        </div><!-- / .hover-content -->
+      </li>
+      <!-- Item 1 -->
+      <li>
+        <h5>Mindphuq</h5>
+        <h6 class="h-alt"></h6>
+        <div class="hover-content">          
+          <span class="ft-heading">More Info</span>
+          <p>
+            B4nn2Y3SFC6whNGNvcQ2MvV1aQbZp3cZVF
+          </p>
+        </div><!-- / .hover-content -->
+      </li>
+      <!-- Item 4 -->
+      <li>
+        <h5>Suptuppel</h5>
+        <h6 class="h-alt"></h6>
+        <div class="hover-content">          
+          <span class="ft-heading">More Info</span>
+          <p>
+            B64bwzvcD15Wdiy73rZsGqK8H83HVDvaB4
+          </p>
+        </div><!-- / .hover-content -->
+      </li>
+    </ul>
+  </div>
+</section><!-- / .cotnainer -->
+
+
+    </div><!-- / .row -->
+  </section><!-- / .contianer -->
+</div><!-- / .gray-bg -->
+    
+    </main>
+    <footer class="site-footer bg-transparent pb-3 pb-md-5">
+      <div class="layout-social container d-flex justify-content-center">
 
   
-  <script src="../assets/js/bootstrap.min.js"></script>
+
+  
+
+  
+
+  
+
+  
+
+</div>
+      <!-- Copyright -->
+      <div class="copyright">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <small>&copy; 2014-<span id="copyright"></span> Blackcoin <br />All Rights Reserved. </small>
+              </div>
+              <div class="col-md-6">
+                <small><a href="#page-top" class="pull-right to-the-top">To the top ^ </a></small>
+              </div>
+            </div><!-- / .row -->
+          </div><!-- / .container -->
+      </div><!-- / .copyright -->
+    </footer>
+
+    <script>
+function dropDown(a) {
+    var li = a.parentElement,
+        submenu = li.getElementsByTagName('ul')[0];
+    
+    submenu.style.display = submenu.style.display == "flex" ? "none" : "flex";
+    
+    return false;
+}
+</script>
 
 
-  <!-- Definity JS -->
-  <script src="../assets/js/main.js"></script>
-</body>
-
+    <!-- Gitter -->
+    <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+    <script>
+      ((window.gitter = {}).chat = {}).options = {
+        room: 'BlackCoin_Hub/General'
+      };
+    </script>
+    <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+  </body>
 </html>

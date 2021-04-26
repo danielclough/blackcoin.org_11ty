@@ -1,0 +1,21 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-donations
+---
+<head>
+	{% include "layouts/styles/dark-background-base.njk" %}
+	{% include "layouts/styles/donations.njk" %}
+</head>
+<div class="gray-bg">
+  <section class="container section team-4col">
+    <div class="row">
+      <header class="sec-heading">
+        <h2>Donations</h2>
+        <span class="subheading">Support BlackCoin and donate to the developers and the ongoing projects</span>
+      </header>
+
+    	{{ content | safe }}
+
+    </div><!-- / .row -->
+  </section><!-- / .contianer -->
+</div><!-- / .gray-bg -->
