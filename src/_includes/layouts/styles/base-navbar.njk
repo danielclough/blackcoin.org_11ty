@@ -1,15 +1,35 @@
 <style>
-/*Move to main.njk*/
+
+
 html {background-color: #eee;}
-.row {flex-flow: row;}
+.row {  display: flex; flex-flow: row wrap;}
 .column {flex-flow: column;}
 .centered {align-self: center; justify-self:center;}
-.icon {
-    display: inline-block;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
+
+.container {
+  padding: .5rem;
+}
+
+.golden {
+  color: #ca6;
+  text-shadow: 1px 0px #862;
+  padding: 1vw;
+}
+
+.section{
+  padding-top:101px;
+  padding-bottom:100px;
+}
+
+@media (min-width:1080px){
+  .container{
+    width:70vw; 
+    margin: 0 auto;
+  }
+  .faq-group {
+    width: 50%;
+    padding: 3rem;
+  }
 }
 
 #hamburger-toggle {

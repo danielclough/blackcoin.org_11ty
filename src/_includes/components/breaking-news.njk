@@ -1,90 +1,57 @@
-<header id="page-hero" class="site-header position-relative {% if not hero %}mt-5 pt-5{% endif %} site-header" style="width: 100vw; min-height: {{(headerHeight) if headerHeight else '50vh'}};">
-  <section class="layout-hero position-absolute d-flex align-items-center" {% if hero %} style="background-image: linear-gradient(rgba(0, 0, 0, .7) 50px, transparent), url({{ hero }}); height: 100%; width: 100%; filter: blur({{(blur) if blur else '0'}});" {% endif %}>
-  </section>
-  <div class="layout-hero-content position-absolute d-flex align-items-center" style="height: 100%; width: 100%;">
-    <div class="container">
-      <div id="home" class="agency2-hero">
-        <div class="bg-overlay">
-          <div id="large-header" class="large-header">
-            <canvas id="demo-canvas" class="demo-canvas"></canvas>
-            <!-- Hero Content -->
-            <div id="page-hero" class="hero-content-wrapper">
-              <div class="hero-content">
-                {% image "./src/assets/images/hero/ag2-logo.png", "Blackcoin Logo" %}
-                <h1 class="hero-lead">{{ 'blackcoin' | i18n }}</h1>
-                <h2 class="h-alt hero-secondary">{{ 'since2014' | i18n }}</h2>
-                <center>
-                  <a href="#community" class="join-community">
-                     {% image "./src/assets/images/joincommunity.png", "Join the Blackcoin Community!" %}
-                  </a>
-                </center>
-                <div style="width:100%; max-width:960px; margin:0 auto; padding:0 20px 50px 20px; box-sizing:border-box;">
-                  <div class="breakingNews" id="bn7">
-                    <div class="bn-title">
-                      <h2>{{ 'latest_news' | i18n }}</h2>
-                    </div>
-                    <ul>
-                      <li>
-                        <h3 class="bn-h3">
-                          <a href="https://blackcoinmore.org">
-                            <span>Feb 24,&nbsp;2021</span>
-                            <span style="color: #ddb77a;"> - Blackcoin More v2.13.2.8 released. Trade $BLK with Atomic Swaps.</span>
-                          </a>
-                        </h3>
-                      </li>
-                      <li>
-                        <h3 class="bn-h3">
-                          <a href="https://blackcoinmore.org">
-                            <span>Nov 24,&nbsp;2020</span>
-                            <span style="color: #ddb77a;"> - Blackcoin More v2.13.2.7 released. STOP THE DUST! Highly recommended for everyone to upgrade!.</span>
-                          </a>
-                        </h3>
-                      </li>
-                      <li>
-                        <h3 class="bn-h3">
-                          <a href="https://www.bitladon.com/blackcoin">
-                            <span>Apr 24,&nbsp;2020</span>
-                            <span style="color: #ddb77a;"> - Blackcoin trading on Bitladon.com</span>
-                          </a>
-                        </h3>
-                      </li>
-                      <li>
-                        <h3 class="bn-h3">
-                          <a href="https://abra.com">
-                            <span>Jan 6,&nbsp;2020</span>
-                            <span style="color: #ddb77a;"> - Blackcoin added on Abra multicoin wallet!</span>
-                          </a>
-                        </h3>
-                      </li>
-                      <li>
-                        <h3 class="bn-h3">
-                          <a href="https://twitter.com/BlackcoinOrg/status/1303341386348089346">
-                            <span>Sep 08,&nbsp;2020</span>
-                            <span style="color: #ddb77a;"> - Blackcoin and Radium Core Strategic Alliance Announcement!</span>
-                          </a>
-                        </h3>
-                      </li>
-                      <li>
-                        <h3 class="bn-h3">
-                          <a href="https://blackcoinmore.org">
-                            <span>Jul 21,&nbsp;2020</span>
-                            <span style="color: #ddb77a;"> - Blackcoin More wallet update v2.13.2.6 - Major Bugfix - Memleak Fix</span>
-                          </a>
-                        </h3>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            <!-- Scroller -->
-              <a href="#about" class="scroller">
-                <span class="scroller-text">scroll down</span>
-                <span class="linea-basic-magic-mouse"></span>
-              </a>
-            </div><!-- / .hero-content -->
-          </div><!-- / .hero-content-wrapper -->
-        </div><!-- / #large-header -->
-      </div><!-- / .bg-overlay -->
+<div style="width:100%; max-width:960px; margin:0 auto; padding:0 20px 50px 20px; box-sizing:border-box;">
+  <div class="breakingNews" id="bn7">
+    <div class="bn-title">
+      <h2>{{ 'latest_news' | i18n }}</h2>
     </div>
+    <ul>
+      <li>
+        <h3 class="bn-h3">
+          <a href="https://blackcoinmore.org">
+            <span>Feb 24,&nbsp;2021</span>
+            <span style="color: #ddb77a;"> - Blackcoin More v2.13.2.8 released. Trade $BLK with Atomic Swaps.</span>
+          </a>
+        </h3>
+      </li>
+      <li>
+        <h3 class="bn-h3">
+          <a href="https://blackcoinmore.org">
+            <span>Nov 24,&nbsp;2020</span>
+            <span style="color: #ddb77a;"> - Blackcoin More v2.13.2.7 released. STOP THE DUST! Highly recommended for everyone to upgrade!.</span>
+          </a>
+        </h3>
+      </li>
+      <li>
+        <h3 class="bn-h3">
+          <a href="https://www.bitladon.com/blackcoin">
+            <span>Apr 24,&nbsp;2020</span>
+            <span style="color: #ddb77a;"> - Blackcoin trading on Bitladon.com</span>
+          </a>
+        </h3>
+      </li>
+      <li>
+        <h3 class="bn-h3">
+          <a href="https://abra.com">
+            <span>Jan 6,&nbsp;2020</span>
+            <span style="color: #ddb77a;"> - Blackcoin added on Abra multicoin wallet!</span>
+          </a>
+        </h3>
+      </li>
+      <li>
+        <h3 class="bn-h3">
+          <a href="https://twitter.com/BlackcoinOrg/status/1303341386348089346">
+            <span>Sep 08,&nbsp;2020</span>
+            <span style="color: #ddb77a;"> - Blackcoin and Radium Core Strategic Alliance Announcement!</span>
+          </a>
+        </h3>
+      </li>
+      <li>
+        <h3 class="bn-h3">
+          <a href="https://blackcoinmore.org">
+            <span>Jul 21,&nbsp;2020</span>
+            <span style="color: #ddb77a;"> - Blackcoin More wallet update v2.13.2.6 - Major Bugfix - Memleak Fix</span>
+          </a>
+        </h3>
+      </li>
+    </ul>
   </div>
-</header>
+</div>

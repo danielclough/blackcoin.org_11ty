@@ -1,0 +1,27 @@
+<header id="page-hero" class="site-header position-relative {% if not hero %}mt-5 pt-5{% endif %} site-header" style="width: 100vw; min-height: {{(headerHeight) if headerHeight else '50vh'}};">
+  <section class="layout-hero position-absolute d-flex align-items-center" {% if hero %} style="background-image: linear-gradient(rgba(0, 0, 0, .7) 50px, transparent), url({{ hero }}); height: 100%; width: 100%; filter: blur({{(blur) if blur else '0'}});" {% endif %}>
+  </section>
+  <div class="layout-hero-content position-absolute d-flex align-items-center" style="height: 100%; width: 100%;">
+      <div id="home" class="agency2-hero">
+        <div class="bg-overlay">
+          <div id="large-header" class="large-header">
+            <canvas id="demo-canvas" class="demo-canvas"></canvas>
+            <!-- Hero Content -->
+            <div id="page-hero" class="hero-content-wrapper">
+              <div class="hero-content">
+                {% image "./src/assets/images/hero/ag2-logo.png", "Blackcoin Logo" %}
+                <h1 class="hero-lead">{{ 'blackcoin' | i18n }}</h1>
+                <h2 class="h-alt hero-secondary">{{ 'since2014' | i18n }}</h2>
+                <center>
+                  <a href="#community" class="join-community">
+                     {% image "./src/assets/images/joincommunity.png", "Join the Blackcoin Community!" %}
+                  </a>
+                </center>
+                {% include "components/breaking-news.njk" %}
+              </div>
+            </div><!-- / .hero-content -->
+          </div><!-- / .hero-content-wrapper -->
+        </div><!-- / #large-header -->
+      </div><!-- / .bg-overlay -->
+  </div>
+</header>
