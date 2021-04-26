@@ -2,13 +2,11 @@
 
 <div class="gray-bg">
   <section id="services" class="container section ft-boxed-hover">
-    <div class="row">
       <header class="sec-heading">
           <h2 class="golden" id="downloads">{{ 'downloads' | i18n }}</h2>
         <span class="subheading">{{ 'official_files' | i18n }}</span>
       </header>
-      <div class="row">
-        <ul class="center">
+        <ul class="center col-row">
           <!-- Item 1 -->
           <li>
               {% image "./src/assets/images/more.png", "Blackcoin More Logo" %}
@@ -34,7 +32,7 @@
               {% image "./src/assets/images/blackhalo2.png", "Blackhalo Logo" %}
             <h3>{{ 'blackhalo' | i18n }}</h3>
             <div class="hover-content">
-              <span style="color: #FFFFFF;">{{ 'blackhalo' | i18n }}</span>
+              <p><span style="color: #FFFFFF;">{{ 'blackhalo' | i18n }}</span></p>
               <a href="https://blackhalo.info/#section-call-to-actiontwo"><span>{{ 'all_platforms' | i18n }}</span>{% image "./src/assets/images/blackhalo2.png", "BlackHalo Logo" %}</a>
             </div><!-- / .hover-content -->
           </li>
@@ -48,7 +46,5 @@
             </div><!-- / .hover-content -->
           </li>
         </ul>
-      </div>
-    </div><!-- / .row -->
   </section><!-- / .cotnainer -->
 </div><!-- / .gray-bg -->

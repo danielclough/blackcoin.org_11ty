@@ -80,7 +80,7 @@ module.exports = [
     code: 'nl'
   },
   {
-    label: 'Italianx', /*Italian*/ 
+    label: 'Italian', /*Italian*/ 
     code: 'it'
   },
   {

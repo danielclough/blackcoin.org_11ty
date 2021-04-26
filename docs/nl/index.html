@@ -121,34 +121,35 @@
 }
 
 .center {
-  justify-content: center;
+  place-items: center;
 }
 
+.row {  display: flex; flex-flow: row wrap;  }
 
 .pd-15px { padding-top: 15px;  }
 .slick-track li { margin: 3vw; }
 .slick-track img { width: 100%; height: auto;}
-/*hide address overflow*/
-.ft-boxed-hover ul li { width: 100%;  }
-.ft-boxed-hover ul li .hover-content { overflow: hidden;  }
-.row ul {  display: flex; flex-flow: row wrap;  }
+
+.ft-boxed-hover ul {
+  display: grid;
+}
+.ft-boxed-hover ul li .hover-content { overflow: hidden; width: 100%; height: 100%; }
 #donation-link { font-size: 3rem;  }
 .hero-content { top: 25vh; position: relative;  }
 .bn-h3 { font-size: 11.5px; margin: 7px 0 10px 0; font-weight: 500;  }
 .bg-solid-white{ background:#fff!important }
 .bg-solid-dark{ background:#111 }
 .ft-x .ft-item{ text-align:center }
-.ft-boxed-hover ul li .hover-content .ft-x .ft-item .ft-heading,.ft-x .ft-item .ft-boxed-hover ul li .hover-content .ft-heading,.ft-x .ft-item h5,.ft-x .ft-item span{ padding:0; width:110px; height:110px; line-height:109px }
+.ft-boxed-hover ul li .hover-content .ft-x .ft-item .ft-heading,.ft-x .ft-item .ft-boxed-hover ul li .hover-content .ft-heading,.ft-x .ft-item h5,.ft-x .ft-item span{ padding:0; width:110px; height:110px;}
 .ft-x .ft-material:hover i,.ft-x .ft-material:hover span{ -webkit-transform:translateY(-10px); -ms-transform:translateY(-10px); transform:translateY(-10px); box-shadow:0 22px 43px rgba(0,0,0,.15) }
 .ft-x .ft-material i,.ft-x .ft-material span{ display:inline-block; border:1px solid #f8f8f8; border-radius:100px; background:#fff; color:#777; box-shadow:0 1px 1px rgba(0,0,0,.2); -webkit-transition:all .3s; transition:all .3s }
 .ft-x .ft-circle-overlay:hover i,.ft-x .ft-circle-overlay:hover span{ background:#f4f4f4 }
-.ft-x .ft-circle-overlay i,.ft-x .ft-circle-overlay span{ display:inline-block; color:#111; border-radius:100px; background:#ececec; border:10px solid #f4f4f4; line-height:90px; -webkit-transition:all .3s; transition:all .3s }
-.ft-x .ft-basic i,.ft-x .ft-basic span{ line-height:60px }
+.ft-x .ft-circle-overlay i,.ft-x .ft-circle-overlay span{ display:inline-block; color:#111; border-radius:100px; background:#ececec; border:10px solid #f4f4f4; -webkit-transition:all .3s; transition:all .3s }
 .ft-x .ft-item{ text-align:left }
-.ft-boxed-hover ul li .hover-content .ft-x .ft-item .ft-heading,.ft-x .ft-item .ft-boxed-hover ul li .hover-content .ft-heading,.ft-x .ft-item h5,.ft-x .ft-item i,.ft-x .ft-item span{ display:inline-block; margin:25px 35px 50px 0; padding:28px 26px; float:left; line-height:28px; text-align:center; vertical-align:top }
+.ft-boxed-hover ul li .hover-content .ft-x .ft-item .ft-heading,.ft-x .ft-item .ft-boxed-hover ul li .hover-content .ft-heading,.ft-x .ft-item h5,.ft-x .ft-item i,.ft-x .ft-item span{ display:inline-block; margin:25px 35px 50px 0; padding:28px 26px; float:left; text-align:center; vertical-align:top }
 .ft-x .ft-material i,.ft-x .ft-material span{ color:#111 }
 .ft-x .ft-circle-overlay i,.ft-x .ft-circle-overlay span{ padding:20px; border:10px solid #f4f4f4 }
-.ft-x .ft-basic i,.ft-x .ft-basic span{ padding:0; line-height:64px }
+.ft-x .ft-basic i,.ft-x .ft-basic span{ padding:0;}
 .ft-x .right-align .ft-content{ display:inline-block; width:62%; text-align:right }
 .ft-x .right-align .ft-icon{ float:right; display:inline-block; width:30% }
 .ft-boxed-hover ul{ margin:0; padding:0; list-style:none }
@@ -159,7 +160,7 @@
 .ft-boxed-hover ul li .h-alt{ color:#999 }
 .ft-boxed-hover ul li .hover-content{ display:block; position:absolute; top:0; left:0; background:#111; opacity:0; -webkit-transition:all .3s; transition:all .3s }
 .ft-boxed-hover ul li .hover-content .ft-icon{ position:absolute; display:block; top:50px; left:0; right:0; color:rgba(217,217,217,.15); z-index:1 }
-.ft-boxed-hover ul li .hover-content .ft-heading{ display:block; margin:0; padding-bottom:15px; color:#ececec }
+.ft-boxed-hover ul li .hover-content .ft-heading{ display:block; margin:0; padding-bottom:15px; color:#ececec; }
 .ft-boxed-hover ul li .hover-content p{ margin:0; color:#999 }
 .ft-boxed-hover ul li .hover-content a{ display:inline-block; position:relative; color:#999; z-index:10!important }
 .ft-boxed-hover ul li .hover-content a:hover{ color:#ececec }
@@ -190,14 +191,14 @@
 .ft-hover-item .ft-1 .bg-overlay,.ft-hover-item .ft-2 .bg-overlay{ content:''; position:absolute; top:0; left:0; width:100%; height:100%; background:rgba(17,17,17,.55); -webkit-transition:background .4s; transition:background .4s }
 .ft-hover-item .ft-2 .bg-overlay{ background:rgba(17,17,17,.4) }
 .box{ width:60px; height:60px; background:#ececec; text-align:center }
-.slider-nav{ display:inline-block; position:absolute; top:50%; width:50px; height:50px; border:none; background:#111; line-height:0; color:#ececec; -webkit-transition:background .3s; transition:background .3s }
+.slider-nav{ display:inline-block; position:absolute; top:50%; width:50px; height:50px; border:none; background:#111; color:#ececec; -webkit-transition:background .3s; transition:background .3s }
 .slider-nav:hover{ background:#373737 }
 .slider-nav:focus{ outline:0 }
 .testimonials-dark,.testimonials-parallax{ background:url(../assets/images/sea-2.jpg); background-size:cover; background-position:50%; background-attachment:fixed }
 .testimonials-dark .bg-overlay,.testimonials-parallax .bg-overlay{ width:100%; height:100%; background:rgba(17,17,17,.5) }
 .testimonials-dark .t-wrapper,.testimonials-parallax .t-wrapper{ position:relative; padding-top:100px; padding-bottom:100px; width:55%; margin:0 auto; text-align:center }
 .testimonials-dark .t-wrapper:hover .t-slider-nav,.testimonials-parallax .t-wrapper:hover .t-slider-nav{ opacity:1 }
-.testimonials-dark .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404,.testimonials-parallax .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404,.wrapper-404 .content-wrapper .info-wrapper .testimonials-dark .t-wrapper .info-404,.wrapper-404 .content-wrapper .info-wrapper .testimonials-parallax .t-wrapper .info-404{ line-height:1.6em; color:#ececec }
+.testimonials-dark .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404,.testimonials-parallax .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404,.wrapper-404 .content-wrapper .info-wrapper .testimonials-dark .t-wrapper .info-404,.wrapper-404 .content-wrapper .info-wrapper .testimonials-parallax .t-wrapper .info-404{6em; color:#ececec }
 .testimonials-dark .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 .t-type,.testimonials-parallax .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 .t-type,.wrapper-404 .content-wrapper .info-wrapper .testimonials-dark .t-wrapper .info-404 .t-type,.wrapper-404 .content-wrapper .info-wrapper .testimonials-parallax .t-wrapper .info-404 .t-type{ display:block; padding-top:25px; padding-bottom:25px }
 .testimonials-dark .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer,.testimonials-parallax .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer,.wrapper-404 .content-wrapper .info-wrapper .testimonials-dark .t-wrapper .info-404 footer,.wrapper-404 .content-wrapper .info-wrapper .testimonials-parallax .t-wrapper .info-404 footer{ padding-top:0 }
 .testimonials-dark .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer:before,.testimonials-parallax .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer:before,.wrapper-404 .content-wrapper .info-wrapper .testimonials-dark .t-wrapper .info-404 footer:before,.wrapper-404 .content-wrapper .info-wrapper .testimonials-parallax .t-wrapper .info-404 footer:before{ content:none }
@@ -236,7 +237,7 @@
 .agency2-hero{ position:relative; width:100%; height:100vh;}
 .agency2-hero .bg-overlay{ position:absolute; height:100vh; width:100%; top:0; left:0; background:rgba(236,236,236,.6) }
 .agency2-hero .hero-content-wrapper{ display:flex; position:absolute; top:0; left:0; width:100%; height:100vh }
-.agency2-hero .hero-content-wrapper .hero-content{ display:table-cell; width:100vw; height:100%; vertical-align:middle }
+.agency2-hero .hero-content-wrapper .hero-content{ display:table-cell; width:100vw; height:calc(100% - 25vh); vertical-align:middle }
 .agency2-hero .hero-content-wrapper .hero-content .hero-subheading{ color:#999 }
 
 .fw-slider-hero{ position:relative; width:100%; height:600px }
@@ -265,7 +266,7 @@
 .agency2-hero .bg-overlay{ background:rgba(17,17,17,.5) }
 .agency2-hero .large-header .demo-canvas{ max-width:100% }
 .agency2-hero .hero-content-wrapper .hero-content{ text-align:center }
-.agency2-hero .hero-content-wrapper .hero-content .footer-social-links ul li,.agency2-hero .hero-content-wrapper .hero-content .ft-boxed-hover ul li .hover-content a,.agency2-hero .hero-content-wrapper .hero-content .page-title .subheading,.agency2-hero .hero-content-wrapper .hero-content .t-join .t-info .t-role,.agency2-hero .hero-content-wrapper .hero-content .team-3col .t-item .t-info .t-role,.agency2-hero .hero-content-wrapper .hero-content .team-4col .t-item .t-info .t-role,.agency2-hero .hero-content-wrapper .hero-content h1,.agency2-hero .hero-content-wrapper .hero-content h2,.agency2-hero .hero-content-wrapper .hero-content h3,.agency2-hero .hero-content-wrapper .hero-content h4,.agency2-hero .hero-content-wrapper .hero-content h6,.footer-social-links ul .agency2-hero .hero-content-wrapper .hero-content li,.ft-boxed-hover ul li .hover-content .agency2-hero .hero-content-wrapper .hero-content a,.page-title .agency2-hero .hero-content-wrapper .hero-content .subheading,.t-join .t-info .agency2-hero .hero-content-wrapper .hero-content .t-role,.team-3col .t-item .t-info .agency2-hero .hero-content-wrapper .hero-content .t-role,.team-4col .t-item .t-info .agency2-hero .hero-content-wrapper .hero-content .t-role{ color:#ececec }
+.agency2-hero { color:#ececec }
 .agency2-hero .hero-content-wrapper .hero-content .hero-secondary{ letter-spacing:10px }
 .app-hero{ height:100vh }
 .app-hero .row{ position:relative; top:50%; -webkit-transform:translateY(-50%); -ms-transform:translateY(-50%); transform:translateY(-50%) }
@@ -286,7 +287,7 @@
   h3 {
     font-size: 15px;
     font-weight: 600;
-    line-height: 1;
+   1;
   }
   ul {
       display: inline;
@@ -857,6 +858,22 @@
     margin-right: 0 !important;
   }
 }
+
+@media (min-width: 1080px) {
+  .about-section {
+    display: grid;
+    justify-content: space-around;
+    width: 33vw;
+  }
+  .col-row {  display: flex; flex-flow: row wrap;  }
+  .ft-boxed-hover ul {
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+  }
+  .ft-boxed-hover ul li {
+    width: 20vw; height: 20vw
+  }
+}
 </style>
 
 
@@ -892,14 +909,14 @@ html {background-color: #eee;}
 }
 
 #nav-logo img {
-  width: 50vw;
+  width: 10vw;
   height: auto;
 }
 
 #navbar ul.nav-main {
   display: none;
   width: 100%;
-  background-color: rgba(17,17,17,.9);
+  background-color: rgb(17,17,17);
   flex-flow: wrap;
   position: absolute;
   left: 0;
@@ -931,12 +948,9 @@ html {background-color: #eee;}
 #lang-select {
   margin-left: 3rem;
 }
+
 #menu-locale {
-    display: none;
-    right: 100% !important;
-    width: max-content;
-    padding: 0 !important;
-    flex-flow: column !important;
+  display: none;
 }
 
 #navbar ul.nav-menu > li > ul > li ul
@@ -948,7 +962,7 @@ html {background-color: #eee;}
 #nav-markets {
   position: fixed !important;
   left: 0;
-  background-color: rgba(17,17,17,.9);
+  background-color: rgb(17,17,17);
   padding: 5vw;
   width: 100%;
   align-content: center;
@@ -1005,11 +1019,14 @@ html {background-color: #eee;}
     margin: .9rem 0 0 0;
   }
   #nav-logo img {
-    width: 15vw;
+    width: 5vh;
     height: auto;
   }
   #nav-twitter {
     height: 99vh;
+  }
+  #menu-locale li {
+    padding: 3rem;
   }
 }
 
@@ -1022,7 +1039,7 @@ html {background-color: #eee;}
     <nav id="navbar" role="navigation">
     <!-- Logo -->
     <a id="nav-logo" href="/"> 
-        <picture><source type="image/png" srcset="/assets/images/16552e31-150.png 150w"><source type="image/avif" srcset="/assets/images/16552e31-150.avif 150w"><source type="image/webp" srcset="/assets/images/16552e31-150.webp 150w"><img alt="Blackcoin - Logo" loading="lazy" decoding="async" src="/assets/images/16552e31-150.jpeg" width="150" height="30"></picture>
+        <picture><source type="image/png" srcset="/assets/images/13ed928e-402.png 402w"><source type="image/avif" srcset="/assets/images/13ed928e-402.avif 402w"><source type="image/webp" srcset="/assets/images/13ed928e-402.webp 402w"><img alt="Blackcoin - Logo" loading="lazy" decoding="async" src="/assets/images/13ed928e-402.jpeg" width="402" height="526"></picture>
     </a>
     <row>
         <a id="hamburger-toggle" href="#" onclick="return dropDown(this)"><picture><source type="image/svg+xml" srcset="/assets/images/d3da4e8e-32.svg 32w"><source type="image/png" srcset="/assets/images/d3da4e8e-32.png 32w"><source type="image/avif" srcset="/assets/images/d3da4e8e-32.avif 32w"><source type="image/webp" srcset="/assets/images/d3da4e8e-32.webp 32w"><img alt="Hamburger Icon" loading="lazy" decoding="async" src="/assets/images/d3da4e8e-32.jpeg" width="32" height="32"></picture></a>
@@ -1033,8 +1050,8 @@ html {background-color: #eee;}
                     <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="/nl/">Startpagina</a></li>
                     <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="#about">Over</a></li>
                     <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="#community">Gemeenschap</a></li>
-                    <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="/donations">Donaties</a></li>
-                    <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="/faq"><span style="color: #ddb77a;">FAQ</span></a></li>
+                    <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="nl/donations">Donaties</a></li>
+                    <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="nl/faq"><span style="color: #ddb77a;">FAQ</span></a></li>
                     <!--<li><a href="bounties/">Bounties</a></li>-->
                 </ul>
 
@@ -1046,7 +1063,7 @@ html {background-color: #eee;}
                     <ul>
                         <div  id="nav-markets">
                             <div>
-                                <a class="centered" href="https://www.coingecko.com/en/coins/blackcoin" rel="noopener" target="_blank">
+                                <a class="centered" href="https://www.coingecko.com/nl/coins/blackcoin" rel="noopener" target="_blank">
                                     Meer grafieken op <br /> 
                                     CoinGecko
                                 </a>
@@ -1220,7 +1237,7 @@ html {background-color: #eee;}
                 <li><a href="#" onclick="return dropDown(this)">Links</a>
                     <ul id="menu-right">
                         <li><a rel="noopener" target="_blank" href="https://chainz.cryptoid.info/blk/">CryptoID Ontdekkingsreiziger</a></li>
-                        <li><a rel="noopener" target="_blank" href="https://www.coingecko.com/en/coins/blackcoin">Coingecko</a></li>
+                        <li><a rel="noopener" target="_blank" href="https://www.coingecko.com/nl/coins/blackcoin">Coingecko</a></li>
                         <li><a rel="noopener" target="_blank" href="https://coinmarketcap.com/currencies/blackcoin/#charts">CoinMarketCap</a></li>
                         <li><a rel="noopener" target="_blank" href="https://blackcoin.nl">BlackcoinNL</a></li>
                         <li><a rel="noopener" target="_blank" href="https://node.blackcoin.io/insight/">Blacksight Ontdekkingsreiziger</a></li>
@@ -1290,7 +1307,7 @@ html {background-color: #eee;}
 <a href="/vi/" rel="/vi " hreflang="vi"><li>Tiếng Việt</li></a>
 <a href="/ur/" rel="/ur " hreflang="ur"><li>اردو</li></a>
 <a href="/nl/" rel="/nl " hreflang="nl"><li>Dutch</li></a>
-<a href="/it/" rel="/it " hreflang="it"><li>Italianx</li></a>
+<a href="/it/" rel="/it " hreflang="it"><li>Italian</li></a>
 <a href="/hr/" rel="/hr " hreflang="hr"><li>Hrvatski</li></a>
 </ul>
 </nav><!-- / .navbar -->
@@ -1786,7 +1803,6 @@ body div#ui-datepicker-div[style] {
         top: 0;
         right: 40px;
         height: 40px;
-        font-size: 16px;
     }
 
     .breakingNews>ul>li {
@@ -2464,12 +2480,12 @@ body div#ui-datepicker-div[style] {
   </div>
 </header>
 <section class="container section ft-x">
-  <div class="row">
-    <header class="sec-heading">
-        <h2 class="golden" id="about">Over BlackCoin</h2>
-    </header>
+  <header class="sec-heading">
+      <h2 class="golden" id="about">Over BlackCoin</h2>
+  </header>
+  <div class="col-row">
     <!-- Feature 1 -->
-    <div class="wow fadeInLeft" data-wow-duration=".8s">
+    <div class="about-section">
       <!-- Ft Icon 1 (left) -->
       <div class="no-gap ft-item ft-material right-align">
         <div class="ft-content">
@@ -2506,11 +2522,11 @@ body div#ui-datepicker-div[style] {
       </div><!-- / .ft-item -->
     </div><!-- / .-->
     <!-- Center Image -->
-    <div class="blkb" >
+    <div class="blkb about-section" >
       <picture><source type="image/png" srcset="/assets/images/13ed928e-402.png 402w"><source type="image/avif" srcset="/assets/images/13ed928e-402.avif 402w"><source type="image/webp" srcset="/assets/images/13ed928e-402.webp 402w"><img alt="Blackcoin B" loading="lazy" decoding="async" src="/assets/images/13ed928e-402.jpeg" width="402" height="526"></picture>
     </div>
     <!-- Features Left -->
-    <div class="wow fadeInRight" data-wow-duration=".8s">
+    <div class="about-section">
       <!-- Ft Icon 4 (right) -->
       <div class="no-gap ft-item ft-material right-align">
         <i class="icon">🆓</i>
@@ -2659,17 +2675,17 @@ body div#ui-datepicker-div[style] {
             </a>
           </li>
         </ul><!-- / .t-clients -->
-        <center>
-          <h4>
-            <span>
-            <span style="color: #CCC;"><i class="fa fa-info-circle"></i> Controleer  </span>
-              <a rel="noopener" target="_blank" href="https://www.coingecko.com/en/coins/blackcoin" alt="">
-                Markten Volume
-              </a>
-            </span>
-          </h4>
-        </center>
       </div><!-- / .row -->
+      <center>
+        <h4>
+          <span>
+          <span style="color: #CCC;"><i class="fa fa-info-circle"></i> Controleer  </span>
+            <a rel="noopener" target="_blank" href="https://www.coingecko.com/en/coins/blackcoin" alt="">
+              Markten Volume
+            </a>
+          </span>
+        </h4>
+      </center>
     </div><!-- / .container -->
   </div><!-- / .bg.overlay -->
 </div><!-- / .testimonials-parallax -->
@@ -2678,13 +2694,11 @@ body div#ui-datepicker-div[style] {
 
 <div class="gray-bg">
   <section id="services" class="container section ft-boxed-hover">
-    <div class="row">
       <header class="sec-heading">
           <h2 class="golden" id="downloads">Downloads</h2>
         <span class="subheading">Officiële BlackCoin-bestanden</span>
       </header>
-      <div class="row">
-        <ul class="center">
+        <ul class="center col-row">
           <!-- Item 1 -->
           <li>
               <picture><source type="image/png" srcset="/assets/images/ae14d91c-75.png 75w"><source type="image/avif" srcset="/assets/images/ae14d91c-75.avif 75w"><source type="image/webp" srcset="/assets/images/ae14d91c-75.webp 75w"><img alt="Blackcoin More Logo" loading="lazy" decoding="async" src="/assets/images/ae14d91c-75.jpeg" width="75" height="130"></picture>
@@ -2710,7 +2724,7 @@ body div#ui-datepicker-div[style] {
               <picture><source type="image/png" srcset="/assets/images/6a968536-75.png 75w"><source type="image/avif" srcset="/assets/images/6a968536-75.avif 75w"><source type="image/webp" srcset="/assets/images/6a968536-75.webp 75w"><img alt="Blackhalo Logo" loading="lazy" decoding="async" src="/assets/images/6a968536-75.jpeg" width="75" height="130"></picture>
             <h3>BlackHalo</h3>
             <div class="hover-content">
-              <span style="color: #FFFFFF;">BlackHalo</span>
+              <p><span style="color: #FFFFFF;">BlackHalo</span></p>
               <a href="https://blackhalo.info/#section-call-to-actiontwo"><span>Alle platforms worden gedownload</span><picture><source type="image/png" srcset="/assets/images/6a968536-75.png 75w"><source type="image/avif" srcset="/assets/images/6a968536-75.avif 75w"><source type="image/webp" srcset="/assets/images/6a968536-75.webp 75w"><img alt="BlackHalo Logo" loading="lazy" decoding="async" src="/assets/images/6a968536-75.jpeg" width="75" height="130"></picture></a>
             </div><!-- / .hover-content -->
           </li>
@@ -2724,8 +2738,6 @@ body div#ui-datepicker-div[style] {
             </div><!-- / .hover-content -->
           </li>
         </ul>
-      </div>
-    </div><!-- / .row -->
   </section><!-- / .cotnainer -->
 </div><!-- / .gray-bg -->
 

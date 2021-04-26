@@ -1,7 +1,7 @@
 <nav id="navbar" role="navigation">
     <!-- Logo -->
     <a id="nav-logo" href="/"> 
-        {% image "./src/assets/images/logo-light.png", "Blackcoin - Logo" %}
+        {% image "./src/assets/images/blkb.png", "Blackcoin - Logo" %}
     </a>
     <row>
         <a id="hamburger-toggle" href="#" onclick="return dropDown(this)">{% image "./src/assets/images/svg/hamburger.svg", "Hamburger Icon" %}</a>
@@ -12,8 +12,8 @@
                     <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="/{{ locale }}/">{{ 'homepage' | i18n }}</a></li>
                     <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="#about">{{ about }}</a></li>
                     <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="#community">{{community}}</a></li>
-                    <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="/donations">{{donations}}</a></li>
-                    <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="/faq"><span style="color: #ddb77a;">{{faq}}</span></a></li>
+                    <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="{{locale}}/donations">{{donations}}</a></li>
+                    <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="{{locale}}/faq"><span style="color: #ddb77a;">{{faq}}</span></a></li>
                     <!--<li><a href="bounties/">Bounties</a></li>-->
                 </ul>
 
@@ -25,7 +25,7 @@
                     <ul>
                         <div  id="nav-markets">
                             <div>
-                                <a class="centered" href="https://www.coingecko.com/en/coins/blackcoin" rel="noopener" target="_blank">
+                                <a class="centered" href="https://www.coingecko.com/{{locale}}/coins/blackcoin" rel="noopener" target="_blank">
                                     {{more_charts_on}} <br /> 
                                     CoinGecko
                                 </a>
@@ -39,7 +39,7 @@
                 <li><a href="#" onclick="return dropDown(this)">{{links}}</a>
                     <ul id="menu-right">
                         <li><a rel="noopener" target="_blank" href="https://chainz.cryptoid.info/blk/">CryptoID {{explorer}}</a></li>
-                        <li><a rel="noopener" target="_blank" href="https://www.coingecko.com/en/coins/blackcoin">Coingecko</a></li>
+                        <li><a rel="noopener" target="_blank" href="https://www.coingecko.com/{{locale}}/coins/blackcoin">Coingecko</a></li>
                         <li><a rel="noopener" target="_blank" href="https://coinmarketcap.com/currencies/blackcoin/#charts">CoinMarketCap</a></li>
                         <li><a rel="noopener" target="_blank" href="https://blackcoin.nl">BlackcoinNL</a></li>
                         <li><a rel="noopener" target="_blank" href="https://node.blackcoin.io/insight/">Blacksight {{explorer}}</a></li>
