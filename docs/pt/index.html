@@ -15,8 +15,28 @@
     </style> 
     <style>
 
-
 html {background-color: #eee;}
+
+h1 {
+  font-size: 10vw;
+}
+h2 {
+  font-size: 8vw;
+}
+h3 {
+  font-size: 7vw;
+}
+
+h4 {
+  font-size: 6vw;
+}
+p {
+  font-size: 5vw;
+}
+.body {
+  font-size: 5vw;
+}
+
 .row {  display: flex; flex-flow: row wrap;}
 .column {flex-flow: column;}
 .centered {align-self: center; justify-self:center;}
@@ -166,6 +186,25 @@ html {background-color: #eee;}
 }
 
 @media (min-width: 1080px) {
+  h1 {
+    font-size: 4.5vw;
+  }
+  h2 {
+    font-size: 3vw;
+  }
+  h3 {
+    font-size: 2vw;
+  }
+
+  h4 {
+    font-size: 1.2vw;
+  }
+  p {
+    font-size: 1vw;
+  }
+  .body {
+    font-size: 1vw;
+  }
   #navbar {
     justify-content: space-around;
   }
@@ -206,8 +245,8 @@ html {background-color: #eee;}
                     <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="/pt/">Carregando</a></li>
                     <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="#about">Cerca de</a></li>
                     <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="#community">Comunidade</a></li>
-                    <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="/donations">Doações</a></li>
-                    <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="/faq"><span style="color: #ddb77a;">Perguntas frequentes</span></a></li>
+                    <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="/pt/donations">Doações</a></li>
+                    <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="/pt/faq"><span style="color: #ddb77a;">Perguntas frequentes</span></a></li>
                     <!--<li><a href="bounties/">Bounties</a></li>-->
                 </ul>
 
@@ -453,7 +492,7 @@ html {background-color: #eee;}
 <a href="/ru/" rel="/ru " hreflang="ru"><li>русский</li></a>
 <a href="/ja/" rel="/ja " hreflang="ja"><li>日本語</li></a>
 <a href="/jv/" rel="/jv " hreflang="jv"><li>Wong jawa</li></a>
-<a href="/de/" rel="/de " hreflang="de"><li>Deutsche</li></a>
+<a href="/de/" rel="/de " hreflang="de"><li>Deutsch</li></a>
 <a href="/ko/" rel="/ko " hreflang="ko"><li>한국어</li></a>
 <a href="/fr/" rel="/fr " hreflang="fr"><li>Français</li></a>
 <a href="/te/" rel="/te " hreflang="te"><li>తెలుగు</li></a>
@@ -877,10 +916,12 @@ body div#ui-datepicker-div[style] {
 }
 </style>
   <style type="text/css">
-    .breakingNews {
+
+.breakingNews {
+  text-align: left !important;
+  background: #151515 !important;
         width: 100%;
         height: 40px;
-        background: #FFF;
         position: relative;
         border: solid 2px #2096cd;
         overflow: hidden;
@@ -1529,10 +1570,6 @@ p {
   margin: 0 auto 70px auto !important;
 }
 
-.breakingNews {
-  text-align: left !important;
-  background: #151515 !important;
-}
 
 .label {
   font-size: 100% !important;
@@ -1544,6 +1581,11 @@ p {
 }
 
 .sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);border:0}[role=button]{cursor:pointer}
+
+.hero-content img {
+  width: 50%;
+  height: auto;
+}
 
   .main-demo-hero .hero-content-wrapper,
   .fs-video-hero .hero-content-wrapper,
@@ -2392,6 +2434,10 @@ p {
   p {
     font-size: 1vw;
   }
+  .hero-content img {
+    width: 8%;
+    height: auto;
+  }
   .about-section {
     display: grid;
     justify-content: space-around;
@@ -2415,6 +2461,9 @@ p {
   }
   .icon {
     padding: 1.25vw;
+  }
+  .slick-track img {
+    width: 9vw;
   }
 }
 
@@ -2458,7 +2507,7 @@ p {
         <h3 class="bn-h3">
           <a href="https://blackcoinmore.org">
             <span>Feb 24,&nbsp;2021</span>
-            <span style="color: #ddb77a;"> - Blackcoin More v2.13.2.8 released. Trade $BLK with Atomic Swaps.</span>
+            <span style="color: #ddb77a;"> - Blackcoin More v2.13.2.8 released. Trade $BLK with Atomic Swaps!</span>
           </a>
         </h3>
       </li>
@@ -2466,7 +2515,7 @@ p {
         <h3 class="bn-h3">
           <a href="https://blackcoinmore.org">
             <span>Nov 24,&nbsp;2020</span>
-            <span style="color: #ddb77a;"> - Blackcoin More v2.13.2.7 released. STOP THE DUST! Highly recommended for everyone to upgrade!.</span>
+            <span style="color: #ddb77a;"> - Blackcoin More v2.13.2.7 released. Improve dust handling.</span>
           </a>
         </h3>
       </li>
@@ -2498,7 +2547,7 @@ p {
         <h3 class="bn-h3">
           <a href="https://blackcoinmore.org">
             <span>Jul 21,&nbsp;2020</span>
-            <span style="color: #ddb77a;"> - Blackcoin More wallet update v2.13.2.6 - Major Bugfix - Memleak Fix</span>
+            <span style="color: #ddb77a;"> - Blackcoin More wallet update v2.13.2.6 - Major Memleak Bugfix </span>
           </a>
         </h3>
       </li>
@@ -2843,7 +2892,7 @@ p {
         // Brands/Clients Slider
         $('.clients-slider').slick({
             autoplay: true,
-            autoplaySpeed: 500,
+            autoplaySpeed: 900,
             slidesToShow: 5,
             slidesToScroll: 1,
             dots: false,

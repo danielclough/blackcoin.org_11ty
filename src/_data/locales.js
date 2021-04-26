@@ -40,7 +40,7 @@ module.exports = [
     code: 'jv'
   },
   {
-    label: 'Deutsche', /*German*/
+    label: 'Deutsch', /*German*/
     code: 'de'
   },
   {
