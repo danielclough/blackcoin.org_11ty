@@ -2,24 +2,33 @@
 layout: layouts/base.njk
 templateClass: tmpl-faq
 ---
-
+<!-- ========== FAQ Layout - 1 ========== -->
 <head>
   <title>BlackCoin - F.A.Q</title>
 	{% include "layouts/styles/faq.njk" %}
   {% include "layouts/styles/dark-background-base.njk" %}
 </head>
 
-  <!-- ========== Page Title ========== -->
-
-  <header class="page-title pt-small">
-    <div class="container">
-      <div class="row">
-        <h1>F.A.Q.</h1>
-      </div>
-    </div>
+<section class="container section">
+  <header class="sec-heading">
+    <h1>General Questions</h1>
+    <h2 class="subheading">Frequently Asked Questions</h2>
   </header>
 
-    {{ content | safe }}
+  <div class="row">
 
-  {% include "layouts/scripts/faq.njk" %}
-</body>
+    <!-- ========== Page Title ========== -->
+
+    <header class="page-title pt-small">
+      <div class="container">
+        <div class="row">
+          <h1>F.A.Q.</h1>
+        </div>
+      </div>
+    </header>
+
+      {{ content | safe }}
+
+    {% include "layouts/scripts/faq.njk" %}
+  </div><!-- / .row -->
+</section><!-- / .container -->

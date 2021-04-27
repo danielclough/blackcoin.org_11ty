@@ -581,7 +581,7 @@ NavBar
 
     <main  class="tmpl-faq">
 
-              
+              <!-- ========== FAQ Layout - 1 ========== -->
 <head>
   <title>BlackCoin - F.A.Q</title>
 	<style type="text/css">
@@ -660,19 +660,6 @@ a:focus {
 </style>
 </head>
 
-  <!-- ========== Page Title ========== -->
-
-  <header class="page-title pt-small">
-    <div class="container">
-      <div class="row">
-        <h1>F.A.Q.</h1>
-      </div>
-    </div>
-  </header>
-
-    
-<!-- ========== FAQ Layout - 1 ========== -->
-
 <section class="container section">
   <header class="sec-heading">
     <h1>General Questions</h1>
@@ -680,7 +667,18 @@ a:focus {
   </header>
 
   <div class="row">
-    <!-- FAQ Group 1 -->
+
+    <!-- ========== Page Title ========== -->
+
+    <header class="page-title pt-small">
+      <div class="container">
+        <div class="row">
+          <h1>F.A.Q.</h1>
+        </div>
+      </div>
+    </header>
+
+          <!-- FAQ Group 1 -->
 <div class="faq-group">
   <div>
     <h3>General</h3>
@@ -1463,10 +1461,9 @@ a:focus {
       href="https://gitter.im/BlackCoin_Hub" target="_blank">contact us on Gitter.</a></span>
 
 </div><!-- / .faq-group -->
-  </div><!-- / .row -->
-</section><!-- / .container -->
 
-  <script>
+
+    <script>
 function toggleDisplay(h4) {
     var pannelHeadding = h4.parentElement,
         submenu = pannelHeadding.getElementsByTagName('div')[1];
@@ -1477,8 +1474,8 @@ function toggleDisplay(h4) {
 }
 </script>
 
-</body>
-
+  </div><!-- / .row -->
+</section><!-- / .container -->
     
     </main>
     <footer class="site-footer bg-transparent pb-3 pb-md-5">
