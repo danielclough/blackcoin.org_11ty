@@ -101,7 +101,7 @@ NavBar
   left: 0;
   padding: 1rem;
   margin: 0;
-  justify-content: space-between;
+  justify-content: start;
 }
 #navbar ul li ul {
   display: none;
@@ -124,12 +124,13 @@ NavBar
     left: 0;
 }
 
-#lang-select {
-  margin-left: 3rem;
-}
-
 #menu-locale {
   display: none;
+}
+
+#lang-select {
+  margin: 0;
+  padding: 0;
 }
 
 #navbar ul.nav-menu > li > ul > li ul
@@ -545,36 +546,39 @@ NavBar
 </div>
                     </ul>
                 </li>
+                
+                
+<ul id="lang-select">
+	<a href="#" onclick="return dropDown(this)">Pilih basa</a>
+	<ul id="menu-locale"  class="nav-main">
+	<a href="/zh/" rel="/zh " hreflang="zh"><li>中文</li></a>
+	<a href="/es/" rel="/es " hreflang="es"><li>Español</li></a>
+	<a href="/en/" rel="/en " hreflang="en"><li>English</li></a>
+	<a href="/hi/" rel="/hi " hreflang="hi"><li>हिंदी</li></a>
+	<a href="/ar/" rel="/ar " hreflang="ar"><li>عربى</li></a>
+	<a href="/pt/" rel="/pt " hreflang="pt"><li>português</li></a>
+	<a href="/bn/" rel="/bn " hreflang="bn"><li>বাংলা</li></a>
+	<a href="/ru/" rel="/ru " hreflang="ru"><li>русский</li></a>
+	<a href="/ja/" rel="/ja " hreflang="ja"><li>日本語</li></a>
+	<a href="/jv/" rel="/jv " hreflang="jv"><li>Wong jawa</li></a>
+	<a href="/de/" rel="/de " hreflang="de"><li>Deutsch</li></a>
+	<a href="/ko/" rel="/ko " hreflang="ko"><li>한국어</li></a>
+	<a href="/fr/" rel="/fr " hreflang="fr"><li>Français</li></a>
+	<a href="/te/" rel="/te " hreflang="te"><li>తెలుగు</li></a>
+	<a href="/mr/" rel="/mr " hreflang="mr"><li>मराठी</li></a>
+	<a href="/tr/" rel="/tr " hreflang="tr"><li>Türk</li></a>
+	<a href="/ta/" rel="/ta " hreflang="ta"><li>தமிழ்</li></a>
+	<a href="/vi/" rel="/vi " hreflang="vi"><li>Tiếng Việt</li></a>
+	<a href="/ur/" rel="/ur " hreflang="ur"><li>اردو</li></a>
+	<a href="/nl/" rel="/nl " hreflang="nl"><li>Dutch</li></a>
+	<a href="/it/" rel="/it " hreflang="it"><li>Italian</li></a>
+	<a href="/hr/" rel="/hr " hreflang="hr"><li>Hrvatski</li></a>
+	</ul>
+</ul>
+                
             </li>
         </ul>
     <row>
-    
-
-<a id="lang-select" href="#" onclick="return dropDown(this)">Pilih basa</a>
-<ul id="menu-locale"  class="nav-main">
-<a href="/zh/" rel="/zh " hreflang="zh"><li>中文</li></a>
-<a href="/es/" rel="/es " hreflang="es"><li>Español</li></a>
-<a href="/en/" rel="/en " hreflang="en"><li>English</li></a>
-<a href="/hi/" rel="/hi " hreflang="hi"><li>हिंदी</li></a>
-<a href="/ar/" rel="/ar " hreflang="ar"><li>عربى</li></a>
-<a href="/pt/" rel="/pt " hreflang="pt"><li>português</li></a>
-<a href="/bn/" rel="/bn " hreflang="bn"><li>বাংলা</li></a>
-<a href="/ru/" rel="/ru " hreflang="ru"><li>русский</li></a>
-<a href="/ja/" rel="/ja " hreflang="ja"><li>日本語</li></a>
-<a href="/jv/" rel="/jv " hreflang="jv"><li>Wong jawa</li></a>
-<a href="/de/" rel="/de " hreflang="de"><li>Deutsch</li></a>
-<a href="/ko/" rel="/ko " hreflang="ko"><li>한국어</li></a>
-<a href="/fr/" rel="/fr " hreflang="fr"><li>Français</li></a>
-<a href="/te/" rel="/te " hreflang="te"><li>తెలుగు</li></a>
-<a href="/mr/" rel="/mr " hreflang="mr"><li>मराठी</li></a>
-<a href="/tr/" rel="/tr " hreflang="tr"><li>Türk</li></a>
-<a href="/ta/" rel="/ta " hreflang="ta"><li>தமிழ்</li></a>
-<a href="/vi/" rel="/vi " hreflang="vi"><li>Tiếng Việt</li></a>
-<a href="/ur/" rel="/ur " hreflang="ur"><li>اردو</li></a>
-<a href="/nl/" rel="/nl " hreflang="nl"><li>Dutch</li></a>
-<a href="/it/" rel="/it " hreflang="it"><li>Italian</li></a>
-<a href="/hr/" rel="/hr " hreflang="hr"><li>Hrvatski</li></a>
-</ul>
 </nav><!-- / .navbar -->
 
 
@@ -2632,75 +2636,6 @@ body div#ui-datepicker-div[style] {
   <div class="bg-overlay">
     <div class="container">
       <div class="cta-wrapper">
-        <center>
-          <h3>
-            <a name="community" alt="Join the Blackcoin Community!">
-              <span style="color: #FFFFFF;">Gabung karo Komunitas BlackCoin</span>
-            </a>
-          </h3>
-        </center>
-      </div>
-      <div class="row">
-        <ul class="t-clients clients-slider ws-s">
-          <li>
-            <a href="https://twitter.com/BlackcoinOrg" target="_blank" rel="noopener">
-              <picture><source type="image/png" srcset="/assets/images/d3e11e6e-125.png 125w"><img alt="BlackcoinOrg Twitter" loading="lazy" decoding="async" src="/assets/images/d3e11e6e-125.jpeg" width="125" height="102"></picture>
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/BlackcoinNL" target="_blank" rel="noopener">
-              <picture><source type="image/png" srcset="/assets/images/8a2d8df6-125.png 125w"><img alt="BlackcoinNL Twitter" loading="lazy" decoding="async" src="/assets/images/8a2d8df6-125.jpeg" width="125" height="102"></picture>
-            </a>
-          </li>
-          <li>
-            <a href="https://t.me/blackcoin" target="_blank" rel="noopener">
-              <picture><source type="image/png" srcset="/assets/images/1e9e32f2-125.png 125w"><img alt="Telegram" loading="lazy" decoding="async" src="/assets/images/1e9e32f2-125.jpeg" width="125" height="102"></picture>
-            </a>
-          </li>
-          <li>
-            <a href="https://t.me/blackcoinNL" target="_blank" rel="noopener">
-              <picture><source type="image/png" srcset="/assets/images/7f012d6a-125.png 125w"><img alt="BlackcoinNL Telegram" loading="lazy" decoding="async" src="/assets/images/7f012d6a-125.jpeg" width="125" height="102"></picture>
-            </a>
-          </li>
-          <li>
-            <a href="https://keybase.io/team/blackcoin" target="_blank" rel="noopener">
-              <picture><source type="image/png" srcset="/assets/images/5ed8ba6b-125.png 125w"><img alt="Keybase" loading="lazy" decoding="async" src="/assets/images/5ed8ba6b-125.jpeg" width="125" height="102"></picture>
-            </a>
-          </li>
-          <li>
-            <a href="https://discord.gg/hjNUgWD" target="_blank" rel="noopener">
-              <picture><source type="image/png" srcset="/assets/images/fce63fad-125.png 125w"><img alt="Discord" loading="lazy" decoding="async" src="/assets/images/fce63fad-125.jpeg" width="125" height="102"></picture>
-            </a>
-          </li>
-          <li>
-            <a href="https://bitcointalk.org/index.php?topic=3017838.new#new" target="_blank" rel="noopener">
-              <picture><source type="image/png" srcset="/assets/images/e5c4d80f-125.png 125w"><img alt="Bitcointalk" loading="lazy" decoding="async" src="/assets/images/e5c4d80f-125.jpeg" width="125" height="102"></picture>
-            </a>
-          </li>
-          <li>
-            <a href="https://webchat.freenode.net/?channels=%23blackcoin" target="_blank" rel="noopener">
-              <picture><source type="image/png" srcset="/assets/images/11869fb1-125.png 125w"><img alt="IRC" loading="lazy" decoding="async" src="/assets/images/11869fb1-125.jpeg" width="125" height="102"></picture>
-            </a>
-          </li>
-          <li>
-            <a href="https://gitter.im/BlackCoin_Hub" target="_blank" rel="noopener">
-              <picture><source type="image/png" srcset="/assets/images/cadd53b0-125.png 125w"><img alt="Gitter" loading="lazy" decoding="async" src="/assets/images/cadd53b0-125.jpeg" width="125" height="102"></picture>
-            </a>
-          </li>
-          <li>
-            <a href="https://facebook.com/BlackcoinOrg" target="_blank" rel="noopener">
-              <picture><source type="image/png" srcset="/assets/images/38ac3481-125.png 125w"><img alt="Facebook" loading="lazy" decoding="async" src="/assets/images/38ac3481-125.jpeg" width="125" height="102"></picture>
-            </a>
-          </li>
-        </ul><!-- / .t-clients -->
-      </div><!-- / .row -->
-    </div><!-- / .container -->
-  </div><!-- / .bg-overlay -->
-</div><!-- / .testimonials-parallax -->
-<div class="testimonials-parallax">
-  <div class="bg-overlay">
-    <div class="container">
-      <div class="cta-wrapper">
         <br />
         <center>
           <h3 id="buy">
@@ -2807,6 +2742,75 @@ body div#ui-datepicker-div[style] {
   </section><!-- / .cotnainer -->
 </div><!-- / .gray-bg -->
 
+<div class="testimonials-parallax">
+  <div class="bg-overlay">
+    <div class="container">
+      <div class="cta-wrapper">
+        <center>
+          <h3>
+            <a name="community" alt="Join the Blackcoin Community!">
+              <span style="color: #FFFFFF;">Gabung karo Komunitas BlackCoin</span>
+            </a>
+          </h3>
+        </center>
+      </div>
+      <div class="row">
+        <ul class="t-clients clients-slider ws-s">
+          <li>
+            <a href="https://twitter.com/BlackcoinOrg" target="_blank" rel="noopener">
+              <picture><source type="image/png" srcset="/assets/images/d3e11e6e-125.png 125w"><img alt="BlackcoinOrg Twitter" loading="lazy" decoding="async" src="/assets/images/d3e11e6e-125.jpeg" width="125" height="102"></picture>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/BlackcoinNL" target="_blank" rel="noopener">
+              <picture><source type="image/png" srcset="/assets/images/8a2d8df6-125.png 125w"><img alt="BlackcoinNL Twitter" loading="lazy" decoding="async" src="/assets/images/8a2d8df6-125.jpeg" width="125" height="102"></picture>
+            </a>
+          </li>
+          <li>
+            <a href="https://t.me/blackcoin" target="_blank" rel="noopener">
+              <picture><source type="image/png" srcset="/assets/images/1e9e32f2-125.png 125w"><img alt="Telegram" loading="lazy" decoding="async" src="/assets/images/1e9e32f2-125.jpeg" width="125" height="102"></picture>
+            </a>
+          </li>
+          <li>
+            <a href="https://t.me/blackcoinNL" target="_blank" rel="noopener">
+              <picture><source type="image/png" srcset="/assets/images/7f012d6a-125.png 125w"><img alt="BlackcoinNL Telegram" loading="lazy" decoding="async" src="/assets/images/7f012d6a-125.jpeg" width="125" height="102"></picture>
+            </a>
+          </li>
+          <li>
+            <a href="https://keybase.io/team/blackcoin" target="_blank" rel="noopener">
+              <picture><source type="image/png" srcset="/assets/images/5ed8ba6b-125.png 125w"><img alt="Keybase" loading="lazy" decoding="async" src="/assets/images/5ed8ba6b-125.jpeg" width="125" height="102"></picture>
+            </a>
+          </li>
+          <li>
+            <a href="https://discord.gg/hjNUgWD" target="_blank" rel="noopener">
+              <picture><source type="image/png" srcset="/assets/images/fce63fad-125.png 125w"><img alt="Discord" loading="lazy" decoding="async" src="/assets/images/fce63fad-125.jpeg" width="125" height="102"></picture>
+            </a>
+          </li>
+          <li>
+            <a href="https://bitcointalk.org/index.php?topic=3017838.new#new" target="_blank" rel="noopener">
+              <picture><source type="image/png" srcset="/assets/images/e5c4d80f-125.png 125w"><img alt="Bitcointalk" loading="lazy" decoding="async" src="/assets/images/e5c4d80f-125.jpeg" width="125" height="102"></picture>
+            </a>
+          </li>
+          <li>
+            <a href="https://webchat.freenode.net/?channels=%23blackcoin" target="_blank" rel="noopener">
+              <picture><source type="image/png" srcset="/assets/images/11869fb1-125.png 125w"><img alt="IRC" loading="lazy" decoding="async" src="/assets/images/11869fb1-125.jpeg" width="125" height="102"></picture>
+            </a>
+          </li>
+          <li>
+            <a href="https://gitter.im/BlackCoin_Hub" target="_blank" rel="noopener">
+              <picture><source type="image/png" srcset="/assets/images/cadd53b0-125.png 125w"><img alt="Gitter" loading="lazy" decoding="async" src="/assets/images/cadd53b0-125.jpeg" width="125" height="102"></picture>
+            </a>
+          </li>
+          <li>
+            <a href="https://facebook.com/BlackcoinOrg" target="_blank" rel="noopener">
+              <picture><source type="image/png" srcset="/assets/images/38ac3481-125.png 125w"><img alt="Facebook" loading="lazy" decoding="async" src="/assets/images/38ac3481-125.jpeg" width="125" height="102"></picture>
+            </a>
+          </li>
+        </ul><!-- / .t-clients -->
+      </div><!-- / .row -->
+    </div><!-- / .container -->
+  </div><!-- / .bg-overlay -->
+</div><!-- / .testimonials-parallax -->
   <!-- ====== Support BlackCoin ========== -->
   <div class="testimonials-parallax">
     <div class="bg-overlay">

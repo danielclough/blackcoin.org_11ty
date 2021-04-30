@@ -101,7 +101,7 @@ NavBar
   left: 0;
   padding: 1rem;
   margin: 0;
-  justify-content: space-between;
+  justify-content: start;
 }
 #navbar ul li ul {
   display: none;
@@ -124,12 +124,13 @@ NavBar
     left: 0;
 }
 
-#lang-select {
-  margin-left: 3rem;
-}
-
 #menu-locale {
   display: none;
+}
+
+#lang-select {
+  margin: 0;
+  padding: 0;
 }
 
 #navbar ul.nav-menu > li > ul > li ul
@@ -545,36 +546,39 @@ NavBar
 </div>
                     </ul>
                 </li>
+                
+                
+<ul id="lang-select">
+	<a href="#" onclick="return dropDown(this)">భాషను ఎంచుకోండి</a>
+	<ul id="menu-locale"  class="nav-main">
+	<a href="/zh/faq/" rel="/zh faq/" hreflang="zh"><li>中文</li></a>
+	<a href="/es/faq/" rel="/es faq/" hreflang="es"><li>Español</li></a>
+	<a href="/en/faq/" rel="/en faq/" hreflang="en"><li>English</li></a>
+	<a href="/hi/faq/" rel="/hi faq/" hreflang="hi"><li>हिंदी</li></a>
+	<a href="/ar/faq/" rel="/ar faq/" hreflang="ar"><li>عربى</li></a>
+	<a href="/pt/faq/" rel="/pt faq/" hreflang="pt"><li>português</li></a>
+	<a href="/bn/faq/" rel="/bn faq/" hreflang="bn"><li>বাংলা</li></a>
+	<a href="/ru/faq/" rel="/ru faq/" hreflang="ru"><li>русский</li></a>
+	<a href="/ja/faq/" rel="/ja faq/" hreflang="ja"><li>日本語</li></a>
+	<a href="/jv/faq/" rel="/jv faq/" hreflang="jv"><li>Wong jawa</li></a>
+	<a href="/de/faq/" rel="/de faq/" hreflang="de"><li>Deutsch</li></a>
+	<a href="/ko/faq/" rel="/ko faq/" hreflang="ko"><li>한국어</li></a>
+	<a href="/fr/faq/" rel="/fr faq/" hreflang="fr"><li>Français</li></a>
+	<a href="/te/faq/" rel="/te faq/" hreflang="te"><li>తెలుగు</li></a>
+	<a href="/mr/faq/" rel="/mr faq/" hreflang="mr"><li>मराठी</li></a>
+	<a href="/tr/faq/" rel="/tr faq/" hreflang="tr"><li>Türk</li></a>
+	<a href="/ta/faq/" rel="/ta faq/" hreflang="ta"><li>தமிழ்</li></a>
+	<a href="/vi/faq/" rel="/vi faq/" hreflang="vi"><li>Tiếng Việt</li></a>
+	<a href="/ur/faq/" rel="/ur faq/" hreflang="ur"><li>اردو</li></a>
+	<a href="/nl/faq/" rel="/nl faq/" hreflang="nl"><li>Dutch</li></a>
+	<a href="/it/faq/" rel="/it faq/" hreflang="it"><li>Italian</li></a>
+	<a href="/hr/faq/" rel="/hr faq/" hreflang="hr"><li>Hrvatski</li></a>
+	</ul>
+</ul>
+                
             </li>
         </ul>
     <row>
-    
-
-<a id="lang-select" href="#" onclick="return dropDown(this)">భాషను ఎంచుకోండి</a>
-<ul id="menu-locale"  class="nav-main">
-<a href="/zh/faq/" rel="/zh faq/" hreflang="zh"><li>中文</li></a>
-<a href="/es/faq/" rel="/es faq/" hreflang="es"><li>Español</li></a>
-<a href="/en/faq/" rel="/en faq/" hreflang="en"><li>English</li></a>
-<a href="/hi/faq/" rel="/hi faq/" hreflang="hi"><li>हिंदी</li></a>
-<a href="/ar/faq/" rel="/ar faq/" hreflang="ar"><li>عربى</li></a>
-<a href="/pt/faq/" rel="/pt faq/" hreflang="pt"><li>português</li></a>
-<a href="/bn/faq/" rel="/bn faq/" hreflang="bn"><li>বাংলা</li></a>
-<a href="/ru/faq/" rel="/ru faq/" hreflang="ru"><li>русский</li></a>
-<a href="/ja/faq/" rel="/ja faq/" hreflang="ja"><li>日本語</li></a>
-<a href="/jv/faq/" rel="/jv faq/" hreflang="jv"><li>Wong jawa</li></a>
-<a href="/de/faq/" rel="/de faq/" hreflang="de"><li>Deutsch</li></a>
-<a href="/ko/faq/" rel="/ko faq/" hreflang="ko"><li>한국어</li></a>
-<a href="/fr/faq/" rel="/fr faq/" hreflang="fr"><li>Français</li></a>
-<a href="/te/faq/" rel="/te faq/" hreflang="te"><li>తెలుగు</li></a>
-<a href="/mr/faq/" rel="/mr faq/" hreflang="mr"><li>मराठी</li></a>
-<a href="/tr/faq/" rel="/tr faq/" hreflang="tr"><li>Türk</li></a>
-<a href="/ta/faq/" rel="/ta faq/" hreflang="ta"><li>தமிழ்</li></a>
-<a href="/vi/faq/" rel="/vi faq/" hreflang="vi"><li>Tiếng Việt</li></a>
-<a href="/ur/faq/" rel="/ur faq/" hreflang="ur"><li>اردو</li></a>
-<a href="/nl/faq/" rel="/nl faq/" hreflang="nl"><li>Dutch</li></a>
-<a href="/it/faq/" rel="/it faq/" hreflang="it"><li>Italian</li></a>
-<a href="/hr/faq/" rel="/hr faq/" hreflang="hr"><li>Hrvatski</li></a>
-</ul>
 </nav><!-- / .navbar -->
 
 
@@ -618,7 +622,7 @@ h5 {
     <div class="row">
       <header class="sec-heading">
         <h2>Donations</h2>
-        <span class="subheading">Support BlackCoin and donate to the developers and the ongoing projects</span>
+        <span class="subheading">Support BlackCoin and donate to the developers and the ongoing projects.</span>
       </header>
       <section id="services" class="container section ft-boxed-hover">
           	<!-- ========== Developers ========== -->

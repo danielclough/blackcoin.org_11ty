@@ -101,7 +101,7 @@ NavBar
   left: 0;
   padding: 1rem;
   margin: 0;
-  justify-content: space-between;
+  justify-content: start;
 }
 #navbar ul li ul {
   display: none;
@@ -124,12 +124,13 @@ NavBar
     left: 0;
 }
 
-#lang-select {
-  margin-left: 3rem;
-}
-
 #menu-locale {
   display: none;
+}
+
+#lang-select {
+  margin: 0;
+  padding: 0;
 }
 
 #navbar ul.nav-menu > li > ul > li ul
@@ -545,36 +546,39 @@ NavBar
 </div>
                     </ul>
                 </li>
+                
+                
+<ul id="lang-select">
+	<a href="#" onclick="return dropDown(this)">ভাষা নির্বাচন কর</a>
+	<ul id="menu-locale"  class="nav-main">
+	<a href="/zh/donations/" rel="/zh donations/" hreflang="zh"><li>中文</li></a>
+	<a href="/es/donations/" rel="/es donations/" hreflang="es"><li>Español</li></a>
+	<a href="/en/donations/" rel="/en donations/" hreflang="en"><li>English</li></a>
+	<a href="/hi/donations/" rel="/hi donations/" hreflang="hi"><li>हिंदी</li></a>
+	<a href="/ar/donations/" rel="/ar donations/" hreflang="ar"><li>عربى</li></a>
+	<a href="/pt/donations/" rel="/pt donations/" hreflang="pt"><li>português</li></a>
+	<a href="/bn/donations/" rel="/bn donations/" hreflang="bn"><li>বাংলা</li></a>
+	<a href="/ru/donations/" rel="/ru donations/" hreflang="ru"><li>русский</li></a>
+	<a href="/ja/donations/" rel="/ja donations/" hreflang="ja"><li>日本語</li></a>
+	<a href="/jv/donations/" rel="/jv donations/" hreflang="jv"><li>Wong jawa</li></a>
+	<a href="/de/donations/" rel="/de donations/" hreflang="de"><li>Deutsch</li></a>
+	<a href="/ko/donations/" rel="/ko donations/" hreflang="ko"><li>한국어</li></a>
+	<a href="/fr/donations/" rel="/fr donations/" hreflang="fr"><li>Français</li></a>
+	<a href="/te/donations/" rel="/te donations/" hreflang="te"><li>తెలుగు</li></a>
+	<a href="/mr/donations/" rel="/mr donations/" hreflang="mr"><li>मराठी</li></a>
+	<a href="/tr/donations/" rel="/tr donations/" hreflang="tr"><li>Türk</li></a>
+	<a href="/ta/donations/" rel="/ta donations/" hreflang="ta"><li>தமிழ்</li></a>
+	<a href="/vi/donations/" rel="/vi donations/" hreflang="vi"><li>Tiếng Việt</li></a>
+	<a href="/ur/donations/" rel="/ur donations/" hreflang="ur"><li>اردو</li></a>
+	<a href="/nl/donations/" rel="/nl donations/" hreflang="nl"><li>Dutch</li></a>
+	<a href="/it/donations/" rel="/it donations/" hreflang="it"><li>Italian</li></a>
+	<a href="/hr/donations/" rel="/hr donations/" hreflang="hr"><li>Hrvatski</li></a>
+	</ul>
+</ul>
+                
             </li>
         </ul>
     <row>
-    
-
-<a id="lang-select" href="#" onclick="return dropDown(this)">ভাষা নির্বাচন কর</a>
-<ul id="menu-locale"  class="nav-main">
-<a href="/zh/donations/" rel="/zh donations/" hreflang="zh"><li>中文</li></a>
-<a href="/es/donations/" rel="/es donations/" hreflang="es"><li>Español</li></a>
-<a href="/en/donations/" rel="/en donations/" hreflang="en"><li>English</li></a>
-<a href="/hi/donations/" rel="/hi donations/" hreflang="hi"><li>हिंदी</li></a>
-<a href="/ar/donations/" rel="/ar donations/" hreflang="ar"><li>عربى</li></a>
-<a href="/pt/donations/" rel="/pt donations/" hreflang="pt"><li>português</li></a>
-<a href="/bn/donations/" rel="/bn donations/" hreflang="bn"><li>বাংলা</li></a>
-<a href="/ru/donations/" rel="/ru donations/" hreflang="ru"><li>русский</li></a>
-<a href="/ja/donations/" rel="/ja donations/" hreflang="ja"><li>日本語</li></a>
-<a href="/jv/donations/" rel="/jv donations/" hreflang="jv"><li>Wong jawa</li></a>
-<a href="/de/donations/" rel="/de donations/" hreflang="de"><li>Deutsch</li></a>
-<a href="/ko/donations/" rel="/ko donations/" hreflang="ko"><li>한국어</li></a>
-<a href="/fr/donations/" rel="/fr donations/" hreflang="fr"><li>Français</li></a>
-<a href="/te/donations/" rel="/te donations/" hreflang="te"><li>తెలుగు</li></a>
-<a href="/mr/donations/" rel="/mr donations/" hreflang="mr"><li>मराठी</li></a>
-<a href="/tr/donations/" rel="/tr donations/" hreflang="tr"><li>Türk</li></a>
-<a href="/ta/donations/" rel="/ta donations/" hreflang="ta"><li>தமிழ்</li></a>
-<a href="/vi/donations/" rel="/vi donations/" hreflang="vi"><li>Tiếng Việt</li></a>
-<a href="/ur/donations/" rel="/ur donations/" hreflang="ur"><li>اردو</li></a>
-<a href="/nl/donations/" rel="/nl donations/" hreflang="nl"><li>Dutch</li></a>
-<a href="/it/donations/" rel="/it donations/" hreflang="it"><li>Italian</li></a>
-<a href="/hr/donations/" rel="/hr donations/" hreflang="hr"><li>Hrvatski</li></a>
-</ul>
 </nav><!-- / .navbar -->
 
 
@@ -618,7 +622,7 @@ h5 {
     <div class="row">
       <header class="sec-heading">
         <h2>Donations</h2>
-        <span class="subheading">Support BlackCoin and donate to the developers and the ongoing projects</span>
+        <span class="subheading">Support BlackCoin and donate to the developers and the ongoing projects.</span>
       </header>
       <section id="services" class="container section ft-boxed-hover">
           	<!-- ========== Developers ========== -->
