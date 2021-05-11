@@ -37,6 +37,7 @@ p {
   font-size: 5vw;
 }
 
+
 .row {  display: flex; flex-flow: row wrap;}
 .column {flex-flow: column;}
 .centered {align-self: center; justify-self:center;}
@@ -230,6 +231,27 @@ NavBar
 }
 
 
+@media (min-aspect-ratio: 16/5) {
+  h1 {
+    font-size: 2.4vw;
+  }
+  h2 {
+    font-size: 1.8vw;
+  }
+  h3 {
+    font-size: 1.3vw;
+  }
+
+  h4 {
+    font-size: 1.1vw;
+  }
+  p {
+    font-size: 1vw;
+  }
+  .body {
+    font-size: 1vw;
+  }
+}
 </style>
     <style id="ft-boxed" type="text/css">
 
@@ -1729,6 +1751,7 @@ body div#ui-datepicker-div[style] {
 
 .subheading {
   padding: 1rem;
+  font-size: 2vw;
 }
 
 .img-responsive {
@@ -1790,7 +1813,9 @@ body div#ui-datepicker-div[style] {
 
 .preloader{ position:fixed; top:0; left:0; right:0; bottom:0; background-color:#111; color: #fff; z-index:9999; text-align: center; }
 .preloader img{ display:block; position:absolute; left:0; right:0; top:0; bottom:0; width:50px; height:50px; margin:auto }
-.preloader h1{ display:block; position:absolute; left:0; right:0; top:0; bottom:0; width:200px; height:200px; margin:auto }
+.preloader h1{ display:block; position:absolute; left:0; right:0; top:0; bottom:0; width:50vw; height:20vh; margin:auto }
+
+
 .scroller{ display:inline-block; position:absolute; bottom:15px; left:0; right:0; width:120px; margin:0 auto; text-align:center; color:rgba(235,235,235,.5) }
 .scroller:focus{ color:inherit; text-decoration:none }
 .scroller:hover{ color:#ebebeb }
@@ -2319,7 +2344,6 @@ body div#ui-datepicker-div[style] {
     width: auto;
   }
 
-
   .ft-tabs .tabs-list li a .tab-icon {
     float: left;
     padding-right: 100px;
@@ -2340,9 +2364,6 @@ body div#ui-datepicker-div[style] {
 }
 
 @media (max-width: 992px) {
-  .ft-boxed-hover ul li .hover-content {
-    padding: 30px;
-  }
 
   .ft-tabs .tab-content {
     height: auto;
@@ -2414,9 +2435,6 @@ body div#ui-datepicker-div[style] {
 }
 
 @media (max-width: 770px) {
-  .ft-boxed-hover ul li .hover-content {
-    padding: 20px;
-  }
 
   .ft-boxed-hover ul li .hover-content a {
     margin-top: 10px;
@@ -2457,6 +2475,28 @@ body div#ui-datepicker-div[style] {
   .ft-boxed-hover ul li {
     width: 65%; height: 100%; 
     font-size: .9vw;
+  }
+}
+
+@media (min-aspect-ratio: 16/5) {
+  .ft-boxed-hover ul li {
+    font-size: .45vw;
+  }
+  .hero-lead {
+      font-size: 2.5vw;
+  }
+  .hero-secondary {
+      font-size: 1.5vw;
+  }
+  .preloader h1{height:50vh;}
+  .copyright {
+    font-size: 1vw;
+  }
+  .hero-content img {
+    width: 5%;
+  }
+  .subheading {
+    font-size: 1.5vw;
   }
 }
 
