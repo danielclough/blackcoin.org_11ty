@@ -231,7 +231,32 @@ NavBar
 }
 
 
-@media (min-aspect-ratio: 16/5) {
+@media (min-aspect-ratio: 16/9) {
+  h1 {
+    font-size: 5vw;
+  }
+  h2 {
+    font-size: 4vw;
+  }
+  h3 {
+    font-size: 3vw;
+  }
+
+  h4 {
+    font-size: 2vw;
+  }
+  p {
+    font-size: 2vw;
+  }
+  .body {
+    font-size: 2vw;
+  }
+  #nav-logo img {
+    width: 9vh;
+  }
+}
+
+@media (min-aspect-ratio: 16/9 ) and (min-width: 1080px) {
   h1 {
     font-size: 2.4vw;
   }
@@ -251,7 +276,11 @@ NavBar
   .body {
     font-size: 1vw;
   }
+  #nav-logo img {
+    width: 9vh;
+  }
 }
+
 </style>
     <style id="ft-boxed" type="text/css">
 
@@ -1919,9 +1948,6 @@ body div#ui-datepicker-div[style] {
   .bg-overlay {
     height: 600px;
   }
-  .agency2-hero {
-    height: 600px;
-  }
   .hero-content {
     top: 100px;
   }
@@ -2041,7 +2067,11 @@ body div#ui-datepicker-div[style] {
   padding: 1vw;
 }
 
-
+@media (min-width: 1080px) {
+  .footer-social-links ul li {
+    font-size: 1.4vw;
+   }
+}
 
 /* ---- CTA - Call to Action ---- */
 @media (max-width: 992px) {
@@ -2478,15 +2508,42 @@ body div#ui-datepicker-div[style] {
   }
 }
 
-@media (min-aspect-ratio: 16/5) {
+@media (min-aspect-ratio: 16/9) {
   .ft-boxed-hover ul li {
     font-size: .45vw;
   }
   .hero-lead {
-      font-size: 2.5vw;
+      font-size: 5vw;
   }
   .hero-secondary {
-      font-size: 1.5vw;
+      font-size: 2vw;
+  }
+  .preloader h1{height:50vh;}
+  .copyright {
+    font-size: 1vw;
+  }
+  .hero-content {
+    top: 15vh;
+  }
+  .hero-content img {
+    width: 8%;
+  }
+  .subheading {
+    font-size: 1.5vw;
+  }
+  .footer-social-links ul li {
+    font-size: 2vw;
+  }
+}
+@media (min-aspect-ratio: 16/9 ) and (min-width: 1080px) {
+  .ft-boxed-hover ul li {
+    font-size: .45vw;
+  }
+  .hero-lead {
+      font-size: 3vw;
+  }
+  .hero-secondary {
+      font-size: 2vw;
   }
   .preloader h1{height:50vh;}
   .copyright {
@@ -2498,8 +2555,10 @@ body div#ui-datepicker-div[style] {
   .subheading {
     font-size: 1.5vw;
   }
+  .footer-social-links ul li {
+    font-size: 1.5vw;
+  }
 }
-
 </style>
 
 

@@ -272,9 +272,6 @@
   .bg-overlay {
     height: 600px;
   }
-  .agency2-hero {
-    height: 600px;
-  }
   .hero-content {
     top: 100px;
   }
@@ -394,7 +391,11 @@
   padding: 1vw;
 }
 
-
+@media (min-width: 1080px) {
+  .footer-social-links ul li {
+    font-size: 1.4vw;
+   }
+}
 
 /* ---- CTA - Call to Action ---- */
 @media (max-width: 992px) {
@@ -831,15 +832,42 @@
   }
 }
 
-@media (min-aspect-ratio: 16/5) {
+@media (min-aspect-ratio: 16/9) {
   .ft-boxed-hover ul li {
     font-size: .45vw;
   }
   .hero-lead {
-      font-size: 2.5vw;
+      font-size: 5vw;
   }
   .hero-secondary {
-      font-size: 1.5vw;
+      font-size: 2vw;
+  }
+  .preloader h1{height:50vh;}
+  .copyright {
+    font-size: 1vw;
+  }
+  .hero-content {
+    top: 15vh;
+  }
+  .hero-content img {
+    width: 8%;
+  }
+  .subheading {
+    font-size: 1.5vw;
+  }
+  .footer-social-links ul li {
+    font-size: 2vw;
+  }
+}
+@media (min-aspect-ratio: 16/9 ) and (min-width: 1080px) {
+  .ft-boxed-hover ul li {
+    font-size: .45vw;
+  }
+  .hero-lead {
+      font-size: 3vw;
+  }
+  .hero-secondary {
+      font-size: 2vw;
   }
   .preloader h1{height:50vh;}
   .copyright {
@@ -851,7 +879,9 @@
   .subheading {
     font-size: 1.5vw;
   }
+  .footer-social-links ul li {
+    font-size: 1.5vw;
+  }
 }
-
 </style>
 
