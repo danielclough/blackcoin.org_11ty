@@ -214,8 +214,8 @@ NavBar
   }
   #navbar ul.nav-main {
     justify-content: space-around;
-    font-size: 2rem;
-    margin: .9rem 0 0 0;
+    font-size: 1.9vw;
+    margin: 1.15vw 0 0 0;
   }
   #nav-logo img {
     width: 5vh;
@@ -991,6 +991,13 @@ body div#ui-datepicker-div[style] {
 </style>
   <style type="text/css">
 
+.bn-h3 { font-size: 12px; margin: 7px 0 10px 0; font-weight: 500;  }
+
+
+@media (min-width: 1080px) {
+    .bn-h3 { font-size: 17px; margin: 7px 0 10px 0; font-weight: 500;  }
+}
+
 .breakingNews {
   text-align: left !important;
   background: #151515 !important;
@@ -1739,7 +1746,6 @@ body div#ui-datepicker-div[style] {
 
 #donation-link { font-size: 3rem;  }
 .hero-content { top: 25vh; position: relative;  }
-.bn-h3 { font-size: 11.5px; margin: 7px 0 10px 0; font-weight: 500;  }
 .bg-solid-white{ background:#fff!important }
 .bg-solid-dark{ background:#111 }
 .icon {
@@ -1919,97 +1925,95 @@ body div#ui-datepicker-div[style] {
 }
 
 /* ---- Footers ---- */
-@media (max-width: 992px) {
-  .footer-widgets .about-widget {
-    margin-bottom: 50px;
-  }
 
-  .footer-widgets .gallery-widget {
-    margin-bottom: 50px;
-  }
 
-  .footer-widgets .gallery-widget ul {
-    height: 86px;
-  }
-
-  .footer-widgets .twitter-widget {
-    margin-bottom: 50px;
-  }
-
-  .footer-litle address ul li {
-    margin-right: 50px;
-  }
-
-  .footer-contact form input[type="submit"] {
-    margin-bottom: 130px;
-  }
-
-  .footer-contact form .alert {
-    top: 60px !important;
-  }
+.footer-widgets .about-widget {
+  margin-bottom: 50px;
 }
 
-@media (max-width: 770px) {
+.footer-widgets .gallery-widget {
+  margin-bottom: 50px;
+}
+
+.footer-widgets .gallery-widget ul {
+  height: 86px;
+}
+
+.footer-widgets .twitter-widget {
+  margin-bottom: 50px;
+}
+
+.footer-litle address ul li {
+  margin-right: 50px;
+}
+
+.footer-contact form input[type="submit"] {
+  margin-bottom: 130px;
+}
+
+.footer-contact form .alert {
+  top: 60px !important;
+}
+
+@media (min-width: 1080px) {
   .copyright {
     text-align: center;
-    margin-bottom: 3rem;
-  }
-
-  .copyright .to-the-top {
-    float: none !important;
-  }
-
-  .footer-litle address ul li {
-    display: block;
-    margin-bottom: 50px;
-    margin-right: 0;
-  }
-
-  .footer-litle address ul li:last-child {
-    margin-bottom: 0;
-  }
-
-  .footer-litle address ul li .adr-icon {
-    margin-bottom: 15px;
-    padding-right: 0;
-    float: none;
-  }
-
-  .footer-litle address ul li .adr-group {
-    float: none;
-    text-align: center;
+    font-size: 1.75vw;
   }
 }
+.to-the-top {
+  float: right;
+}
 
-@media (max-width: 600px) {
-  .footer-widgets .gallery-widget ul {
-    height: 174px;
-  }
+.footer-litle address ul li {
+  display: block;
+  margin-bottom: 50px;
+  margin-right: 0;
+}
 
-  .footer-contact .contact-info address {
-    padding-top: 160px;
-    padding-left: 50px;
-  }
+.footer-litle address ul li:last-child {
+  margin-bottom: 0;
+}
 
-  .footer-contact .contact-info address ul {
-    display: block;
-    width: 100%;
-  }
+.footer-litle address ul li .adr-icon {
+  margin-bottom: 15px;
+  padding-right: 0;
+  float: none;
+}
 
-  .footer-contact .contact-form {
-    padding-left: 50px;
-  }
+.footer-litle address ul li .adr-group {
+  float: none;
+  text-align: center;
+}
+}
 
-  .footer-social-links ul li {
-    margin-right: 0;
-    margin-bottom: 15px;
-    width: 33%;
-  }
+.footer-widgets .gallery-widget ul {
+  height: 174px;
+}
 
-  .footer-social-links ul li:nth-child(2) {
-    border-right: none;
-    padding-left: 30px;
-  }
+.footer-contact .contact-info address {
+  padding-top: 160px;
+  padding-left: 50px;
+}
+
+.footer-contact .contact-info address ul {
+  display: block;
+  width: 100%;
+}
+
+.footer-contact .contact-form {
+  padding-left: 50px;
+}
+
+
+.footer-social-links ul {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-social-links ul li {
+  font-size: 1vw;
+  padding: 1vw;
 }
 
 
@@ -2315,13 +2319,6 @@ body div#ui-datepicker-div[style] {
     width: auto;
   }
 
-  .ft-boxed-hover ul li .hover-content {
-    padding: 15px 30px;
-  }
-
-  .ft-boxed-hover ul li .hover-content a {
-    margin-top: 10px;
-  }
 
   .ft-tabs .tabs-list li a .tab-icon {
     float: left;
@@ -2656,11 +2653,6 @@ body div#ui-datepicker-div[style] {
             </a>
           </li>
           <li>
-            <a href="https://www.bitladon.com/blackcoin">
-              <picture><source type="image/png" srcset="/assets/images/7a21a97e-222.png 222w"><img alt="Bitladon Exchange" loading="lazy" decoding="async" src="/assets/images/7a21a97e-222.jpeg" width="222" height="85"></picture>
-            </a>
-          </li>
-          <li>
             <a href="https://vinex.network/trading/advanced/BTC_BLK">
               <picture><source type="image/png" srcset="/assets/images/b7f82e5-222.png 222w"><img alt="Link to Vinex" loading="lazy" decoding="async" src="/assets/images/b7f82e5-222.jpeg" width="222" height="74"></picture>
             </a>
@@ -2699,7 +2691,7 @@ body div#ui-datepicker-div[style] {
     <span class="subheading">Archivos oficiales de BlackCoin</span>
   </header>
   <section id="services" class="container section ft-boxed-hover">
-        <ul class="center col-row">
+        <ul class="col-row">
           <!-- Item 1 -->
           <li>
               <picture><source type="image/png" srcset="/assets/images/ae14d91c-75.png 75w"><img alt="Blackcoin More Logo" loading="lazy" decoding="async" src="/assets/images/ae14d91c-75.jpeg" width="75" height="130"></picture>
@@ -4619,9 +4611,7 @@ $(window).on("load", function (e) {
       <div class="copyright">
           <div class="container">
             <div class="row">
-              <div class="col-md-6">
-                <small>&copy; 2014-<span id="copyright"></span> Blackcoin <br />Reservados todos los derechos. </small>
-              </div>
+                <small>&copy; 2014-<span id="copyright"></span> Blackcoin Reservados todos los derechos. </small>
               <div class="col-md-6">
                 <small><a href="#page-top" class="pull-right to-the-top">A la cima ^ </a></small>
               </div>
