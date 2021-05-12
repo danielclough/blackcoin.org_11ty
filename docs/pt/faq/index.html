@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blackcoin.org</title>
     <meta name="description" content="Website for Blackcoin.org">
-    <link rel="icon" type="image/png" sizes="100x100" href="favicon.png">
+    <link rel="icon" type="image/png" sizes="100x100" href="../favicon.png">
 
     <!-- Gitter -->
     <style type="text/css">
@@ -33,6 +33,11 @@ h4 {
 p {
   font-size: 5vw;
 }
+
+li {
+  list-style-type: none;
+}
+
 .body {
   font-size: 5vw;
 }
@@ -53,20 +58,10 @@ p {
 }
 
 .section{
-  padding-top:101px;
-  padding-bottom:100px;
+  padding-top:.5rem;
+  padding-bottom:.5rem;
 }
 
-@media (min-width:1080px){
-  .container{
-    width:70vw; 
-    margin: 0 auto;
-  }
-  .faq-group {
-    width: 50%;
-    padding: 3rem;
-  }
-}
 
 /*
 NavBar
@@ -190,47 +185,112 @@ NavBar
   width: 33vw;
 }
 
-@media (min-width: 1080px) {
-  h1 {
-    font-size: 4.5vw;
-  }
-  h2 {
-    font-size: 3vw;
-  }
-  h3 {
-    font-size: 2vw;
-  }
 
-  h4 {
-    font-size: 1.3vw;
-  }
-  p {
-    font-size: 1.3vw;
-  }
-  .body {
-    font-size: 1.3vw;
-  }
-  #navbar {
-    justify-content: space-around;
-  }
-  #navbar ul.nav-main {
-    justify-content: space-around;
-    font-size: 1.9vw;
-    margin: 1.15vw 0 0 0;
-  }
-  #nav-logo img {
-    width: 3vw;
-  }
-  #nav-twitter {
-    height: 99vh;
-  }
-  #menu-locale li {
-    padding: 3rem;
-  }
+/* ---- Footers ---- */
+
+
+.footer-widgets .about-widget {
+  margin-bottom: 50px;
+}
+
+.footer-widgets .gallery-widget {
+  margin-bottom: 50px;
+}
+
+.footer-widgets .gallery-widget ul {
+  height: 86px;
+}
+
+.footer-widgets .twitter-widget {
+  margin-bottom: 50px;
+}
+
+.footer-litle address ul li {
+  margin-right: 50px;
+}
+
+.footer-contact form input[type="submit"] {
+  margin-bottom: 130px;
+}
+
+.footer-contact form .alert {
+  top: 60px !important;
+}
+
+.copyright {
+  padding-bottom: 32px;
+}
+.to-the-top {
+  float: right;
+}
+
+.footer-litle address ul li {
+  display: block;
+  margin-bottom: 50px;
+  margin-right: 0;
+}
+
+.footer-litle address ul li:last-child {
+  margin-bottom: 0;
+}
+
+.footer-litle address ul li .adr-icon {
+  margin-bottom: 15px;
+  padding-right: 0;
+  float: none;
+}
+
+.footer-litle address ul li .adr-group {
+  float: none;
+  text-align: center;
+}
+}
+
+.footer-widgets .gallery-widget ul {
+  height: 174px;
+}
+
+.footer-contact .contact-info address {
+  padding-top: 160px;
+  padding-left: 50px;
+}
+
+.footer-contact .contact-info address ul {
+  display: block;
+  width: 100%;
+}
+
+.footer-contact .contact-form {
+  padding-left: 50px;
 }
 
 
-@media (min-aspect-ratio: 16/9) {
+.footer-social-links ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.footer-social-links ul li {
+  font-size: 6vw;
+  padding: 3vw;
+}
+
+@media (max-width: 770px) {
+  .page-title {
+    padding-right: 35px;
+    padding-left: 35px;
+  }
+
+  .page-title .breadcrumb {
+    display: block;
+    margin-top: 50px;
+    float: left;
+    text-align: left;
+  }
+}
+
+@media (min-aspect-ratio: 17/10) {
   h1 {
     font-size: 5vw;
   }
@@ -251,15 +311,73 @@ NavBar
     font-size: 2vw;
   }
   #nav-logo img {
-    width: 2vw;
+    width: 3vw;
   }
   .preloader h1{height:50vh;}
   .copyright {
     font-size: 1vw;
   }
+  .footer-social-links ul li {
+    font-size: 2vw;
+  }
 }
 
-@media (min-aspect-ratio: 16/9 ) and (min-width: 1080px) {
+
+@media (min-width: 1080px) {
+  h1 {
+    font-size: 4.5vw;
+  }
+  h2 {
+    font-size: 3vw;
+  }
+  h3 {
+    font-size: 2vw;
+  }
+
+  h4 {
+    font-size: 1.3vw;
+  }
+  p {
+    font-size: 1.3vw;
+  }
+  .body {
+    font-size: 1.3vw;
+  }
+  .container{
+    width:70vw; 
+    margin: 0 auto;
+  }
+  #navbar {
+    justify-content: space-around;
+  }
+  #navbar ul.nav-main {
+    justify-content: space-around;
+    font-size: 1.9vw;
+    margin: 1.15vw 0 0 0;
+  }
+  #nav-logo img {
+    width: 3vw;
+  }
+  #nav-twitter {
+    height: 99vh;
+  }
+  #menu-locale li {
+    padding: 3rem;
+  }
+  .faq-group {
+    width: 50%;
+    padding: 3rem;
+  }
+  .footer-social-links ul li {
+    font-size: 1.4vw;
+   }
+  .copyright {
+    text-align: center;
+    font-size: 1.75vw;
+  }
+}
+
+@media (min-aspect-ratio: 17/10 ) and (min-width: 1080px) {
   h1 {
     font-size: 2.4vw;
   }
@@ -282,6 +400,9 @@ NavBar
   .preloader h1{height:50vh;}
   .copyright {
     font-size: 1vw;
+  }
+  .footer-social-links ul li {
+    font-size: 1.5vw;
   }
 }
 
