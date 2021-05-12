@@ -106,7 +106,7 @@ module.exports = {
     'pt': 'Pura prova de interesse desde 2014', /*Portuguese*/
     'bn': '২০১৪ সাল থেকে খাঁটি প্রুফ', /*Bengal*/
     'ru': 'Чистое доказательство ставки с 2014 года', /*Russian*/
-    'ja': '2014年以降の純粋なプルーフオブステーク', /*Japanese*/
+    'ja': '2014年以降の純粋なプルーフ・オブ・ステーク', /*Japanese*/
     'jv': 'Bukti Tulisan Murni wiwit 2014', /*Javanese*/
     'de': 'Reiner Nachweis des Einsatzes seit 2014', /*German*/
     'ko': '2014 년 이후 순수 지분 증명', /*Korean*/
@@ -178,7 +178,7 @@ module.exports = {
     'pt': 'PROVA DE PARTICIPAÇÃO 3.0', /*Portuguese*/
     'bn': 'স্টকের প্রমাণ ৩.০', /*Bengal*/
     'ru': 'ДОКАЗАТЕЛЬСТВО СТАВКИ 3.0', /*Russian*/
-    'ja': 'プルーフオブステーク3.0', /*Japanese*/
+    'ja': 'プルーフ・オブ・ステーク3.0', /*Japanese*/
     'jv': 'BUKTI STAKE 3.0', /*Javanese*/
     'de': 'STAKE-NACHWEIS 3.0', /*German*/
     'ko': '스테이크 3.0 증명', /*Korean*/
@@ -274,7 +274,7 @@ module.exports = {
     'pt': 'Com base na Prova de Participação. Não há mais hardware de mineração com fome de energia.', /*Portuguese*/
     'bn': 'প্রুফ অফ-স্টেকের ভিত্তিতে। ক্ষুধার্ত খনির হার্ডওয়্যার আর নেই।', /*Bengal*/
     'ru': 'На основе Proof-of-Stake. Больше нет энергоемкого оборудования для майнинга.', /*Russian*/
-    'ja': 'プルーフオブステークに基づいています。電力を大量に消費するマイニングハードウェアはもう必要ありません。', /*Japanese*/
+    'ja': 'プルーフ・オブ・ステークに基づいています。電力を大量に消費するマイニングハードウェアはもう必要ありません。', /*Japanese*/
     'jv': 'Adhedhasar Bukti-of-Stake. Ora ana maneh hardware tambang sing keluwen.', /*Javanese*/
     'de': 'Basierend auf Proof-of-Stake. Keine stromhungrige Mining-Hardware mehr.', /*German*/
     'ko': '지분 증명을 기반으로합니다. 더 이상 전력에 굶주린 채굴 하드웨어가 없습니다.', /*Korean*/
@@ -298,7 +298,7 @@ module.exports = {
     'pt': 'LEDGER TRANSPARENTE', /*Portuguese*/
     'bn': 'ট্রান্সপারেন্ট এলইডিগার', /*Bengal*/
     'ru': 'ПРОЗРАЧНЫЙ ЛЕДГЕР', /*Russian*/
-    'ja': '透明な元帳', /*Japanese*/
+    'ja': '明白な元帳', /*Japanese*/
     'jv': 'LEDGER TRANSPAREN', /*Javanese*/
     'de': 'TRANSPARENT LEDGER', /*German*/
     'ko': '투명 원장', /*Korean*/
@@ -322,7 +322,7 @@ module.exports = {
     'pt': 'Todos compartilham o histórico do livro-razão, por isso é totalmente transparente.', /*Portuguese*/
     'bn': 'প্রত্যাহার ইতিহাস প্রত্যেকে ভাগ করে নেয়, তাই এটি সম্পূর্ণ স্বচ্ছ।', /*Bengal*/
     'ru': 'Все делятся историей бухгалтерской книги, поэтому она полностью прозрачна.', /*Russian*/
-    'ja': '誰もが元帳の履歴を共有するため、完全に透過的です。', /*Japanese*/
+    'ja': '誰もが元帳の履歴を共有するため、履歴が明白です。', /*Japanese*/
     'jv': 'Kabeh wong nuduhake sejarah buku besar, dadi kabeh transparan.', /*Javanese*/
     'de': 'Jeder teilt die Hauptbuchhistorie, so dass sie völlig transparent ist.', /*German*/
     'ko': '모든 사람이 원장 기록을 공유하므로 완전히 투명합니다.', /*Korean*/
@@ -346,7 +346,7 @@ module.exports = {
     'pt': 'SOFTWARE LIVRE', /*Portuguese*/
     'bn': 'ওপেন সোর্স সফ্টওয়্যার', /*Bengal*/
     'ru': 'ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ С ОТКРЫТЫМ ИСХОДНЫМ КОДОМ', /*Russian*/
-    'ja': 'オープンソースソフトウェア', /*Japanese*/
+    'ja': 'オープンソース・ソフトウェア', /*Japanese*/
     'jv': 'OPEN SOURCE', /*Javanese*/
     'de': 'QUELLOFFENE SOFTWARE', /*German*/
     'ko': '오픈 소스 소프트웨어', /*Korean*/
@@ -418,7 +418,7 @@ module.exports = {
     'pt': 'É extremamente rápido, você pode enviar dinheiro para qualquer pessoa no mundo em segundos.', /*Portuguese*/
     'bn': 'এটি অত্যন্ত দ্রুত, আপনি সেকেন্ডের মধ্যে বিশ্বের যে কাউকে অর্থ পাঠাতে পারেন।', /*Bengal*/
     'ru': 'Это очень быстро, вы можете отправить деньги кому угодно в мире за считанные секунды.', /*Russian*/
-    'ja': 'それは非常に高速で、数秒以内に世界中の誰にでも送金できます。', /*Japanese*/
+    'ja': '非常に高速で、数秒以内に世界中の誰にでも送金できます。', /*Japanese*/
     'jv': 'Cepet banget, sampeyan bisa ngirim dhuwit menyang sapa wae ing saindenging jagad sawetara detik.', /*Javanese*/
     'de': 'Es ist extrem schnell, Sie können innerhalb von Sekunden Geld an jeden auf der Welt senden.', /*German*/
     'ko': '매우 빠르며 몇 초 안에 전 세계 누구에게나 송금 할 수 있습니다.', /*Korean*/
@@ -442,7 +442,7 @@ module.exports = {
     'pt': 'ANÔNIMO', /*Portuguese*/
     'bn': 'অনিয়ম', /*Bengal*/
     'ru': 'АНОНИМНЫЙ', /*Russian*/
-    'ja': 'アノニマス', /*Japanese*/
+    'ja': '匿名性', /*Japanese*/
     'jv': 'ANONYMOUS', /*Javanese*/
     'de': 'ANONYM', /*German*/
     'ko': '익명', /*Korean*/
@@ -514,7 +514,7 @@ module.exports = {
     'pt': 'ONDE COMPRAR', /*Portuguese*/
     'bn': 'যেখানে কিনতে হবে', /*Bengal*/
     'ru': 'ГДЕ КУПИТЬ', /*Russian*/
-    'ja': 'どこで買う', /*Japanese*/
+    'ja': '取引所一覧', /*Japanese*/
     'jv': 'ING TUKANG Pundi', /*Javanese*/
     'de': 'WO ZU KAUFEN', /*German*/
     'ko': '구입처', /*Korean*/
@@ -634,7 +634,7 @@ module.exports = {
     'pt': 'MAIS CARTEIRA', /*Portuguese*/
     'bn': 'আরও ভাল', /*Bengal*/
     'ru': 'БОЛЬШЕ КОШЕЛЬКА', /*Russian*/
-    'ja': 'もっと財布', /*Japanese*/
+    'ja': 'Moreウォレット', /*Japanese*/
     'jv': 'LEBIH WALLET', /*Javanese*/
     'de': 'MEHR BRIEFTASCHE', /*German*/
     'ko': '더 많은 지갑', /*Korean*/
@@ -658,7 +658,7 @@ module.exports = {
     'pt': 'Blackcoin More', /*Portuguese*/
     'bn': 'ব্ল্যাককয়েন আরও', /*Bengal*/
     'ru': 'Blackcoin More', /*Russian*/
-    'ja': 'ブラックコインモア', /*Japanese*/
+    'ja': 'ブラックコイン・モア', /*Japanese*/
     'jv': 'Blackcoin Luwih', /*Javanese*/
     'de': 'Blackcoin More', /*German*/
     'ko': 'Blackcoin 더보기', /*Korean*/
@@ -682,7 +682,7 @@ module.exports = {
     'pt': 'A carteira apoiada pela comunidade.', /*Portuguese*/
     'bn': 'সম্প্রদায়টি ওয়ালেটকে সমর্থন করেছিল।', /*Bengal*/
     'ru': 'Сообщество поддержало кошелек.', /*Russian*/
-    'ja': 'コミュニティはウォレットをサポートしました。', /*Japanese*/
+    'ja': 'コミュニティ・サポートされているウォレット', /*Japanese*/
     'jv': 'Komunitas ndhukung dhompet.', /*Javanese*/
     'de': 'Die Community unterstützte die Brieftasche.', /*German*/
     'ko': '커뮤니티 지원 지갑.', /*Korean*/
@@ -706,7 +706,7 @@ module.exports = {
     'pt': 'CARTEIRAS PARA CELULAR', /*Portuguese*/
     'bn': 'মোবাইল ওয়ালেটস', /*Bengal*/
     'ru': 'МОБИЛЬНЫЕ КОШЕЛЬКИ', /*Russian*/
-    'ja': 'モバイルウォレット', /*Japanese*/
+    'ja': 'モバイル・ウォレット', /*Japanese*/
     'jv': 'WALLET MOBILE', /*Javanese*/
     'de': 'MOBILE BRIEFTASCHEN', /*German*/
     'ko': '모바일 지갑', /*Korean*/
@@ -778,7 +778,7 @@ module.exports = {
     'pt': 'LEGACY WALLET', /*Portuguese*/
     'bn': 'লেগেসি ওয়ালট', /*Bengal*/
     'ru': 'КОШЕЛЕК НАСЛЕДИЯ', /*Russian*/
-    'ja': 'レガシーウォレット', /*Japanese*/
+    'ja': 'レガシー・ウォレット', /*Japanese*/
     'jv': 'WALLET LEGASI', /*Javanese*/
     'de': 'LEGACY WALLET', /*German*/
     'ko': '레거시 지갑', /*Korean*/
@@ -850,7 +850,7 @@ module.exports = {
     'pt': 'Doações', /*Portuguese*/
     'bn': 'অনুদান', /*Bengal*/
     'ru': 'Пожертвования', /*Russian*/
-    'ja': '寄付', /*Japanese*/
+    'ja': '寄付する', /*Japanese*/
     'jv': 'Sumbangan', /*Javanese*/
     'de': 'Spenden', /*German*/
     'ko': '기부', /*Korean*/
@@ -874,7 +874,7 @@ module.exports = {
     'pt': 'Todos os direitos reservados.', /*Portuguese*/
     'bn': 'সমস্ত অধিকার সংরক্ষিত.', /*Bengal*/
     'ru': 'Все права защищены.', /*Russian*/
-    'ja': '全著作権所有。', /*Japanese*/
+    'ja': 'All Rights Reserved.', /*Japanese*/
     'jv': 'Kabeh Hak Dilindhungi.', /*Javanese*/
     'de': 'Alle Rechte vorbehalten.', /*German*/
     'ko': '판권 소유.', /*Korean*/
@@ -898,7 +898,7 @@ module.exports = {
     'pt': 'Para o topo', /*Portuguese*/
     'bn': 'শীর্ষে', /*Bengal*/
     'ru': 'Наверх', /*Russian*/
-    'ja': '頂点に', /*Japanese*/
+    'ja': 'トップにもどる', /*Japanese*/
     'jv': 'Menyang ndhuwur', /*Javanese*/
     'de': 'Nach oben', /*German*/
     'ko': '맨 위로', /*Korean*/
