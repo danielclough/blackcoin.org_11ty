@@ -81,7 +81,7 @@ module.exports = {
     'ar': 'بلاك كوين', /*Arabic - Right-to-left*/
     'pt': 'Blackcoin', /*Portuguese*/
     'bn': 'ব্ল্যাককয়েন', /*Bengal*/
-    'ru': 'Блэккойн', /*Russian*/
+    'ru': 'Blackcoin', /*Russian*/
     'ja': 'ブラックコイン', /*Japanese*/
     'jv': 'Blackcoin', /*Javanese*/
     'de': 'Blackcoin', /*German*/
@@ -105,7 +105,7 @@ module.exports = {
     'ar': 'دليل خالص على الحصة منذ عام 2014', /*Arabic - Right-to-left*/
     'pt': 'Pura prova de interesse desde 2014', /*Portuguese*/
     'bn': '২০১৪ সাল থেকে খাঁটি প্রুফ', /*Bengal*/
-    'ru': 'Чистое доказательство ставки с 2014 года', /*Russian*/
+    'ru': '100% Proof of Stake с 2014 года', /*Russian*/
     'ja': '2014年以降の純粋なプルーフ・オブ・ステーク', /*Japanese*/
     'jv': 'Bukti Tulisan Murni wiwit 2014', /*Javanese*/
     'de': 'Reiner Nachweis des Einsatzes seit 2014', /*German*/
@@ -153,21 +153,21 @@ module.exports = {
     'ar': 'حول BlackCoin', /*Arabic - Right-to-left*/
     'pt': 'Sobre BlackCoin', /*Portuguese*/
     'bn': 'ব্ল্যাককয়েন সম্পর্কে', /*Bengal*/
-    'ru': 'О BlackCoin', /*Russian*/
-    'ja': 'BlackCoinについて', /*Japanese*/
-    'jv': 'Babagan BlackCoin', /*Javanese*/
-    'de': 'Über BlackCoin', /*German*/
-    'ko': 'BlackCoin 정보', /*Korean*/
-    'fr': 'À propos de BlackCoin', /*French*/
+    'ru': 'О Blackcoin', /*Russian*/
+    'ja': 'Blackcoinについて', /*Japanese*/
+    'jv': 'Babagan Blackcoin', /*Javanese*/
+    'de': 'Über Blackcoin', /*German*/
+    'ko': 'Blackcoin 정보', /*Korean*/
+    'fr': 'À propos de Blackcoin', /*French*/
     'te': 'బ్లాక్ కోయిన్ గురించి', /*Telugu*/
     'mr': 'ब्लॅककोइन बद्दल', /*Marathi*/
-    'tr': 'BlackCoin hakkında', /*Turkish*/
+    'tr': 'Blackcoin hakkında', /*Turkish*/
     'ta': 'பிளாகாயின் பற்றி', /*Tamil*/
-    'vi': 'Giới thiệu về BlackCoin', /*Vietnamese*/
+    'vi': 'Giới thiệu về Blackcoin', /*Vietnamese*/
     'ur': 'بلیک کوائن کے بارے میں', /*Urdu - Right-to-left*/
-    'nl': 'Over BlackCoin', /*Dutch*/
-    'it': 'Informazioni su BlackCoin',  /*Italian*/
-    'hr': 'O BlackCoinu' /*Croatian*/
+    'nl': 'Over Blackcoin', /*Dutch*/
+    'it': 'Informazioni su Blackcoin',  /*Italian*/
+    'hr': 'O Blackcoinu' /*Croatian*/
     },
   proof_of_stake_v3: {
     'zh': '权益证明3.0', /*Chinese*/
@@ -177,7 +177,7 @@ module.exports = {
     'ar': 'إثبات الرهان 3.0', /*Arabic - Right-to-left*/
     'pt': 'PROVA DE PARTICIPAÇÃO 3.0', /*Portuguese*/
     'bn': 'স্টকের প্রমাণ ৩.০', /*Bengal*/
-    'ru': 'ДОКАЗАТЕЛЬСТВО СТАВКИ 3.0', /*Russian*/
+    'ru': 'PROOF OF STAKE 3.0', /*Russian*/
     'ja': 'プルーフ・オブ・ステーク3.0', /*Japanese*/
     'jv': 'BUKTI STAKE 3.0', /*Javanese*/
     'de': 'STAKE-NACHWEIS 3.0', /*German*/
@@ -201,7 +201,7 @@ module.exports = {
     'ar': 'سيحصل المستخدمون الذين يبقون محفظتهم مفتوحة لتأمين الشبكة عبر Staking على مكافآت تتراوح من 1٪ إلى 8٪ سنويًا (تختلف وفقًا لوزن الشبكة). ', /*Arabic - Right-to-left*/
     'pt': 'Os usuários que mantiverem sua carteira aberta para proteger a rede por meio de piquetagem receberão recompensas de 1% a 8% ao ano (varia de acordo com o peso da rede). ', /*Portuguese*/
     'bn': 'ব্যবহারকারীরা স্টেকিংয়ের মাধ্যমে নেটওয়ার্কটি সুরক্ষিত রাখতে তাদের ওয়ালেটটি উন্মুক্ত রাখেন তারা প্রতি বছর 1% থেকে 8% পুরষ্কার পাবেন (নেটওয়ার্কের ওজন অনুসারে পরিবর্তিত হবে)। ', /*Bengal*/
-    'ru': 'Пользователи, которые держат свой кошелек открытым для защиты сети с помощью ставок, будут получать от 1% до 8% вознаграждения в год (зависит от веса сети). ', /*Russian*/
+    'ru': 'Пользователи, которые держат свой кошелек открытым для защиты сети с помощью proof of stake механизма, будут получать от 1% до 8% вознаграждения в год (зависит от веса сети). ', /*Russian*/
     'ja': 'ステーキングを介してネットワークを保護するためにウォレットを開いたままにしておくユーザーは、年間1％から8％の報酬を受け取ります（ネットワークの重みによって異なります）。 ', /*Japanese*/
     'jv': 'Pangguna sing njaga dompet supaya aman kanggo ngamanake jaringan liwat staking bakal entuk hadiah saka 1% nganti 8% saben taun (beda-beda miturut bobot jaringan). ', /*Javanese*/
     'de': 'Benutzer, die ihre Brieftasche offen halten, um das Netzwerk durch Absteckung zu sichern, erhalten zwischen 1% und 8% Prämien pro Jahr (variiert je nach Netzwerkgewicht). ', /*German*/
@@ -249,7 +249,7 @@ module.exports = {
     'ar': 'صديقة للبيئة', /*Arabic - Right-to-left*/
     'pt': 'ECO-AMIGÁVEL', /*Portuguese*/
     'bn': 'ইকো-বন্ধুত্বপূর্ণ', /*Bengal*/
-    'ru': 'ЭКОЛОГИЧЕСКИЙ', /*Russian*/
+    'ru': 'ЭКО-ФРЕНДЛИ', /*Russian*/
     'ja': '環境にやさしい', /*Japanese*/
     'jv': 'ECO-FRIENDLY', /*Javanese*/
     'de': 'Umweltfreundlich', /*German*/
@@ -273,7 +273,7 @@ module.exports = {
     'ar': 'بناء على إثبات الحصة. لا مزيد من أجهزة التعدين المتعطشة للطاقة.', /*Arabic - Right-to-left*/
     'pt': 'Com base na Prova de Participação. Não há mais hardware de mineração com fome de energia.', /*Portuguese*/
     'bn': 'প্রুফ অফ-স্টেকের ভিত্তিতে। ক্ষুধার্ত খনির হার্ডওয়্যার আর নেই।', /*Bengal*/
-    'ru': 'На основе Proof-of-Stake. Больше нет энергоемкого оборудования для майнинга.', /*Russian*/
+    'ru': 'На основе Proof-of-Stake. Не требует энергоемкого оборудования для майнинга.', /*Russian*/
     'ja': 'プルーフ・オブ・ステークに基づいています。電力を大量に消費するマイニングハードウェアはもう必要ありません。', /*Japanese*/
     'jv': 'Adhedhasar Bukti-of-Stake. Ora ana maneh hardware tambang sing keluwen.', /*Javanese*/
     'de': 'Basierend auf Proof-of-Stake. Keine stromhungrige Mining-Hardware mehr.', /*German*/
@@ -297,7 +297,7 @@ module.exports = {
     'ar': 'ليدجر شفاف', /*Arabic - Right-to-left*/
     'pt': 'LEDGER TRANSPARENTE', /*Portuguese*/
     'bn': 'ট্রান্সপারেন্ট এলইডিগার', /*Bengal*/
-    'ru': 'ПРОЗРАЧНЫЙ ЛЕДГЕР', /*Russian*/
+    'ru': 'ПРОЗРАЧНОСТЬ', /*Russian*/
     'ja': '明白な元帳', /*Japanese*/
     'jv': 'LEDGER TRANSPAREN', /*Javanese*/
     'de': 'TRANSPARENT LEDGER', /*German*/
@@ -321,7 +321,7 @@ module.exports = {
     'ar': 'يشارك الجميع تاريخ دفتر الأستاذ ، لذا فهو شفاف تمامًا.', /*Arabic - Right-to-left*/
     'pt': 'Todos compartilham o histórico do livro-razão, por isso é totalmente transparente.', /*Portuguese*/
     'bn': 'প্রত্যাহার ইতিহাস প্রত্যেকে ভাগ করে নেয়, তাই এটি সম্পূর্ণ স্বচ্ছ।', /*Bengal*/
-    'ru': 'Все делятся историей бухгалтерской книги, поэтому она полностью прозрачна.', /*Russian*/
+    'ru': 'История трансакций полностью прозрачна для всех.', /*Russian*/
     'ja': '誰もが元帳の履歴を共有するため、履歴が明白です。', /*Japanese*/
     'jv': 'Kabeh wong nuduhake sejarah buku besar, dadi kabeh transparan.', /*Javanese*/
     'de': 'Jeder teilt die Hauptbuchhistorie, so dass sie völlig transparent ist.', /*German*/
@@ -345,7 +345,7 @@ module.exports = {
     'ar': 'برنامج مفتوح المصدر', /*Arabic - Right-to-left*/
     'pt': 'SOFTWARE LIVRE', /*Portuguese*/
     'bn': 'ওপেন সোর্স সফ্টওয়্যার', /*Bengal*/
-    'ru': 'ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ С ОТКРЫТЫМ ИСХОДНЫМ КОДОМ', /*Russian*/
+    'ru': 'OPEN SOURCE', /*Russian*/
     'ja': 'オープンソース・ソフトウェア', /*Japanese*/
     'jv': 'OPEN SOURCE', /*Javanese*/
     'de': 'QUELLOFFENE SOFTWARE', /*German*/
@@ -369,7 +369,7 @@ module.exports = {
     'ar': 'البرنامج (المحفظة) مفتوح المصدر ، لذا يمكن تدقيق سلامته.', /*Arabic - Right-to-left*/
     'pt': 'O software (carteira) é open source, portanto sua segurança pode ser auditada.', /*Portuguese*/
     'bn': 'সফ্টওয়্যার (ওয়ালেট) ওপেন সোর্স, তাই এর সুরক্ষা নিরীক্ষণ করা যেতে পারে।', /*Bengal*/
-    'ru': 'Программное обеспечение (кошелек) имеет открытый исходный код, поэтому его безопасность можно проверить.', /*Russian*/
+    'ru': 'Программное обеспечение (кошелек) имеет открытый исходный код, и в его безопасности можно убедиться.', /*Russian*/
     'ja': 'ソフトウェア（ウォレット）はオープンソースであるため、その安全性を監査できます。', /*Japanese*/
     'jv': 'Piranti lunak (dompet) minangka sumber terbuka, mula keamanane bisa diaudit.', /*Javanese*/
     'de': 'Die Software (Brieftasche) ist Open Source, sodass ihre Sicherheit überprüft werden kann.', /*German*/
@@ -393,7 +393,7 @@ module.exports = {
     'ar': 'معاملات سريعة', /*Arabic - Right-to-left*/
     'pt': 'TRANSAÇÕES RÁPIDAS', /*Portuguese*/
     'bn': 'দ্রুত লেনদেন', /*Bengal*/
-    'ru': 'БЫСТРЫЕ СДЕЛКИ', /*Russian*/
+    'ru': 'СКОРОСТЬ', /*Russian*/
     'ja': '高速トランザクション', /*Japanese*/
     'jv': 'TRANSAKSI CEPAT', /*Javanese*/
     'de': 'SCHNELLE TRANSAKTIONEN', /*German*/
@@ -417,7 +417,7 @@ module.exports = {
     'ar': 'إنه سريع للغاية ، يمكنك إرسال الأموال إلى أي شخص في العالم في غضون ثوانٍ.', /*Arabic - Right-to-left*/
     'pt': 'É extremamente rápido, você pode enviar dinheiro para qualquer pessoa no mundo em segundos.', /*Portuguese*/
     'bn': 'এটি অত্যন্ত দ্রুত, আপনি সেকেন্ডের মধ্যে বিশ্বের যে কাউকে অর্থ পাঠাতে পারেন।', /*Bengal*/
-    'ru': 'Это очень быстро, вы можете отправить деньги кому угодно в мире за считанные секунды.', /*Russian*/
+    'ru': 'Вы можете отправить деньги кому угодно в мире за считанные секунды.', /*Russian*/
     'ja': '非常に高速で、数秒以内に世界中の誰にでも送金できます。', /*Japanese*/
     'jv': 'Cepet banget, sampeyan bisa ngirim dhuwit menyang sapa wae ing saindenging jagad sawetara detik.', /*Javanese*/
     'de': 'Es ist extrem schnell, Sie können innerhalb von Sekunden Geld an jeden auf der Welt senden.', /*German*/
@@ -441,7 +441,7 @@ module.exports = {
     'ar': 'مجهول', /*Arabic - Right-to-left*/
     'pt': 'ANÔNIMO', /*Portuguese*/
     'bn': 'অনিয়ম', /*Bengal*/
-    'ru': 'АНОНИМНЫЙ', /*Russian*/
+    'ru': 'АНОНИМНОСТЬ', /*Russian*/
     'ja': '匿名性', /*Japanese*/
     'jv': 'ANONYMOUS', /*Javanese*/
     'de': 'ANONYM', /*German*/
@@ -465,7 +465,7 @@ module.exports = {
     'ar': 'يمكن لأي شخص تشغيل المحفظة والتعامل بنفس إخفاء الهوية مثل Bitcoin. لا توجد معلومات تعريف شخصية مطلوبة.', /*Arabic - Right-to-left*/
     'pt': 'Qualquer pessoa pode executar a carteira e fazer transações com o mesmo anonimato do Bitcoin. Nenhuma informação de identificação pessoal é necessária.', /*Portuguese*/
     'bn': 'যে কোনও মানিব্যাগ চালাতে এবং বিটকয়েনের মতো একই বেনামে লেনদেন করতে পারে। কোনও ব্যক্তিগত সনাক্তকারী তথ্য প্রয়োজন হয় না।', /*Bengal*/
-    'ru': 'Любой может запустить кошелек и совершать транзакции с той же анонимностью, что и биткойн. Никакой личной информации, позволяющей установить личность, не требуется.', /*Russian*/
+    'ru': 'Любой может запустить кошелек и совершать транзакции с той же анонимностью, что и в сети биткойн. Никакой личной информации, позволяющей установить личность, не требуется.', /*Russian*/
     'ja': '誰でもウォレットを実行し、ビットコインと同じ匿名性で取引することができます。個人識別情報は必要ありません。', /*Japanese*/
     'jv': 'Sapa wae sing bisa mbukak dompet lan transaksi kanthi anonim sing padha karo Bitcoin. Ora dibutuhake informasi identifikasi pribadi.', /*Javanese*/
     'de': 'Jeder kann die Brieftasche ausführen und mit der gleichen Anonymität wie Bitcoin Transaktionen durchführen. Es sind keine persönlichen Identifikationsdaten erforderlich.', /*German*/
@@ -482,28 +482,28 @@ module.exports = {
     'hr': 'Svatko može pokretati novčanik i obavljati transakcije s istom anonimnošću kao i Bitcoin. Nisu potrebne osobne identifikacijske informacije.' /*Croatian*/
     },
   join_community: {
-    'zh': '加入BlackCoin社区', /*Chinese*/
-    'es': 'Únase a la comunidad BlackCoin', /*Spanish*/
-    'en': 'Join The BlackCoin Community', /*English*/
-    'hi': 'BlackCoin समुदाय में शामिल हों', /*Hindi*/
-    'ar': 'انضم إلى مجتمع BlackCoin', /*Arabic - Right-to-left*/
-    'pt': 'Junte-se à comunidade BlackCoin', /*Portuguese*/
+    'zh': '加入Blackcoin社区', /*Chinese*/
+    'es': 'Únase a la comunidad Blackcoin', /*Spanish*/
+    'en': 'Join The Blackcoin Community', /*English*/
+    'hi': 'Blackcoin समुदाय में शामिल हों', /*Hindi*/
+    'ar': 'انضم إلى مجتمع Blackcoin', /*Arabic - Right-to-left*/
+    'pt': 'Junte-se à comunidade Blackcoin', /*Portuguese*/
     'bn': 'ব্ল্যাককয়েন সম্প্রদায়টিতে যোগদান করুন', /*Bengal*/
-    'ru': 'Присоединяйтесь к сообществу BlackCoin', /*Russian*/
-    'ja': 'BlackCoinコミュニティに参加する', /*Japanese*/
-    'jv': 'Gabung karo Komunitas BlackCoin', /*Javanese*/
-    'de': 'Treten Sie der BlackCoin Community bei', /*German*/
-    'ko': 'BlackCoin 커뮤니티에 가입하세요', /*Korean*/
-    'fr': 'Rejoignez la communauté BlackCoin', /*French*/
+    'ru': 'Присоединяйтесь к сообществу Blackcoin', /*Russian*/
+    'ja': 'Blackcoinコミュニティに参加する', /*Japanese*/
+    'jv': 'Gabung karo Komunitas Blackcoin', /*Javanese*/
+    'de': 'Treten Sie der Blackcoin Community bei', /*German*/
+    'ko': 'Blackcoin 커뮤니티에 가입하세요', /*Korean*/
+    'fr': 'Rejoignez la communauté Blackcoin', /*French*/
     'te': 'బ్లాక్‌కాయిన్ సంఘంలో చేరండి', /*Telugu*/
     'mr': 'ब्लॅककॉइन समुदायात सामील व्हा', /*Marathi*/
-    'tr': 'BlackCoin Topluluğuna Katılın', /*Turkish*/
+    'tr': 'Blackcoin Topluluğuna Katılın', /*Turkish*/
     'ta': 'பிளாகாயின் சமூகத்தில் சேரவும்', /*Tamil*/
-    'vi': 'Tham gia cộng đồng BlackCoin', /*Vietnamese*/
+    'vi': 'Tham gia cộng đồng Blackcoin', /*Vietnamese*/
     'ur': 'بلیک کوائن کمیونٹی میں شامل ہوں', /*Urdu - Right-to-left*/
-    'nl': 'Word lid van de BlackCoin-community', /*Dutch*/
-    'it': 'Unisciti alla comunità BlackCoin',  /*Italian*/
-    'hr': 'Pridružite se zajednici BlackCoin' /*Croatian*/
+    'nl': 'Word lid van de Blackcoin-community', /*Dutch*/
+    'it': 'Unisciti alla comunità Blackcoin',  /*Italian*/
+    'hr': 'Pridružite se zajednici Blackcoin' /*Croatian*/
     },
   where_to_buy: {
     'zh': '去哪买', /*Chinese*/
@@ -561,7 +561,7 @@ module.exports = {
     'ar': 'تحقق من', /*Arabic - Right-to-left*/
     'pt': 'volume dos mercados', /*Portuguese*/
     'bn': 'পরীক্ষা করুন', /*Bengal*/
-    'ru': 'объем рынка', /*Russian*/
+    'ru': 'объем торгов', /*Russian*/
     'ja': '確認する', /*Japanese*/
     'jv': 'Volume Pasar', /*Javanese*/
     'de': 'Marktvolumen', /*German*/
@@ -602,28 +602,28 @@ module.exports = {
     'hr': 'Preuzimanja' /*Croatian*/
     },
   official_files: {
-    'zh': 'BlackCoin官方文件', /*Chinese*/
-    'es': 'Archivos oficiales de BlackCoin', /*Spanish*/
+    'zh': 'Blackcoin官方文件', /*Chinese*/
+    'es': 'Archivos oficiales de Blackcoin', /*Spanish*/
     'en': 'Blackcoin Official Files', /*English*/
-    'hi': 'BlackCoin आधिकारिक फाइलें', /*Hindi*/
-    'ar': 'ملفات BlackCoin الرسمية', /*Arabic - Right-to-left*/
-    'pt': 'Arquivos oficiais BlackCoin', /*Portuguese*/
+    'hi': 'Blackcoin आधिकारिक फाइलें', /*Hindi*/
+    'ar': 'ملفات Blackcoin الرسمية', /*Arabic - Right-to-left*/
+    'pt': 'Arquivos oficiais Blackcoin', /*Portuguese*/
     'bn': 'ব্ল্যাককয়েন অফিসিয়াল ফাইল', /*Bengal*/
-    'ru': 'Официальные файлы BlackCoin', /*Russian*/
-    'ja': 'BlackCoin公式ファイル', /*Japanese*/
-    'jv': 'File resmi BlackCoin', /*Javanese*/
-    'de': 'Offizielle BlackCoin-Dateien', /*German*/
-    'ko': 'BlackCoin 공식 파일', /*Korean*/
-    'fr': 'Fichiers officiels BlackCoin', /*French*/
+    'ru': 'Кошельки Blackcoin', /*Russian*/
+    'ja': 'Blackcoin公式ファイル', /*Japanese*/
+    'jv': 'File resmi Blackcoin', /*Javanese*/
+    'de': 'Offizielle Blackcoin-Dateien', /*German*/
+    'ko': 'Blackcoin 공식 파일', /*Korean*/
+    'fr': 'Fichiers officiels Blackcoin', /*French*/
     'te': 'బ్లాక్ కోయిన్ అధికారిక ఫైళ్ళు', /*Telugu*/
     'mr': 'ब्लॅककॉइन अधिकृत फायली', /*Marathi*/
-    'tr': 'BlackCoin resmi dosyaları', /*Turkish*/
+    'tr': 'Blackcoin resmi dosyaları', /*Turkish*/
     'ta': 'பிளாகாயின் அதிகாரப்பூர்வ கோப்புகள்', /*Tamil*/
-    'vi': 'Tệp chính thức của BlackCoin', /*Vietnamese*/
+    'vi': 'Tệp chính thức của Blackcoin', /*Vietnamese*/
     'ur': 'بلیک کوائن کی سرکاری فائلیں', /*Urdu - Right-to-left*/
-    'nl': 'Officiële BlackCoin-bestanden', /*Dutch*/
-    'it': 'File ufficiali di BlackCoin',  /*Italian*/
-    'hr': 'Službene datoteke BlackCoin' /*Croatian*/
+    'nl': 'Officiële Blackcoin-bestanden', /*Dutch*/
+    'it': 'File ufficiali di Blackcoin',  /*Italian*/
+    'hr': 'Službene datoteke Blackcoin' /*Croatian*/
     },
   more_wallet: {
     'zh': 'More钱包', /*Chinese*/
@@ -633,7 +633,7 @@ module.exports = {
     'ar': 'المزيد من المحفظة', /*Arabic - Right-to-left*/
     'pt': 'MAIS CARTEIRA', /*Portuguese*/
     'bn': 'আরও ভাল', /*Bengal*/
-    'ru': 'БОЛЬШЕ КОШЕЛЬКА', /*Russian*/
+    'ru': 'More', /*Russian*/
     'ja': 'Moreウォレット', /*Japanese*/
     'jv': 'LEBIH WALLET', /*Javanese*/
     'de': 'MEHR BRIEFTASCHE', /*German*/
@@ -649,7 +649,7 @@ module.exports = {
     'it': 'PIÙ PORTAFOGLIO',  /*Italian*/
     'hr': 'VIŠE NOVČANIKA' /*Croatian*/
     },
-  blackcoin_more: {
+  Blackcoin_more: {
     'zh': '黒币 More', /*Chinese*/
     'es': 'Blackcoin Más', /*Spanish*/
     'en': 'Blackcoin More', /*English*/
@@ -681,7 +681,7 @@ module.exports = {
     'ar': 'دعم المجتمع المحفظة.', /*Arabic - Right-to-left*/
     'pt': 'A carteira apoiada pela comunidade.', /*Portuguese*/
     'bn': 'সম্প্রদায়টি ওয়ালেটকে সমর্থন করেছিল।', /*Bengal*/
-    'ru': 'Сообщество поддержало кошелек.', /*Russian*/
+    'ru': 'Основной кошелек, поддерживаемый сообществом.', /*Russian*/
     'ja': 'コミュニティ・サポートされているウォレット', /*Japanese*/
     'jv': 'Komunitas ndhukung dhompet.', /*Javanese*/
     'de': 'Die Community unterstützte die Brieftasche.', /*German*/
@@ -753,7 +753,7 @@ module.exports = {
     'ar': 'تنزيل جميع المنصات', /*Arabic - Right-to-left*/
     'pt': 'Downloads de todas as plataformas', /*Portuguese*/
     'bn': 'সমস্ত প্ল্যাটফর্ম ডাউনলোড', /*Bengal*/
-    'ru': 'Загрузки для всех платформ', /*Russian*/
+    'ru': 'Скачать для всех платформ', /*Russian*/
     'ja': 'すべてのプラットフォームのダウンロード', /*Japanese*/
     'jv': 'Kabeh download platform', /*Javanese*/
     'de': 'Alle Plattformen herunterladen', /*German*/
@@ -777,7 +777,7 @@ module.exports = {
     'ar': 'محفظة LEGACY', /*Arabic - Right-to-left*/
     'pt': 'LEGACY WALLET', /*Portuguese*/
     'bn': 'লেগেসি ওয়ালট', /*Bengal*/
-    'ru': 'КОШЕЛЕК НАСЛЕДИЯ', /*Russian*/
+    'ru': 'Blackcoin Legacy', /*Russian*/
     'ja': 'レガシー・ウォレット', /*Japanese*/
     'jv': 'WALLET LEGASI', /*Javanese*/
     'de': 'LEGACY WALLET', /*German*/
@@ -801,7 +801,7 @@ module.exports = {
     'ar': 'كود مصدر Gitlab', /*Arabic - Right-to-left*/
     'pt': 'Código-fonte Gitlab', /*Portuguese*/
     'bn': 'গিটল্যাব উত্স কোড', /*Bengal*/
-    'ru': 'Исходный код Gitlab', /*Russian*/
+    'ru': 'Исходный код на Gitlab', /*Russian*/
     'ja': 'Gitlabソースコード', /*Japanese*/
     'jv': 'Kode Sumber Gitlab', /*Javanese*/
     'de': 'Gitlab-Quellcode', /*German*/
@@ -817,29 +817,29 @@ module.exports = {
     'it': 'Codice sorgente di Gitlab',  /*Italian*/
     'hr': 'Izvorni kod Gitlaba' /*Croatian*/
     },
-  support_blackcoin: {
-    'zh': '支持BlackCoin', /*Chinese*/
-    'es': 'Soporte BlackCoin', /*Spanish*/
-    'en': 'Support BlackCoin', /*English*/
-    'hi': 'BlackCoin का समर्थन करें', /*Hindi*/
-    'ar': 'دعم BlackCoin', /*Arabic - Right-to-left*/
-    'pt': 'Apoie BlackCoin', /*Portuguese*/
+  support_Blackcoin: {
+    'zh': '支持Blackcoin', /*Chinese*/
+    'es': 'Soporte Blackcoin', /*Spanish*/
+    'en': 'Support Blackcoin', /*English*/
+    'hi': 'Blackcoin का समर्थन करें', /*Hindi*/
+    'ar': 'دعم Blackcoin', /*Arabic - Right-to-left*/
+    'pt': 'Apoie Blackcoin', /*Portuguese*/
     'bn': 'ব্ল্যাককয়েন সমর্থন করুন', /*Bengal*/
-    'ru': 'Поддержка BlackCoin', /*Russian*/
-    'ja': 'BlackCoinをサポートする', /*Japanese*/
-    'jv': 'Dhukungan BlackCoin', /*Javanese*/
-    'de': 'Unterstützen Sie BlackCoin', /*German*/
-    'ko': 'BlackCoin 지원', /*Korean*/
-    'fr': 'Soutenir BlackCoin', /*French*/
+    'ru': 'Поддержать Blackcoin', /*Russian*/
+    'ja': 'Blackcoinをサポートする', /*Japanese*/
+    'jv': 'Dhukungan Blackcoin', /*Javanese*/
+    'de': 'Unterstützen Sie Blackcoin', /*German*/
+    'ko': 'Blackcoin 지원', /*Korean*/
+    'fr': 'Soutenir Blackcoin', /*French*/
     'te': 'బ్లాక్‌కాయిన్‌కు మద్దతు ఇవ్వండి', /*Telugu*/
     'mr': 'ब्लॅककोइनला समर्थन द्या', /*Marathi*/
-    'tr': 'BlackCoin\'i destekleyin', /*Turkish*/
+    'tr': 'Blackcoin\'i destekleyin', /*Turkish*/
     'ta': 'பிளாக் கோயினை ஆதரிக்கவும்', /*Tamil*/
-    'vi': 'Hỗ trợ BlackCoin', /*Vietnamese*/
+    'vi': 'Hỗ trợ Blackcoin', /*Vietnamese*/
     'ur': 'بلیک کوائن کی حمایت کریں', /*Urdu - Right-to-left*/
-    'nl': 'Steun BlackCoin', /*Dutch*/
-    'it': 'Supporta BlackCoin',  /*Italian*/
-    'hr': 'Podrška za BlackCoin' /*Croatian*/
+    'nl': 'Steun Blackcoin', /*Dutch*/
+    'it': 'Supporta Blackcoin',  /*Italian*/
+    'hr': 'Podrška za Blackcoin' /*Croatian*/
     },
   donations: {
     'zh': '捐献', /*Chinese*/
@@ -849,7 +849,7 @@ module.exports = {
     'ar': 'التبرعات', /*Arabic - Right-to-left*/
     'pt': 'Doações', /*Portuguese*/
     'bn': 'অনুদান', /*Bengal*/
-    'ru': 'Пожертвования', /*Russian*/
+    'ru': 'Донаты', /*Russian*/
     'ja': '寄付する', /*Japanese*/
     'jv': 'Sumbangan', /*Javanese*/
     'de': 'Spenden', /*German*/
@@ -897,7 +897,7 @@ module.exports = {
     'ar': 'إلى الأعلى', /*Arabic - Right-to-left*/
     'pt': 'Para o topo', /*Portuguese*/
     'bn': 'শীর্ষে', /*Bengal*/
-    'ru': 'Наверх', /*Russian*/
+    'ru': 'Вверх', /*Russian*/
     'ja': 'トップにもどる', /*Japanese*/
     'jv': 'Menyang ndhuwur', /*Javanese*/
     'de': 'Nach oben', /*German*/
