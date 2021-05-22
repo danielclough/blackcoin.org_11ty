@@ -5,7 +5,7 @@
     </a>
     <row>
         <a id="hamburger-toggle" href="#" onclick="return dropDown(this)">{% image "./src/assets/images/svg/hamburger.svg", "Hamburger Icon" %}</a>
-        <ul class="nav-main"> 
+        <ul id="menu-main"> 
             <li>
                 <a href="#" onclick="return dropDown(this)">{{ explore }}</a>
                 <ul id="menu">
@@ -19,23 +19,6 @@
 
 <!--                 <li><a onclick="parentElement.parentElement.style.display = 'none'" href="#buy">Buy </a></li>
  -->                
-                <li><a onclick="parentElement.parentElement.style.display = 'none'" href="#downloads">{{download}}</a></li>
-                
-                <li><a href="#" onclick="return dropDown(this)">{{markets}}</a>
-                    <ul>
-                        <div  id="nav-markets">
-                            <div>
-                                <a class="centered" href="https://www.coingecko.com/{{locale}}/coins/blackcoin" rel="noopener" target="_blank">
-                                    {{more_charts_on}} <br /> 
-                                    CoinGecko
-                                </a>
-                                {% include "layouts/scripts/cryptocompare-blk-price.njk" %}
-                                {% include "layouts/scripts/cryptocompare-btc-price.njk" %}
-                            </div>
-                            {% include "layouts/scripts/cryptocompare-blk-chart.njk" %}
-                        </div>
-                    </ul>
-                </li>
                 <li><a href="#" onclick="return dropDown(this)">{{links}}</a>
                     <ul id="menu-right">
                         <li><a rel="noopener" target="_blank" href="https://chainz.cryptoid.info/blk/">CryptoID {{explorer}}</a></li>
@@ -49,14 +32,27 @@
                         <!--<li><a href="https://en.wikipedia.org/wiki/BlackCoin">Wikipedia</a></li>-->
                     </ul>
                 </li>
+                <li><a onclick="parentElement.parentElement.style.display = 'none'" href="#downloads">{{download}}</a></li>
+                <li><a href="#" onclick="return dropDown(this)">{{markets}}</a>
+                    <ul>
+                        <div  id="nav-markets">
+                            <div>
+                                <a class="centered" href="https://www.coingecko.com/{{locale}}/coins/blackcoin" rel="noopener" target="_blank">
+                                    {{more_charts_on}} CoinGecko
+                                </a>
+                                {% include "layouts/scripts/cryptocompare-blk-price.njk" %}
+                                {% include "layouts/scripts/cryptocompare-btc-price.njk" %}
+                            </div>
+                            {% include "layouts/scripts/cryptocompare-blk-chart.njk" %}
+                        </div>
+                    </ul>
+                </li>
                 <li><a href="#" onclick="return dropDown(this)">Twitter</a>
                     <ul id="menu-twitter">
                         {% include "home/twitter.njk" %}
                     </ul>
                 </li>
-                
                 {% include 'layouts/language-selector.njk' %}
-                
             </li>
         </ul>
     <row>

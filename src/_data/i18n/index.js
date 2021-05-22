@@ -745,30 +745,6 @@ module.exports = {
     'it': 'BLACKHALO',  /*Italian*/
     'hr': 'BlackHalo' /*Croatian*/
     },
-  all_platforms: {
-    'zh': '所有平台下载', /*Chinese*/
-    'es': 'Descargas de todas las plataformas', /*Spanish*/
-    'en': 'All Platforms', /*English*/
-    'hi': 'सभी प्लेटफार्म डाउनलोड', /*Hindi*/
-    'ar': 'تنزيل جميع المنصات', /*Arabic - Right-to-left*/
-    'pt': 'Downloads de todas as plataformas', /*Portuguese*/
-    'bn': 'সমস্ত প্ল্যাটফর্ম ডাউনলোড', /*Bengal*/
-    'ru': 'Загрузки для всех платформ', /*Russian*/
-    'ja': 'すべてのプラットフォームのダウンロード', /*Japanese*/
-    'jv': 'Kabeh download platform', /*Javanese*/
-    'de': 'Alle Plattformen herunterladen', /*German*/
-    'ko': '모든 플랫폼 다운로드', /*Korean*/
-    'fr': 'Téléchargements de toutes les plateformes', /*French*/
-    'te': 'అన్ని ప్లాట్‌ఫారమ్‌ల డౌన్‌లోడ్‌లు', /*Telugu*/
-    'mr': 'सर्व प्लॅटफॉर्म डाउनलोड', /*Marathi*/
-    'tr': 'Tüm platform indirmeleri', /*Turkish*/
-    'ta': 'எல்லா தளங்களும் பதிவிறக்குகின்றன', /*Tamil*/
-    'vi': 'Tải xuống tất cả các nền tảng', /*Vietnamese*/
-    'ur': 'تمام پلیٹ فارم ڈاؤن لوڈ', /*Urdu - Right-to-left*/
-    'nl': 'Alle platformen', /*Dutch*/
-    'it': 'Download di tutte le piattaforme',  /*Italian*/
-    'hr': 'Preuzimanja svih platformi' /*Croatian*/
-    },
   legacy_wallet: {
     'zh': '旧版钱包', /*Chinese*/
     'es': 'CARTERA LEGACY', /*Spanish*/

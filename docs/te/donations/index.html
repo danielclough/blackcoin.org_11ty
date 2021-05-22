@@ -118,10 +118,29 @@ NavBar
   padding: .5rem;
   margin: 0;
   justify-content: start;
+  box-sizing: border-box;
 }
+
+#menu-main {
+  display: none;
+  width: 100%;
+  background-color: rgb(17,17,17);
+  flex-flow: wrap;
+  position: absolute;
+  left: 0;
+  padding: .5rem;
+  margin: 0;
+  justify-content: start;
+  line-height: 1.75rem;
+}
+
+#menu-main a {
+  padding: 1rem;
+}
+
 #navbar ul li ul {
   display: none;
-  flex-flow: wrap;
+  flex-flow: column;
   position: relative;
   padding: 1rem;
 }
@@ -135,9 +154,12 @@ NavBar
     font-weight: 100;
 }
 #menu {
-    position: absolute;
-    display: none;
-    left: 0;
+  position: absolute;
+  display: none;
+  left: 0;
+}
+#menu a {
+  padding: 1.5rem;
 }
 
 #menu-locale {
@@ -149,8 +171,7 @@ NavBar
   padding: 0;
 }
 
-#navbar ul.nav-menu > li > ul > li ul
-{
+#navbar ul.nav-menu > li > ul > li ul {
    left: 0%;
    top: 0px;
 }
@@ -173,6 +194,7 @@ NavBar
 #nav-markets::-webkit-scrollbar {
   display: none;
 }
+
 #menu-twitter {
   display: none;
   left: 0 !important;
@@ -184,6 +206,7 @@ NavBar
 
 #nav-twitter {
   position: fixed;
+  top: 15vh;
   background-color: rgba(17,17,17,.9);
   left: 0;
   width: 100vw;
@@ -194,6 +217,7 @@ NavBar
   overflow-y: scroll;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
+  font-size: 80%;
 }
 
 #nav-twitter::-webkit-scrollbar {
@@ -295,7 +319,6 @@ NavBar
   font-size: 6vw;
   padding: 3vw;
 }
-
 @media (max-width: 770px) {
   .page-title {
     padding-right: 35px;
@@ -360,6 +383,9 @@ NavBar
   p {
     font-size: 1.3vw;
   }
+  #hamburger-toggle {
+    display: none;
+  }
   .body {
     font-size: 1.3vw;
   }
@@ -375,11 +401,18 @@ NavBar
     font-size: 1.2vw;
     margin: 1.15vw 0 0 0;
   }
+  #menu-main {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2vw;
+    margin: 1.5vw 0 0 0;
+  }
   #nav-logo img {
     width: 3vw;
   }
   #nav-twitter {
-    height: 99vh;
+    height: 86vh;
+    top: 14vh;
   }
   #menu-locale li {
     padding: 3rem;
@@ -390,6 +423,7 @@ NavBar
   }
   .footer-social-links ul li {
     font-size: 1.4vw;
+    padding: 2rem;
    }
   .copyright {
     text-align: center;
@@ -425,7 +459,6 @@ NavBar
     font-size: 1.5vw;
   }
 }
-
 </style>
     <style id="ft-boxed" type="text/css">
 
@@ -458,22 +491,34 @@ NavBar
 .ft-boxed-hover ul li:hover .hover-content{ opacity:1 }
 .ft-boxed-hover ul li .ft-icon{ color:#777 }
 .ft-boxed-hover ul li .h-alt{ color:#999 }
-.ft-boxed-hover ul li .hover-content{ 
-  display: flex;
-  justify-content: center;
-  flex-flow: column;
-  position:absolute; top:0; left:0; 
-  overflow: hidden; width: 100%; height: 100%; 
-  background:#111; opacity:0; -webkit-transition:all .3s; transition:all .3s;
+
+.hover-label {
+  display: none;
 }
-.ft-boxed-hover ul li .hover-content .ft-icon{ position:absolute; display:block; top:50px; left:0; right:0; color:rgba(217,217,217,.15); z-index:1 }
-.ft-boxed-hover ul li .hover-content .ft-heading{ display:block; margin:0; padding-bottom:15px; color:#ececec; }
-.ft-boxed-hover ul li .hover-content p{ margin:0; color:#999 }
-.ft-boxed-hover ul li .hover-content a{ display:inline-block; position:relative; color:#999; z-index:10!important }
-.ft-boxed-hover ul li .hover-content a:hover{ color:#ececec }
-.ft-boxed-hover ul li .hover-content a:focus{ outline:0 }
-.ft-tabs .tabs-list{ list-style:none; padding:0; margin:0 }
-.ft-tabs .tabs-list li{ border-top:1px solid #ececec; border-bottom:1px solid #ececec }
+
+@media (min-width: 1080px) {
+  .ft-boxed-hover ul li .hover-content{ 
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    position:absolute; top:0; left:0; 
+    overflow: hidden; width: 100%; height: 100%; 
+    background:#111; opacity:0; -webkit-transition:all .3s; transition:all .3s;
+  }
+
+  .ft-boxed-hover ul li .hover-content .ft-icon{ position:absolute; display:block; top:50px; left:0; right:0; color:rgba(217,217,217,.15); z-index:1 }
+  .ft-boxed-hover ul li .hover-content .ft-heading{ display:block; margin:0; padding-bottom:15px; color:#ececec; }
+  .ft-boxed-hover ul li .hover-content p{ margin:0; color:#999 }
+  .ft-boxed-hover ul li .hover-content a{ display:inline-block; position:relative; color:#999; z-index:10!important }
+  .ft-boxed-hover ul li .hover-content a:hover{ color:#ececec }
+  .ft-boxed-hover ul li .hover-content a:focus{ outline:0 }
+  .ft-tabs .tabs-list{ list-style:none; padding:0; margin:0 }
+  .ft-tabs .tabs-list li{ border-top:1px solid #ececec; border-bottom:1px solid #ececec }
+  .hover-label {
+    display: block;
+  }
+}
+
 .ft-tabs .tabs-list li a,.ft-tabs .tabs-list li:nth-child(2){ display:block; padding:50px; border-left:10px solid rgba(17,17,17,0) }
 .ft-tabs .tabs-list li a:hover{ background:#f8f8f8 }
 .ft-tabs .tabs-list li a:focus{ text-decoration:none }
@@ -505,7 +550,7 @@ NavBar
     </a>
     <row>
         <a id="hamburger-toggle" href="#" onclick="return dropDown(this)"><picture><source type="image/svg+xml" srcset="/assets/images/d3da4e8e-32.svg 32w"><source type="image/png" srcset="/assets/images/d3da4e8e-32.png 32w"><img alt="Hamburger Icon" loading="lazy" decoding="async" src="/assets/images/d3da4e8e-32.jpeg" width="32" height="32"></picture></a>
-        <ul class="nav-main"> 
+        <ul id="menu-main"> 
             <li>
                 <a href="#" onclick="return dropDown(this)">అన్వేషించండి</a>
                 <ul id="menu">
@@ -519,15 +564,26 @@ NavBar
 
 <!--                 <li><a onclick="parentElement.parentElement.style.display = 'none'" href="#buy">Buy </a></li>
  -->                
+                <li><a href="#" onclick="return dropDown(this)">లింకులు</a>
+                    <ul id="menu-right">
+                        <li><a rel="noopener" target="_blank" href="https://chainz.cryptoid.info/blk/">CryptoID ఎక్స్‌ప్లోరర్</a></li>
+                        <li><a rel="noopener" target="_blank" href="https://www.coingecko.com/te/coins/blackcoin">Coingecko</a></li>
+                        <li><a rel="noopener" target="_blank" href="https://coinmarketcap.com/currencies/blackcoin/#charts">CoinMarketCap</a></li>
+                        <li><a rel="noopener" target="_blank" href="https://blackcoin.nl">BlackcoinNL</a></li>
+                        <li><a rel="noopener" target="_blank" href="https://node.blackcoin.io/insight/">Blacksight ఎక్స్‌ప్లోరర్</a></li>
+                        <li><a rel="noopener" target="_blank" href="https://bitinfocharts.com/blackcoin/">Bitinfocharts ఎక్స్‌ప్లోరర్</a></li>
+                        <li><a rel="noopener" target="_blank" href="https://gihub.com/coinblack/">Github</a></li>
+                        <li><a rel="noopener" target="_blank" href="https://gitlab.com/blackcoin/">Gitlab</a></li>
+                        <!--<li><a href="https://en.wikipedia.org/wiki/BlackCoin">Wikipedia</a></li>-->
+                    </ul>
+                </li>
                 <li><a onclick="parentElement.parentElement.style.display = 'none'" href="#downloads">డౌన్‌లోడ్</a></li>
-                
                 <li><a href="#" onclick="return dropDown(this)">మార్కెట్లు</a>
                     <ul>
                         <div  id="nav-markets">
                             <div>
                                 <a class="centered" href="https://www.coingecko.com/te/coins/blackcoin" rel="noopener" target="_blank">
-                                    మరిన్ని చార్టులు ఉన్నాయి <br /> 
-                                    CoinGecko
+                                    మరిన్ని చార్టులు ఉన్నాయి CoinGecko
                                 </a>
                                 <script>
   var x = window.matchMedia("(max-width: 700px)")
@@ -696,19 +752,6 @@ NavBar
                         </div>
                     </ul>
                 </li>
-                <li><a href="#" onclick="return dropDown(this)">లింకులు</a>
-                    <ul id="menu-right">
-                        <li><a rel="noopener" target="_blank" href="https://chainz.cryptoid.info/blk/">CryptoID ఎక్స్‌ప్లోరర్</a></li>
-                        <li><a rel="noopener" target="_blank" href="https://www.coingecko.com/te/coins/blackcoin">Coingecko</a></li>
-                        <li><a rel="noopener" target="_blank" href="https://coinmarketcap.com/currencies/blackcoin/#charts">CoinMarketCap</a></li>
-                        <li><a rel="noopener" target="_blank" href="https://blackcoin.nl">BlackcoinNL</a></li>
-                        <li><a rel="noopener" target="_blank" href="https://node.blackcoin.io/insight/">Blacksight ఎక్స్‌ప్లోరర్</a></li>
-                        <li><a rel="noopener" target="_blank" href="https://bitinfocharts.com/blackcoin/">Bitinfocharts ఎక్స్‌ప్లోరర్</a></li>
-                        <li><a rel="noopener" target="_blank" href="https://gihub.com/coinblack/">Github</a></li>
-                        <li><a rel="noopener" target="_blank" href="https://gitlab.com/blackcoin/">Gitlab</a></li>
-                        <!--<li><a href="https://en.wikipedia.org/wiki/BlackCoin">Wikipedia</a></li>-->
-                    </ul>
-                </li>
                 <li><a href="#" onclick="return dropDown(this)">Twitter</a>
                     <ul id="menu-twitter">
                         <div id="nav-twitter">
@@ -743,7 +786,6 @@ NavBar
                     </ul>
                 </li>
                 
-                
 <ul id="lang-select">
 	<a href="#" onclick="return dropDown(this)">భాషను ఎంచుకోండి</a>
 	<ul id="menu-locale"  class="nav-main">
@@ -771,7 +813,6 @@ NavBar
 	<a href="/hr/donations/" rel="/hr donations/" hreflang="hr"><li>Hrvatski</li></a>
 	</ul>
 </ul>
-                
             </li>
         </ul>
     <row>

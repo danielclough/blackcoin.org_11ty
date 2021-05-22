@@ -29,22 +29,34 @@
 .ft-boxed-hover ul li:hover .hover-content{ opacity:1 }
 .ft-boxed-hover ul li .ft-icon{ color:#777 }
 .ft-boxed-hover ul li .h-alt{ color:#999 }
-.ft-boxed-hover ul li .hover-content{ 
-  display: flex;
-  justify-content: center;
-  flex-flow: column;
-  position:absolute; top:0; left:0; 
-  overflow: hidden; width: 100%; height: 100%; 
-  background:#111; opacity:0; -webkit-transition:all .3s; transition:all .3s;
+
+.hover-label {
+  display: none;
 }
-.ft-boxed-hover ul li .hover-content .ft-icon{ position:absolute; display:block; top:50px; left:0; right:0; color:rgba(217,217,217,.15); z-index:1 }
-.ft-boxed-hover ul li .hover-content .ft-heading{ display:block; margin:0; padding-bottom:15px; color:#ececec; }
-.ft-boxed-hover ul li .hover-content p{ margin:0; color:#999 }
-.ft-boxed-hover ul li .hover-content a{ display:inline-block; position:relative; color:#999; z-index:10!important }
-.ft-boxed-hover ul li .hover-content a:hover{ color:#ececec }
-.ft-boxed-hover ul li .hover-content a:focus{ outline:0 }
-.ft-tabs .tabs-list{ list-style:none; padding:0; margin:0 }
-.ft-tabs .tabs-list li{ border-top:1px solid #ececec; border-bottom:1px solid #ececec }
+
+@media (min-width: 1080px) {
+  .ft-boxed-hover ul li .hover-content{ 
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    position:absolute; top:0; left:0; 
+    overflow: hidden; width: 100%; height: 100%; 
+    background:#111; opacity:0; -webkit-transition:all .3s; transition:all .3s;
+  }
+
+  .ft-boxed-hover ul li .hover-content .ft-icon{ position:absolute; display:block; top:50px; left:0; right:0; color:rgba(217,217,217,.15); z-index:1 }
+  .ft-boxed-hover ul li .hover-content .ft-heading{ display:block; margin:0; padding-bottom:15px; color:#ececec; }
+  .ft-boxed-hover ul li .hover-content p{ margin:0; color:#999 }
+  .ft-boxed-hover ul li .hover-content a{ display:inline-block; position:relative; color:#999; z-index:10!important }
+  .ft-boxed-hover ul li .hover-content a:hover{ color:#ececec }
+  .ft-boxed-hover ul li .hover-content a:focus{ outline:0 }
+  .ft-tabs .tabs-list{ list-style:none; padding:0; margin:0 }
+  .ft-tabs .tabs-list li{ border-top:1px solid #ececec; border-bottom:1px solid #ececec }
+  .hover-label {
+    display: block;
+  }
+}
+
 .ft-tabs .tabs-list li a,.ft-tabs .tabs-list li:nth-child(2){ display:block; padding:50px; border-left:10px solid rgba(17,17,17,0) }
 .ft-tabs .tabs-list li a:hover{ background:#f8f8f8 }
 .ft-tabs .tabs-list li a:focus{ text-decoration:none }

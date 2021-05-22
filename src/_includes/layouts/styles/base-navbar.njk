@@ -103,10 +103,29 @@ NavBar
   padding: .5rem;
   margin: 0;
   justify-content: start;
+  box-sizing: border-box;
 }
+
+#menu-main {
+  display: none;
+  width: 100%;
+  background-color: rgb(17,17,17);
+  flex-flow: wrap;
+  position: absolute;
+  left: 0;
+  padding: .5rem;
+  margin: 0;
+  justify-content: start;
+  line-height: 1.75rem;
+}
+
+#menu-main a {
+  padding: 1rem;
+}
+
 #navbar ul li ul {
   display: none;
-  flex-flow: wrap;
+  flex-flow: column;
   position: relative;
   padding: 1rem;
 }
@@ -120,9 +139,12 @@ NavBar
     font-weight: 100;
 }
 #menu {
-    position: absolute;
-    display: none;
-    left: 0;
+  position: absolute;
+  display: none;
+  left: 0;
+}
+#menu a {
+  padding: 1.5rem;
 }
 
 #menu-locale {
@@ -134,8 +156,7 @@ NavBar
   padding: 0;
 }
 
-#navbar ul.nav-menu > li > ul > li ul
-{
+#navbar ul.nav-menu > li > ul > li ul {
    left: 0%;
    top: 0px;
 }
@@ -158,6 +179,7 @@ NavBar
 #nav-markets::-webkit-scrollbar {
   display: none;
 }
+
 #menu-twitter {
   display: none;
   left: 0 !important;
@@ -169,6 +191,7 @@ NavBar
 
 #nav-twitter {
   position: fixed;
+  top: 15vh;
   background-color: rgba(17,17,17,.9);
   left: 0;
   width: 100vw;
@@ -179,6 +202,7 @@ NavBar
   overflow-y: scroll;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
+  font-size: 80%;
 }
 
 #nav-twitter::-webkit-scrollbar {
@@ -280,7 +304,6 @@ NavBar
   font-size: 6vw;
   padding: 3vw;
 }
-
 @media (max-width: 770px) {
   .page-title {
     padding-right: 35px;
@@ -345,6 +368,9 @@ NavBar
   p {
     font-size: 1.3vw;
   }
+  #hamburger-toggle {
+    display: none;
+  }
   .body {
     font-size: 1.3vw;
   }
@@ -360,11 +386,18 @@ NavBar
     font-size: 1.2vw;
     margin: 1.15vw 0 0 0;
   }
+  #menu-main {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2vw;
+    margin: 1.5vw 0 0 0;
+  }
   #nav-logo img {
     width: 3vw;
   }
   #nav-twitter {
-    height: 99vh;
+    height: 86vh;
+    top: 14vh;
   }
   #menu-locale li {
     padding: 3rem;
@@ -375,6 +408,7 @@ NavBar
   }
   .footer-social-links ul li {
     font-size: 1.4vw;
+    padding: 2rem;
    }
   .copyright {
     text-align: center;
@@ -410,5 +444,4 @@ NavBar
     font-size: 1.5vw;
   }
 }
-
 </style>
