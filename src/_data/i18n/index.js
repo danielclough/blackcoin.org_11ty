@@ -649,7 +649,7 @@ module.exports = {
     'it': 'PIÙ PORTAFOGLIO',  /*Italian*/
     'hr': 'VIŠE NOVČANIKA' /*Croatian*/
     },
-  Blackcoin_more: {
+  blackcoin_more: {
     'zh': '黒币 More', /*Chinese*/
     'es': 'Blackcoin Más', /*Spanish*/
     'en': 'Blackcoin More', /*English*/
@@ -793,7 +793,7 @@ module.exports = {
     'it': 'Codice sorgente di Gitlab',  /*Italian*/
     'hr': 'Izvorni kod Gitlaba' /*Croatian*/
     },
-  support_Blackcoin: {
+  support_blackcoin: {
     'zh': '支持Blackcoin', /*Chinese*/
     'es': 'Soporte Blackcoin', /*Spanish*/
     'en': 'Support Blackcoin', /*English*/

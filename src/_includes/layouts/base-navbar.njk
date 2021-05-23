@@ -12,8 +12,6 @@
                     <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="/{{ locale }}/">{{ 'homepage' | i18n }}</a></li>
                     <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="#about">{{ about }}</a></li>
                     <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="#community">{{community}}</a></li>
-                    <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="/{{ locale }}/donations">{{donations}}</a></li>
-                    <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="/{{ locale }}/faq"><span style="color: #ddb77a;">{{faq}}</span></a></li>
                     <!--<li><a href="bounties/">Bounties</a></li>-->
                 </ul>
 
@@ -32,7 +30,7 @@
                         <!--<li><a href="https://en.wikipedia.org/wiki/BlackCoin">Wikipedia</a></li>-->
                     </ul>
                 </li>
-                <li><a onclick="parentElement.parentElement.style.display = 'none'" href="#downloads">{{download}}</a></li>
+                <li><a onclick="parentElement.parentElement.style.display = 'none'" href="/#downloads">{{download}}</a></li>
                 <li><a href="#" onclick="return dropDown(this)">{{markets}}</a>
                     <ul>
                         <div  id="nav-markets">
@@ -52,6 +50,8 @@
                         {% include "home/twitter.njk" %}
                     </ul>
                 </li>
+                <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="/{{ locale }}/donations">{{donations}}</a></li>
+                <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="/{{ locale }}/faq"><span style="color: #ddb77a;">{{faq}}</span></a></li>
                 {% include 'layouts/language-selector.njk' %}
             </li>
         </ul>

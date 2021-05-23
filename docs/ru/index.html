@@ -226,7 +226,7 @@ NavBar
 }
 
 .ccc-widget {
-  width: 33vw;
+  width: 33%;
 }
 
 
@@ -386,12 +386,28 @@ NavBar
   #hamburger-toggle {
     display: none;
   }
+  #navbar ul li ul {
+    position: fixed;
+    left: 0;
+    background-color: #111;
+    width: 100vw;
+    text-align: center;
+  }
   .body {
     font-size: 1.3vw;
   }
   .container{
-    width:70vw; 
+    width:70%; 
     margin: 0 auto;
+  }
+  .section{
+    padding-top:3rem;
+    padding-bottom:3rem;
+  }
+  .gray-bg {
+    position: relative;
+    top: 3.5rem;
+    margin-bottom: 3.5rem;
   }
   #navbar {
     justify-content: space-around;
@@ -402,8 +418,9 @@ NavBar
     margin: 1.15vw 0 0 0;
   }
   #menu-main {
-    display: flex;
-    justify-content: space-around;
+    position: relative;
+    display: flex !important;
+    justify-content: space-between;
     font-size: 1.2vw;
     margin: 1.5vw 0 0 0;
   }
@@ -457,6 +474,67 @@ NavBar
   }
   .footer-social-links ul li {
     font-size: 1.5vw;
+  }
+}
+
+@media (min-width: 2560px) {
+  h1 {
+    font-size: 2.5vw;
+  }
+  h2 {
+    font-size: 1vw;
+  }
+  h3 {
+    font-size: 1.5vw;
+  }
+
+  h4 {
+    font-size: 1.2vw;
+  }
+  p {
+    font-size: 1vw;
+  }
+  .body {
+    font-size: 1vw;
+  }
+  .gray-bg {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+}
+
+@media (max-aspect-ratio: 5/1 ) and (min-width: 2560px) {
+  h1 {
+    font-size: 2vw;
+  }
+  h2 {
+    font-size: 1.4vw;
+  }
+  h3 {
+    font-size: .8vw;
+  }
+
+  h4 {
+    font-size: .8vw;
+  }
+  p {
+    font-size: .65vw;
+  }
+  .body {
+    font-size: .75vw;
+  }
+  .container {
+    width: 50%;
+  }
+  .copyright {
+    font-size: .75vw;
+  }
+  .footer-social-links ul li {
+    font-size: 1vw;
+  }
+  .col-row {
+    width: 100%;
   }
 }
 </style>
@@ -557,8 +635,6 @@ NavBar
                     <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="/ru/">Домашняя страница</a></li>
                     <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="#about">Около</a></li>
                     <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="#community">Сообщество</a></li>
-                    <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="/ru/donations">Пожертвования</a></li>
-                    <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="/ru/faq"><span style="color: #ddb77a;">Часто задаваемые вопросы</span></a></li>
                     <!--<li><a href="bounties/">Bounties</a></li>-->
                 </ul>
 
@@ -577,7 +653,7 @@ NavBar
                         <!--<li><a href="https://en.wikipedia.org/wiki/BlackCoin">Wikipedia</a></li>-->
                     </ul>
                 </li>
-                <li><a onclick="parentElement.parentElement.style.display = 'none'" href="#downloads">Скачать</a></li>
+                <li><a onclick="parentElement.parentElement.style.display = 'none'" href="/#downloads">Скачать</a></li>
                 <li><a href="#" onclick="return dropDown(this)">Рынки</a>
                     <ul>
                         <div  id="nav-markets">
@@ -785,6 +861,8 @@ NavBar
 </div>
                     </ul>
                 </li>
+                <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="/ru/donations">Пожертвования</a></li>
+                <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="/ru/faq"><span style="color: #ddb77a;">Часто задаваемые вопросы</span></a></li>
                 
 <ul id="lang-select">
 	<a href="#" onclick="return dropDown(this)">Выберите язык</a>
@@ -1230,390 +1308,404 @@ body div#ui-datepicker-div[style] {
 
 .bn-h3 { font-size: 12px; margin: 5px 0 20px 0; font-weight: 300;  }
 
-@media (min-width: 1080px) {
-    .bn-h3 { font-size: 17px; margin: 7px 0 10px 0; font-weight: 500;  }
-}
-
 .breakingNews {
   text-align: left !important;
   background: #151515 !important;
-        width: 100%;
-        height: 40px;
-        position: relative;
-        border: solid 2px #2096cd;
-        overflow: hidden;
-    }
+    width: 100%;
+    height: 40px;
+    position: relative;
+    border: solid 2px #2096cd;
+    overflow: hidden;
+}
 
+.breakingNews>.bn-title {
+    width: auto;
+    height: 40px;
+    display: inline-block;
+    background: #2096cd;
+    position: relative;
+}
+
+.breakingNews>.bn-title>h2 {
+    display: inline-block;
+    margin: 0;
+    padding: 0 10px;
+    line-height: 40px;
+    font-size: 13px;
+    color: #FFF;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.breakingNews>.bn-title>span {
+    width: 0;
+    position: absolute;
+    right: -10px;
+    top: 10px;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #2096cd;
+}
+
+.breakingNews>ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    left: 210px;
+    top: 0;
+    right: 40px;
+    height: 40px;
+}
+
+.breakingNews>ul>li {
+    position: absolute;
+    height: 40px;
+    width: 100%;
+    display: none;
+}
+
+.breakingNews>ul>li>a {
+    text-decoration: none;
+    color: #333;
+    overflow: hidden;
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: normal;
+}
+
+.breakingNews>ul>li>a>span {
+    color: #2096cd;
+}
+
+.breakingNews>ul>li>a:hover {
+    color: #2096cd;
+}
+
+.breakingNews>.bn-navi {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.breakingNews>.bn-navi>span {
+    width: 20px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    opacity: 0.3;
+    background-image: url(./assets/images/bn-arrows.png);
+    background-repeat: no-repeat;
+}
+
+.breakingNews>.bn-navi>span:hover {
+    opacity: 1;
+}
+
+.breakingNews>.bn-navi>span:first-child {
+    background-position: left center;
+    left: 0;
+}
+
+.breakingNews>.bn-navi>span:last-child {
+    background-position: right center;
+    right: 0;
+}
+
+.breakingNews:hover .bn-navi {
+    opacity: 1;
+}
+
+.bn-large {
+    height: 50px;
+}
+
+.bn-large>.bn-title {
+    height: 50px;
+}
+
+.bn-large>.bn-title>h2 {
+    line-height: 50px;
+    font-size: 26px;
+}
+
+.bn-large>.bn-title>span {
+    top: 15px;
+}
+
+.bn-large>ul {
+    height: 50px;
+    left: 250px;
+    font-size: 20px;
+}
+
+.bn-large>ul>li {
+    height: 50px;
+    line-height: 50px;
+}
+
+.bn-large>.bn-navi {
+    height: 50px;
+}
+
+.bn-large>.bn-navi>span {
+    height: 50px;
+}
+
+.bn-small {
+    height: 30px;
+}
+
+.bn-small>.bn-title {
+    height: 30px;
+}
+
+.bn-small>.bn-title>h2 {
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.bn-small>.bn-title>span {
+    top: 5px;
+}
+
+.bn-small>ul {
+    height: 30px;
+    left: 200px;
+    font-size: 14px;
+}
+
+.bn-small>ul>li {
+    height: 30px;
+    line-height: 30px;
+}
+
+.bn-small>.bn-navi {
+    height: 30px;
+}
+
+.bn-small>.bn-navi>span {
+    height: 30px;
+}
+
+/*color styles -----------------------------*/
+.bn-red {
+    border-color: #f44a56;
+}
+
+.bn-red>.bn-title {
+    background: #f44a56;
+}
+
+.bn-red>.bn-title>span {
+    border-left-color: #f44a56;
+}
+
+.bn-red>ul>li>a:hover,
+.bn-red>ul>li>a>span {
+    color: #f44a56;
+}
+
+.bn-green {
+    border-color: #27ae60;
+}
+
+.bn-green>.bn-title {
+    background: #27ae60;
+}
+
+.bn-green>.bn-title>span {
+    border-left-color: #27ae60;
+}
+
+.bn-green>ul>li>a:hover,
+.bn-green>ul>li>a>span {
+    color: #27ae60;
+}
+
+.bn-purple {
+    border-color: #795aac;
+}
+
+.bn-purple>.bn-title {
+    background: #795aac;
+}
+
+.bn-purple>.bn-title>span {
+    border-left-color: #795aac;
+}
+
+.bn-purple>ul>li>a:hover,
+.bn-purple>ul>li>a>span {
+    color: #795aac;
+}
+
+.bn-turquoise {
+    border-color: #1fb5ad;
+}
+
+.bn-turquoise>.bn-title {
+    background: #1fb5ad;
+}
+
+.bn-turquoise>.bn-title>span {
+    border-left-color: #1fb5ad;
+}
+
+.bn-turquoise>ul>li>a:hover,
+.bn-turquoise>ul>li>a>span {
+    color: #1fb5ad;
+}
+
+.bn-orange {
+    border-color: #f46e27;
+}
+
+.bn-orange>.bn-title {
+    background: #f46e27;
+}
+
+.bn-orange>.bn-title>span {
+    border-left-color: #f46e27;
+}
+
+.bn-orange>ul>li>a:hover,
+.bn-orange>ul>li>a>span {
+    color: #f46e27;
+}
+
+.bn-black {
+    border-color: #333;
+}
+
+.bn-black>.bn-title {
+    background: #333;
+}
+
+.bn-black>.bn-title>span {
+    border-left-color: #333;
+}
+
+.bn-black>ul>li>a:hover,
+.bn-black>ul>li>a>span {
+    color: #333;
+}
+
+.bn-yellow {
+    border-color: #d3ac23;
+}
+
+.bn-yellow>.bn-title {
+    background: #d3ac23;
+}
+
+.bn-yellow>.bn-title>span {
+    border-left-color: #d3ac23;
+}
+
+.bn-yellow>ul>li>a:hover,
+.bn-yellow>ul>li>a>span {
+    color: #d3ac23;
+}
+
+.bn-light {
+    border-color: #DDD;
+}
+
+.bn-light>.bn-title {
+    background: #DDD;
+}
+
+.bn-light>.bn-title>h2 {
+    color: #333;
+}
+
+.bn-light>.bn-title>span {
+    border-left-color: #DDD;
+}
+
+.bn-light>ul>li>a:hover,
+.bn-light>ul>li>a>span {
+    color: #DDD;
+}
+
+.bn-pink {
+    border-color: #d65aac;
+}
+
+.bn-pink>.bn-title {
+    background: #d65aac;
+}
+
+.bn-pink>.bn-title>span {
+    border-left-color: #d65aac;
+}
+
+.bn-pink>ul>li>a:hover,
+.bn-pink>ul>li>a>span {
+    color: #d65aac;
+}
+
+.bn-darkred {
+    border-color: #d01e1e;
+}
+
+.bn-darkred>.bn-title {
+    background: #d01e1e;
+}
+
+.bn-darkred>.bn-title>span {
+    border-left-color: #d01e1e;
+}
+
+.bn-darkred>ul>li>a:hover,
+.bn-darkred>ul>li>a>span {
+    color: #d01e1e;
+}
+
+.bn-bordernone {
+    border: none;
+}
+
+.bn-italic>ul>li>a {
+    font-style: italic;
+}
+
+.bn-bold>ul>li>a {
+    font-weight: bold;
+}
+
+.breakingNews>.bn-navi,
+.breakingNews>ul>li>a,
+.breakingNews>.bn-navi>span {
+    transition: .25s linear;
+    -moz-transition: .25s linear;
+    -webkit-transition: .25s linear;
+}
+
+
+@media (min-width: 1080px) {
+    .bn-h3 { font-size: 20px; margin: 7px 0 10px 0; font-weight: 500;  }
+    .breakingNews {
+        height: 4rem;
+    }
     .breakingNews>.bn-title {
-        width: auto;
-        height: 40px;
-        display: inline-block;
-        background: #2096cd;
-        position: relative;
+        height: 4rem;
     }
-
     .breakingNews>.bn-title>h2 {
-        display: inline-block;
-        margin: 0;
-        padding: 0 10px;
-        line-height: 40px;
-        font-size: 13px;
-        color: #FFF;
-        height: 40px;
-        box-sizing: border-box;
+        line-height: 4rem;
     }
+}
+@media (max-aspect-ratio: 5/1 ) and (min-width: 2560px) {
+    .bn-h3 { font-size: 20px; margin: 0px 0 10px 0; font-weight: 500;  }
+}
 
-    .breakingNews>.bn-title>span {
-        width: 0;
-        position: absolute;
-        right: -10px;
-        top: 10px;
-        height: 0;
-        border-style: solid;
-        border-width: 10px 0 10px 10px;
-        border-color: transparent transparent transparent #2096cd;
-    }
-
-    .breakingNews>ul {
-        padding: 0;
-        margin: 0;
-        list-style: none;
-        position: absolute;
-        left: 210px;
-        top: 0;
-        right: 40px;
-        height: 40px;
-    }
-
-    .breakingNews>ul>li {
-        position: absolute;
-        height: 40px;
-        width: 100%;
-        display: none;
-    }
-
-    .breakingNews>ul>li>a {
-        text-decoration: none;
-        color: #333;
-        overflow: hidden;
-        display: block;
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        font-weight: normal;
-    }
-
-    .breakingNews>ul>li>a>span {
-        color: #2096cd;
-    }
-
-    .breakingNews>ul>li>a:hover {
-        color: #2096cd;
-    }
-
-    .breakingNews>.bn-navi {
-        width: 40px;
-        height: 40px;
-        position: absolute;
-        right: 0;
-        top: 0;
-        opacity: 0;
-    }
-
-    .breakingNews>.bn-navi>span {
-        width: 20px;
-        height: 40px;
-        position: absolute;
-        top: 0;
-        cursor: pointer;
-        opacity: 0.3;
-        background-image: url(./assets/images/bn-arrows.png);
-        background-repeat: no-repeat;
-    }
-
-    .breakingNews>.bn-navi>span:hover {
-        opacity: 1;
-    }
-
-    .breakingNews>.bn-navi>span:first-child {
-        background-position: left center;
-        left: 0;
-    }
-
-    .breakingNews>.bn-navi>span:last-child {
-        background-position: right center;
-        right: 0;
-    }
-
-    .breakingNews:hover .bn-navi {
-        opacity: 1;
-    }
-
-    .bn-large {
-        height: 50px;
-    }
-
-    .bn-large>.bn-title {
-        height: 50px;
-    }
-
-    .bn-large>.bn-title>h2 {
-        line-height: 50px;
-        font-size: 26px;
-    }
-
-    .bn-large>.bn-title>span {
-        top: 15px;
-    }
-
-    .bn-large>ul {
-        height: 50px;
-        left: 250px;
-        font-size: 20px;
-    }
-
-    .bn-large>ul>li {
-        height: 50px;
-        line-height: 50px;
-    }
-
-    .bn-large>.bn-navi {
-        height: 50px;
-    }
-
-    .bn-large>.bn-navi>span {
-        height: 50px;
-    }
-
-    .bn-small {
-        height: 30px;
-    }
-
-    .bn-small>.bn-title {
-        height: 30px;
-    }
-
-    .bn-small>.bn-title>h2 {
-        line-height: 30px;
-        font-size: 18px;
-    }
-
-    .bn-small>.bn-title>span {
-        top: 5px;
-    }
-
-    .bn-small>ul {
-        height: 30px;
-        left: 200px;
-        font-size: 14px;
-    }
-
-    .bn-small>ul>li {
-        height: 30px;
-        line-height: 30px;
-    }
-
-    .bn-small>.bn-navi {
-        height: 30px;
-    }
-
-    .bn-small>.bn-navi>span {
-        height: 30px;
-    }
-
-    /*color styles -----------------------------*/
-    .bn-red {
-        border-color: #f44a56;
-    }
-
-    .bn-red>.bn-title {
-        background: #f44a56;
-    }
-
-    .bn-red>.bn-title>span {
-        border-left-color: #f44a56;
-    }
-
-    .bn-red>ul>li>a:hover,
-    .bn-red>ul>li>a>span {
-        color: #f44a56;
-    }
-
-    .bn-green {
-        border-color: #27ae60;
-    }
-
-    .bn-green>.bn-title {
-        background: #27ae60;
-    }
-
-    .bn-green>.bn-title>span {
-        border-left-color: #27ae60;
-    }
-
-    .bn-green>ul>li>a:hover,
-    .bn-green>ul>li>a>span {
-        color: #27ae60;
-    }
-
-    .bn-purple {
-        border-color: #795aac;
-    }
-
-    .bn-purple>.bn-title {
-        background: #795aac;
-    }
-
-    .bn-purple>.bn-title>span {
-        border-left-color: #795aac;
-    }
-
-    .bn-purple>ul>li>a:hover,
-    .bn-purple>ul>li>a>span {
-        color: #795aac;
-    }
-
-    .bn-turquoise {
-        border-color: #1fb5ad;
-    }
-
-    .bn-turquoise>.bn-title {
-        background: #1fb5ad;
-    }
-
-    .bn-turquoise>.bn-title>span {
-        border-left-color: #1fb5ad;
-    }
-
-    .bn-turquoise>ul>li>a:hover,
-    .bn-turquoise>ul>li>a>span {
-        color: #1fb5ad;
-    }
-
-    .bn-orange {
-        border-color: #f46e27;
-    }
-
-    .bn-orange>.bn-title {
-        background: #f46e27;
-    }
-
-    .bn-orange>.bn-title>span {
-        border-left-color: #f46e27;
-    }
-
-    .bn-orange>ul>li>a:hover,
-    .bn-orange>ul>li>a>span {
-        color: #f46e27;
-    }
-
-    .bn-black {
-        border-color: #333;
-    }
-
-    .bn-black>.bn-title {
-        background: #333;
-    }
-
-    .bn-black>.bn-title>span {
-        border-left-color: #333;
-    }
-
-    .bn-black>ul>li>a:hover,
-    .bn-black>ul>li>a>span {
-        color: #333;
-    }
-
-    .bn-yellow {
-        border-color: #d3ac23;
-    }
-
-    .bn-yellow>.bn-title {
-        background: #d3ac23;
-    }
-
-    .bn-yellow>.bn-title>span {
-        border-left-color: #d3ac23;
-    }
-
-    .bn-yellow>ul>li>a:hover,
-    .bn-yellow>ul>li>a>span {
-        color: #d3ac23;
-    }
-
-    .bn-light {
-        border-color: #DDD;
-    }
-
-    .bn-light>.bn-title {
-        background: #DDD;
-    }
-
-    .bn-light>.bn-title>h2 {
-        color: #333;
-    }
-
-    .bn-light>.bn-title>span {
-        border-left-color: #DDD;
-    }
-
-    .bn-light>ul>li>a:hover,
-    .bn-light>ul>li>a>span {
-        color: #DDD;
-    }
-
-    .bn-pink {
-        border-color: #d65aac;
-    }
-
-    .bn-pink>.bn-title {
-        background: #d65aac;
-    }
-
-    .bn-pink>.bn-title>span {
-        border-left-color: #d65aac;
-    }
-
-    .bn-pink>ul>li>a:hover,
-    .bn-pink>ul>li>a>span {
-        color: #d65aac;
-    }
-
-    .bn-darkred {
-        border-color: #d01e1e;
-    }
-
-    .bn-darkred>.bn-title {
-        background: #d01e1e;
-    }
-
-    .bn-darkred>.bn-title>span {
-        border-left-color: #d01e1e;
-    }
-
-    .bn-darkred>ul>li>a:hover,
-    .bn-darkred>ul>li>a>span {
-        color: #d01e1e;
-    }
-
-    .bn-bordernone {
-        border: none;
-    }
-
-    .bn-italic>ul>li>a {
-        font-style: italic;
-    }
-
-    .bn-bold>ul>li>a {
-        font-weight: bold;
-    }
-
-    .breakingNews>.bn-navi,
-    .breakingNews>ul>li>a,
-    .breakingNews>.bn-navi>span {
-        transition: .25s linear;
-        -moz-transition: .25s linear;
-        -webkit-transition: .25s linear;
-    }
 </style>
   <style id="slick-slider" type="text/css">
 .slick-slider{position:relative;display:block;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-touch-callout:none;-khtml-user-select:none;-ms-touch-action:pan-y;touch-action:pan-y;-webkit-tap-highlight-color:transparent}.slick-list{position:relative;display:block;overflow:hidden;margin:0;padding:0}.slick-list:focus{outline:0}.slick-slider .slick-list{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);-o-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}.slick-slide{display:none;float:left;height:100%;min-height:1px}[dir=rtl] .slick-slide{float:right}.slick-slide img{display:block}.slick-slide.slick-loading img{display:none}.slick-loading .slick-slide{visibility:hidden}
@@ -2384,10 +2476,10 @@ body div#ui-datepicker-div[style] {
 
 @media (min-aspect-ratio: 17/10 ) and (min-width: 1080px) {
   .hero-lead {
-      font-size: 3vw;
+      font-size: 3.5vw;
   }
   .hero-secondary {
-      font-size: 2vw;
+      font-size: 2.5vw;
   }
   .hero-content img {
     width: 7%;
@@ -2397,6 +2489,23 @@ body div#ui-datepicker-div[style] {
   }
   .subheading {
     font-size: 1.5vw;
+  }
+}
+@media (max-aspect-ratio: 5/1 ) and (min-width: 2560px) {
+  .hero-lead {
+      font-size: 2vw;
+  }
+  .hero-secondary {
+      font-size: 1.5vw;
+  }
+  .hero-content img {
+    width: 5%;
+  }
+  .blkb img {
+    width: 18vw;
+  }
+  .slick-track img {
+    width: 5vw;
   }
 }
 </style>
@@ -2424,8 +2533,8 @@ body div#ui-datepicker-div[style] {
             <div id="page-hero" class="hero-content-wrapper">
               <div class="hero-content">
                 <picture><source type="image/png" srcset="/assets/images/2057efe4-111.png 111w"><img alt="Blackcoin Logo" loading="lazy" decoding="async" src="/assets/images/2057efe4-111.jpeg" width="111" height="128"></picture>
-                <h1 class="hero-lead">Блэккойн</h1>
-                <h2 class="h-alt hero-secondary">Чистое доказательство ставки с 2014 года</h2>
+                <h1 class="hero-lead">Blackcoin</h1>
+                <h2 class="h-alt hero-secondary">100% Proof of Stake с 2014 года</h2>
                 <center>
                   <a href="#community" class="join-community">
                      <picture><source type="image/png" srcset="/assets/images/8fa1dfd8-350.png 350w"><img alt="Join the Blackcoin Community!" loading="lazy" decoding="async" src="/assets/images/8fa1dfd8-350.jpeg" width="350" height="46"></picture>
@@ -2497,7 +2606,7 @@ body div#ui-datepicker-div[style] {
 </header>
 <section class="container section ft-x">
   <header class="sec-heading">
-      <h2 class="golden" id="about">О BlackCoin</h2>
+      <h2 class="golden" id="about">О Blackcoin</h2>
   </header>
   <div class="col-row">
     <!-- Feature 1 -->
@@ -2505,8 +2614,8 @@ body div#ui-datepicker-div[style] {
       <!-- Ft Icon 1 (left) -->
       <div class="no-gap ft-item ft-material right-align">
         <div class="ft-content">
-          <h3>ДОКАЗАТЕЛЬСТВО СТАВКИ 3.0</h3>
-          <p> Пользователи, которые держат свой кошелек открытым для защиты сети с помощью ставок, будут получать от 1% до 8% вознаграждения в год (зависит от веса сети).  <a href="https://blackcoin.org/faq/">Читать далее...</a></p>
+          <h3>PROOF OF STAKE 3.0</h3>
+          <p> Пользователи, которые держат свой кошелек открытым для защиты сети с помощью proof of stake механизма, будут получать от 1% до 8% вознаграждения в год (зависит от веса сети).  <a href="https://blackcoin.org/faq/">Читать далее...</a></p>
         </div>
         <div class="ft-icon">
           <i class="icon">🔥</i>
@@ -2517,8 +2626,8 @@ body div#ui-datepicker-div[style] {
       <!-- Ft Icon 2 (left) -->
       <div class="no-gap ft-item ft-material right-align">
         <div class="ft-content">
-          <h3>ЭКОЛОГИЧЕСКИЙ</h3>
-          <p>На основе Proof-of-Stake. Больше нет энергоемкого оборудования для майнинга.</p>
+          <h3>ЭКО-ФРЕНДЛИ</h3>
+          <p>На основе Proof-of-Stake. Не требует энергоемкого оборудования для майнинга.</p>
         </div>
         <div class="ft-icon">
           <i class="icon">🌲</i>
@@ -2529,8 +2638,8 @@ body div#ui-datepicker-div[style] {
       <!-- Ft Icon 3 (left) -->
       <div class="no-gap ft-item ft-material right-align">
         <div class="ft-content">
-          <h3>ПРОЗРАЧНЫЙ ЛЕДГЕР</h3>
-          <p>Все делятся историей бухгалтерской книги, поэтому она полностью прозрачна.</p>
+          <h3>ПРОЗРАЧНОСТЬ</h3>
+          <p>История трансакций полностью прозрачна для всех.</p>
         </div>
         <div class="ft-icon">
           <i class="icon">📄</i>
@@ -2546,24 +2655,24 @@ body div#ui-datepicker-div[style] {
       <!-- Ft Icon 4 (right) -->
       <div class="no-gap ft-item ft-material right-align">
         <i class="icon">🆓</i>
-        <h3>ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ С ОТКРЫТЫМ ИСХОДНЫМ КОДОМ</h3>
-        <p>Программное обеспечение (кошелек) имеет открытый исходный код, поэтому его безопасность можно проверить.</p>
+        <h3>OPEN SOURCE</h3>
+        <p>Программное обеспечение (кошелек) имеет открытый исходный код, и в его безопасности можно убедиться.</p>
       </div><!-- / .ft-item -->
       <br><br><br>
 
       <!-- Ft Icon 5 (right) -->
       <div class="no-gap ft-item ft-material right-align">
         <i class="icon">⚡</i>
-        <h3>БЫСТРЫЕ СДЕЛКИ</h3>
-        <p>Это очень быстро, вы можете отправить деньги кому угодно в мире за считанные секунды.</p>
+        <h3>СКОРОСТЬ</h3>
+        <p>Вы можете отправить деньги кому угодно в мире за считанные секунды.</p>
       </div><!-- / .ft-item -->
       <br><br><br>
 
       <!-- Ft Icon 6 (right) -->
       <div class="no-gap ft-item ft-material right-align">
         <i class="icon">👁️</i>
-        <h3>АНОНИМНЫЙ</h3>
-        <p>Любой может запустить кошелек и совершать транзакции с той же анонимностью, что и биткойн. Никакой личной информации, позволяющей установить личность, не требуется.</p>
+        <h3>АНОНИМНОСТЬ</h3>
+        <p>Любой может запустить кошелек и совершать транзакции с той же анонимностью, что и в сети биткойн. Никакой личной информации, позволяющей установить личность, не требуется.</p>
       </div><!-- / .ft-item -->
     </div><!-- / .-->
   </div><!-- / .row -->
@@ -2613,7 +2722,7 @@ body div#ui-datepicker-div[style] {
           <span>
           <span style="color: #CCC;"><i class="fa fa-info-circle"></i> Проверить  </span>
             <a rel="noopener" target="_blank" href="https://www.coingecko.com/en/coins/blackcoin" alt="">
-              объем рынка
+              объем торгов
             </a>
           </span>
         </h4>
@@ -2627,28 +2736,26 @@ body div#ui-datepicker-div[style] {
 <div class="gray-bg">
   <header class="sec-heading">
       <h2 class="golden" id="downloads">Загрузки</h2>
-    <span class="subheading">Официальные файлы BlackCoin</span>
+    <span class="subheading">Кошельки Blackcoin</span>
   </header>
   <section id="services" class="container section ft-boxed-hover">
         <ul class="col-row">
           <!-- Item 1 -->
           <li>
             <div class="hover-label">
-              <picture><source type="image/png" srcset="/assets/images/ae14d91c-75.png 75w"><img alt="Blackcoin More Logo" loading="lazy" decoding="async" src="/assets/images/ae14d91c-75.jpeg" width="75" height="130"></picture>
+              <h3>More</h3>
             </div>
-            <h3>БОЛЬШЕ КОШЕЛЬКА</h3>
             <div class="hover-content">
               <a alt="Blackcoin More Website" href="https://blackcoinmore.org" ><picture><source type="image/png" srcset="/assets/images/a2ef9ef1-100.png 100w"><img alt="Blackcoin More" loading="lazy" decoding="async" src="/assets/images/a2ef9ef1-100.jpeg" width="100" height="100"></picture></a>
               <p><span style="color: #aaa;">Blackcoin More v2.13.2.8</span></p>
-              <p class="pd-15px">Сообщество поддержало кошелек.</p>
+              <p class="pd-15px">Основной кошелек, поддерживаемый сообществом.</p>
             </div><!-- / .hover-content -->
           </li>
           <!-- Item 2 -->
           <li>
             <div class="hover-label">
-              <picture><source type="image/png" srcset="/assets/images/8b3076f0-75.png 75w"><img alt="Mobile Wallets" loading="lazy" decoding="async" src="/assets/images/8b3076f0-75.jpeg" width="75" height="130"></picture>
+              <h3>МОБИЛЬНЫЕ КОШЕЛЬКИ</h3>
             </div>
-            <h3>МОБИЛЬНЫЕ КОШЕЛЬКИ</h3>
             <div class="hover-content">
               <a href="https://coinomi.com/"><span><picture><source type="image/png" srcset="/assets/images/f5bf20e9-150.png 150w"><img alt="Coinomi Multicoin Wallet" loading="lazy" decoding="async" src="/assets/images/f5bf20e9-150.jpeg" width="150" height="86"></picture> </span></a>
               <a href="https://abra.com/"><span><picture><source type="image/svg+xml" srcset="/assets/images/9a4291a3-156.svg 156w"><source type="image/png" srcset="/assets/images/9a4291a3-156.png 156w"><img alt="Abra Multicoin Wallet" loading="lazy" decoding="async" src="/assets/images/9a4291a3-156.jpeg" width="156" height="40"></picture> </span></a>
@@ -2658,23 +2765,21 @@ body div#ui-datepicker-div[style] {
           <!-- Item 3 -->
           <li>
             <div class="hover-label">
-              <picture><source type="image/png" srcset="/assets/images/6a968536-75.png 75w"><img alt="Blackhalo Logo" loading="lazy" decoding="async" src="/assets/images/6a968536-75.jpeg" width="75" height="130"></picture>
+              <h3>BlackHalo</h3>
             </div>
-            <h3>BlackHalo</h3>
             <div class="hover-content">
-              <p><span style="color: #aaa;">BlackHalo</span></p>
               <a href="https://blackhalo.info/#section-call-to-actiontwo"><picture><source type="image/png" srcset="/assets/images/6a968536-75.png 75w"><img alt="BlackHalo Logo" loading="lazy" decoding="async" src="/assets/images/6a968536-75.jpeg" width="75" height="130"></picture></a>
+              <p><span style="color: #aaa;">BlackHalo</span></p>
             </div><!-- / .hover-content -->
           </li>
           <!-- Item 4 -->
           <li>
             <div class="hover-label">
-              <picture><source type="image/png" srcset="/assets/images/e63170f0-75.png 75w"><img alt="Blackcoin Logo" loading="lazy" decoding="async" src="/assets/images/e63170f0-75.jpeg" width="75" height="130"></picture>
+              <h3>Blackcoin Legacy</h3>
             </div>
-            <h3>КОШЕЛЕК НАСЛЕДИЯ</h3>
             <div class="hover-content">
-              <p><span style="color: #aaa;">КОШЕЛЕК НАСЛЕДИЯ v1.2.x </span></p>
-              <a href="https://gitlab.com/blackcoin/blackcoin/-/blob/master/README.md"><span>Исходный код Gitlab</span></span></a>
+              <p><span style="color: #aaa;">Blackcoin Legacy v1.2.x </span></p>
+              <a href="https://gitlab.com/blackcoin/blackcoin/-/blob/master/README.md"><span>Исходный код на Gitlab</span></span></a>
             </div><!-- / .hover-content -->
           </li>
         </ul>
@@ -2688,7 +2793,7 @@ body div#ui-datepicker-div[style] {
         <center>
           <h3>
             <a name="community" alt="Join the Blackcoin Community!">
-              <span style="color: #FFFFFF;">Присоединяйтесь к сообществу BlackCoin</span>
+              <span style="color: #FFFFFF;">Присоединяйтесь к сообществу Blackcoin</span>
             </a>
           </h3>
         </center>
@@ -2755,13 +2860,13 @@ body div#ui-datepicker-div[style] {
     <div class="bg-overlay">
       <div class="container">
         <center>
-            <h3 id="support"><span style="color: #ffffff;">Поддержка BlackCoin</span></h3>
+            <h3 id="support"><span style="color: #ffffff;">Поддержать Blackcoin</span></h3>
         </center>
 
         <center>
           <h4 class="golden">
             <!--<a href="bounties/">Bounties</a><span style="color: #A0A0A0;">&emsp; | &emsp;</span>-->
-            <a id="donation-link" alt="Link to Donations Page" href="donations/">Пожертвования</a>
+            <a id="donation-link" alt="Link to Donations Page" href="donations/">Донаты</a>
           </h4>
           <center>
           </center>
@@ -4558,9 +4663,9 @@ $(window).on("load", function (e) {
       <div class="copyright">
           <div class="container">
             <div class="row">
-                <small>&copy; 2014-<span id="copyright"></span> Блэккойн Все права защищены. </small>
+                <small>&copy; 2014-<span id="copyright"></span> Blackcoin Все права защищены. </small>
               <div class="col-md-6">
-                <small><a href="#page-top" class="pull-right to-the-top">Наверх ^ </a></small>
+                <small><a href="#page-top" class="pull-right to-the-top">Вверх ^ </a></small>
               </div>
             </div><!-- / .row -->
           </div><!-- / .container -->

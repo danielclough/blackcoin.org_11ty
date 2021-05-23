@@ -10,9 +10,8 @@
           <!-- Item 1 -->
           <li>
             <div class="hover-label">
-              {% image "./src/assets/images/more.png", "Blackcoin More Logo" %}
+              <h3>{{ 'more_wallet' | i18n }}</h3>
             </div>
-            <h3>{{ 'more_wallet' | i18n }}</h3>
             <div class="hover-content">
               <a alt="Blackcoin More Website" href="https://blackcoinmore.org" >{% image "./src/assets/images/logo-more-bw-sm.png", "Blackcoin More" %}</a>
               <p><span style="color: #aaa;">{{ 'blackcoin_more' | i18n }} v2.13.2.8</span></p>
@@ -22,9 +21,8 @@
           <!-- Item 2 -->
           <li>
             <div class="hover-label">
-              {% image "./src/assets/images/mwallets.png", "Mobile Wallets" %}
+              <h3>{{ 'mobile_wallets' | i18n }}</h3>
             </div>
-            <h3>{{ 'mobile_wallets' | i18n }}</h3>
             <div class="hover-content">
               <a href="https://coinomi.com/"><span>{% image "./src/assets/images/coinomi.png", "Coinomi Multicoin Wallet" %} </span></a>
               <a href="https://abra.com/"><span>{% image "./src/assets/images/svg/abra-logo-white.svg", "Abra Multicoin Wallet"  %} </span></a>
@@ -34,20 +32,18 @@
           <!-- Item 3 -->
           <li>
             <div class="hover-label">
-              {% image "./src/assets/images/blackhalo2.png", "Blackhalo Logo" %}
+              <h3>{{ 'blackhalo' | i18n }}</h3>
             </div>
-            <h3>{{ 'blackhalo' | i18n }}</h3>
             <div class="hover-content">
-              <p><span style="color: #aaa;">{{ 'blackhalo' | i18n }}</span></p>
               <a href="https://blackhalo.info/#section-call-to-actiontwo">{% image "./src/assets/images/blackhalo2.png", "BlackHalo Logo" %}</a>
+              <p><span style="color: #aaa;">{{ 'blackhalo' | i18n }}</span></p>
             </div><!-- / .hover-content -->
           </li>
           <!-- Item 4 -->
           <li>
             <div class="hover-label">
-              {% image "./src/assets/images/original.png", "Blackcoin Logo" %}
+              <h3>{{ 'legacy_wallet' | i18n }}</h3>
             </div>
-            <h3>{{ 'legacy_wallet' | i18n }}</h3>
             <div class="hover-content">
               <p><span style="color: #aaa;">{{ 'legacy_wallet' | i18n }} v1.2.x </span></p>
               <a href="https://gitlab.com/blackcoin/blackcoin/-/blob/master/README.md"><span>{{ 'legacy_gitlab' | i18n }}</span></span></a>

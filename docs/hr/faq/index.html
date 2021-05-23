@@ -226,7 +226,7 @@ NavBar
 }
 
 .ccc-widget {
-  width: 33vw;
+  width: 33%;
 }
 
 
@@ -386,12 +386,28 @@ NavBar
   #hamburger-toggle {
     display: none;
   }
+  #navbar ul li ul {
+    position: fixed;
+    left: 0;
+    background-color: #111;
+    width: 100vw;
+    text-align: center;
+  }
   .body {
     font-size: 1.3vw;
   }
   .container{
-    width:70vw; 
+    width:70%; 
     margin: 0 auto;
+  }
+  .section{
+    padding-top:3rem;
+    padding-bottom:3rem;
+  }
+  .gray-bg {
+    position: relative;
+    top: 3.5rem;
+    margin-bottom: 3.5rem;
   }
   #navbar {
     justify-content: space-around;
@@ -402,8 +418,9 @@ NavBar
     margin: 1.15vw 0 0 0;
   }
   #menu-main {
-    display: flex;
-    justify-content: space-around;
+    position: relative;
+    display: flex !important;
+    justify-content: space-between;
     font-size: 1.2vw;
     margin: 1.5vw 0 0 0;
   }
@@ -457,6 +474,67 @@ NavBar
   }
   .footer-social-links ul li {
     font-size: 1.5vw;
+  }
+}
+
+@media (min-width: 2560px) {
+  h1 {
+    font-size: 2.5vw;
+  }
+  h2 {
+    font-size: 1vw;
+  }
+  h3 {
+    font-size: 1.5vw;
+  }
+
+  h4 {
+    font-size: 1.2vw;
+  }
+  p {
+    font-size: 1vw;
+  }
+  .body {
+    font-size: 1vw;
+  }
+  .gray-bg {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+}
+
+@media (max-aspect-ratio: 5/1 ) and (min-width: 2560px) {
+  h1 {
+    font-size: 2vw;
+  }
+  h2 {
+    font-size: 1.4vw;
+  }
+  h3 {
+    font-size: .8vw;
+  }
+
+  h4 {
+    font-size: .8vw;
+  }
+  p {
+    font-size: .65vw;
+  }
+  .body {
+    font-size: .75vw;
+  }
+  .container {
+    width: 50%;
+  }
+  .copyright {
+    font-size: .75vw;
+  }
+  .footer-social-links ul li {
+    font-size: 1vw;
+  }
+  .col-row {
+    width: 100%;
   }
 }
 </style>
@@ -557,8 +635,6 @@ NavBar
                     <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="//">Početna stranica</a></li>
                     <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="#about"></a></li>
                     <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="#community"></a></li>
-                    <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="//donations"></a></li>
-                    <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="//faq"><span style="color: #ddb77a;"></span></a></li>
                     <!--<li><a href="bounties/">Bounties</a></li>-->
                 </ul>
 
@@ -577,7 +653,7 @@ NavBar
                         <!--<li><a href="https://en.wikipedia.org/wiki/BlackCoin">Wikipedia</a></li>-->
                     </ul>
                 </li>
-                <li><a onclick="parentElement.parentElement.style.display = 'none'" href="#downloads"></a></li>
+                <li><a onclick="parentElement.parentElement.style.display = 'none'" href="/#downloads"></a></li>
                 <li><a href="#" onclick="return dropDown(this)"></a>
                     <ul>
                         <div  id="nav-markets">
@@ -785,6 +861,8 @@ NavBar
 </div>
                     </ul>
                 </li>
+                <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="//donations"></a></li>
+                <li><a  onclick="parentElement.parentElement.parentElement.parentElement.style.display = 'none'" href="//faq"><span style="color: #ddb77a;"></span></a></li>
                 
 <ul id="lang-select">
 	<a href="#" onclick="return dropDown(this)">Select language</a>
