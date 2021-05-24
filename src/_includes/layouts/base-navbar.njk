@@ -1,6 +1,6 @@
 <nav id="navbar" role="navigation">
     <!-- Logo -->
-    <a id="nav-logo" href="/"> 
+    <a id="nav-logo" href="/{{ locale }}/"> 
         {% image "./src/assets/images/blkb.png", "Blackcoin - Logo" %}
     </a>
     <row>
@@ -30,7 +30,7 @@
                         <!--<li><a href="https://en.wikipedia.org/wiki/BlackCoin">Wikipedia</a></li>-->
                     </ul>
                 </li>
-                <li><a onclick="parentElement.parentElement.style.display = 'none'" href="/#downloads">{{download}}</a></li>
+                <li><a onclick="parentElement.parentElement.style.display = 'none'" href="/{{ locale }}/#downloads">{{download}}</a></li>
                 <li><a href="#" onclick="return dropDown(this)">{{markets}}</a>
                     <ul>
                         <div  id="nav-markets">
