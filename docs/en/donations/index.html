@@ -140,7 +140,7 @@ NavBar
 }
 
 #menu-main a {
-  padding: 1rem;
+  margin: 1rem;
 }
 
 #navbar ul li ul {
@@ -164,7 +164,7 @@ NavBar
   left: 0;
 }
 #menu a {
-  padding: 1.5rem;
+  margin: 1.5rem;
 }
 
 #menu-locale {
@@ -470,6 +470,12 @@ NavBar
   p {
     font-size: .92vw;
   }
+  #menu-main {
+    font-size: 1vw;
+  }
+  #nav-logo img {
+    width: 2vw;
+  }
   .body {
     font-size: 1vw;
   }
@@ -484,25 +490,29 @@ NavBar
 
 @media (min-width: 2560px) {
   h1 {
-    font-size: 2.5vw;
+    font-size: 2vw;
   }
   h2 {
-    font-size: 1vw;
+    font-size: 1.2vw;
   }
   h3 {
-    font-size: 1.5vw;
+    font-size: 1.1vw;
   }
 
   h4 {
-    font-size: 1.2vw;
+    font-size: 1vw;
   }
   p {
-    font-size: 1vw;
+    font-size: .7vw;
   }
   .body {
     font-size: 1vw;
   }
+  #menu-main {
+    line-height: 3.5rem;
+  }
   .gray-bg {
+    top: 4.5rem;
     width: 60%;
     margin-left: auto;
     margin-right: auto; 
@@ -955,13 +965,18 @@ a:focus {
 		font-size: 2vw;
 	}
 	.under-content p {
-		font-size: 1vw;
+		font-size: .85vw;
 	}
 	.ft-boxed-hover ul {
 		display: flex;
 		flex-flow: row wrap;
 		justify-content: center;
-		margin: 0 auto;
+	}
+	.ft-boxed-hover ul li {
+		width: 25%;
+	}
+	.subheading {
+		font-size: 1.2vw;
 	}
 }
 
@@ -985,13 +1000,16 @@ a:focus {
 		font-size: .6vw;
 	}
 	.under-content p {
-		font-size: .8vw;
+		font-size: .7vw;
 	}
 	.under-content a {
 		font-size: .7vw;
 	}
 	.gray-bg {
 		width: 80%;
+	}
+	.subheading {
+		font-size: .7vw;
 	}
 }
 
@@ -1060,7 +1078,7 @@ a:focus {
 <div>
   <ul>
     <li>
-      <h5 class="donation-title">Blackcoin.org Website Development</h5>
+      <h5 class="donation-title">Blackcoin.org Website</h5>
       <div class="under-content">          
         <span class="ft-heading">More Info</span>
         <p>
@@ -1071,7 +1089,7 @@ a:focus {
     </li>
     
     <li>
-      <h5 class="donation-title">Blackcoin.nl Website Development</h5>
+      <h5 class="donation-title">Blackcoin.nl Website</h5>
       <div class="under-content">          
         <span class="ft-heading">More Info</span>
         <p>

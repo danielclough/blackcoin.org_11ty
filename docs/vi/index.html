@@ -140,7 +140,7 @@ NavBar
 }
 
 #menu-main a {
-  padding: 1rem;
+  margin: 1rem;
 }
 
 #navbar ul li ul {
@@ -164,7 +164,7 @@ NavBar
   left: 0;
 }
 #menu a {
-  padding: 1.5rem;
+  margin: 1.5rem;
 }
 
 #menu-locale {
@@ -470,6 +470,12 @@ NavBar
   p {
     font-size: .92vw;
   }
+  #menu-main {
+    font-size: 1vw;
+  }
+  #nav-logo img {
+    width: 2vw;
+  }
   .body {
     font-size: 1vw;
   }
@@ -484,25 +490,29 @@ NavBar
 
 @media (min-width: 2560px) {
   h1 {
-    font-size: 2.5vw;
+    font-size: 2vw;
   }
   h2 {
-    font-size: 1vw;
+    font-size: 1.2vw;
   }
   h3 {
-    font-size: 1.5vw;
+    font-size: 1.1vw;
   }
 
   h4 {
-    font-size: 1.2vw;
+    font-size: 1vw;
   }
   p {
-    font-size: 1vw;
+    font-size: .7vw;
   }
   .body {
     font-size: 1vw;
   }
+  #menu-main {
+    line-height: 3.5rem;
+  }
   .gray-bg {
+    top: 4.5rem;
     width: 60%;
     margin-left: auto;
     margin-right: auto; 
@@ -2480,37 +2490,40 @@ body div#ui-datepicker-div[style] {
 }
 
 @media (min-aspect-ratio: 17/10 ) and (min-width: 1080px) {
-  .hero-lead {
-      font-size: 3.5vw;
-  }
-  .hero-secondary {
-      font-size: 2.5vw;
-  }
   .hero-content img {
-    width: 7%;
+    width: 3.5%;
   }
-  .join-community img {
-    width: 20%;
-  }
-  .subheading {
-    font-size: 1.5vw;
-  }
-}
-@media (max-aspect-ratio: 5/1 ) and (min-width: 2560px) {
   .hero-lead {
       font-size: 2vw;
   }
   .hero-secondary {
-      font-size: 1.5vw;
+      font-size: 1.3vw;
   }
+  .join-community img {
+    width: 8%;
+  }
+  .subheading {
+    font-size: 1.5vw;
+  }
+  .footer-social-links li a {
+    font-size: 1vw;
+  }
+}
+@media (max-aspect-ratio: 5/1 ) and (min-width: 2560px) {
   .hero-content img {
-    width: 5%;
+    width: 6%;
+  }
+  .hero-lead {
+      font-size: 2vw;
   }
   .blkb img {
-    width: 18vw;
+    width: 17vw;
   }
   .slick-track img {
     width: 5vw;
+  }
+  #donation-link {
+    font-size: 2vw;
   }
 }
 </style>
