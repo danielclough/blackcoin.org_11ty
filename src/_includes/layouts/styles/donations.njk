@@ -1,10 +1,88 @@
 <style id="donations" type="text/css">
-h5 {
-	color: #eee;
+
+.container {
+	width: 100%;
+}
+.gray-bg {
+	width: 100%;
 }
 
 .ft-boxed-hover ul li {
 	background-color: #111;
+	align-self: stretch;
+}
+
+.donation-title {
+	color: #eee;
+	font-size: 6vw;
+}
+
+.under-content p {
+	color: #eee;
+	font-size: 2.8vw;
+}
+
+@media (min-width: 1080px) {
+	.donation-title {
+		font-size: 2vw;
+	}
+	.under-content p {
+		font-size: 1vw;
+	}
+	.ft-boxed-hover ul {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		margin: 0 auto;
+	}
+}
+
+@media (min-aspect-ratio: 17/10 ) and (min-width: 1080px) {
+	.donation-title {
+		font-size: 1.5vw;
+	}
+	.under-content p {
+		font-size: .8vw;
+	}
+}
+
+@media (min-width: 2560px) {
+	.donation-title {
+		font-size: 1vw;
+	}
+	.h-alt {
+		font-size: .8vw;
+	}
+	.ft-heading {
+		font-size: .6vw;
+	}
+	.under-content p {
+		font-size: .8vw;
+	}
+	.under-content a {
+		font-size: .7vw;
+	}
+	.gray-bg {
+		width: 80%;
+	}
+}
+
+@media (min-aspect-ratio: 4/1 ) and (min-width: 2560px) {
+	.donation-title {
+		font-size: .8vw;
+	}
+	.h-alt {
+		font-size: .6vw;
+	}
+	.ft-heading {
+		font-size: .4vw;
+	}
+	.under-content p {
+		font-size: .6vw;
+	}
+	.under-content a {
+		font-size: .5vw;
+	}
 }
 
 </style>

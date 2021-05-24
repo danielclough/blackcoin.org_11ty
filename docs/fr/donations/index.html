@@ -82,6 +82,11 @@ li {
   padding-bottom:.5rem;
 }
 
+.gray-bg {
+  position: relative;
+  top: 2rem;
+  margin-bottom: 2rem;
+}
 
 /*
 NavBar
@@ -570,11 +575,11 @@ NavBar
 .ft-boxed-hover ul li .ft-icon{ color:#777 }
 .ft-boxed-hover ul li .h-alt{ color:#999 }
 
-.hover-label {
-  display: none;
-}
 
 @media (min-width: 1080px) {
+  .hover-label {
+    display: none;
+  }
   .ft-boxed-hover ul li .hover-content{ 
     display: flex;
     justify-content: center;
@@ -922,12 +927,90 @@ a:focus {
 }
 </style>
 	<style id="donations" type="text/css">
-h5 {
-	color: #eee;
+
+.container {
+	width: 100%;
+}
+.gray-bg {
+	width: 100%;
 }
 
 .ft-boxed-hover ul li {
 	background-color: #111;
+	align-self: stretch;
+}
+
+.donation-title {
+	color: #eee;
+	font-size: 6vw;
+}
+
+.under-content p {
+	color: #eee;
+	font-size: 2.8vw;
+}
+
+@media (min-width: 1080px) {
+	.donation-title {
+		font-size: 2vw;
+	}
+	.under-content p {
+		font-size: 1vw;
+	}
+	.ft-boxed-hover ul {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		margin: 0 auto;
+	}
+}
+
+@media (min-aspect-ratio: 17/10 ) and (min-width: 1080px) {
+	.donation-title {
+		font-size: 1.5vw;
+	}
+	.under-content p {
+		font-size: .8vw;
+	}
+}
+
+@media (min-width: 2560px) {
+	.donation-title {
+		font-size: 1vw;
+	}
+	.h-alt {
+		font-size: .8vw;
+	}
+	.ft-heading {
+		font-size: .6vw;
+	}
+	.under-content p {
+		font-size: .8vw;
+	}
+	.under-content a {
+		font-size: .7vw;
+	}
+	.gray-bg {
+		width: 80%;
+	}
+}
+
+@media (min-aspect-ratio: 4/1 ) and (min-width: 2560px) {
+	.donation-title {
+		font-size: .8vw;
+	}
+	.h-alt {
+		font-size: .6vw;
+	}
+	.ft-heading {
+		font-size: .4vw;
+	}
+	.under-content p {
+		font-size: .6vw;
+	}
+	.under-content a {
+		font-size: .5vw;
+	}
 }
 
 </style>
@@ -940,108 +1023,108 @@ h5 {
         <span class="subheading">Support BlackCoin and donate to the developers and the ongoing projects.</span>
       </header>
       <section id="services" class="container section ft-boxed-hover">
-          	<!-- ========== Developers ========== -->
-  <center>
+          	  <center>
   <h4>ONGOING PROJECTS</h4>
 </center>
 <div>
   <ul>
     <!-- Item 1 -->
     <li>
-      <h5>Facebook</h5>
-      <h6 class="h-alt">Facebook News</h6>
-      <div class="hover-content">          
-        <span class="ft-heading">More Info</span>
-        <p>
-          B6sKk2SpDX8s7jrmfeMCTEjM26AnKe7Ukg
-        </p>
-        <a href="https://www.facebook.com/BlackcoinOrg/" class="link-btn">Facebook</a>
-      </div><!-- / .hover-content -->
-    </li>
-    <!-- Item 2 -->
-    <li>
-      <h5>NL Twitter</h5>
-      <h6 class="h-alt">BlackcoinNL Twitter</h6>
-      <div class="hover-content">          
-        <span class="ft-heading">More Info</span>
-        <p>
-          BTUfUZRRRBwMqJfLaivNcCPCZDZFWgSLqU
-        </p>
-        <a href="https://twitter.com/BlackcoinNL" class="link-btn">Twitter</a>
-      </div><!-- / .hover-content -->
-    </li>
-    <!-- Item 3 -->
-    <li>
-      <h5>Org Twitter</h5>
-      <h6 class="h-alt">BlackcoinOrg Twitter</h6>
-      <div class="hover-content">          
-        <span class="ft-heading">More Info</span>
-        <p>
-          BH3mZaDVqLiZFPTMozcGuu5CfKKoHxSN1b
-        </p>
-        <a href="https://twitter.com/BlackcoinOrg" class="link-btn">Twitter</a>
-      </div><!-- / .hover-content -->
-    </li>
-    <!-- Item 4 -->
-    <li>
-      <h5>Org Website</h5>
-      <h6 class="h-alt">BlackCoin.org Website Development</h6>
-      <div class="hover-content">          
-        <span class="ft-heading">More Info</span>
-        <p>
-          BBSXy2Aj8EwsxdUcCymdghD4KaPQUS7ugA
-        </p>
-        <a href="https://blackcoin.org" class="link-btn">BlackCoin.org Website</a>
-      </div><!-- / .hover-content -->
-    </li>
-    <!-- Item 5 -->
-    <li>
-      <h5>NL Website</h5>
-      <h6 class="h-alt">BlackCoin.nl Website Development</h6>
-      <div class="hover-content">          
-        <span class="ft-heading">More Info</span>
-        <p>
-          B9to13TPTZZbyS3eewAz8nGbXx7zTjz3BM
-        </p>
-        <a href="https://blackcoin.nl" class="link-btn">BlackCoin.nl Website</a>
-      </div><!-- / .hover-content -->
-    </li>
-    <!-- Item 6 -->
-    <li>
-      <h5>Hosting</h5>
-      <h6 class="h-alt">Server Hosting (VPS)</h6>
-      <div class="hover-content">          
+      <h5 class="donation-title">Server Hosting (VPS)</h5>
+      <div class="under-content">          
         <span class="ft-heading">More Info</span>
         <p>
           BMWvMeEa88iqBCevi9dVX8GAhnPCh3JBHx
         </p>
         <a href="https://contabo.com/?show=vps" class="link-btn">Provider Website</a>
-      </div><!-- / .hover-content -->
+      </div><!-- / .under-content -->
     </li>
-    <!-- Item 7 -->
+    <!-- Item 2 -->
     <li>
-      <h5>Webwallet</h5>
-      <h6 class="h-alt">PayBLK</h6>
-      <div class="hover-content">          
+      <h5 class="donation-title">PayBLK</h5>
+      <div class="under-content">          
         <span class="ft-heading">More Info</span>
         <p>
           B8HhsoPzuyppCZseYd2i4zdGE4g9o7kvZ9
         </p>
         <a href="https://payblk.blackcoin.io" class="link-btn">payBLK Webwallet</a>
-      </div><!-- / .hover-content -->
+      </div><!-- / .under-content -->
     </li>
-    <!-- Item 8 -->
+  </ul>
+</div>
+<h4>&nbsp;</h4>
+<h4>&nbsp;</h4>
+  <center>
+  <h4>EDUCATION & OUTREACH</h4>
+</center>
+<div>
+  <ul>
     <li>
-      <h5>Listing</h5>
-      <h6 class="h-alt">Exchange Listings</h6>
-      <div class="hover-content">          
+      <h5 class="donation-title">Blackcoin.org Website Development</h5>
+      <div class="under-content">          
+        <span class="ft-heading">More Info</span>
+        <p>
+          BBSXy2Aj8EwsxdUcCymdghD4KaPQUS7ugA
+        </p>
+        <a href="https://blackcoin.org" class="link-btn">BlackCoin.org Website</a>
+      </div><!-- / .under-content -->
+    </li>
+    
+    <li>
+      <h5 class="donation-title">Blackcoin.nl Website Development</h5>
+      <div class="under-content">          
+        <span class="ft-heading">More Info</span>
+        <p>
+          B9to13TPTZZbyS3eewAz8nGbXx7zTjz3BM
+        </p>
+        <a href="https://blackcoin.nl" class="link-btn">BlackCoin.nl Website</a>
+      </div><!-- / .under-content -->
+    </li>
+    
+    <li>
+      <h5 class="donation-title">Exchange Listings</h5>
+      <div class="under-content">          
         <span class="ft-heading">More Info</span>
         <p>
           BBXBrYnrhbDyo44eRxeUPVjqPpNk9bBg8b
         </p>
         <a href="https://blackcoin.org/#buy" class="link-btn">Current Listings</a>
-      </div><!-- / .hover-content -->
+      </div><!-- / .under-content -->
     </li>
+    
+    <li>
+      <h5 class="donation-title">Facebook News</h5>
+      <div class="under-content">          
+        <span class="ft-heading">More Info</span>
+        <p>
+          B6sKk2SpDX8s7jrmfeMCTEjM26AnKe7Ukg
+        </p>
+        <a href="https://www.facebook.com/BlackcoinOrg/" class="link-btn">Facebook</a>
+      </div><!-- / .under-content -->
+    </li>
+    
+    <li>
+      <h5 class="donation-title">BlackcoinNL Twitter</h5>
+      <div class="under-content">          
+        <span class="ft-heading">More Info</span>
+        <p>
+          BTUfUZRRRBwMqJfLaivNcCPCZDZFWgSLqU
+        </p>
+        <a href="https://twitter.com/BlackcoinNL" class="link-btn">Twitter</a>
+      </div><!-- / .under-content -->
+    </li>
+    
+    <li>
+      <h5 class="donation-title">BlackcoinOrg Twitter</h5>
+      <div class="under-content">          
+        <span class="ft-heading">More Info</span>
+        <p>
+          BH3mZaDVqLiZFPTMozcGuu5CfKKoHxSN1b
+        </p>
+        <a href="https://twitter.com/BlackcoinOrg" class="link-btn">Twitter</a>
+      </div><!-- / .under-content -->
+    </li>
+    
   </ul>
 </div>
 <h4>&nbsp;</h4>
@@ -1054,9 +1137,9 @@ h5 {
   <ul>
     <!-- Item 1 -->
     <li>
-      <h5>Lateminer</h5>
+      <h5 class="donation-title">Lateminer</h5>
       <h6 class="h-alt">Development Lead</h6>
-      <div class="hover-content">          
+      <div class="under-content">          
         <span class="ft-heading">More Info</span>
         <p>
           BDFgwjx8q9xrpeNzyY1Hz8x36Dmg39C4BU
@@ -1066,9 +1149,9 @@ h5 {
     </li>
     <!-- Item 2 -->
     <li>
-      <h5>Michel van Kessel</h5>
+      <h5 class="donation-title">Michel van Kessel</h5>
       <h6 class="h-alt">Technical Lead</h6>
-      <div class="hover-content">          
+      <div class="under-content">          
         <span class="ft-heading">More Info</span>
         <p>
           BB21eF5fEH3cvr1ApmWbzYA14L529DFjtJ
@@ -1079,9 +1162,9 @@ h5 {
     </li>
     <!-- Item 3 -->
     <li>
-      <h5>Daniel Clough</h5>
+      <h5 class="donation-title">Daniel Clough</h5>
       <h6 class="h-alt">Community Lead</h6>
-      <div class="hover-content">          
+      <div class="under-content">          
         <span class="ft-heading">More Info</span>
         <p>
           B6sKk2SpDX8s7jrmfeMCTEjM26AnKe7Ukg
@@ -1093,9 +1176,9 @@ h5 {
     </li>
     <!-- Item 4 -->
     <li>
-      <h5>David Zimbeck</h5>
+      <h5 class="donation-title">David Zimbeck</h5>
       <h6 class="h-alt">BlackHalo Developer</h6>
-      <div class="hover-content">          
+      <div class="under-content">          
         <span class="ft-heading">More Info</span>
         <p>
           bMDqFjNxhLNgE63F7F5ixDSRyMP7xwWL8K
@@ -1114,9 +1197,9 @@ h5 {
   
   <ul>
     <li>
-      <h5>markBLK</h5>
+      <h5 class="donation-title">markBLK</h5>
       <h6 class="h-alt"></h6>
-      <div class="hover-content">          
+      <div class="under-content">          
         <span class="ft-heading">More Info</span>
         <p>
           B4aW1WigXC7pHxpTmQrZsjX4PCLHuHQ8wN
@@ -1125,9 +1208,9 @@ h5 {
     </li>
     <!-- Item 2 -->
     <li>
-      <h5>Joshua J. Bouw / Gritt</h5>
+      <h5 class="donation-title">Joshua J. Bouw / Gritt</h5>
       <h6 class="h-alt"></h6>
-      <div class="hover-content">          
+      <div class="under-content">          
         <span class="ft-heading">More Info</span>
         <p>
           BMXmwCoB5hrkydTSjKbp2Fcwqejuzc5r16
@@ -1136,9 +1219,9 @@ h5 {
     </li>
     <!-- Item 1 -->
     <li>
-      <h5>Mindphuq</h5>
+      <h5 class="donation-title">Mindphuq</h5>
       <h6 class="h-alt"></h6>
-      <div class="hover-content">          
+      <div class="under-content">          
         <span class="ft-heading">More Info</span>
         <p>
           B4nn2Y3SFC6whNGNvcQ2MvV1aQbZp3cZVF
@@ -1147,9 +1230,9 @@ h5 {
     </li>
     <!-- Item 4 -->
     <li>
-      <h5>Suptuppel</h5>
+      <h5 class="donation-title">Suptuppel</h5>
       <h6 class="h-alt"></h6>
-      <div class="hover-content">          
+      <div class="under-content">          
         <span class="ft-heading">More Info</span>
         <p>
           B64bwzvcD15Wdiy73rZsGqK8H83HVDvaB4
@@ -1158,6 +1241,9 @@ h5 {
     </li>
   </ul>
 </div>
+<h4>&nbsp;</h4>
+<h4>&nbsp;</h4>
+
       </section><!-- / .cotnainer -->
     </div><!-- / .row -->
   </section><!-- / .contianer -->
