@@ -913,10 +913,66 @@ NavBar
 
 
 
-    <main  class="tmpl-donations">
+    <main  class="tmpl-faq">
 
-              <head>
-	<style id="dark-background-base" type="text/css">
+              <!-- ========== FAQ Layout - 1 ========== -->
+<head>
+  <title></title>
+	<style type="text/css">
+	
+.faq-group {
+	padding: 1rem;
+}
+
+.panel{margin-bottom:20px;background-color:#fff;border:1px solid transparent;border-radius:4px;-webkit-box-shadow:0 1px 1px rgba(0,0,0,.05);box-shadow:0 1px 1px rgba(0,0,0,.05)}
+
+.panel-body{
+	padding:15px;
+	display: none;
+}
+.panel span {
+	color: #c19959;
+}
+
+.sec-heading{text-align:center}
+.sec-heading .subheading{display:block;text-transform:uppercase;font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;color:#555;letter-spacing:2.5px}
+
+
+.label{border:1px solid #000}}
+ .panel-body{padding:15px; display: none;}
+ .panel-heading{padding:10px 15px;border-bottom:1px solid transparent;border-top-right-radius:3px;border-top-left-radius:3px}
+ .panel-heading>.dropdown .dropdown-toggle{color:inherit}
+ 
+ .panel-title>.small,.panel-title>.small>a,.panel-title>a,.panel-title>small,.panel-title>small>a{color:inherit}
+ .panel-footer{padding:10px 15px;background-color:#f5f5f5;border-top:1px solid #ddd;border-bottom-right-radius:3px;border-bottom-left-radius:3px}
+ .panel>.list-group,.panel>.panel-collapse>.list-group{margin-bottom:0}
+ .panel>.list-group .list-group-item,.panel>.panel-collapse>.list-group .list-group-item{border-width:1px 0;border-radius:0}
+ .panel>.list-group:first-child .list-group-item:first-child,.panel>.panel-collapse>.list-group:first-child .list-group-item:first-child{border-top:0;border-top-right-radius:3px;border-top-left-radius:3px}
+ .panel>.list-group:last-child .list-group-item:last-child,.panel>.panel-collapse>.list-group:last-child .list-group-item:last-child{border-bottom:0;border-bottom-right-radius:3px;border-bottom-left-radius:3px}
+ .panel>.panel-heading+.panel-collapse>.list-group .list-group-item:first-child{border-top-right-radius:0;border-top-left-radius:0}
+ .panel-heading+.list-group .list-group-item:first-child{border-top-width:0}
+ .list-group+.panel-footer{border-top-width:0}
+ .panel-group{margin-bottom:20px}
+ .panel-group .panel{margin-bottom:0;border-radius:4px}
+ .panel-group .panel+.panel{margin-top:5px}
+ .panel-group .panel-heading{border-bottom:0}
+ .panel-group .panel-heading+.panel-collapse>.list-group,.panel-group .panel-heading+.panel-collapse>.panel-body{border-top:1px solid #ddd}
+ .panel-group .panel-footer{border-top:0}
+ .panel-group .panel-footer+.panel-collapse .panel-body{border-bottom:1px solid #ddd}
+ .panel-default{border-color:#ddd}
+ .panel-default>.panel-heading{color:#eee;background-color:#111;border-color:#ddd}
+ .panel-default>.panel-heading+.panel-collapse>.panel-body{border-top-color:#ddd}
+ .panel-default>.panel-footer+.panel-collapse>.panel-body{border-bottom-color:#ddd}
+ .panel-primary{border-color:#337ab7}
+ .panel-primary>.panel-heading{color:#fff;background-color:#337ab7;border-color:#337ab7}
+ .panel-primary>.panel-heading+.panel-collapse>.panel-body{border-top-color:#337ab7}
+ .panel-primary>.panel-footer+.panel-collapse>.panel-body{border-bottom-color:#337ab7}
+ .panel-info{border-color:#bce8f1}
+ .panel-info>.panel-heading{color:#31708f;background-color:#d9edf7;border-color:#bce8f1}
+ .panel-info>.panel-heading+.panel-collapse>.panel-body{border-top-color:#bce8f1}
+ .panel-info>.panel-footer+.panel-collapse>.panel-body{border-bottom-color:#bce8f1}
+  </style>
+  <style id="dark-background-base" type="text/css">
 
 *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{-webkit-tap-highlight-color:transparent}
 button,select{font-family:inherit;line-height:inherit}a{color:#337ab7;text-decoration:none}a:focus,a:hover{color:#23527c;text-decoration:underline}a:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}img{vertical-align:middle}
@@ -936,261 +992,654 @@ a:focus {
   color: #ccc !important;
 }
 </style>
-	<style id="donations" type="text/css">
-
-.container {
-	width: 100%;
-}
-.gray-bg {
-	width: 100%;
-}
-
-.ft-boxed-hover ul li {
-	background-color: #111;
-	align-self: stretch;
-}
-
-.donation-title {
-	color: #eee;
-	font-size: 6vw;
-}
-
-.under-content p {
-	color: #eee;
-	font-size: 2.8vw;
-}
-
-@media (min-width: 1080px) {
-	.donation-title {
-		font-size: 2vw;
-	}
-	.under-content p {
-		font-size: .85vw;
-	}
-	.ft-boxed-hover ul {
-		display: flex;
-		flex-flow: row wrap;
-		justify-content: center;
-	}
-	.ft-boxed-hover ul li {
-		width: 25%;
-	}
-	.subheading {
-		font-size: 1.2vw;
-	}
-}
-
-@media (min-aspect-ratio: 17/10 ) and (min-width: 1080px) {
-	.donation-title {
-		font-size: 1.5vw;
-	}
-	.under-content p {
-		font-size: .8vw;
-	}
-}
-
-@media (min-width: 2560px) {
-	.donation-title {
-		font-size: 1vw;
-	}
-	.h-alt {
-		font-size: .8vw;
-	}
-	.ft-heading {
-		font-size: .6vw;
-	}
-	.under-content p {
-		font-size: .7vw;
-	}
-	.under-content a {
-		font-size: .7vw;
-	}
-	.gray-bg {
-		width: 80%;
-	}
-	.subheading {
-		font-size: .7vw;
-	}
-}
-
-@media (min-aspect-ratio: 4/1 ) and (min-width: 2560px) {
-	.donation-title {
-		font-size: .8vw;
-	}
-	.h-alt {
-		font-size: .6vw;
-	}
-	.ft-heading {
-		font-size: .4vw;
-	}
-	.under-content p {
-		font-size: .6vw;
-	}
-	.under-content a {
-		font-size: .5vw;
-	}
-}
-
-</style>
 </head>
-<div class="gray-bg">
-  <section class="container section team-4col">
-    <div class="row">
-      <header class="sec-heading">
-        <h2>Donations</h2>
-        <span class="subheading">Support BlackCoin and donate to the developers and the ongoing projects.</span>
-      </header>
-      <section id="services" class="container section ft-boxed-hover">
-          	<!-- ========== Developers ========== -->
-  <center>
-  <h4>ONGOING PROJECTS</h4>
-</center>
-<div>
-  <ul>
+
+<section class="container section gray-bg">
+  <header class="sec-heading">
+    <h1>一般的なご質問</h1>
+    <h2 class="subheading"></h2>
+    <h3></h3>
+  </header>
+
+  <div class="row">
+
+          <!-- FAQ Group 1 -->
+<div class="faq-group">
+  <div>
+    <h3>General</h3>
+    <p>General questions about Blackcoin.</p>
+  </div>
+
+  <!-- FAQ Accordion -->
+  <div class="panel-group accordions-1 ws-s" id="faq-accordion-1" role="tablist" aria-multiselectable="true">
+
     <!-- Item 1 -->
-    <li>
-      <h5 class="donation-title">Server Hosting (VPS)</h5>
-      <div class="under-content">          
-        <span class="ft-heading">More Info</span>
-        <p>
-          BMWvMeEa88iqBCevi9dVX8GAhnPCh3JBHx
-        </p>
-        <a href="https://contabo.com/?show=vps" class="link-btn">Provider Website</a>
-      </div><!-- / .under-content -->
-    </li>
+    <div class="panel panel-default">
+      <div onclick="return toggleDisplay(this)" class="panel-heading" role="tab" id="faq-1-h-1">
+        <h4 class="panel-title">
+          <span>
+            ブラックコインの詳細
+          </span>
+        </h4>
+        <div class="panel-body">
+            Blackcoin(ブラックコイン)のシステム、これは、個人銀行のようなものだと思ってください。簡単に口座は凍結される事無く、安心完全かつ常に無料で、匿名性が高く、従来の銀行よりもはるかに安全で、送金は世界中の誰にでも数秒で安全に送ることができます。
+
+    ソフトウェアをダウンロードするだけで、誰でもアカウントを作成することができます。この銀行には所有者がおらず、閉鎖することもできません。ピア・ツー・ピアの為に高い透明性を有します。またブラックコインの発行枚数は有限です。その為ゴールドのように価値を維持し、富の保存場所としても最適です。新規発行されるBlackcoinは、ネットワークの1％の報酬によってのみ生成されます。
+
+    未来の通貨へようこそ‼︎
+
+    安全、迅速、セキュア、匿名、エキサイティング、そして何よりも楽しい！
+
+    (Blackcoinの歴史や業績をご紹介します。)
+
+    -Blackcoinは完全なプルーフオブステークを実現した世界で最初のコインです。
+
+    -Blackcoinは世界で初めてスマートコントラクトを実現したコインでもあります。
+
+    -2014年初頭、BlackcoinはPOSとマルチプールを組
+
+    み合わせた最初のコインでした。それらの仕組みが、非常に強力であった為に、人々はこのコインを「ブラックホール」というニックネームを付けました。
+
+    -Blackcoinは、クラウドファンディング上で広告・PR代理店のマックス・ブールジュを雇った最初のコインです。
+
+    -古くからBlackcoinは優れたコミュニティを持つことで知られているます。このBlackcoinコミュニティでは、みんながリーダーです。コミュニティの皆さんは、このコインを言葉ではなく行動のコインにするために、日々、たゆまぬ努力を続けています。Dogecoinに次いで最も活発なコミュニティの一つでも有ります。
+        </div>
+
+      </div>
+    </div><!-- / .panel -->
+
     <!-- Item 2 -->
-    <li>
-      <h5 class="donation-title">PayBLK</h5>
-      <div class="under-content">          
-        <span class="ft-heading">More Info</span>
-        <p>
-          B8HhsoPzuyppCZseYd2i4zdGE4g9o7kvZ9
-        </p>
-        <a href="https://payblk.blackcoin.io" class="link-btn">payBLK Webwallet</a>
-      </div><!-- / .under-content -->
-    </li>
-  </ul>
-</div>
-<h4>&nbsp;</h4>
-<h4>&nbsp;</h4>
-  <center>
-  <h4>DEVELOPMENT TEAM</h4>
-</center>
-<div class="no-gap">
-  
-  <ul>
-    <!-- Item 1 -->
-    <li>
-      <h5 class="donation-title">Lateminer</h5>
-      <h6 class="h-alt">Development Lead</h6>
-      <div class="under-content">          
-        <span class="ft-heading">More Info</span>
-        <p>
-          BDFgwjx8q9xrpeNzyY1Hz8x36Dmg39C4BU
-        </p>
-        <a href="../https://blackcoinmore.org/" class="link-btn">Blackcoin More</a>
-      </div><!-- / .hover-content -->
-    </li>
-    <!-- Item 2 -->
-    <li>
-      <h5 class="donation-title">Michel van Kessel</h5>
-      <h6 class="h-alt">Technical Lead</h6>
-      <div class="under-content">          
-        <span class="ft-heading">More Info</span>
-        <p>
-          BB21eF5fEH3cvr1ApmWbzYA14L529DFjtJ
-        </p>
-        <a href="../https://blackcoinmore.org/" class="link-btn">Blackcoin More</a> ;
-        <a href="../https://blackcoin.nl" class="link-btn">BlackcoinNL</a>
-      </div><!-- / .hover-content -->
-    </li>
+    <div class="panel panel-default">
+      <div onclick="return toggleDisplay(this)" class="panel-heading" role="tab" id="faq-1-h-2">
+        <h4 class="panel-title">
+          <span>
+            ブラックコインの仕組み
+          </span>
+        </h4>
+        <div class="panel-body">
+            ブラックコインの仕組み
+      </div>
+    </div><!-- / .panel -->
+
     <!-- Item 3 -->
-    <li>
-      <h5 class="donation-title">Daniel Clough</h5>
-      <h6 class="h-alt">Community Lead</h6>
-      <div class="under-content">          
-        <span class="ft-heading">More Info</span>
-        <p>
-          B6sKk2SpDX8s7jrmfeMCTEjM26AnKe7Ukg
-        </p>
-        <a href="../https://blackcoin.org" class="link-btn">BlackcoinOrg Website</a> ;
-        <a href="../https://blackcoin.nl" class="link-btn">BlackcoinNL</a>;
-        <a href="../https://blackcoin.nl" class="link-btn">Discord and Bots</a>
-      </div><!-- / .hover-content -->
-    </li>
+    <div class="panel panel-default">
+      <div onclick="return toggleDisplay(this)" class="panel-heading" role="tab" id="faq-1-h-3">
+        <h4 class="panel-title">
+          <span>
+            ブラックコインとビットコインの比較
+          </span>
+        </h4>
+        <div class="panel-body">
+          では、Blackcoinはビットコインと何が違うのでしょうか？
+
+    私たちはビットコインを愛していますが、同時にビットコインを改善しようとしています。ビットコインは非常に大きいので、革新的な変化に人々が同意するには時間がかかりすぎます。そのため、ここ数年で代替通貨が急増しています。これがブラックコインへの道を開いたのです。
+
+    ブラックコインは、ブロックチェーンの革新をリードし続けてきました。
+
+    このコイン自体が、世界のどのコインよりもGithubからフォークされています 主にPOS（Proof of Stake）のイノベーションに取り組んでいたRat4が始めたものです。Rat4は、Bitcoinの旧式で高価なProof of Workよりも、ステークが安全で効率的であることを証明したかったのです。
+
+    コミュニティの何人かのメンバーは、この高速POSとマイニングプールを組み合わせて、市場の価格と量に上昇圧力をかけてサポートし、その結果、ブラックコインの人気は大きく上昇しました。その後、Rat4には、BlackHaloの唯一の作者であり、活発なコミュニティメンバーであったDavid Zimbeckが加わりました。チェスやエンターテイメントなどの分野で有名だったデビッドは、独学でPythonを学び、BitHaloという「スマートコントラクト」プラットフォームをコーディングしました。Rat4を信じ、ブラックコインの安全性とマルチプールの革新性に賛同していたデビッドは、ブラックコインでHaloをデビューさせることを選択しました。このおかげで、ブラックコインはEtheriumなどの他のスマートコントラクト提案よりも丸1年先を行くことができました。Rat4はその後、ユーザーにネットワークとの対話を強いることでプルーフ・オブ・ステークの安全性を高め、セキュリティ上の欠陥を解消することに取り組んだ。そこで彼はProof of Stake 2.0を作成しました。2015年、Rat4は最終的にプロトコルをマスターするために、3.0のプロトコルに取り組み始めました。その間に、デビッドは分散型マーケットプレイスと分散型サーバーをリリースし、BlackHaloを大幅に改良して、ユーザーの利便性に焦点を当てた大量の新しいエキサイティングな機能を与えました。これらはすべて、ブラックコインのみで構築された分散型取引所の到来に備えたものでした。それ以来、他の多くの開発者が貢献しています。コミュニティのメンバーであるDrunkonsoundは、exco.inの取引所や他のいくつかのBlackcoinプロジェクトを構築し、後援しました。exco.inの取引所は、ライブの高頻度取引を行った最初の取引所であり、取引のための優れたチャートや機能をたくさん備えていました。再びBlackcoinが成長し、新しいプロジェクトであるLegionairreもコミュニティメンバーのbtclaw氏によって開始されました。Legionairreは、人々にステルスアドレスを提供します。彼らが最も重視しているのは、あなたのプライバシーです。ブラックコインの勢いはとどまるところを知らず、年々、新しいエキサイティングな機能が追加されています。
+
+    一番の魅力は、あなたが参加すれば、インターネットの未来の興奮のすべてに参加できるということです。
+        </div>
+      </div>
+    </div><!-- / .panel -->
+
     <!-- Item 4 -->
-    <li>
-      <h5 class="donation-title">David Zimbeck</h5>
-      <h6 class="h-alt">BlackHalo Developer</h6>
-      <div class="under-content">          
-        <span class="ft-heading">More Info</span>
-        <p>
-          bMDqFjNxhLNgE63F7F5ixDSRyMP7xwWL8K
-        </p>
-        <a href="../https://blackhalo.info/">BlackHalo</a>
-      </div><!-- / .hover-content -->
-    </li>
-  </ul>
-</div>
-<h4>&nbsp;</h4>
-<h4>&nbsp;</h4>
-  <center>
-  <h4>MAIN COMMUNITY MEMBERS</h4>
-</center>
-<div class="no-gap">
-  
-  <ul>
-    <li>
-      <h5 class="donation-title">markBLK</h5>
-      <h6 class="h-alt"></h6>
-      <div class="under-content">          
-        <span class="ft-heading">More Info</span>
-        <p>
-          B4aW1WigXC7pHxpTmQrZsjX4PCLHuHQ8wN
-        </p>
-      </div><!-- / .hover-content -->
-    </li>
-    <!-- Item 2 -->
-    <li>
-      <h5 class="donation-title">Joshua J. Bouw / Gritt</h5>
-      <h6 class="h-alt"></h6>
-      <div class="under-content">          
-        <span class="ft-heading">More Info</span>
-        <p>
-          BMXmwCoB5hrkydTSjKbp2Fcwqejuzc5r16
-        </p>
-      </div><!-- / .hover-content -->
-    </li>
+    <div class="panel panel-default">
+      <div onclick="return toggleDisplay(this)" class="panel-heading" role="tab" id="faq-1-h-4">
+        <h4 class="panel-title">
+          <span>
+            POSとPOWの比較
+          </span>
+        </h4>
+        <div class="panel-body">
+            Proof-of-Workは、オリジナルのBitcoinプロトコルのバックボーンを形成する素晴らしいイノベーションでした。計算量の多い数学の問題を解くことで、プロトコルの安全性を確保するために行った努力を証明することができるというものです。このようにしてブロックチェーンが生成され、この計算を行うために必要な労力がコインの希少性と価値に貢献します。
+
+    しかし、Proof-of-Workは最終的に余計なコストがかかるシステムになってしまいます。
+
+    Proof of Stakeは、この問題を非常にエレガントな方法で解決しています。Proof of Stakeは、セキュリティを生成するために希少資源であるコンピュータのパワーを利用するのではなく、コイン自体の希少性を利用しています。ユーザーは、チェーンの次のブロックを生成するために自分のコインを「賭ける」ことを選択でき、その確率は基本的に自分のコインの重さに比例します。
+
+    BlackCoinは、Proof-of-Workの生成サイクルを採用した最初のコインであり、その後、完全なProof-of-Stakeに移行したことで注目を集めました。
+
+    Proof-of-Stakeは環境に優しく効率的であり、Proof-of-Workベースのネットワークで発生する膨大なエネルギーの浪費やハードウェアのオーバーヘッドを回避することができます。
+
+    BlackCoinのコアプロトコルは、Proof-of-Stakeのセキュリティと一般的な機能性について、時間をかけて業界をリードする改善を行ってきました（PoS 2.0およびPoS 3.0）。
+        </div>
+      </div>
+    </div><!-- / .panel -->
+
+    <!-- Item 5 -->
+    <div class="panel panel-default">
+      <div onclick="return toggleDisplay(this)" class="panel-heading" role="tab" id="faq-1-h-5">
+        <h4 class="panel-title">
+          <span>
+            Blackcoinの年間インフレ率。
+          </span>
+        </h4>
+        <div class="panel-body">
+          ブロックリワードが固定されているためにBLKの量が固定されており、そのために年々インフレ率が少しずつ低くなっています。
+
+    ブロックタイムの目標は67秒なので、1年で計算すると（60/67×60）×24×365で470686ブロックリワード（1.5BLK）となり、大体1年で706,030個のBLKが新たに手に入ることになります。現在のところ、706,030は総供給量60,238,885BLKの1.172%にあたります。
+
+    この1.172%は、出資した株主の一部にしか分配されません。報酬率は1％をはるかに超えており、時間と賭けたBLKの量に応じて平均で年4～8％になります。
+
+    つまり、20％のコインだけが積極的に賭けられていたとしたら、80％の人（平均）が賭けずに何も得られないので、継続的に賭けることで実際には年5％程度を得ることができるのです。
+        </div>
+      </div>
+    </div><!-- / .panel -->
+
+    <!-- Item 6 -->
+    <div class="panel panel-default">
+      <div onclick="return toggleDisplay(this)" class="panel-heading" role="tab" id="faq-1-h-6">
+        <h4 class="panel-title">
+          <span>
+            ネットワークウェイトの確認方法は？
+          </span>
+        </h4>
+        <div class="panel-body">
+          ウォレットの右下部でネットワークウェイトを確認することができます。
+
+    または、デバッグコンソールからgetstakinginfoコマンドを実行することで確認できます。ネットワークウェイトは直近の72ブロックから計算出来ます。
+        </div>
+      </div>
+    </div><!-- / .panel -->
+
+    <!-- Item 7 -->
+    <div class="panel panel-default">
+      <div onclick="return toggleDisplay(this)" class="panel-heading" role="tab" id="faq-1-h-7">
+        <h4 class="panel-title">
+          <span>
+            BLACKCOINは何処で買えるのですか？
+          </span>
+        </h4>
+        <div class="panel-body">
+          BlackCoinsは、さまざまなオンライン取引所で購入できます。
+
+    最新の最も取引量の多い取引所の情報はCoinmarketcap.com
+
+    (コインマーケットキャップで検索)で確認できます。
+
+    コイン検索(BLACKCOINまたはBLK)-中段左上の(市場)を
+
+    クリックすると、上段から最新の取引額大きい取引所から
+
+    取引額低い順に、取引所の名前が出ます。
+        </div>
+      </div>
+    </div><!-- / .panel -->
+
+    <!-- Item 8 -->
+    <div class="panel panel-default">
+      <div onclick="return toggleDisplay(this)" class="panel-heading" role="tab" id="faq-1-h-8">
+        <h4 class="panel-title">
+          <span>
+            ステイキング
+          </span>
+        </h4>
+        <div class="panel-body">
+            ブラックコインは純粋なPoS（Proof-of-Stake）コインであり、通常の方法ではマイニングできなくなりました。しかし、ステーキングと呼ばれる方法で採掘することは可能です。ステーキングは、ネットワークの安全性を確保し、ブラックコインユーザーの様々な取引を支援する役割も果たします。Stakingを行うと、1年間でウォレットに保有しているコインの総量の1%から8%(ネットワークの重さによって異なる)を獲得することができ、ウォレットのロックを解除するとすぐに開始されます。
+
+    ステイクを開始すると、一定量のコインがステイク残高に入り（ウォレットの「概要」タブで確認できます）、そのコインがステイクを開始します。コインが多ければ多いほど、ステイクによって獲得できるコインも多くなります。
+        </div>
+      </div>
+    </div><!-- / .panel -->
+
+    <!-- Item 9 -->
+    <div class="panel panel-default">
+      <div onclick="return toggleDisplay(this)" class="panel-heading" role="tab" id="faq-1-h-9">
+        <h4 class="panel-title">
+          <p>
+            ステイキングに必要な計算能力は？
+          </p>
+        </h4>
+        <div class="panel-body">
+            ステイキングは多くの作業を必要としませんので、必要条件は驚くほど小さいのです。その為、現在のコンピュータで、ステーキングができないものを探すのは難しいでしょう。
+        </div>
+      </div>
+    </div><!-- / .panel -->
+
+    <!-- Item 10 -->
+    <div class="panel panel-default">
+      <div onclick="return toggleDisplay(this)" class="panel-heading" role="tab" id="faq-1-h-10">
+        <h4 class="panel-title">
+          <span>
+            ブロック報酬の大きさは？
+          </span>
+        </h4>
+        <div class="panel-body">
+            1.5BLK分の報酬とそのブロック内のTx料金を得ることができます。
+        </div>
+      </div>
+    </div><!-- / .panel -->
+
+    <!-- Item 11 -->
+    <div class="panel panel-default">
+      <div onclick="return toggleDisplay(this)" class="panel-heading" role="tab" id="faq-1-h-11">
+        <h4 class="panel-title">
+          <span>
+            どのくらいの頻度でブロックリワードを受け取ることができますか？
+          </span>
+        </h4>
+        <div class="panel-body">
+            10000BLKであれば、1日1回（1.5BLK）程度の出目が期待できます。
+
+    賭け金が何回になるかは正確には予測できません。しかし、より多くのコインを賭けていれば、より多くのブロックを得ることができ、より多くの報酬を見つけることができます。1年365日、1日24時間賭けている人は、1日1時間、同じ量のコインを賭けている人よりも多く（～24倍）の報酬を得ることができます。
+
+    ステーキングは一種の宝くじです。いつもより多くもらえる日もあれば、
+
+    少ない日もあるでしょう。あくまでも目安ですが。
+        </div>
+      </div>
+    </div><!-- / .panel -->
+
+    <!-- Item 12 -->
+    <div class="panel panel-default">
+      <div onclick="return toggleDisplay(this)" class="panel-heading" role="tab" id="faq-1-h-12">
+        <h4 class="panel-title">
+          <span>
+            ブラックコインの公式サイトはどこですか？
+          </span>
+        </h4>
+        <div class="panel-body">
+            ブラックコインの公式サイトはどこですか？
+        </div>
+      </div>
+    </div><!-- / .panel -->
+  </div><!-- / .panel-group .accordion-1 -->
+  <hr class="mb-sm-50">
+</div><!-- / .faq-group -->
+
+    
+<!-- FAQ Group 2 -->
+<div class="faq-group">
+  <div>
+    <h3>Wallet</h3>
+    <p>Wallet related questions/issues.</p>
+  </div>
+
+  <!-- FAQ Accordion -->
+  <div class="panel-group ws-s accordions-1" id="faq-accordion-2" role="tablist" aria-multiselectable="true">
+
     <!-- Item 1 -->
-    <li>
-      <h5 class="donation-title">Mindphuq</h5>
-      <h6 class="h-alt"></h6>
-      <div class="under-content">          
-        <span class="ft-heading">More Info</span>
-        <p>
-          B4nn2Y3SFC6whNGNvcQ2MvV1aQbZp3cZVF
-        </p>
-      </div><!-- / .hover-content -->
-    </li>
+    <div class="panel panel-default">
+      <div onclick="return toggleDisplay(this)" class="panel-heading" role="tab" id="faq-2-h-1">
+        <h4 class="panel-title">
+          <span>
+            ウォレットの同期にはどのくらいの時間がかかりますか？
+          </span>
+        </h4>
+        <div class="panel-body">
+            現在のブートストラップは約2.0GBです。ダウンロードには長い時間を要する事があります（インターネットの速度と利用可能な条件によります。)
+
+    ブートストラップをダウンロードすることは、Blackcoin Legacyウォレットを使用する際の最初の同期を早めるのに良い方法です。
+
+    BLK Bootstrapは、ページの一番下（FAQ/OTHER/BOOTSTRAP）
+    にあります。
+        </div>
+      </div>
+    </div><!-- / .panel -->
+
+    <!-- Item 2 -->
+    <div class="panel panel-default">
+      <div onclick="return toggleDisplay(this)" class="panel-heading" role="tab" id="faq-2-h-2">
+        <h4 class="panel-title">
+          <span>
+            ウォレットが同期されないのはなぜですか？
+          </span>
+        </h4>
+        <div class="panel-body">
+            1. ウォレットのバージョンが最新であることを確認してください。
+
+2. ファイアウォールやアンチウィルスソフトがウォレットの接続をブロックしていないか確認してください。
+
+3. システムの時計が正確であることを確認してください。
+
+4. コインが成熟するには約8時間（～501ブロック）かかります。
+
+ウォレットは自分のピアサークルを作ります。それには時間がかかります。
+
+しかし、あなたはノードのリストを与えることでウォレットを助けることができます。
+
+addnodeを適用するには、blackcoin.conf (Legacy)またはblackmore.conf (More)を見つける必要があります。それはここにあるはずです。
+
+Windows: %APPDATA%lackcoin
+or %APPDATA%lackmore
+Linux： $HOME/.blackcoin/
+
+または $HOME/.blackmore/
+
+Mac OSX： $HOME/Library/Application Support/blackcoin/ (日本語)
+
+または $HOME/Library/Application Support/blackmore/ です。
+
+次に、https://chainz.cryptoid.info/blk/#！ネットワークにアクセスします。
+
+&quot;ノードリスト &quot;をクリックしてください。
+
+リスト全体を.confの最後にコピーします。
+
+ブラックコインの起動 
+
+* OSはファイルの拡張子を隠すことがあるので、.confが実際には.conf.txtではないことを確認してください。
+
+それでも問題が解決しない場合は、debug.logをチェックしてエラーを探し、Blackcoin Discordで質問してください ttps://discord.com/invite/hjNUgWD)
+
+何をするにしても、wallet.datをバックアップしてください。
+        </div>
+      </div>
+    </div><!-- / .panel -->
+
+    <!-- Item 3 -->
+    <div class="panel panel-default">
+      <div onclick="return toggleDisplay(this)" class="panel-heading" role="tab" id="faq-2-h-3">
+        <h4 class="panel-title">
+          <span>
+            ブラックコインを送るには？
+          </span>
+        </h4>
+        <div class="panel-body">
+            コインを送る方法はとても簡単です。
+
+コインを友人、取引所、企業などに送る場合、必要なのは相手の受信アドレス（取引所では入金アドレスとして知られています）です。
+
+お使いのウォレットが暗号化されている場合は、パスフレーズ（暗号化フレーズ）も必要です。
+
+支払い先 友人や取引所、会社のBlackcoinアドレスを入力します。これらのアドレスは、内蔵のアドレス帳にも保存され、いつでもラベル付けや再ラベル付けができます）。
+
+ラベルを付ける。Bittrexなどの取引所に送る場合は、「Bittrex exchange」と入力してください。
+
+Amount（金額）。送付する金額。
+
+コインをアドレスに送る場合は、アドレスを入力するのではなく、コピーしてPay Toエリアに貼り付けると、誤ったアドレスを入力することを防ぐことができます。
+(コピーアンドペースト)
+        </div>
+      </div>
+    </div><!-- / .panel -->
+
     <!-- Item 4 -->
-    <li>
-      <h5 class="donation-title">Suptuppel</h5>
-      <h6 class="h-alt"></h6>
-      <div class="under-content">          
-        <span class="ft-heading">More Info</span>
-        <p>
-          B64bwzvcD15Wdiy73rZsGqK8H83HVDvaB4
-        </p>
-      </div><!-- / .hover-content -->
-    </li>
-  </ul>
-</div>
-<h4>&nbsp;</h4>
-<h4>&nbsp;</h4>
-      </section><!-- / .cotnainer -->
-    </div><!-- / .row -->
-  </section><!-- / .contianer -->
-</div><!-- / .gray-bg -->
+    <div class="panel panel-default">
+      <div onclick="return toggleDisplay(this)" class="panel-heading" role="tab" id="faq-2-h-4">
+        <h4 class="panel-title">
+          <span>
+            ブラックコインを受け取るには？
+          </span>
+        </h4>
+        <div class="panel-body">
+            コインを送るのと同様に、コインを受け取るのも簡単です。
+
+BlackCoinsを取引所で購入した場合や、BLKで支払いを受けた場合は、コインを自分のウォレットに直接送信するための受信アドレスが必要になります。
+
+デフォルトでは、受信アドレスは1つしかありませんので、そのアドレスを右クリックして「アドレスをコピー」を選択してください。これで、手動で入力してエラーになるのを防ぐことができます。
+
+そのアドレスを、支払い（または交換）したい人に渡してください。
+
+新しいアドレスを作るのはとても簡単なので、取引のたびに同じアドレスを使ってコインを受け取る必要はありません。
+
+下部にある「新しいアドレス」をクリックして、好きなラベルを付けてください。（例：サイトからの寄付）そうすれば、個々の取引を簡単に確認することができます。
+        </div>
+      </div>
+    </div><!-- / .panel -->
+
+    <!-- Item 5 -->
+    <div class="panel panel-default">
+      <div onclick="return toggleDisplay(this)" class="panel-heading" role="tab" id="faq-2-h-5">
+        <h4 class="panel-title">
+          <span>
+            ステーキングのために財布を開くには？
+          </span>
+        </h4>
+        <div class="panel-body">
+            Wallet Settings &gt; Unlock Wallet
+
+ウォレット設定＞ウォレットのロック解除
+        </div>
+      </div>
+    </div><!-- / .panel -->
+
+    <!-- Item 6 -->
+    <div class="panel panel-default">
+      <div onclick="return toggleDisplay(this)" class="panel-heading" role="tab" id="faq-2-h-6">
+        <h4 class="panel-title">
+          <span>
+            ネットワーク接続の最大数は？
+          </span>
+        </h4>
+        <div class="panel-body">
+            アウトバウンド接続の上限は最大16です。
+
+それ以上の接続数が必要な場合は、インバウンド接続を受け入れる必要があります。
+
+ウォレットはポート15714をリッスンします。そのポートがブロックされていないか確認してください。また、他のピアがあなたのノードを発見して接続するまでに時間がかかります。
+        </div>
+      </div>
+    </div><!-- / .panel -->
+
+    <!-- Item 7 -->
+    <div class="panel panel-default">
+      <div onclick="return toggleDisplay(this)" class="panel-heading" role="tab" id="faq-2-h-7">
+        <h4 class="panel-title">
+          <span>
+            ウォレットのアップグレード
+          </span>
+        </h4>
+        <div class="panel-body">
+            古いバイナリを新しいバイナリに置き換えるだけです。
+
+アップグレードする前に、wallet.datファイルの最新のバックアップがあることを確認してください。
+        </div>
+      </div>
+    </div><!-- / .panel -->
+
+    <!-- Item 8 -->
+    <div class="panel panel-default">
+      <div onclick="return toggleDisplay(this)" class="panel-heading" role="tab" id="faq-2-h-8">
+        <h4 class="panel-title">
+          <span>
+            ウォレットの位置変更
+          </span>
+        </h4>
+        <div class="panel-body">
+            blackcoin-qt.exe -datadir=NEW LOCATION を実行するショートカットを作成します。
+        </div>
+      </div>
+    </div><!-- / .panel -->
+
+    <!-- Item 9 -->
+    <div class="panel panel-default">
+      <div onclick="return toggleDisplay(this)" class="panel-heading" role="tab" id="faq-2-h-9">
+        <h4 class="panel-title">
+          <span>
+            どのくらいの頻度でウォレットをバックアップする必要がありますか？
+          </span>
+        </h4>
+        <div class="panel-body">
+            ウォレットから他のアドレスにコインを送信する場合は、送信することで新たにアドレスが変更される可能性があるため、バックアップを取る必要があります。
+
+同じアドレスにステイクしてコインを受け取る以外のことをしていないのであれば、おそらく追加のバックアップを作成する必要はありません。
+        </div>
+      </div>
+    </div><!-- / .panel -->
+
+    <!-- Item 10 -->
+    <div class="panel panel-default">
+      <div onclick="return toggleDisplay(this)" class="panel-heading" role="tab" id="faq-2-h-10">
+        <h4 class="panel-title">
+          <span>
+            コインを送れるようにするには、どのようにしてstakingを止めるのでしょうか？
+          </span>
+        </h4>
+        <div class="panel-body">
+            501回の確認を経て、ステークしていたお客様の残高が解放されます。
+
+トランザクションタブで進捗状況を確認することができます。
+        </div>
+      </div>
+    </div><!-- / .panel -->
+
+    <!-- Item 11 -->
+    <div class="panel panel-default">
+      <div onclick="return toggleDisplay(this)" class="panel-heading" role="tab" id="faq-2-h-11">
+        <h4 class="panel-title">
+          <span>
+            特定のアドレスからブラックコインを送金する
+          </span>
+        </h4>
+        <div class="panel-body">
+            ウォレットにいくつかのアドレスを作成したが、BlackCoinsの送信先を特定のアドレスにしたい場合。
+
+設定」→「オプション」→「表示」→「コインコントロール機能の表示を確認」→「適用」。
+
+送信 &gt;&gt; 入力 &gt;&gt; &quot;チェック&quot; 送信したいアドレスを選択してください。
+        </div>
+      </div>
+    </div><!-- / .panel -->
+
+    <!-- Item 12 -->
+    <div class="panel panel-default">
+      <div onclick="return toggleDisplay(this)" class="panel-heading" role="tab" id="faq-2-h-12">
+        <h4 class="panel-title">
+          <span>
+            ウェブやモバイルのウォレットは有りますか？
+          </span>
+        </h4>
+        <div class="panel-body">
+            はい、PayBLKは使いやすく、オープンソースで、マルチプラットフォーム（7つのプラットフォームをサポート）で、マルチシグネチャで、個人と企業の両方に安全なブラックコインウォレットプラットフォームです。
+
+ウェブでは PayBLK.BlackCoin.io
+        </div>
+      </div>
+    </div><!-- / .panel -->
+  </div><!-- / .panel-group .accordion-1 -->
+  <hr>
+</div><!-- / .faq-group -->
+</div><!-- / .row -->
+
+<div class="row">
+    
+<!-- FAQ Group 3 -->
+<div class="faq-group">
+  <div>
+    <h3>Other</h3>
+    <p>Links and downloads.</p>
+  </div>
+
+  <!-- FAQ Accordion -->
+  <div class="panel-group accordions-1 ws-s" id="faq-accordion-3" role="tablist" aria-multiselectable="true">
+
+    <!-- Item 1 -->
+    <div class="panel panel-default">
+      <div onclick="return toggleDisplay(this)" class="panel-heading" role="tab" id="faq-3-h-1">
+        <h4 class="panel-title">
+          <span>
+            ブラックコイン水栓
+          </span>
+        </h4>
+        <div class="panel-body">
+            ブラックコインの蛇口
+
+蛇口のダンプ
+        </div>
+      </div>
+    </div><!-- / .panel -->
+
+    <!-- Item 2 -->
+    <div class="panel panel-default">
+      <div onclick="return toggleDisplay(this)" class="panel-heading" role="tab" id="faq-3-h-2">
+        <h4 class="panel-title">
+          <span>
+            BOOTSTRAP
+          </span>
+        </h4>
+        <div class="panel-body">
+            ブートストラップ：2017年5月14日
+
+ブートストラップ：2018年12月16日
+
+
+
+ブートストラップを使う 
+
+
+
+1. コピー＆ペーストの方法。
+
+
+
+a) Blackcoinウォレットを閉じます。(起動している場合)
+
+
+
+b) Blackcoinのデータディレクトリにファイルを置きます。データディレクトリのデフォルトの場所は以下の通りです。
+
+
+
+%AppData%Roaming\Blackcoin\ (Windowsの場合)
+
+~/Library/App Support/Blackcoin/（Macの場合
+
+Linuxの場合は~/.blackcoin/です。
+
+
+
+c) Blackcoinウォレットを開きます。
+
+
+
+d) Blackcoinウォレットがブートストラップを再スキャンして解凍する間、開くのを待ちます。お使いのパソコンによっては時間がかかる場合があります。
+
+
+
+2. コマンドラインによる方法
+
+
+
+a) ロードブロック方式でクライアントを起動します。
+
+Windows：blackcoin-qt.exe -loadblock=C:\bootstrap.dat
+
+Linux： ./blackcoin-qt -loadblock=/home/../bootstrap.dat
+
+b) ウォレットの左下に、&quot;Importing blocks... &quot;と表示されます。
+        </div>
+      </div>
+    </div><!-- / .panel -->
+
+    <!-- Item 3 -->
+    <div class="panel panel-default">
+      <div onclick="return toggleDisplay(this)" class="panel-heading" role="tab" id="faq-3-h-3">
+        <h4 class="panel-title">
+          <span>
+            ブラックコイン・ペイメントの統合
+          </span>
+        </h4>
+        <div class="panel-body">
+            ブラックコイン決済の統合に関するオンラインビジネスのためのガイド。
+        </div>
+      </div>
+    </div><!-- / .panel -->
+
+  </div><!-- / .panel-group .accordion-1 -->
+
+  <span class="faq-contact-links"><i class="fa fa-info-circle"></i> If you have more questions <a
+      href="https://gitter.im/BlackCoin_Hub" target="_blank">contact us on Gitter.</a></span>
+
+</div><!-- / .faq-group -->
+
+
+    <script>
+function toggleDisplay(h4) {
+    var pannelHeadding = h4.parentElement,
+        submenu = pannelHeadding.getElementsByTagName('div')[1];
+    
+    submenu.style.display = submenu.style.display == "block" ? "none" : "block";
+    
+    return false;
+}
+</script>
+
+  </div><!-- / .row -->
+</section><!-- / .container -->
     
     </main>
     <footer class="site-footer bg-transparent pb-3 pb-md-5">
@@ -1211,9 +1660,9 @@ a:focus {
       <div class="copyright">
           <div class="container">
             <div class="row">
-                <small>&copy; 2014-<span id="copyright"></span> ブラックコイン All Rights Reserved. </small>
+                <small>&copy; 2014-<span id="copyright"></span> blackcoin all_rights_reserved </small>
               <div class="col-md-6">
-                <small><a href="#page-top" class="pull-right to-the-top">トップにもどる ^ </a></small>
+                <small><a href="#page-top" class="pull-right to-the-top">to_the_top ^ </a></small>
               </div>
             </div><!-- / .row -->
           </div><!-- / .container -->

@@ -4,16 +4,16 @@ templateClass: tmpl-faq
 ---
 <!-- ========== FAQ Layout - 1 ========== -->
 <head>
-  <title>BlackCoin - F.A.Q</title>
+  <title>{{ 'FAQ.FAQ_TITLE' | i18n }}</title>
 	{% include "layouts/styles/faq.njk" %}
   {% include "layouts/styles/dark-background-base.njk" %}
 </head>
 
 <section class="container section gray-bg">
   <header class="sec-heading">
-    <h1>General Questions</h1>
-    <h2 class="subheading">Frequently Asked Questions</h2>
-    <h3>F.A.Q.</h3>
+    <h1>{{ 'FAQ.GENERAL_QUESTIONS' | i18n }}</h1>
+    <h2 class="subheading">{{ 'FAQ.FREQUENTLY_ASKED_QUESTIONS' | i18n }}</h2>
+    <h3>{{ 'FAQ.F_A_Q' | i18n }}</h3>
   </header>
 
   <div class="row">
