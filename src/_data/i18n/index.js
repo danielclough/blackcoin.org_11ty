@@ -903,7 +903,7 @@ module.exports = {
             'pt': '', /*Portuguese*/
             'bn': '', /*Bengal*/
             'ru': '', /*Russian*/
-            'ja': ``, /*Japanese*/
+            'ja': '', /*Japanese*/
             'jv': '', /*Javanese*/
             'de': '', /*German*/
             'ko': '', /*Korean*/
@@ -951,7 +951,7 @@ module.exports = {
             'pt': '', /*Portuguese*/
             'bn': '', /*Bengal*/
             'ru': '', /*Russian*/
-            'ja': ``, /*Japanese*/
+            'ja': '', /*Japanese*/
             'jv': '', /*Javanese*/
             'de': '', /*German*/
             'ko': '', /*Korean*/
@@ -975,7 +975,7 @@ module.exports = {
             'pt': '', /*Portuguese*/
             'bn': '', /*Bengal*/
             'ru': '', /*Russian*/
-            'ja': ``, /*Japanese*/
+            'ja': '', /*Japanese*/
             'jv': '', /*Javanese*/
             'de': '', /*German*/
             'ko': '', /*Korean*/
@@ -1016,36 +1016,256 @@ module.exports = {
             'it': '',  /*Italian*/
             'hr': '' /*Croatian*/
         },
-        MORE_ABOUT_BLACKCOIN_ANSWER: {
+        MORE_ABOUT_BLACKCOIN_ANSWER1: {
             'zh': '', /*Chinese*/
             'es': '', /*Spanish*/
-            'en': ``, /*English*/
+            'en': '', /*English*/
             'hi': '', /*Hindi*/
             'ar': '', /*Arabic - Right-to-left*/
             'pt': '', /*Portuguese*/
             'bn': '', /*Bengal*/
             'ru': '', /*Russian*/
-            'ja': `Blackcoin(ブラックコイン)のシステム、これは、個人銀行のようなものだと思ってください。簡単に口座は凍結される事無く、安心完全かつ常に無料で、匿名性が高く、従来の銀行よりもはるかに安全で、送金は世界中の誰にでも数秒で安全に送ることができます。
-
-    ソフトウェアをダウンロードするだけで、誰でもアカウントを作成することができます。この銀行には所有者がおらず、閉鎖することもできません。ピア・ツー・ピアの為に高い透明性を有します。またブラックコインの発行枚数は有限です。その為ゴールドのように価値を維持し、富の保存場所としても最適です。新規発行されるBlackcoinは、ネットワークの1％の報酬によってのみ生成されます。
-
-    未来の通貨へようこそ‼︎
-
-    安全、迅速、セキュア、匿名、エキサイティング、そして何よりも楽しい！
-
-    (Blackcoinの歴史や業績をご紹介します。)
-
-    -Blackcoinは完全なプルーフオブステークを実現した世界で最初のコインです。
-
-    -Blackcoinは世界で初めてスマートコントラクトを実現したコインでもあります。
-
-    -2014年初頭、BlackcoinはPOSとマルチプールを組
-
-    み合わせた最初のコインでした。それらの仕組みが、非常に強力であった為に、人々はこのコインを「ブラックホール」というニックネームを付けました。
-
-    -Blackcoinは、クラウドファンディング上で広告・PR代理店のマックス・ブールジュを雇った最初のコインです。
-
-    -古くからBlackcoinは優れたコミュニティを持つことで知られているます。このBlackcoinコミュニティでは、みんながリーダーです。コミュニティの皆さんは、このコインを言葉ではなく行動のコインにするために、日々、たゆまぬ努力を続けています。Dogecoinに次いで最も活発なコミュニティの一つでも有ります。`, /*Japanese*/
+            'ja': 'Blackcoin(ブラックコイン)のシステム、これは、個人銀行のようなものだと思ってください。簡単に口座は凍結される事無く、安心完全かつ常に無料で、匿名性が高く、従来の銀行よりもはるかに安全で、送金は世界中の誰にでも数秒で安全に送ることができます。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        MORE_ABOUT_BLACKCOIN_ANSWER2: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'ソフトウェアをダウンロードするだけで、誰でもアカウントを作成することができます。この銀行には所有者がおらず、閉鎖することもできません。ピア・ツー・ピアの為に高い透明性を有します。またブラックコインの発行枚数は有限です。その為ゴールドのように価値を維持し、富の保存場所としても最適です。新規発行されるBlackcoinは、ネットワークの1％の報酬によってのみ生成されます。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        MORE_ABOUT_BLACKCOIN_ANSWER3: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '未来の通貨へようこそ‼︎', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        MORE_ABOUT_BLACKCOIN_ANSWER4: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '安全、迅速、セキュア、匿名、エキサイティング、そして何よりも楽しい！', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        MORE_ABOUT_BLACKCOIN_ANSWER5: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '(Blackcoinの歴史や業績をご紹介します。)', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        MORE_ABOUT_BLACKCOIN_ANSWER6: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '-Blackcoinは完全なプルーフオブステークを実現した世界で最初のコインです。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        MORE_ABOUT_BLACKCOIN_ANSWER7: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '-Blackcoinは世界で初めてスマートコントラクトを実現したコインでもあります。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        MORE_ABOUT_BLACKCOIN_ANSWER8: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '-2014年初頭、BlackcoinはPOSとマルチプールを組', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        MORE_ABOUT_BLACKCOIN_ANSWER9: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'み合わせた最初のコインでした。それらの仕組みが、非常に強力であった為に、人々はこのコインを「ブラックホール」というニックネームを付けました。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        MORE_ABOUT_BLACKCOIN_ANSWER10: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '-Blackcoinは、クラウドファンディング上で広告・PR代理店のマックス・ブールジュを雇った最初のコインです。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        MORE_ABOUT_BLACKCOIN_ANSWER11: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '-古くからBlackcoinは優れたコミュニティを持つことで知られているます。このBlackcoinコミュニティでは、みんながリーダーです。コミュニティの皆さんは、このコインを言葉ではなく行動のコインにするために、日々、たゆまぬ努力を続けています。Dogecoinに次いで最も活発なコミュニティの一つでも有ります。', /*Japanese*/
             'jv': '', /*Javanese*/
             'de': '', /*German*/
             'ko': '', /*Korean*/
@@ -1084,36 +1304,256 @@ module.exports = {
             'it': '',  /*Italian*/
             'hr': '' /*Croatian*/
         },
-        HOW_DOES_IT_WORK_ANSWER: {
+        HOW_DOES_IT_WORK_ANSWER1: {
             'zh': '', /*Chinese*/
             'es': '', /*Spanish*/
-            'en': ``, /*English*/
+            'en': '', /*English*/
             'hi': '', /*Hindi*/
             'ar': '', /*Arabic - Right-to-left*/
             'pt': '', /*Portuguese*/
             'bn': '', /*Bengal*/
             'ru': '', /*Russian*/
-            'ja': `取引管理やBlackCoinを新規発行する機能は、すべてBlackCoinを利用するユーザーネットワークが補います。
-
-    つまり、BlackCoinを所有する、あなた自身が銀行家の役割を行えます。その意味は、BlackCoinのネットワークは、ステークと呼ばれるプロセスを通じて年に1％の報酬を受け取るBlackCoinの保有者である人々によって運営されている為です。
-
-    BlackCoinはオープンソースです。つまり、BlackCoinを機能させているソフトウェアは完全に公開されており、安心して利用できます。また、BlackCoinの仕組みは、非中央集権的で、誰もが参加できる単一の仕組みです。
-
-    一般的に、この様な銀行の取引履歴の仕組みは「ブロックチェーン」と呼ばれます。この履歴は誰もが共有しています。つまり、プログラムをダウンロードすると、履歴のコピーが保存され、それを共有することになるのです。さらにあなたのソフトウェアが作動している間にステークを行い、その銀行の取引履歴が安全であることを確認しています。ですので、銀行の取引履歴を偽造することは不可能です。また、あなたの所有するアカウント自体が、暗号鍵の集合体です。その鍵を使って、取引や契約に署名することができるのです。その鍵のコピーを持っているのは、世界中であなただけです。そのため、あなたのデジタル署名を他者が、偽造することは不可能です。デジタル署名とトレントの見事に組み合わせた技術で、暗号通貨は強固な取引信用を構築しています。
-
-    (要約すると)
-
-    -誰もがこのネットワークの安全性を保ちつつ報酬を得る。
-
-    -誰もが銀行の履歴を共有しているので、透明性がある。
-
-    -ソフトウェアはオープンソースなので、安全であることがわかる
-
-    -誰でも簡単にアカウントを開設できます。
-
-    -匿名性高く非常に高速で、数分以内に世界中の誰にでもお金を送ることができます。
-
-    -今も昔もずーっと無料で使えます。`, /*Japanese*/
+            'ja': '取引管理やBlackCoinを新規発行する機能は、すべてBlackCoinを利用するユーザーネットワークが補います。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        HOW_DOES_IT_WORK_ANSWER2: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'つまり、BlackCoinを所有する、あなた自身が銀行家の役割を行えます。その意味は、BlackCoinのネットワークは、ステークと呼ばれるプロセスを通じて年に1％の報酬を受け取るBlackCoinの保有者である人々によって運営されている為です。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        HOW_DOES_IT_WORK_ANSWER3: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'BlackCoinはオープンソースです。つまり、BlackCoinを機能させているソフトウェアは完全に公開されており、安心して利用できます。また、BlackCoinの仕組みは、非中央集権的で、誰もが参加できる単一の仕組みです。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        HOW_DOES_IT_WORK_ANSWER4: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '一般的に、この様な銀行の取引履歴の仕組みは「ブロックチェーン」と呼ばれます。この履歴は誰もが共有しています。つまり、プログラムをダウンロードすると、履歴のコピーが保存され、それを共有することになるのです。さらにあなたのソフトウェアが作動している間にステークを行い、その銀行の取引履歴が安全であることを確認しています。ですので、銀行の取引履歴を偽造することは不可能です。また、あなたの所有するアカウント自体が、暗号鍵の集合体です。その鍵を使って、取引や契約に署名することができるのです。その鍵のコピーを持っているのは、世界中であなただけです。そのため、あなたのデジタル署名を他者が、偽造することは不可能です。デジタル署名とトレントの見事に組み合わせた技術で、暗号通貨は強固な取引信用を構築しています。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        HOW_DOES_IT_WORK_ANSWER5: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '(要約すると)', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        HOW_DOES_IT_WORK_ANSWER6: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '-誰もがこのネットワークの安全性を保ちつつ報酬を得る。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        HOW_DOES_IT_WORK_ANSWER7: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '-誰もが銀行の履歴を共有しているので、透明性がある。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        HOW_DOES_IT_WORK_ANSWER8: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '-ソフトウェアはオープンソースなので、安全であることがわかる', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        HOW_DOES_IT_WORK_ANSWER9: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '-誰でも簡単にアカウントを開設できます。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        HOW_DOES_IT_WORK_ANSWER10: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '-匿名性高く非常に高速で、数分以内に世界中の誰にでもお金を送ることができます。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        HOW_DOES_IT_WORK_ANSWER11: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '-今も昔もずーっと無料で使えます。', /*Japanese*/
             'jv': '', /*Javanese*/
             'de': '', /*German*/
             'ko': '', /*Korean*/
@@ -1152,26 +1592,136 @@ module.exports = {
             'it': '',  /*Italian*/
             'hr': '' /*Croatian*/
         },
-        BLACKCOIN_VS_BITCOIN_ANSWER: {
+        BLACKCOIN_VS_BITCOIN_ANSWER1: {
             'zh': '', /*Chinese*/
             'es': '', /*Spanish*/
-            'en': ``, /*English*/
+            'en': '', /*English*/
             'hi': '', /*Hindi*/
             'ar': '', /*Arabic - Right-to-left*/
             'pt': '', /*Portuguese*/
             'bn': '', /*Bengal*/
             'ru': '', /*Russian*/
-            'ja': `では、Blackcoinはビットコインと何が違うのでしょうか？
-
-    私たちはビットコインを愛していますが、同時にビットコインを改善しようとしています。ビットコインは非常に大きいので、革新的な変化に人々が同意するには時間がかかりすぎます。そのため、ここ数年で代替通貨が急増しています。これがブラックコインへの道を開いたのです。
-
-    ブラックコインは、ブロックチェーンの革新をリードし続けてきました。
-
-    このコイン自体が、世界のどのコインよりもGithubからフォークされています 主にPOS（Proof of Stake）のイノベーションに取り組んでいたRat4が始めたものです。Rat4は、Bitcoinの旧式で高価なProof of Workよりも、ステークが安全で効率的であることを証明したかったのです。
-
-    コミュニティの何人かのメンバーは、この高速POSとマイニングプールを組み合わせて、市場の価格と量に上昇圧力をかけてサポートし、その結果、ブラックコインの人気は大きく上昇しました。その後、Rat4には、BlackHaloの唯一の作者であり、活発なコミュニティメンバーであったDavid Zimbeckが加わりました。チェスやエンターテイメントなどの分野で有名だったデビッドは、独学でPythonを学び、BitHaloという「スマートコントラクト」プラットフォームをコーディングしました。Rat4を信じ、ブラックコインの安全性とマルチプールの革新性に賛同していたデビッドは、ブラックコインでHaloをデビューさせることを選択しました。このおかげで、ブラックコインはEtheriumなどの他のスマートコントラクト提案よりも丸1年先を行くことができました。Rat4はその後、ユーザーにネットワークとの対話を強いることでプルーフ・オブ・ステークの安全性を高め、セキュリティ上の欠陥を解消することに取り組んだ。そこで彼はProof of Stake 2.0を作成しました。2015年、Rat4は最終的にプロトコルをマスターするために、3.0のプロトコルに取り組み始めました。その間に、デビッドは分散型マーケットプレイスと分散型サーバーをリリースし、BlackHaloを大幅に改良して、ユーザーの利便性に焦点を当てた大量の新しいエキサイティングな機能を与えました。これらはすべて、ブラックコインのみで構築された分散型取引所の到来に備えたものでした。それ以来、他の多くの開発者が貢献しています。コミュニティのメンバーであるDrunkonsoundは、exco.inの取引所や他のいくつかのBlackcoinプロジェクトを構築し、後援しました。exco.inの取引所は、ライブの高頻度取引を行った最初の取引所であり、取引のための優れたチャートや機能をたくさん備えていました。再びBlackcoinが成長し、新しいプロジェクトであるLegionairreもコミュニティメンバーのbtclaw氏によって開始されました。Legionairreは、人々にステルスアドレスを提供します。彼らが最も重視しているのは、あなたのプライバシーです。ブラックコインの勢いはとどまるところを知らず、年々、新しいエキサイティングな機能が追加されています。
-
-    一番の魅力は、あなたが参加すれば、インターネットの未来の興奮のすべてに参加できるということです。`, /*Japanese*/
+            'ja': 'では、Blackcoinはビットコインと何が違うのでしょうか？', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        BLACKCOIN_VS_BITCOIN_ANSWER2: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '私たちはビットコインを愛していますが、同時にビットコインを改善しようとしています。ビットコインは非常に大きいので、革新的な変化に人々が同意するには時間がかかりすぎます。そのため、ここ数年で代替通貨が急増しています。これがブラックコインへの道を開いたのです。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        BLACKCOIN_VS_BITCOIN_ANSWER3: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'ブラックコインは、ブロックチェーンの革新をリードし続けてきました。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        BLACKCOIN_VS_BITCOIN_ANSWER4: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'このコイン自体が、世界のどのコインよりもGithubからフォークされています 主にPOS（Proof of Stake）のイノベーションに取り組んでいたRat4が始めたものです。Rat4は、Bitcoinの旧式で高価なProof of Workよりも、ステークが安全で効率的であることを証明したかったのです。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        BLACKCOIN_VS_BITCOIN_ANSWER5: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'コミュニティの何人かのメンバーは、この高速POSとマイニングプールを組み合わせて、市場の価格と量に上昇圧力をかけてサポートし、その結果、ブラックコインの人気は大きく上昇しました。その後、Rat4には、BlackHaloの唯一の作者であり、活発なコミュニティメンバーであったDavid Zimbeckが加わりました。チェスやエンターテイメントなどの分野で有名だったデビッドは、独学でPythonを学び、BitHaloという「スマートコントラクト」プラットフォームをコーディングしました。Rat4を信じ、ブラックコインの安全性とマルチプールの革新性に賛同していたデビッドは、ブラックコインでHaloをデビューさせることを選択しました。このおかげで、ブラックコインはEtheriumなどの他のスマートコントラクト提案よりも丸1年先を行くことができました。Rat4はその後、ユーザーにネットワークとの対話を強いることでプルーフ・オブ・ステークの安全性を高め、セキュリティ上の欠陥を解消することに取り組んだ。そこで彼はProof of Stake 2.0を作成しました。2015年、Rat4は最終的にプロトコルをマスターするために、3.0のプロトコルに取り組み始めました。その間に、デビッドは分散型マーケットプレイスと分散型サーバーをリリースし、BlackHaloを大幅に改良して、ユーザーの利便性に焦点を当てた大量の新しいエキサイティングな機能を与えました。これらはすべて、ブラックコインのみで構築された分散型取引所の到来に備えたものでした。それ以来、他の多くの開発者が貢献しています。コミュニティのメンバーであるDrunkonsoundは、exco.inの取引所や他のいくつかのBlackcoinプロジェクトを構築し、後援しました。exco.inの取引所は、ライブの高頻度取引を行った最初の取引所であり、取引のための優れたチャートや機能をたくさん備えていました。再びBlackcoinが成長し、新しいプロジェクトであるLegionairreもコミュニティメンバーのbtclaw氏によって開始されました。Legionairreは、人々にステルスアドレスを提供します。彼らが最も重視しているのは、あなたのプライバシーです。ブラックコインの勢いはとどまるところを知らず、年々、新しいエキサイティングな機能が追加されています。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        BLACKCOIN_VS_BITCOIN_ANSWER6: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '一番の魅力は、あなたが参加すれば、インターネットの未来の興奮のすべてに参加できるということです。', /*Japanese*/
             'jv': '', /*Javanese*/
             'de': '', /*German*/
             'ko': '', /*Korean*/
@@ -1210,26 +1760,136 @@ module.exports = {
             'it': '',  /*Italian*/
             'hr': '' /*Croatian*/
         },
-        PROOF_OF_STAKE_VS_PROOF_OF_WORK_ANSWER: {
+        PROOF_OF_STAKE_VS_PROOF_OF_WORK_ANSWER1: {
             'zh': '', /*Chinese*/
             'es': '', /*Spanish*/
-            'en': ``, /*English*/
+            'en': '', /*English*/
             'hi': '', /*Hindi*/
             'ar': '', /*Arabic - Right-to-left*/
             'pt': '', /*Portuguese*/
             'bn': '', /*Bengal*/
             'ru': '', /*Russian*/
-            'ja': `Proof-of-Workは、オリジナルのBitcoinプロトコルのバックボーンを形成する素晴らしいイノベーションでした。計算量の多い数学の問題を解くことで、プロトコルの安全性を確保するために行った努力を証明することができるというものです。このようにしてブロックチェーンが生成され、この計算を行うために必要な労力がコインの希少性と価値に貢献します。
-
-    しかし、Proof-of-Workは最終的に余計なコストがかかるシステムになってしまいます。
-
-    Proof of Stakeは、この問題を非常にエレガントな方法で解決しています。Proof of Stakeは、セキュリティを生成するために希少資源であるコンピュータのパワーを利用するのではなく、コイン自体の希少性を利用しています。ユーザーは、チェーンの次のブロックを生成するために自分のコインを「賭ける」ことを選択でき、その確率は基本的に自分のコインの重さに比例します。
-
-    BlackCoinは、Proof-of-Workの生成サイクルを採用した最初のコインであり、その後、完全なProof-of-Stakeに移行したことで注目を集めました。
-
-    Proof-of-Stakeは環境に優しく効率的であり、Proof-of-Workベースのネットワークで発生する膨大なエネルギーの浪費やハードウェアのオーバーヘッドを回避することができます。
-
-    BlackCoinのコアプロトコルは、Proof-of-Stakeのセキュリティと一般的な機能性について、時間をかけて業界をリードする改善を行ってきました（PoS 2.0およびPoS 3.0）。`, /*Japanese*/
+            'ja': 'Proof-of-Workは、オリジナルのBitcoinプロトコルのバックボーンを形成する素晴らしいイノベーションでした。計算量の多い数学の問題を解くことで、プロトコルの安全性を確保するために行った努力を証明することができるというものです。このようにしてブロックチェーンが生成され、この計算を行うために必要な労力がコインの希少性と価値に貢献します。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        PROOF_OF_STAKE_VS_PROOF_OF_WORK_ANSWER2: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'しかし、Proof-of-Workは最終的に余計なコストがかかるシステムになってしまいます。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        PROOF_OF_STAKE_VS_PROOF_OF_WORK_ANSWER3: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'Proof of Stakeは、この問題を非常にエレガントな方法で解決しています。Proof of Stakeは、セキュリティを生成するために希少資源であるコンピュータのパワーを利用するのではなく、コイン自体の希少性を利用しています。ユーザーは、チェーンの次のブロックを生成するために自分のコインを「賭ける」ことを選択でき、その確率は基本的に自分のコインの重さに比例します。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        PROOF_OF_STAKE_VS_PROOF_OF_WORK_ANSWER4: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'BlackCoinは、Proof-of-Workの生成サイクルを採用した最初のコインであり、その後、完全なProof-of-Stakeに移行したことで注目を集めました。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        PROOF_OF_STAKE_VS_PROOF_OF_WORK_ANSWER5: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'Proof-of-Stakeは環境に優しく効率的であり、Proof-of-Workベースのネットワークで発生する膨大なエネルギーの浪費やハードウェアのオーバーヘッドを回避することができます。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        PROOF_OF_STAKE_VS_PROOF_OF_WORK_ANSWER6: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'BlackCoinのコアプロトコルは、Proof-of-Stakeのセキュリティと一般的な機能性について、時間をかけて業界をリードする改善を行ってきました（PoS 2.0およびPoS 3.0）。', /*Japanese*/
             'jv': '', /*Javanese*/
             'de': '', /*German*/
             'ko': '', /*Korean*/
@@ -1268,22 +1928,88 @@ module.exports = {
             'it': '',  /*Italian*/
             'hr': '' /*Croatian*/
         },
-        THE_ANNUAL_INFLATION_OF_BLACKCOIN_ANSWER: {
+        THE_ANNUAL_INFLATION_OF_BLACKCOIN_ANSWER1: {
             'zh': '', /*Chinese*/
             'es': '', /*Spanish*/
-            'en': ``, /*English*/
+            'en': '', /*English*/
             'hi': '', /*Hindi*/
             'ar': '', /*Arabic - Right-to-left*/
             'pt': '', /*Portuguese*/
             'bn': '', /*Bengal*/
             'ru': '', /*Russian*/
-            'ja': `ブロックリワードが固定されているためにBLKの量が固定されており、そのために年々インフレ率が少しずつ低くなっています。
-
-    ブロックタイムの目標は67秒なので、1年で計算すると（60/67×60）×24×365で470686ブロックリワード（1.5BLK）となり、大体1年で706,030個のBLKが新たに手に入ることになります。現在のところ、706,030は総供給量60,238,885BLKの1.172%にあたります。
-
-    この1.172%は、出資した株主の一部にしか分配されません。報酬率は1％をはるかに超えており、時間と賭けたBLKの量に応じて平均で年4～8％になります。
-
-    つまり、20％のコインだけが積極的に賭けられていたとしたら、80％の人（平均）が賭けずに何も得られないので、継続的に賭けることで実際には年5％程度を得ることができるのです。`, /*Japanese*/
+            'ja': 'ブロックリワードが固定されているためにBLKの量が固定されており、そのために年々インフレ率が少しずつ低くなっています。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        THE_ANNUAL_INFLATION_OF_BLACKCOIN_ANSWER2: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'ブロックタイムの目標は67秒なので、1年で計算すると（60/67×60）×24×365で470686ブロックリワード（1.5BLK）となり、大体1年で706,030個のBLKが新たに手に入ることになります。現在のところ、706,030は総供給量60,238,885BLKの1.172%にあたります。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        THE_ANNUAL_INFLATION_OF_BLACKCOIN_ANSWER3: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'この1.172%は、出資した株主の一部にしか分配されません。報酬率は1％をはるかに超えており、時間と賭けたBLKの量に応じて平均で年4～8％になります。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        THE_ANNUAL_INFLATION_OF_BLACKCOIN_ANSWER4: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'つまり、20％のコインだけが積極的に賭けられていたとしたら、80％の人（平均）が賭けずに何も得られないので、継続的に賭けることで実際には年5％程度を得ることができるのです。', /*Japanese*/
             'jv': '', /*Javanese*/
             'de': '', /*German*/
             'ko': '', /*Korean*/
@@ -1322,18 +2048,40 @@ module.exports = {
             'it': '',  /*Italian*/
             'hr': '' /*Croatian*/
         },
-        WHERE_CAN_I_CHECK_THE_NETWORK_WEIGHT_ANSWER: {
+        WHERE_CAN_I_CHECK_THE_NETWORK_WEIGHT_ANSWER1: {
             'zh': '', /*Chinese*/
             'es': '', /*Spanish*/
-            'en': ``, /*English*/
+            'en': '', /*English*/
             'hi': '', /*Hindi*/
             'ar': '', /*Arabic - Right-to-left*/
             'pt': '', /*Portuguese*/
             'bn': '', /*Bengal*/
             'ru': '', /*Russian*/
-            'ja': `ウォレットの右下部でネットワークウェイトを確認することができます。
-
-    または、デバッグコンソールからgetstakinginfoコマンドを実行することで確認できます。ネットワークウェイトは直近の72ブロックから計算出来ます。`, /*Japanese*/
+            'ja': 'ウォレットの右下部でネットワークウェイトを確認することができます。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        WHERE_CAN_I_CHECK_THE_NETWORK_WEIGHT_ANSWER2: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'または、デバッグコンソールからgetstakinginfoコマンドを実行することで確認できます。ネットワークウェイトは直近の72ブロックから計算出来ます。', /*Japanese*/
             'jv': '', /*Javanese*/
             'de': '', /*German*/
             'ko': '', /*Korean*/
@@ -1372,26 +2120,136 @@ module.exports = {
             'it': '',  /*Italian*/
             'hr': '' /*Croatian*/
         },
-        WHERE_CAN_I_BUY_BLACKCOIN_ANSWER: {
+        WHERE_CAN_I_BUY_BLACKCOIN_ANSWER1: {
             'zh': '', /*Chinese*/
             'es': '', /*Spanish*/
-            'en': ``, /*English*/
+            'en': '', /*English*/
             'hi': '', /*Hindi*/
             'ar': '', /*Arabic - Right-to-left*/
             'pt': '', /*Portuguese*/
             'bn': '', /*Bengal*/
             'ru': '', /*Russian*/
-            'ja': `BlackCoinsは、さまざまなオンライン取引所で購入できます。
-
-    最新の最も取引量の多い取引所の情報はCoinmarketcap.com
-
-    (コインマーケットキャップで検索)で確認できます。
-
-    コイン検索(BLACKCOINまたはBLK)-中段左上の(市場)を
-
-    クリックすると、上段から最新の取引額大きい取引所から
-
-    取引額低い順に、取引所の名前が出ます。`, /*Japanese*/
+            'ja': 'BlackCoinsは、さまざまなオンライン取引所で購入できます。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        WHERE_CAN_I_BUY_BLACKCOIN_ANSWER2: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '最新の最も取引量の多い取引所の情報はCoinmarketcap.com', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        WHERE_CAN_I_BUY_BLACKCOIN_ANSWER3: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '(コインマーケットキャップで検索)で確認できます。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        WHERE_CAN_I_BUY_BLACKCOIN_ANSWER4: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'コイン検索(BLACKCOINまたはBLK)-中段左上の(市場)を', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        WHERE_CAN_I_BUY_BLACKCOIN_ANSWER5: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'クリックすると、上段から最新の取引額大きい取引所から', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        WHERE_CAN_I_BUY_BLACKCOIN_ANSWER6: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '取引額低い順に、取引所の名前が出ます。', /*Japanese*/
             'jv': '', /*Javanese*/
             'de': '', /*German*/
             'ko': '', /*Korean*/
@@ -1433,15 +2291,37 @@ module.exports = {
         STAKING_ANSWER: {
             'zh': '', /*Chinese*/
             'es': '', /*Spanish*/
-            'en': ``, /*English*/
+            'en': '', /*English*/
             'hi': '', /*Hindi*/
             'ar': '', /*Arabic - Right-to-left*/
             'pt': '', /*Portuguese*/
             'bn': '', /*Bengal*/
             'ru': '', /*Russian*/
-            'ja': `ブラックコインは純粋なPoS（Proof-of-Stake）コインであり、通常の方法ではマイニングできなくなりました。しかし、ステーキングと呼ばれる方法で採掘することは可能です。ステーキングは、ネットワークの安全性を確保し、ブラックコインユーザーの様々な取引を支援する役割も果たします。Stakingを行うと、1年間でウォレットに保有しているコインの総量の1%から8%(ネットワークの重さによって異なる)を獲得することができ、ウォレットのロックを解除するとすぐに開始されます。
-
-    ステイクを開始すると、一定量のコインがステイク残高に入り（ウォレットの「概要」タブで確認できます）、そのコインがステイクを開始します。コインが多ければ多いほど、ステイクによって獲得できるコインも多くなります。`, /*Japanese*/
+            'ja': 'ブラックコインは純粋なPoS（Proof-of-Stake）コインであり、通常の方法ではマイニングできなくなりました。しかし、ステーキングと呼ばれる方法で採掘することは可能です。ステーキングは、ネットワークの安全性を確保し、ブラックコインユーザーの様々な取引を支援する役割も果たします。Stakingを行うと、1年間でウォレットに保有しているコインの総量の1%から8%(ネットワークの重さによって異なる)を獲得することができ、ウォレットのロックを解除するとすぐに開始されます。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        STAKING_ANSWER1: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'ステイクを開始すると、一定量のコインがステイク残高に入り（ウォレットの「概要」タブで確認できます）、そのコインがステイクを開始します。コインが多ければ多いほど、ステイクによって獲得できるコインも多くなります。', /*Japanese*/
             'jv': '', /*Javanese*/
             'de': '', /*German*/
             'ko': '', /*Korean*/
@@ -1483,7 +2363,7 @@ module.exports = {
         WHAT_KIND_OF_COMPUTING_POWER_IS_REQUIRED_FOR_STAKING_ANSWER: {
             'zh': '', /*Chinese*/
             'es': '', /*Spanish*/
-            'en': ``, /*English*/
+            'en': '', /*English*/
             'hi': '', /*Hindi*/
             'ar': '', /*Arabic - Right-to-left*/
             'pt': '', /*Portuguese*/
@@ -1531,7 +2411,7 @@ module.exports = {
         HOW_BIG_ARE_BLOCK_REWARDS_ANSWER: {
             'zh': '', /*Chinese*/
             'es': '', /*Spanish*/
-            'en': ``, /*English*/
+            'en': '', /*English*/
             'hi': '', /*Hindi*/
             'ar': '', /*Arabic - Right-to-left*/
             'pt': '', /*Portuguese*/
@@ -1576,22 +2456,88 @@ module.exports = {
             'it': '',  /*Italian*/
             'hr': '' /*Croatian*/
         },
-        HOW_OFTEN_WILL_I_RECEIVE_A_BLOCK_REWARD_ANSWER: {
+        HOW_OFTEN_WILL_I_RECEIVE_A_BLOCK_REWARD_ANSWER1: {
             'zh': '', /*Chinese*/
             'es': '', /*Spanish*/
-            'en': ``, /*English*/
+            'en': '', /*English*/
             'hi': '', /*Hindi*/
             'ar': '', /*Arabic - Right-to-left*/
             'pt': '', /*Portuguese*/
             'bn': '', /*Bengal*/
             'ru': '', /*Russian*/
-            'ja': `10000BLKであれば、1日1回（1.5BLK）程度の出目が期待できます。
-
-    賭け金が何回になるかは正確には予測できません。しかし、より多くのコインを賭けていれば、より多くのブロックを得ることができ、より多くの報酬を見つけることができます。1年365日、1日24時間賭けている人は、1日1時間、同じ量のコインを賭けている人よりも多く（～24倍）の報酬を得ることができます。
-
-    ステーキングは一種の宝くじです。いつもより多くもらえる日もあれば、
-
-    少ない日もあるでしょう。あくまでも目安ですが。`, /*Japanese*/
+            'ja': '10000BLKであれば、1日1回（1.5BLK）程度の出目が期待できます。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        HOW_OFTEN_WILL_I_RECEIVE_A_BLOCK_REWARD_ANSWER2: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '賭け金が何回になるかは正確には予測できません。しかし、より多くのコインを賭けていれば、より多くのブロックを得ることができ、より多くの報酬を見つけることができます。1年365日、1日24時間賭けている人は、1日1時間、同じ量のコインを賭けている人よりも多く（～24倍）の報酬を得ることができます。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        HOW_OFTEN_WILL_I_RECEIVE_A_BLOCK_REWARD_ANSWER3: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'ステーキングは一種の宝くじです。いつもより多くもらえる日もあれば、', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        HOW_OFTEN_WILL_I_RECEIVE_A_BLOCK_REWARD_ANSWER4: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '少ない日もあるでしょう。あくまでも目安ですが。', /*Japanese*/
             'jv': '', /*Javanese*/
             'de': '', /*German*/
             'ko': '', /*Korean*/
@@ -1630,22 +2576,88 @@ module.exports = {
             'it': '',  /*Italian*/
             'hr': '' /*Croatian*/
         },
-        WHAT_ARE_THE_OFFICIAL_BLACKCOIN_WEBSITES_ANSWER: {
+        WHAT_ARE_THE_OFFICIAL_BLACKCOIN_WEBSITES_ANSWER1: {
             'zh': '', /*Chinese*/
             'es': '', /*Spanish*/
-            'en': ``, /*English*/
+            'en': '', /*English*/
             'hi': '', /*Hindi*/
             'ar': '', /*Arabic - Right-to-left*/
             'pt': '', /*Portuguese*/
             'bn': '', /*Bengal*/
             'ru': '', /*Russian*/
-            'ja': `https://blackcoin.org - https://blackcoinmore.org - https://blackcoin.nl は、唯一のブラックコイン公式サイトです。
-
-    コインマーケットキャップのBlack Coinページの上方左側の(ウエブサイト)の項目からもBlack Coin公式サイトを開けます。
-
-    注意)現在、blackcoin.ioというドメインは、Blacksight、PayBLK、Iris
-
-    に使用されています。他には、Blackcoin 非公式なウェブサイトからダウンロードしたり、登録したりしないでください。`, /*Japanese*/
+            'ja': 'https://blackcoin.org - https://blackcoinmore.org - https://blackcoin.nl は、唯一のブラックコイン公式サイトです。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        WHAT_ARE_THE_OFFICIAL_BLACKCOIN_WEBSITES_ANSWER2: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'コインマーケットキャップのBlack Coinページの上方左側の(ウエブサイト)の項目からもBlack Coin公式サイトを開けます。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        WHAT_ARE_THE_OFFICIAL_BLACKCOIN_WEBSITES_ANSWER3: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '注意)現在、blackcoin.ioというドメインは、Blacksight、PayBLK、Iris', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        WHAT_ARE_THE_OFFICIAL_BLACKCOIN_WEBSITES_ANSWER4: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'に使用されています。他には、Blackcoin 非公式なウェブサイトからダウンロードしたり、登録したりしないでください。', /*Japanese*/
             'jv': '', /*Javanese*/
             'de': '', /*German*/
             'ko': '', /*Korean*/
@@ -1686,21 +2698,64 @@ module.exports = {
             'it': '',  /*Italian*/
             'hr': '' /*Croatian*/
         },
-        HOW_LONG_DOES_THE_WALLET_TAKE_TO_SYNC_ANSWER: {
+        HOW_LONG_DOES_THE_WALLET_TAKE_TO_SYNC_ANSWER1: {
             'zh': '', /*Chinese*/
             'es': '', /*Spanish*/
-            'en': ``, /*English*/
+            'en': '', /*English*/
             'hi': '', /*Hindi*/
             'ar': '', /*Arabic - Right-to-left*/
             'pt': '', /*Portuguese*/
             'bn': '', /*Bengal*/
             'ru': '', /*Russian*/
-            'ja': `現在のブートストラップは約2.0GBです。ダウンロードには長い時間を要する事があります（インターネットの速度と利用可能な条件によります。)
-
-    ブートストラップをダウンロードすることは、Blackcoin Legacyウォレットを使用する際の最初の同期を早めるのに良い方法です。
-
-    BLK Bootstrapは、ページの一番下（FAQ/OTHER/BOOTSTRAP）
-    にあります。`, /*Japanese*/
+            'ja': '現在のブートストラップは約2.0GBです。ダウンロードには長い時間を要する事があります（インターネットの速度と利用可能な条件によります。)', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        HOW_LONG_DOES_THE_WALLET_TAKE_TO_SYNC_ANSWER2: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'ブートストラップをダウンロードすることは、Blackcoin Legacyウォレットを使用する際の最初の同期を早めるのに良い方法です。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        HOW_LONG_DOES_THE_WALLET_TAKE_TO_SYNC_ANSWER3: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'BLK Bootstrapは、ページの一番下（FAQ/OTHER/BOOTSTRAP）にあります。', /*Japanese*/
             'jv': '', /*Javanese*/
             'de': '', /*German*/
             'ko': '', /*Korean*/
@@ -1739,54 +2794,472 @@ module.exports = {
             'it': '',  /*Italian*/
             'hr': '' /*Croatian*/
         },
-        WHY_IS_WALLET_NOT_SYNCING_ANSWER: {
+        WHY_IS_WALLET_NOT_SYNCING_ANSWER1: {
             'zh': '', /*Chinese*/
             'es': '', /*Spanish*/
-            'en': ``, /*English*/
+            'en': '', /*English*/
             'hi': '', /*Hindi*/
             'ar': '', /*Arabic - Right-to-left*/
             'pt': '', /*Portuguese*/
             'bn': '', /*Bengal*/
             'ru': '', /*Russian*/
-            'ja': `1. ウォレットのバージョンが最新であることを確認してください。
-
-2. ファイアウォールやアンチウィルスソフトがウォレットの接続をブロックしていないか確認してください。
-
-3. システムの時計が正確であることを確認してください。
-
-4. コインが成熟するには約8時間（～501ブロック）かかります。
-
-ウォレットは自分のピアサークルを作ります。それには時間がかかります。
-
-しかし、あなたはノードのリストを与えることでウォレットを助けることができます。
-
-addnodeを適用するには、blackcoin.conf (Legacy)またはblackmore.conf (More)を見つける必要があります。それはここにあるはずです。
-
-Windows: %APPDATA%\blackcoin\
-
-or %APPDATA%\blackmore\
-
-Linux： $HOME/.blackcoin/
-
-または $HOME/.blackmore/
-
-Mac OSX： $HOME/Library/Application Support/blackcoin/ (日本語)
-
-または $HOME/Library/Application Support/blackmore/ です。
-
-次に、https://chainz.cryptoid.info/blk/#！ネットワークにアクセスします。
-
-"ノードリスト "をクリックしてください。
-
-リスト全体を.confの最後にコピーします。
-
-ブラックコインの起動 
-
-* OSはファイルの拡張子を隠すことがあるので、.confが実際には.conf.txtではないことを確認してください。
-
-それでも問題が解決しない場合は、debug.logをチェックしてエラーを探し、Blackcoin Discordで質問してください ttps://discord.com/invite/hjNUgWD)
-
-何をするにしても、wallet.datをバックアップしてください。`, /*Japanese*/
+            'ja': '1. ウォレットのバージョンが最新であることを確認してください', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        WHY_IS_WALLET_NOT_SYNCING_ANSWER2: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '2. ファイアウォールやアンチウィルスソフトがウォレットの接続をブロックしていないか確認してください。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        WHY_IS_WALLET_NOT_SYNCING_ANSWER3: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '3. システムの時計が正確であることを確認してください。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        WHY_IS_WALLET_NOT_SYNCING_ANSWER4: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '4. コインが成熟するには約8時間（～501ブロック）かかります。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        WHY_IS_WALLET_NOT_SYNCING_ANSWER5: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'ウォレットは自分のピアサークルを作ります。それには時間がかかります。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        WHY_IS_WALLET_NOT_SYNCING_ANSWER6: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'しかし、あなたはノードのリストを与えることでウォレットを助けることができます。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        WHY_IS_WALLET_NOT_SYNCING_ANSWER7: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'addnodeを適用するには、blackcoin.conf (Legacy)またはblackmore.conf (More)を見つける必要があります。それはここにあるはずです。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        WHY_IS_WALLET_NOT_SYNCING_ANSWER8: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'Windows: %APPDATA%\\blackcoin\\', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        WHY_IS_WALLET_NOT_SYNCING_ANSWER9: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'or %APPDATA%\\blackmore\\', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        WHY_IS_WALLET_NOT_SYNCING_ANSWER10: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'Linux： $HOME/.blackcoin/', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        WHY_IS_WALLET_NOT_SYNCING_ANSWER11: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'または $HOME/.blackmore/', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        WHY_IS_WALLET_NOT_SYNCING_ANSWER12: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'Mac OSX： $HOME/Library/Application Support/blackcoin/ (日本語)', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        WHY_IS_WALLET_NOT_SYNCING_ANSWER13: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'または $HOME/Library/Application Support/blackmore/ です。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        WHY_IS_WALLET_NOT_SYNCING_ANSWER14: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '次に、https://chainz.cryptoid.info/blk/#！ネットワークにアクセスします。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        WHY_IS_WALLET_NOT_SYNCING_ANSWER15: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '"ノードリスト "をクリックしてください。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        WHY_IS_WALLET_NOT_SYNCING_ANSWER16: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'リスト全体を.confの最後にコピーします。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        WHY_IS_WALLET_NOT_SYNCING_ANSWER17: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'ブラックコインの起動 ', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        WHY_IS_WALLET_NOT_SYNCING_ANSWER18: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '* OSはファイルの拡張子を隠すことがあるので、.confが実際には.conf.txtではないことを確認してください。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        WHY_IS_WALLET_NOT_SYNCING_ANSWER19: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'それでも問題が解決しない場合は、debug.logをチェックしてエラーを探し、Blackcoin Discordで質問してください https://discord.com/invite/hjNUgWD)', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        WHY_IS_WALLET_NOT_SYNCING_ANSWER20: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '何をするにしても、wallet.datをバックアップしてください。', /*Japanese*/
             'jv': '', /*Javanese*/
             'de': '', /*German*/
             'ko': '', /*Korean*/
@@ -1825,29 +3298,184 @@ Mac OSX： $HOME/Library/Application Support/blackcoin/ (日本語)
             'it': '',  /*Italian*/
             'hr': '' /*Croatian*/
         },
-        HOW_TO_SEND_BLACKCOIN_ANSWER: {
+        HOW_TO_SEND_BLACKCOIN_ANSWER1: {
             'zh': '', /*Chinese*/
             'es': '', /*Spanish*/
-            'en': ``, /*English*/
+            'en': '', /*English*/
             'hi': '', /*Hindi*/
             'ar': '', /*Arabic - Right-to-left*/
             'pt': '', /*Portuguese*/
             'bn': '', /*Bengal*/
             'ru': '', /*Russian*/
-            'ja': `コインを送る方法はとても簡単です。
-
-コインを友人、取引所、企業などに送る場合、必要なのは相手の受信アドレス（取引所では入金アドレスとして知られています）です。
-
-お使いのウォレットが暗号化されている場合は、パスフレーズ（暗号化フレーズ）も必要です。
-
-支払い先 友人や取引所、会社のBlackcoinアドレスを入力します。これらのアドレスは、内蔵のアドレス帳にも保存され、いつでもラベル付けや再ラベル付けができます）。
-
-ラベルを付ける。Bittrexなどの取引所に送る場合は、「Bittrex exchange」と入力してください。
-
-Amount（金額）。送付する金額。
-
-コインをアドレスに送る場合は、アドレスを入力するのではなく、コピーしてPay Toエリアに貼り付けると、誤ったアドレスを入力することを防ぐことができます。
-(コピーアンドペースト)`, /*Japanese*/
+            'ja': 'コインを送る方法はとても簡単です。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        HOW_TO_SEND_BLACKCOIN_ANSWER2: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'コインを友人、取引所、企業などに送る場合、必要なのは相手の受信アドレス（取引所では入金アドレスとして知られています）です。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        HOW_TO_SEND_BLACKCOIN_ANSWER3: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'お使いのウォレットが暗号化されている場合は、パスフレーズ（暗号化フレーズ）も必要です。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        HOW_TO_SEND_BLACKCOIN_ANSWER4: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '支払い先 友人や取引所、会社のBlackcoinアドレスを入力します。これらのアドレスは、内蔵のアドレス帳にも保存され、いつでもラベル付けや再ラベル付けができます）。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        HOW_TO_SEND_BLACKCOIN_ANSWER5: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'ラベルを付ける。Bittrexなどの取引所に送る場合は、「Bittrex exchange」と入力してください。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        HOW_TO_SEND_BLACKCOIN_ANSWER6: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'Amount（金額）。送付する金額。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        HOW_TO_SEND_BLACKCOIN_ANSWER7: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'コインをアドレスに送る場合は、アドレスを入力するのではなく、コピーしてPay Toエリアに貼り付けると、誤ったアドレスを入力することを防ぐことができます。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        HOW_TO_SEND_BLACKCOIN_ANSWER8: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '(コピーアンドペースト)', /*Japanese*/
             'jv': '', /*Javanese*/
             'de': '', /*German*/
             'ko': '', /*Korean*/
@@ -1886,26 +3514,136 @@ Amount（金額）。送付する金額。
             'it': '',  /*Italian*/
             'hr': '' /*Croatian*/
         },
-        HOW_TO_RECEIVE_BLACKCOINS_ANSWER: {
+        HOW_TO_RECEIVE_BLACKCOINS_ANSWER1: {
             'zh': '', /*Chinese*/
             'es': '', /*Spanish*/
-            'en': ``, /*English*/
+            'en': '', /*English*/
             'hi': '', /*Hindi*/
             'ar': '', /*Arabic - Right-to-left*/
             'pt': '', /*Portuguese*/
             'bn': '', /*Bengal*/
             'ru': '', /*Russian*/
-            'ja': `コインを送るのと同様に、コインを受け取るのも簡単です。
-
-BlackCoinsを取引所で購入した場合や、BLKで支払いを受けた場合は、コインを自分のウォレットに直接送信するための受信アドレスが必要になります。
-
-デフォルトでは、受信アドレスは1つしかありませんので、そのアドレスを右クリックして「アドレスをコピー」を選択してください。これで、手動で入力してエラーになるのを防ぐことができます。
-
-そのアドレスを、支払い（または交換）したい人に渡してください。
-
-新しいアドレスを作るのはとても簡単なので、取引のたびに同じアドレスを使ってコインを受け取る必要はありません。
-
-下部にある「新しいアドレス」をクリックして、好きなラベルを付けてください。（例：サイトからの寄付）そうすれば、個々の取引を簡単に確認することができます。`, /*Japanese*/
+            'ja': 'コインを送るのと同様に、コインを受け取るのも簡単です。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        HOW_TO_RECEIVE_BLACKCOINS_ANSWER2: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'BlackCoinsを取引所で購入した場合や、BLKで支払いを受けた場合は、コインを自分のウォレットに直接送信するための受信アドレスが必要になります。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        HOW_TO_RECEIVE_BLACKCOINS_ANSWER3: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'デフォルトでは、受信アドレスは1つしかありませんので、そのアドレスを右クリックして「アドレスをコピー」を選択してください。これで、手動で入力してエラーになるのを防ぐことができます。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        HOW_TO_RECEIVE_BLACKCOINS_ANSWER4: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'そのアドレスを、支払い（または交換）したい人に渡してください。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        HOW_TO_RECEIVE_BLACKCOINS_ANSWER5: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '新しいアドレスを作るのはとても簡単なので、取引のたびに同じアドレスを使ってコインを受け取る必要はありません。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        HOW_TO_RECEIVE_BLACKCOINS_ANSWER6: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '下部にある「新しいアドレス」をクリックして、好きなラベルを付けてください。（例：サイトからの寄付）そうすれば、個々の取引を簡単に確認することができます。', /*Japanese*/
             'jv': '', /*Javanese*/
             'de': '', /*German*/
             'ko': '', /*Korean*/
@@ -1944,18 +3682,40 @@ BlackCoinsを取引所で購入した場合や、BLKで支払いを受けた場�
             'it': '',  /*Italian*/
             'hr': '' /*Croatian*/
         },
-        HOW_TO_OPEN_YOUR_WALLET_FOR_STAKING_ANSWER: {
+        HOW_TO_OPEN_YOUR_WALLET_FOR_STAKING_ANSWER1: {
             'zh': '', /*Chinese*/
             'es': '', /*Spanish*/
-            'en': ``, /*English*/
+            'en': '', /*English*/
             'hi': '', /*Hindi*/
             'ar': '', /*Arabic - Right-to-left*/
             'pt': '', /*Portuguese*/
             'bn': '', /*Bengal*/
             'ru': '', /*Russian*/
-            'ja': `Wallet Settings > Unlock Wallet
-
-ウォレット設定＞ウォレットのロック解除`, /*Japanese*/
+            'ja': 'Wallet Settings > Unlock Wallet', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        HOW_TO_OPEN_YOUR_WALLET_FOR_STAKING_ANSWER2: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'ウォレット設定＞ウォレットのロック解除', /*Japanese*/
             'jv': '', /*Javanese*/
             'de': '', /*German*/
             'ko': '', /*Korean*/
@@ -1994,20 +3754,64 @@ BlackCoinsを取引所で購入した場合や、BLKで支払いを受けた場�
             'it': '',  /*Italian*/
             'hr': '' /*Croatian*/
         },
-        WHAT_IS_THE_MAX_AMOUNT_OF_NETWORK_CONNECTIONS_ANSWER: {
+        WHAT_IS_THE_MAX_AMOUNT_OF_NETWORK_CONNECTIONS_ANSWER1: {
             'zh': '', /*Chinese*/
             'es': '', /*Spanish*/
-            'en': ``, /*English*/
+            'en': '', /*English*/
             'hi': '', /*Hindi*/
             'ar': '', /*Arabic - Right-to-left*/
             'pt': '', /*Portuguese*/
             'bn': '', /*Bengal*/
             'ru': '', /*Russian*/
-            'ja': `アウトバウンド接続の上限は最大16です。
-
-それ以上の接続数が必要な場合は、インバウンド接続を受け入れる必要があります。
-
-ウォレットはポート15714をリッスンします。そのポートがブロックされていないか確認してください。また、他のピアがあなたのノードを発見して接続するまでに時間がかかります。`, /*Japanese*/
+            'ja': 'アウトバウンド接続の上限は最大16です。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        WHAT_IS_THE_MAX_AMOUNT_OF_NETWORK_CONNECTIONS_ANSWER2: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'それ以上の接続数が必要な場合は、インバウンド接続を受け入れる必要があります。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        WHAT_IS_THE_MAX_AMOUNT_OF_NETWORK_CONNECTIONS_ANSWER3: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'ウォレットはポート15714をリッスンします。そのポートがブロックされていないか確認してください。また、他のピアがあなたのノードを発見して接続するまでに時間がかかります。', /*Japanese*/
             'jv': '', /*Javanese*/
             'de': '', /*German*/
             'ko': '', /*Korean*/
@@ -2046,18 +3850,40 @@ BlackCoinsを取引所で購入した場合や、BLKで支払いを受けた場�
             'it': '',  /*Italian*/
             'hr': '' /*Croatian*/
         },
-        UPGRADING_WALLET_ANSWER: {
+        UPGRADING_WALLET_ANSWER1: {
             'zh': '', /*Chinese*/
             'es': '', /*Spanish*/
-            'en': ``, /*English*/
+            'en': '', /*English*/
             'hi': '', /*Hindi*/
             'ar': '', /*Arabic - Right-to-left*/
             'pt': '', /*Portuguese*/
             'bn': '', /*Bengal*/
             'ru': '', /*Russian*/
-            'ja': `古いバイナリを新しいバイナリに置き換えるだけです。
-
-アップグレードする前に、wallet.datファイルの最新のバックアップがあることを確認してください。`, /*Japanese*/
+            'ja': '古いバイナリを新しいバイナリに置き換えるだけです。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        UPGRADING_WALLET_ANSWER2: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'アップグレードする前に、wallet.datファイルの最新のバックアップがあることを確認してください。', /*Japanese*/
             'jv': '', /*Javanese*/
             'de': '', /*German*/
             'ko': '', /*Korean*/
@@ -2099,13 +3925,13 @@ BlackCoinsを取引所で購入した場合や、BLKで支払いを受けた場�
         CHANGING_WALLET_LOCATION_ANSWER: {
             'zh': '', /*Chinese*/
             'es': '', /*Spanish*/
-            'en': ``, /*English*/
+            'en': '', /*English*/
             'hi': '', /*Hindi*/
             'ar': '', /*Arabic - Right-to-left*/
             'pt': '', /*Portuguese*/
             'bn': '', /*Bengal*/
             'ru': '', /*Russian*/
-            'ja': `blackcoin-qt.exe -datadir=NEW LOCATION を実行するショートカットを作成します。`, /*Japanese*/
+            'ja': 'blackcoin-qt.exe -datadir=NEW LOCATION を実行するショートカットを作成します。', /*Japanese*/
             'jv': '', /*Javanese*/
             'de': '', /*German*/
             'ko': '', /*Korean*/
@@ -2144,18 +3970,40 @@ BlackCoinsを取引所で購入した場合や、BLKで支払いを受けた場�
             'it': '',  /*Italian*/
             'hr': '' /*Croatian*/
         },
-        HOW_OFTEN_DO_I_NEED_TO_BACKUP_MY_WALLET_ANSWER: {
+        HOW_OFTEN_DO_I_NEED_TO_BACKUP_MY_WALLET_ANSWER1: {
             'zh': '', /*Chinese*/
             'es': '', /*Spanish*/
-            'en': ``, /*English*/
+            'en': '', /*English*/
             'hi': '', /*Hindi*/
             'ar': '', /*Arabic - Right-to-left*/
             'pt': '', /*Portuguese*/
             'bn': '', /*Bengal*/
             'ru': '', /*Russian*/
-            'ja': `ウォレットから他のアドレスにコインを送信する場合は、送信することで新たにアドレスが変更される可能性があるため、バックアップを取る必要があります。
-
-同じアドレスにステイクしてコインを受け取る以外のことをしていないのであれば、おそらく追加のバックアップを作成する必要はありません。`, /*Japanese*/
+            'ja': 'ウォレットから他のアドレスにコインを送信する場合は、送信することで新たにアドレスが変更される可能性があるため、バックアップを取る必要があります。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        HOW_OFTEN_DO_I_NEED_TO_BACKUP_MY_WALLET_ANSWER2: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '同じアドレスにステイクしてコインを受け取る以外のことをしていないのであれば、おそらく追加のバックアップを作成する必要はありません。', /*Japanese*/
             'jv': '', /*Javanese*/
             'de': '', /*German*/
             'ko': '', /*Korean*/
@@ -2194,18 +4042,40 @@ BlackCoinsを取引所で購入した場合や、BLKで支払いを受けた場�
             'it': '',  /*Italian*/
             'hr': '' /*Croatian*/
         },
-        HOW_TO_STOP_STAKING_TO_BE_ABLE_TO_SEND_COINS_ANSWER: {
+        HOW_TO_STOP_STAKING_TO_BE_ABLE_TO_SEND_COINS_ANSWER1: {
             'zh': '', /*Chinese*/
             'es': '', /*Spanish*/
-            'en': ``, /*English*/
+            'en': '', /*English*/
             'hi': '', /*Hindi*/
             'ar': '', /*Arabic - Right-to-left*/
             'pt': '', /*Portuguese*/
             'bn': '', /*Bengal*/
             'ru': '', /*Russian*/
-            'ja': `501回の確認を経て、ステークしていたお客様の残高が解放されます。
-
-トランザクションタブで進捗状況を確認することができます。`, /*Japanese*/
+            'ja': '501回の確認を経て、ステークしていたお客様の残高が解放されます。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        HOW_TO_STOP_STAKING_TO_BE_ABLE_TO_SEND_COINS_ANSWER2: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'トランザクションタブで進捗状況を確認することができます。', /*Japanese*/
             'jv': '', /*Javanese*/
             'de': '', /*German*/
             'ko': '', /*Korean*/
@@ -2244,20 +4114,64 @@ BlackCoinsを取引所で購入した場合や、BLKで支払いを受けた場�
             'it': '',  /*Italian*/
             'hr': '' /*Croatian*/
         },
-        SENDING_BLACKCOINS_FROM_CERTAIN_ADDRESS_ANSWER: {
+        SENDING_BLACKCOINS_FROM_CERTAIN_ADDRESS_ANSWER1: {
             'zh': '', /*Chinese*/
             'es': '', /*Spanish*/
-            'en': ``, /*English*/
+            'en': '', /*English*/
             'hi': '', /*Hindi*/
             'ar': '', /*Arabic - Right-to-left*/
             'pt': '', /*Portuguese*/
             'bn': '', /*Bengal*/
             'ru': '', /*Russian*/
-            'ja': `ウォレットにいくつかのアドレスを作成したが、BlackCoinsの送信先を特定のアドレスにしたい場合。
-
-設定」→「オプション」→「表示」→「コインコントロール機能の表示を確認」→「適用」。
-
-送信 >> 入力 >> "チェック" 送信したいアドレスを選択してください。`, /*Japanese*/
+            'ja': 'ウォレットにいくつかのアドレスを作成したが、BlackCoinsの送信先を特定のアドレスにしたい場合。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        SENDING_BLACKCOINS_FROM_CERTAIN_ADDRESS_ANSWER2: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '設定」→「オプション」→「表示」→「コインコントロール機能の表示を確認」→「適用」。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        SENDING_BLACKCOINS_FROM_CERTAIN_ADDRESS_ANSWER3: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '送信 >> 入力 >> "チェック" 送信したいアドレスを選択してください。', /*Japanese*/
             'jv': '', /*Javanese*/
             'de': '', /*German*/
             'ko': '', /*Korean*/
@@ -2296,18 +4210,40 @@ BlackCoinsを取引所で購入した場合や、BLKで支払いを受けた場�
             'it': '',  /*Italian*/
             'hr': '' /*Croatian*/
         },  
-        DOES_A_WEB_OR_MOBILE_WALLET_EXIST_ANSWER: {
+        DOES_A_WEB_OR_MOBILE_WALLET_EXIST_ANSWER1: {
             'zh': '', /*Chinese*/
             'es': '', /*Spanish*/
-            'en': ``, /*English*/
+            'en': '', /*English*/
             'hi': '', /*Hindi*/
             'ar': '', /*Arabic - Right-to-left*/
             'pt': '', /*Portuguese*/
             'bn': '', /*Bengal*/
             'ru': '', /*Russian*/
-            'ja': `はい、PayBLKは使いやすく、オープンソースで、マルチプラットフォーム（7つのプラットフォームをサポート）で、マルチシグネチャで、個人と企業の両方に安全なブラックコインウォレットプラットフォームです。
-
-ウェブでは PayBLK.BlackCoin.io`, /*Japanese*/
+            'ja': 'はい、PayBLKは使いやすく、オープンソースで、マルチプラットフォーム（7つのプラットフォームをサポート）で、マルチシグネチャで、個人と企業の両方に安全なブラックコインウォレットプラットフォームです。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        DOES_A_WEB_OR_MOBILE_WALLET_EXIST_ANSWER2: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'ウェブでは PayBLK.BlackCoin.io', /*Japanese*/
             'jv': '', /*Javanese*/
             'de': '', /*German*/
             'ko': '', /*Korean*/
@@ -2348,18 +4284,40 @@ BlackCoinsを取引所で購入した場合や、BLKで支払いを受けた場�
             'it': '',  /*Italian*/
             'hr': '' /*Croatian*/
         },
-        BLACKCOIN_FAUCETS_ANSWER: {
+        BLACKCOIN_FAUCETS_ANSWER1: {
             'zh': '', /*Chinese*/
             'es': '', /*Spanish*/
-            'en': ``, /*English*/
+            'en': '', /*English*/
             'hi': '', /*Hindi*/
             'ar': '', /*Arabic - Right-to-left*/
             'pt': '', /*Portuguese*/
             'bn': '', /*Bengal*/
             'ru': '', /*Russian*/
-            'ja': `ブラックコインの蛇口
-
-蛇口のダンプ`, /*Japanese*/
+            'ja': 'ブラックコインの蛇口', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        BLACKCOIN_FAUCETS_ANSWER2: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '蛇口のダンプ', /*Japanese*/
             'jv': '', /*Javanese*/
             'de': '', /*German*/
             'ko': '', /*Korean*/
@@ -2383,7 +4341,7 @@ BlackCoinsを取引所で購入した場合や、BLKで支払いを受けた場�
             'pt': '', /*Portuguese*/
             'bn': '', /*Bengal*/
             'ru': '', /*Russian*/
-            'ja': `BOOTSTRAP`, /*Japanese*/
+            'ja': 'BOOTSTRAP', /*Japanese*/
             'jv': '', /*Javanese*/
             'de': '', /*German*/
             'ko': '', /*Korean*/
@@ -2398,64 +4356,376 @@ BlackCoinsを取引所で購入した場合や、BLKで支払いを受けた場�
             'it': '',  /*Italian*/
             'hr': '' /*Croatian*/
         },
-        BOOTSTRAP_ANSWER: {
+        BOOTSTRAP_ANSWER1: {
             'zh': '', /*Chinese*/
             'es': '', /*Spanish*/
-            'en': ``, /*English*/
+            'en': '', /*English*/
             'hi': '', /*Hindi*/
             'ar': '', /*Arabic - Right-to-left*/
             'pt': '', /*Portuguese*/
             'bn': '', /*Bengal*/
             'ru': '', /*Russian*/
-            'ja': `ブートストラップ：2017年5月14日
-
-ブートストラップ：2018年12月16日
-
-
-
-ブートストラップを使う 
-
-
-
-1. コピー＆ペーストの方法。
-
-
-
-a) Blackcoinウォレットを閉じます。(起動している場合)
-
-
-
-b) Blackcoinのデータディレクトリにファイルを置きます。データディレクトリのデフォルトの場所は以下の通りです。
-
-
-
-%AppData%Roaming\\Blackcoin\\ (Windowsの場合)
-
-~/Library/App Support/Blackcoin/（Macの場合
-
-Linuxの場合は~/.blackcoin/です。
-
-
-
-c) Blackcoinウォレットを開きます。
-
-
-
-d) Blackcoinウォレットがブートストラップを再スキャンして解凍する間、開くのを待ちます。お使いのパソコンによっては時間がかかる場合があります。
-
-
-
-2. コマンドラインによる方法
-
-
-
-a) ロードブロック方式でクライアントを起動します。
-
-Windows：blackcoin-qt.exe -loadblock=C:\\bootstrap.dat
-
-Linux： ./blackcoin-qt -loadblock=/home/../bootstrap.dat
-
-b) ウォレットの左下に、"Importing blocks... "と表示されます。`, /*Japanese*/
+            'ja': `ブートストラップ：2017年5月14日`, /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        BOOTSTRAP_ANSWER2: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'ブートストラップ：2018年12月16日', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        BOOTSTRAP_ANSWER3: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'ブートストラップを使う ', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        BOOTSTRAP_ANSWER4: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '1. コピー＆ペーストの方法。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        BOOTSTRAP_ANSWER5: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'a) Blackcoinウォレットを閉じます。(起動している場合)', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        BOOTSTRAP_ANSWER6: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'b) Blackcoinのデータディレクトリにファイルを置きます。データディレクトリのデフォルトの場所は以下の通りです。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        BOOTSTRAP_ANSWER7: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '%AppData%Roaming\\Blackcoin\\ (Windowsの場合)', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        BOOTSTRAP_ANSWER8: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '~/Library/App Support/Blackcoin/（Macの場合', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        BOOTSTRAP_ANSWER9: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'Linuxの場合は~/.blackcoin/です。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        BOOTSTRAP_ANSWER10: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'c) Blackcoinウォレットを開きます。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        BOOTSTRAP_ANSWER11: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'd) Blackcoinウォレットがブートストラップを再スキャンして解凍する間、開くのを待ちます。お使いのパソコンによっては時間がかかる場合があります。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        BOOTSTRAP_ANSWER12: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': '2. コマンドラインによる方法', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        BOOTSTRAP_ANSWER13: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'a) ロードブロック方式でクライアントを起動します。', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        BOOTSTRAP_ANSWER14: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'Windows：blackcoin-qt.exe -loadblock=C:\\bootstrap.dat', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        BOOTSTRAP_ANSWER15: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'Linux： ./blackcoin-qt -loadblock=/home/../bootstrap.dat', /*Japanese*/
+            'jv': '', /*Javanese*/
+            'de': '', /*German*/
+            'ko': '', /*Korean*/
+            'fr': '', /*French*/
+            'te': '', /*Telugu*/
+            'mr': '', /*Marathi*/
+            'tr': '', /*Turkish*/
+            'ta': '', /*Tamil*/
+            'vi': '', /*Vietnamese*/
+            'ur': '', /*Urdu - Right-to-left*/
+            'nl': '', /*Dutch*/
+            'it': '',  /*Italian*/
+            'hr': '' /*Croatian*/
+        },
+        BOOTSTRAP_ANSWER16: {
+            'zh': '', /*Chinese*/
+            'es': '', /*Spanish*/
+            'en': '', /*English*/
+            'hi': '', /*Hindi*/
+            'ar': '', /*Arabic - Right-to-left*/
+            'pt': '', /*Portuguese*/
+            'bn': '', /*Bengal*/
+            'ru': '', /*Russian*/
+            'ja': 'b) ウォレットの左下に、"Importing blocks... "と表示されます。', /*Japanese*/
             'jv': '', /*Javanese*/
             'de': '', /*German*/
             'ko': '', /*Korean*/
@@ -2497,13 +4767,13 @@ b) ウォレットの左下に、"Importing blocks... "と表示されます。`
         INTEGRATING_BLACKCOIN_PAYMENTS_ANSWER: {
             'zh': '', /*Chinese*/
             'es': '', /*Spanish*/
-            'en': ``, /*English*/
+            'en': '', /*English*/
             'hi': '', /*Hindi*/
             'ar': '', /*Arabic - Right-to-left*/
             'pt': '', /*Portuguese*/
             'bn': '', /*Bengal*/
             'ru': '', /*Russian*/
-            'ja': `ブラックコイン決済の統合に関するオンラインビジネスのためのガイド。`, /*Japanese*/
+            'ja': 'ブラックコイン決済の統合に関するオンラインビジネスのためのガイド。', /*Japanese*/
             'jv': '', /*Javanese*/
             'de': '', /*German*/
             'ko': '', /*Korean*/
@@ -2524,13 +4794,13 @@ b) ウォレットの左下に、"Importing blocks... "と表示されます。`
 //  since2014: {
 //    'zh': '', /*Chinese*/
 //    'es': '', /*Spanish*/
-//    'en': ``, /*English*/
+//    'en': '', /*English*/
 //    'hi': '', /*Hindi*/
 //    'ar': '', /*Arabic - Right-to-left*/
 //    'pt': '', /*Portuguese*/
 //    'bn': '', /*Bengal*/
 //    'ru': '', /*Russian*/
-//    'ja': ``, /*Japanese*/
+//    'ja': '', /*Japanese*/
 //    'jv': '', /*Javanese*/
 //    'de': '', /*German*/
 //    'ko': '', /*Korean*/
